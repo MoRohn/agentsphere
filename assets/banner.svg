@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="640" viewBox="0 0 1440 640" role="img" aria-labelledby="title desc">
+  <title id="title">agentsphere</title>
+  <desc id="desc">Dark field with a wireframe sphere and the wordmark agentsphere. Tagline: The living field guide to the agent era.</desc>
+  <defs>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00D1FF"/>
+      <stop offset="0.5" stop-color="#6C5CE7"/>
+      <stop offset="1" stop-color="#2EF2A6"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6C5CE7"/>
+      <stop offset="0.5" stop-color="#00D1FF"/>
+      <stop offset="1" stop-color="#2EF2A6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="32%" cy="48%" r="42%">
+      <stop offset="0" stop-color="#6C5CE7" stop-opacity="0.5"/>
+      <stop offset="0.45" stop-color="#00D1FF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#0B0F1A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="80%" cy="20%" r="36%">
+      <stop offset="0" stop-color="#00D1FF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0B0F1A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1440" height="640" fill="#0B0F1A"/>
+  <rect width="1440" height="640" fill="url(#glow)"/>
+  <rect width="1440" height="640" fill="url(#glow2)"/>
+  <g fill="#E6EAF2">
+    <circle cx="92" cy="72" r="1.4" fill-opacity="0.7"/>
+    <circle cx="180" cy="128" r="1.1" fill-opacity="0.45"/>
+    <circle cx="48" cy="240" r="1.6" fill-opacity="0.55"/>
+    <circle cx="140" cy="520" r="1.2" fill-opacity="0.4"/>
+    <circle cx="520" cy="86" r="1.5" fill-opacity="0.5"/>
+    <circle cx="70" cy="560" r="1.3" fill-opacity="0.35"/>
+    <circle cx="760" cy="48" r="1.2" fill-opacity="0.55"/>
+    <circle cx="980" cy="36" r="1.6" fill-opacity="0.7"/>
+    <circle cx="1180" cy="64" r="1.1" fill-opacity="0.45"/>
+    <circle cx="1360" cy="96" r="1.8" fill-opacity="0.6"/>
+    <circle cx="1288" cy="180" r="1.2" fill-opacity="0.4"/>
+    <circle cx="1104" cy="150" r="1.4" fill-opacity="0.5"/>
+    <circle cx="1410" cy="260" r="1.1" fill-opacity="0.35"/>
+    <circle cx="1320" cy="420" r="1.5" fill-opacity="0.45"/>
+    <circle cx="1210" cy="540" r="1.2" fill-opacity="0.4"/>
+    <circle cx="1040" cy="580" r="1.6" fill-opacity="0.3"/>
+    <circle cx="860" cy="560" r="1.1" fill-opacity="0.35"/>
+    <circle cx="690" cy="120" r="1.2" fill-opacity="0.25"/>
+  </g>
+  <g fill="none" stroke-linecap="round">
+    <ellipse cx="330" cy="330" rx="210" ry="210" stroke="#6C5CE7" stroke-opacity="0.18" stroke-width="1"/>
+    <ellipse cx="330" cy="330" rx="168" ry="168" stroke="url(#ring)" stroke-width="2"/>
+    <ellipse cx="330" cy="330" rx="168" ry="52" stroke="#00D1FF" stroke-opacity="0.95" stroke-width="1.7"/>
+    <ellipse cx="330" cy="330" rx="168" ry="108" stroke="#6C5CE7" stroke-opacity="0.8" stroke-width="1.4"/>
+    <ellipse cx="330" cy="330" rx="42" ry="168" stroke="#E6EAF2" stroke-opacity="0.5" stroke-width="1.3"/>
+    <ellipse cx="330" cy="330" rx="100" ry="168" stroke="#E6EAF2" stroke-opacity="0.28" stroke-width="1.2"/>
+    <ellipse cx="330" cy="330" rx="248" ry="86" transform="rotate(-22 330 330)" stroke="url(#ring)" stroke-width="1.7"/>
+    <path d="M500 196C360 92 196 150 168 286" stroke="#E6EAF2" stroke-opacity="0.45" stroke-width="1.4"/>
+    <path d="M168 286C128 430 300 520 456 470" stroke="#E6EAF2" stroke-opacity="0.38" stroke-width="1.4"/>
+    <path d="M456 470C590 430 600 270 500 196" stroke="#E6EAF2" stroke-opacity="0.32" stroke-width="1.4"/>
+  </g>
+  <g>
+    <circle cx="500" cy="196" r="18" fill="#00D1FF" fill-opacity="0.16"/>
+    <circle cx="500" cy="196" r="8" fill="#00D1FF"/>
+    <circle cx="500" cy="196" r="2.6" fill="#0B0F1A"/>
+    <circle cx="168" cy="286" r="18" fill="#6C5CE7" fill-opacity="0.2"/>
+    <circle cx="168" cy="286" r="8" fill="#6C5CE7"/>
+    <circle cx="168" cy="286" r="2.6" fill="#E6EAF2"/>
+    <circle cx="456" cy="470" r="18" fill="#2EF2A6" fill-opacity="0.16"/>
+    <circle cx="456" cy="470" r="8" fill="#2EF2A6"/>
+    <circle cx="456" cy="470" r="2.6" fill="#0B0F1A"/>
+  </g>
+  <line x1="620" y1="150" x2="620" y2="500" stroke="#1C2740" stroke-width="1"/>
+  <text x="668" y="178" fill="#00D1FF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" letter-spacing="3.2">A LIVING REFERENCE  ·  SEED OCT 2026</text>
+  <text x="668" y="268" fill="#E6EAF2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="72" font-weight="650">agent</text>
+  <g transform="translate(978 232)">
+    <ellipse cx="22" cy="22" rx="20" ry="20" fill="none" stroke="url(#ring)" stroke-width="1.6"/>
+    <ellipse cx="22" cy="22" rx="20" ry="7" fill="none" stroke="#00D1FF" stroke-width="1.2"/>
+    <ellipse cx="22" cy="22" rx="6" ry="20" fill="none" stroke="#E6EAF2" stroke-opacity="0.7" stroke-width="1"/>
+    <circle cx="40" cy="8" r="3.2" fill="#00D1FF"/>
+    <circle cx="4" cy="20" r="3.2" fill="#6C5CE7"/>
+    <circle cx="30" cy="38" r="3.2" fill="#2EF2A6"/>
+  </g>
+  <text x="1048" y="268" fill="#E6EAF2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="72" font-weight="650">sphere</text>
+  <text x="668" y="322" fill="#C5D0E4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24">The living field guide to the agent era</text>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15">
+    <rect x="668" y="364" width="118" height="36" rx="18" fill="#12182B" stroke="#00D1FF" stroke-opacity="0.7"/>
+    <text x="727" y="387" text-anchor="middle" fill="#E6EAF2">Memory</text>
+    <rect x="798" y="364" width="168" height="36" rx="18" fill="#12182B" stroke="#6C5CE7"/>
+    <text x="882" y="387" text-anchor="middle" fill="#E6EAF2">Orchestration</text>
+    <rect x="978" y="364" width="96" height="36" rx="18" fill="#12182B" stroke="#2EF2A6" stroke-opacity="0.8"/>
+    <text x="1026" y="387" text-anchor="middle" fill="#E6EAF2">Tools</text>
+    <rect x="1086" y="364" width="124" height="36" rx="18" fill="#12182B" stroke="#E6EAF2" stroke-opacity="0.35"/>
+    <text x="1148" y="387" text-anchor="middle" fill="#E6EAF2">Security</text>
+  </g>
+  <text x="668" y="470" fill="#8B97B3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16">Raw sources stay raw. Distilled pages compound. The next reader starts ahead.</text>
+  <rect x="0" y="632" width="1440" height="8" fill="url(#bar)"/>
+</svg>

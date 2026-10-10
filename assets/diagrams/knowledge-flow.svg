@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">How agentsphere learns</title>
+  <desc id="desc">A bookmark is stored raw, distilled into a cited page, then cross-linked so the next question searches the guide first.</desc>
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6C5CE7"/>
+      <stop offset="0.5" stop-color="#00D1FF"/>
+      <stop offset="1" stop-color="#2EF2A6"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="560" fill="#0B0F1A"/>
+  <rect width="960" height="4" fill="url(#bar)"/>
+  <circle cx="36" cy="36" r="8" fill="none" stroke="#00D1FF" stroke-width="1.4"/>
+  <circle cx="36" cy="36" r="2.5" fill="#6C5CE7"/>
+  <text x="54" y="41" fill="#E6EAF2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="600">How this guide learns</text>
+  <text x="928" y="41" text-anchor="end" fill="#8B97B3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">agentsphere</text>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="28" y="92" width="168" height="150" rx="16" fill="#12182B" stroke="#00D1FF" stroke-opacity="0.75"/>
+    <text x="48" y="128" fill="#00D1FF" font-size="12">1</text>
+    <text x="48" y="158" fill="#E6EAF2" font-size="16" font-weight="600">Bookmark</text>
+    <text x="48" y="184" fill="#A9B4CC" font-size="13">A post worth</text>
+    <text x="48" y="204" fill="#A9B4CC" font-size="13">keeping.</text>
+
+    <rect x="220" y="92" width="168" height="150" rx="16" fill="#12182B" stroke="#6C5CE7"/>
+    <text x="240" y="128" fill="#6C5CE7" font-size="12">2</text>
+    <text x="240" y="158" fill="#E6EAF2" font-size="16" font-weight="600">sources/raw</text>
+    <text x="240" y="184" fill="#A9B4CC" font-size="13">Stored raw.</text>
+    <text x="240" y="204" fill="#A9B4CC" font-size="13">Not rewritten.</text>
+
+    <rect x="412" y="92" width="168" height="150" rx="16" fill="#12182B" stroke="#E6EAF2" stroke-opacity="0.4"/>
+    <text x="432" y="128" fill="#E6EAF2" font-size="12">3</text>
+    <text x="432" y="158" fill="#E6EAF2" font-size="16" font-weight="600">Distill</text>
+    <text x="432" y="184" fill="#A9B4CC" font-size="13">Cite the URL.</text>
+    <text x="432" y="204" fill="#A9B4CC" font-size="13">Mark per post.</text>
+
+    <rect x="604" y="92" width="168" height="150" rx="16" fill="#12182B" stroke="#2EF2A6" stroke-opacity="0.75"/>
+    <text x="624" y="128" fill="#2EF2A6" font-size="12">4</text>
+    <text x="624" y="158" fill="#E6EAF2" font-size="16" font-weight="600">docs/</text>
+    <text x="624" y="184" fill="#A9B4CC" font-size="13">A maintained</text>
+    <text x="624" y="204" fill="#A9B4CC" font-size="13">page.</text>
+
+    <rect x="796" y="92" width="136" height="150" rx="16" fill="#12182B" stroke="#00D1FF" stroke-opacity="0.45"/>
+    <text x="812" y="128" fill="#00D1FF" font-size="12">5</text>
+    <text x="812" y="158" fill="#E6EAF2" font-size="16" font-weight="600">Links</text>
+    <text x="812" y="184" fill="#A9B4CC" font-size="13">Glossary,</text>
+    <text x="812" y="204" fill="#A9B4CC" font-size="13">paths, index.</text>
+
+    <polyline points="196,167 220,167" fill="none" stroke="#6C5CE7" stroke-width="1.5"/>
+    <polygon points="212,161 224,167 212,173" fill="#6C5CE7"/>
+    <polyline points="388,167 412,167" fill="none" stroke="#8B97B3" stroke-width="1.5"/>
+    <polygon points="404,161 416,167 404,173" fill="#8B97B3"/>
+    <polyline points="580,167 604,167" fill="none" stroke="#2EF2A6" stroke-width="1.5"/>
+    <polygon points="596,161 608,167 596,173" fill="#2EF2A6"/>
+    <polyline points="772,167 796,167" fill="none" stroke="#00D1FF" stroke-width="1.5"/>
+    <polygon points="788,161 800,167 788,173" fill="#00D1FF"/>
+
+    <rect x="180" y="300" width="600" height="120" rx="18" fill="#10241C" stroke="#2EF2A6"/>
+    <text x="480" y="348" text-anchor="middle" fill="#E6EAF2" font-size="20" font-weight="600">6  The next question searches here first</text>
+    <text x="480" y="380" text-anchor="middle" fill="#A9B4CC" font-size="14">A gap sends you back to raw sources. The answer is written into the guide.</text>
+    <text x="480" y="402" text-anchor="middle" fill="#8B97B3" font-size="13">Same loop as wiki memory. This repo is the worked example.</text>
+
+    <path d="M864 242 C920 242 920 360 780 360" fill="none" stroke="#2EF2A6" stroke-width="1.5"/>
+    <polygon points="792,354 776,360 792,366" fill="#2EF2A6"/>
+  </g>
+  <text x="28" y="500" fill="#A9B4CC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">Do not invent numbers, repo URLs, or benchmarks the source did not give you.</text>
+  <text x="28" y="536" fill="#8B97B3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Operating model adapted from B2. Seed: 10 bookmarks, 8-10 Oct 2026.</text>
+</svg>

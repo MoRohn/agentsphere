@@ -1,0 +1,28 @@
+<p align="center">
+  <img src="../../assets/sections/03-skills.svg" alt="Prompting and skills: stacked cards" width="100%">
+</p>
+
+# 03 · Prompting and skills
+
+A prompt is what the model sees. A skill is a procedure you can review, version, and reuse. The seed bookmarks add two catalogs: motion-design skills, and libraries for building websites with an agent.
+
+| | |
+| --- | --- |
+| Path | Builder |
+| Time | About 35 minutes |
+| You need | [The agent loop](../00-foundations/the-agent-loop.md) |
+
+## Pages
+
+| Page | You leave able to |
+| --- | --- |
+| [Prompts and skills](prompts-and-skills.md) | Split a giant instruction into prompt, skill, file, and secret |
+| [Creative toolkits](creative-toolkits.md) | Use the two seed catalogs without installing a pile of unseen code |
+
+## Continue
+
+- [Prompts and skills](prompts-and-skills.md)
+
+---
+
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
