@@ -21,7 +21,7 @@
 <strong>Next:</strong> <a href="first-agent.md">Your first agent</a></p>
 
 
-Recipes. Each one assumes you have read the concept page it names. They are synthesis: a way to do the work, not a claim that a source prescribed these exact steps.
+Step-by-step practice. Each one names the page to read first. The steps are this guide's way of doing the work. They are not a claim that a paper prescribed these exact steps.
 
 | | |
 | --- | --- |

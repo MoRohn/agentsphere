@@ -15,7 +15,7 @@
 <strong>Next:</strong> <a href="prompts-and-skills.md">Prompts and skills</a></p>
 
 
-A prompt is what the model sees. A skill is a procedure you can review, version, and reuse. Two of the references are catalogs: motion-design skills, and libraries for building websites with an agent.
+A prompt is what you tell the model for this job. A skill is the procedure you save, so the next job does not start from a giant paste. Two of the references are catalogs: skills for motion design, and libraries for building websites with an agent.
 
 | | |
 | --- | --- |

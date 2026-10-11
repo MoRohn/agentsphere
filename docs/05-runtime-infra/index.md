@@ -15,7 +15,7 @@
 <strong>Next:</strong> <a href="cloud-and-local.md">Cloud and local</a></p>
 
 
-Where the loop runs, and how heavy the model is. Those are separate decisions. A cloud agent can call a huge model. A laptop agent can call an API. The posts argue both ends: buy cloud agents, and also run compressed models locally.
+Two separate choices: whose computer the agent runs on, and how large the model is. Your laptop can call a model in the cloud. A cloud computer can keep working after you close the lid. The pages here are how to choose.
 
 | | |
 | --- | --- |

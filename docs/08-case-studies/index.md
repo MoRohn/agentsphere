@@ -15,7 +15,7 @@
 <strong>Next:</strong> <a href="compounding-wiki.md">Compounding wiki</a></p>
 
 
-Each study is one cluster of posts, told as a story with a claim table. The concept pages teach the pattern. These pages are for when you want the source in one place.
+Each study is one real project, told from the posts that described it. The claim stays attached to the person who made it. Read these when you want the story, not a new definition.
 
 | | |
 | --- | --- |

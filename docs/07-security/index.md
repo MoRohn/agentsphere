@@ -15,7 +15,7 @@
 <strong>Next:</strong> <a href="threat-model.md">Threat model</a></p>
 
 
-Agents act. Acting is the risk. This section names the threats, the human gate in a find-and-fix loop, and the supply chain around gateways and skills. It does not include exploit procedures.
+Agents act, and that is the risk. This section is what to allow, and what a person should check before a message is sent, money is spent, or a file is deleted. It also covers the tools and middlemen you install. It does not include instructions for attacking a system.
 
 | | |
 | --- | --- |

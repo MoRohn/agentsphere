@@ -15,7 +15,7 @@
 <strong>Next:</strong> <a href="the-agent-loop.md">The agent loop</a></p>
 
 
-An agent is a model in a loop, pointed at a goal, allowed to use tools, and required to stop.
+A chatbot answers and waits. An agent keeps going: it looks things up, takes actions, and has to stop. The **model** is the AI that chooses the next step. The rest of this page is the other pieces you can point at in a product you already use.
 
 | | |
 | --- | --- |
@@ -30,6 +30,8 @@ An agent is a model in a loop, pointed at a goal, allowed to use tools, and requ
 - See which part each reference is actually about.
 
 ## The six parts
+
+These six are a way to look at a product. A later page, [Harness engineering](../01-agent-patterns/harness-engineering.md), uses a different list of six. That list is what the system around the model does. This list is what you can name while you are still looking at the product.
 
 | Part | What it is | If it is missing |
 | --- | --- | --- |
