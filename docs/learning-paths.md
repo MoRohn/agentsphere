@@ -17,6 +17,10 @@
 
 # Learning paths
 
+<p><strong>You are here:</strong> Learning paths · <a href="learning-paths.md">Every level</a><br>
+<strong>Next:</strong> <a href="README.md">Map of the guide</a></p>
+
+
 Four paths, one guide. Each pill opens a persona guide with its own route, exercises, and diagram: [Explorer](../paths/explorer/README.md), [Builder](../paths/builder/README.md), [Operator](../paths/operator/README.md), [Power user](../paths/power-user/README.md). You can stop at the end of a path and still have a complete skill. Later paths assume the earlier ones. Each path ends with an artifact you can show someone. Every path meets the harness.
 
 <p align="center">

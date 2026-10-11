@@ -11,6 +11,10 @@
 
 # Playbook · Score a run
 
+<p><strong>You are here:</strong> Score a run · <a href="../../paths/operator/README.md">Operator</a><br>
+<strong>Next:</strong> <a href="unstick-a-loop.md">Unstick a loop</a></p>
+
+
 Grade one trajectory with a rubric you can apply twice and get the same answers. The point is a written pass or fail, not a feeling that the agent was impressive.
 
 | | |

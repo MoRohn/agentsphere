@@ -11,6 +11,10 @@
 
 # Case study · Motion and web stacks
 
+<p><strong>You are here:</strong> Case study · Motion and web stacks · <a href="../../paths/power-user/README.md">Power user</a><br>
+<strong>Next:</strong> <a href="local-inference.md">Local inference</a></p>
+
+
 Two catalogs: a stack for agent-made motion, and a list of places to steal visual craft for websites.
 
 | | |

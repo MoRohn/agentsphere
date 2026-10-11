@@ -11,6 +11,10 @@
 
 # Prompts and skills
 
+<p><strong>You are here:</strong> Prompts and skills · <a href="../../paths/builder/README.md">Builder</a><br>
+<strong>Next:</strong> <a href="creative-toolkits.md">Creative toolkits</a></p>
+
+
 Put stable procedure in a skill, facts in a file, and secrets in a store the prompt cannot casually reprint.
 
 | | |

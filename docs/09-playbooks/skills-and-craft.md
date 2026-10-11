@@ -11,6 +11,10 @@
 
 # Playbook · Skills and craft
 
+<p><strong>You are here:</strong> Skills and craft · <a href="../../paths/power-user/README.md">Power user</a><br>
+<strong>Next:</strong> <a href="operate-agents.md">Operate agents</a></p>
+
+
 Choose one skill and one engine from the catalogs. Review them. Make one small artifact.
 
 | | |

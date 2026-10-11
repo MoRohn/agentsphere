@@ -11,6 +11,10 @@
 
 # Style guide
 
+<p><strong>You are here:</strong> Style guide · <a href="../paths/power-user/README.md">Power user</a><br>
+<strong>Next:</strong> <a href="../CONTRIBUTING.md">Contributing</a></p>
+
+
 One visual system, so a page added in six months still looks like it belongs.
 
 | | |

@@ -17,6 +17,10 @@
 
 # Community
 
+<p><strong>You are here:</strong> Community · <a href="learning-paths.md">Every level</a><br>
+<strong>Next:</strong> <a href="08-case-studies/index.md">Case studies</a></p>
+
+
 A map of accounts from one post. Useful as a reading list, thin as a method.
 
 | | |

@@ -11,6 +11,10 @@
 
 # Case study · Local inference
 
+<p><strong>You are here:</strong> Case study · Local inference · <a href="../../paths/power-user/README.md">Power user</a><br>
+<strong>Next:</strong> <a href="offensive-security-agent.md">Offensive security agent</a></p>
+
+
 Two posts about running models cheaper and closer: Microsoft's bitnet.cpp, and Samsung's LittleBit. Both point at real projects. Both also say things the primary sources do not.
 
 | | |

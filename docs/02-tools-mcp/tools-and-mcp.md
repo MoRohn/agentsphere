@@ -11,6 +11,10 @@
 
 # Tools and MCP
 
+<p><strong>You are here:</strong> Tools and MCP · <a href="../../paths/builder/README.md">Builder</a><br>
+<strong>Next:</strong> <a href="gateways-and-routing.md">Gateways and routing</a></p>
+
+
 The model decides. A tool does. A protocol is the agreement that lets many tools plug into many hosts without a custom integration each time.
 
 | | |

@@ -11,6 +11,10 @@
 
 # 00 · Foundations
 
+<p><strong>You are here:</strong> Foundations · <a href="../../paths/explorer/README.md">Explorer</a><br>
+<strong>Next:</strong> <a href="what-is-an-agent.md">What is an agent</a></p>
+
+
 An agent is a system you can sketch on a napkin. This section is that napkin, with the words defined carefully enough to build on.
 
 | | |
@@ -31,7 +35,7 @@ The references assume this picture and then push on one part of it: memory that 
 
 ## Practice
 
-Fill [your first agent](../09-playbooks/first-agent.md) before you read the next section. The card is the test that the three pages stuck.
+New here? Do the [Explorer walkthrough](../../paths/explorer/README.md) first. It is fifteen minutes and does not ask you to code. When you want to sketch an agent on one page, use [your first agent](../09-playbooks/first-agent.md).
 
 ## Continue
 

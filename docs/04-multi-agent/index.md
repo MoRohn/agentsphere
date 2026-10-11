@@ -11,6 +11,10 @@
 
 # 04 · Multi-agent
 
+<p><strong>You are here:</strong> Multi-agent · <a href="../../paths/operator/README.md">Operator</a><br>
+<strong>Next:</strong> <a href="orchestration.md">Orchestration</a></p>
+
+
 Several agents help when the work splits cleanly and someone, or some lead agent, is responsible for the merge. They cost extra tokens, extra contradictions, and extra debugging.
 
 | | |

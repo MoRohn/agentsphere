@@ -13,14 +13,14 @@
   <line x1="40" y1="128" x2="700" y2="128" stroke="#30363D" stroke-width="1.5"/>
   <circle cx="48" cy="148" r="7" fill="#F5A31A"/>
   <text x="68" y="156" fill="#E6EDF3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">Explorer</text>
-  <text x="68" y="186" fill="#C9D1D9" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Leave with a card.</text>
+  <text x="68" y="186" fill="#C9D1D9" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Try one safely.</text>
   <circle cx="438" cy="148" r="7" fill="#FFE0B0"/>
   <text x="458" y="156" fill="#E6EDF3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">Builder</text>
-  <text x="458" y="186" fill="#C9D1D9" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Leave with a page.</text>
+  <text x="458" y="186" fill="#C9D1D9" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Leave a page.</text>
   <circle cx="48" cy="240" r="7" fill="#FF9A2E"/>
   <text x="68" y="248" fill="#E6EDF3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">Operator</text>
-  <text x="68" y="278" fill="#C9D1D9" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Leave with a score.</text>
+  <text x="68" y="278" fill="#C9D1D9" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Leave a score.</text>
   <circle cx="438" cy="240" r="7" fill="#F5A31A"/>
   <text x="458" y="248" fill="#E6EDF3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">Power user</text>
-  <text x="458" y="278" fill="#C9D1D9" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Leave with a page edit.</text>
+  <text x="458" y="278" fill="#C9D1D9" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Change one thing.</text>
 </svg>

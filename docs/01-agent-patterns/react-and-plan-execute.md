@@ -11,6 +11,10 @@
 
 # ReAct and plan-and-execute
 
+<p><strong>You are here:</strong> ReAct and plan-and-execute · <a href="../../paths/builder/README.md">Builder</a><br>
+<strong>Next:</strong> <a href="wiki-memory.md">Wiki memory</a></p>
+
+
 Two established ways to shape the loop. One keeps the plan inside the next action. The other writes the plan down and then works through it.
 
 | | |

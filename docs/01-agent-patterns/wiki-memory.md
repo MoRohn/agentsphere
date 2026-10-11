@@ -11,6 +11,10 @@
 
 # Wiki memory
 
+<p><strong>You are here:</strong> Wiki memory · <a href="../../paths/builder/README.md">Builder</a><br>
+<strong>Next:</strong> <a href="how-agents-remember.md">How agents remember</a></p>
+
+
 Make the agent write something worth remembering. The next question searches that writing first.
 
 | | |

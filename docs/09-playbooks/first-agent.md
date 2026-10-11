@@ -11,6 +11,10 @@
 
 # Playbook · Your first agent
 
+<p><strong>You are here:</strong> Your first agent · <a href="../../paths/explorer/README.md">Explorer</a><br>
+<strong>Next:</strong> <a href="../01-agent-patterns/harness-engineering.md">Harness engineering</a></p>
+
+
 Sketch one agent on a single page, then walk one task through the loop. You do not need a model, an API key, or a repository.
 
 | | |

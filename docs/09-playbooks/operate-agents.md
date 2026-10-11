@@ -11,6 +11,10 @@
 
 # Playbook · Operate agents
 
+<p><strong>You are here:</strong> Operate agents · <a href="../../paths/power-user/README.md">Power user</a><br>
+<strong>Next:</strong> <a href="review-a-gateway.md">Review a gateway</a></p>
+
+
 Place three tasks. One local, one cloud, one you deliberately do not automate yet.
 
 | | |

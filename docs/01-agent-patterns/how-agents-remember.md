@@ -11,6 +11,10 @@
 
 # How agents remember
 
+<p><strong>You are here:</strong> How agents remember · <a href="../../paths/builder/README.md">Builder</a><br>
+<strong>Next:</strong> <a href="harness-engineering.md">Harness engineering</a></p>
+
+
 An agent that only chats does not remember. It fills a window, answers, and leaves the next run to start from zero. Memory is what you deliberately keep outside that window, and the habit of writing it back.
 
 | | |

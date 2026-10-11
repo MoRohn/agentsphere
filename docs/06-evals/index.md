@@ -11,6 +11,10 @@
 
 # 06 · Evals
 
+<p><strong>You are here:</strong> Evals · <a href="../../paths/operator/README.md">Operator</a><br>
+<strong>Next:</strong> <a href="../09-playbooks/score-a-run.md">Score a run</a></p>
+
+
 An agent got better when a repeatable check says so. This section is a primer: outcome, trajectory, and cost, applied to the agents this guide already describes. A survey-level reading of public SWE-bench Verified scores, as model–harness pairs, lives on [harness engineering](../01-agent-patterns/harness-engineering.md). Those numbers stay on that page, with the survey's caveats.
 
 | | |

@@ -13,6 +13,10 @@
 
 # Harness engineering
 
+<p><strong>You are here:</strong> Harness engineering · <a href="../../paths/builder/README.md">Builder</a> · <a href="../../paths/operator/README.md">Operator</a><br>
+<strong>Next:</strong> <a href="how-agents-remember.md">How agents remember</a></p>
+
+
 An agent is a foundation model plus the runtime around it. The model can reason and propose a next step. The runtime decides what the model sees, which actions are allowed, where state lives, and how a failure is caught. Agent quality, including whether the task finishes, what it costs, and whether it stays safe, comes from that pairing.
 
 | | |

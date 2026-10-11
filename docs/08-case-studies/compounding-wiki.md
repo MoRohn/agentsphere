@@ -11,6 +11,10 @@
 
 # Case study · Compounding wiki
 
+<p><strong>You are here:</strong> Case study · Compounding wiki · <a href="../../paths/power-user/README.md">Power user</a><br>
+<strong>Next:</strong> <a href="../09-playbooks/research-agent.md">Research-agent playbook</a></p>
+
+
 A retelling of a research agent that leaves pages behind, attributed by the poster to Andrej Karpathy.
 
 | | |

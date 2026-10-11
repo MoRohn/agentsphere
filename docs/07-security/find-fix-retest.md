@@ -11,6 +11,10 @@
 
 # Find, review, fix, retest
 
+<p><strong>You are here:</strong> Find, review, fix, retest · <a href="../../paths/operator/README.md">Operator</a><br>
+<strong>Next:</strong> <a href="gateway-and-supply-chain.md">Gateways and supply chain</a></p>
+
+
 A security agent is still the agent loop, pointed at risk, with a person standing on the step that changes the system.
 
 | | |

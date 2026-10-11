@@ -17,6 +17,10 @@
 
 # Diagram atlas
 
+<p><strong>You are here:</strong> Diagram atlas · <a href="learning-paths.md">Every level</a><br>
+<strong>Next:</strong> <a href="00-foundations/index.md">Foundations</a></p>
+
+
 Architecture figures are drawn twice, so a lesson still teaches if one renderer fails. The SVG is the designed figure. The Mermaid block on the linked page is the editable twin. GitHub renders both.
 
 Each figure is a light file and a dark file. The page picks one with `<picture>` and `prefers-color-scheme`. The canvas is transparent, so the figure sits on GitHub’s page color. The viewBox is 830 wide, about the README column. Titles are 36px. Names are 28px. Gloss is 18px. Nothing in a figure is smaller than 16px. The table below links the light file. The dark twin is the same name with `-dark`.

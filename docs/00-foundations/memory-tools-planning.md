@@ -13,6 +13,10 @@
 
 # Memory, tools, and planning
 
+<p><strong>You are here:</strong> Memory, tools, and planning · <a href="../../paths/explorer/README.md">Explorer</a> · <a href="../../paths/builder/README.md">Builder</a><br>
+<strong>Next:</strong> <a href="../01-agent-patterns/react-and-plan-execute.md">ReAct and plan-and-execute</a></p>
+
+
 Three different jobs get blurred into "the context window." Separating them is the practical skill in this section.
 
 | | |

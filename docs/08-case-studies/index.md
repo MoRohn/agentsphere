@@ -11,6 +11,10 @@
 
 # 08 · Case studies
 
+<p><strong>You are here:</strong> Case studies · <a href="../../paths/power-user/README.md">Power user</a><br>
+<strong>Next:</strong> <a href="compounding-wiki.md">Compounding wiki</a></p>
+
+
 Each study is one cluster of posts, told as a story with a claim table. The concept pages teach the pattern. These pages are for when you want the source in one place.
 
 | | |

@@ -11,6 +11,10 @@
 
 # Case study · Local gateway
 
+<p><strong>You are here:</strong> Case study · Local gateway · <a href="../../paths/power-user/README.md">Power user</a><br>
+<strong>Next:</strong> <a href="motion-and-web-stacks.md">Motion and web stacks</a></p>
+
+
 OmniRoute, as one post describes it: a local OpenAI-compatible router in front of a large pool of providers.
 
 | | |

@@ -11,6 +11,10 @@
 
 # Threat model
 
+<p><strong>You are here:</strong> Threat model · <a href="../../paths/operator/README.md">Operator</a><br>
+<strong>Next:</strong> <a href="find-fix-retest.md">Find, review, fix, retest</a></p>
+
+
 Write down what the agent can touch, who can put words in front of it, and which actions are allowed to stick. That is a threat model at the altitude this guide uses.
 
 | | |

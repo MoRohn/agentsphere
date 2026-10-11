@@ -2,6 +2,12 @@
 
 The guide version tracks the pages. Dates are the day the change landed in this repository.
 
+## 0.4.4 — 2026-10-11
+
+- Rewrote the README opening in plain language. The four level pills are the first choice. The harness is explained before it is used.
+- Every guide page now says where you are and what to open next.
+- The level diagram says what you leave with: try one safely, leave a page, leave a score, change one thing.
+
 ## 0.4.3 — 2026-10-11
 
 - Rewrote [Explorer](paths/explorer/README.md) in plain language: what an agent is, what one can do today, four products you can try, a ten-minute walkthrough, good instructions, and how to stay safe.

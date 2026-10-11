@@ -17,6 +17,10 @@
 
 # How to read agentsphere
 
+<p><strong>You are here:</strong> How to read agentsphere · <a href="learning-paths.md">Every level</a><br>
+<strong>Next:</strong> <a href="learning-paths.md">Learning paths</a></p>
+
+
 The pages teach. The labels tell you how much weight a sentence can hold.
 
 | | |

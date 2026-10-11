@@ -11,6 +11,10 @@
 
 # 03 · Prompting and skills
 
+<p><strong>You are here:</strong> Prompting and skills · <a href="../../paths/builder/README.md">Builder</a><br>
+<strong>Next:</strong> <a href="prompts-and-skills.md">Prompts and skills</a></p>
+
+
 A prompt is what the model sees. A skill is a procedure you can review, version, and reuse. Two of the references are catalogs: motion-design skills, and libraries for building websites with an agent.
 
 | | |

@@ -11,7 +11,11 @@
 
 # 02 · Tools and MCP
 
-Tools are how the loop touches anything besides its own reply. This section covers the contract for a tool, the protocol many hosts now use to attach them, and a local gateway that sits in front of model providers.
+<p><strong>You are here:</strong> Tools and MCP · <a href="../../paths/builder/README.md">Builder</a><br>
+<strong>Next:</strong> <a href="tools-and-mcp.md">Tools and MCP</a></p>
+
+
+Tools are how an agent does more than talk: search, read a file, send a draft. **MCP** (Model Context Protocol) is a common plug so the same tool can work in more than one app. A gateway is a middleman in front of the model. This section covers all three.
 
 | | |
 | --- | --- |

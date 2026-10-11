@@ -11,6 +11,10 @@
 
 # Playbook · Write a skill
 
+<p><strong>You are here:</strong> Write a skill · <a href="../../paths/builder/README.md">Builder</a><br>
+<strong>Next:</strong> <a href="research-agent.md">Research agent</a></p>
+
+
 Take one job your agent repeats and move the procedure out of the system prompt. You finish with a skill file short enough to review.
 
 | | |

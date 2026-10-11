@@ -11,6 +11,10 @@
 
 # Efficient inference
 
+<p><strong>You are here:</strong> Efficient inference · <a href="../../paths/operator/README.md">Operator</a><br>
+<strong>Next:</strong> <a href="../08-case-studies/local-inference.md">Local inference</a></p>
+
+
 Agents call models in a loop, so the cost of one forward pass is paid many times. Smaller, cheaper inference is why a local CPU, a laptop, or a fleet of agent runs can be in the conversation at all.
 
 | | |
