@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="../../assets/diagrams/agent-loop.svg" alt="The agent loop: perceive, plan, act, observe, remember, then stop or continue." width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/diagrams/agent-loop-dark.svg">
+  <img src="../../assets/diagrams/agent-loop-light.svg" alt="The agent loop: perceive, plan, act, observe, remember, then stop or continue." width="100%">
+</picture>
 </p>
 
 <p>

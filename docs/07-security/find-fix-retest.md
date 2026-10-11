@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="../../assets/diagrams/security-loop.svg" alt="Map, probe, findings, a human review gate, a fix, and a retest." width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/diagrams/security-loop-dark.svg">
+  <img src="../../assets/diagrams/security-loop-light.svg" alt="Map, probe, findings, a human review gate, a fix, and a retest." width="100%">
+</picture>
 </p>
 
 <p>

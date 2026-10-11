@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="../../assets/diagrams/mcp.svg" alt="An agent host talks to a model API and, through an MCP client, to files, tools, and other agents." width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/diagrams/mcp-dark.svg">
+  <img src="../../assets/diagrams/mcp-light.svg" alt="An agent host talks to a model API and, through an MCP client, to files, tools, and other agents." width="100%">
+</picture>
 </p>
 
 <p>

@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="../../assets/sections/03-skills.svg" alt="Skills" width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/03-skills-dark.svg">
+  <img src="../../assets/sections/03-skills-light.svg" alt="Skills" width="100%">
+</picture>
 </p>
 
 <p>
@@ -49,7 +52,7 @@ The motion post says to check each repo before you install ([@N01ennn](https://x
 
 ```text
 Artifact: 10-second title card.
-On screen: the word agentsphere, the tagline, the three orbit nodes.
+On screen: the word Agentsphere, the tagline AI AGENTS REPOSITORY, and the robot mark.
 Skill: the one you reviewed.
 Engine: the one you reviewed.
 Checks: duration, readable type on a dark ground, no extra logos.

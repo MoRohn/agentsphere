@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="../../assets/diagrams/orchestration.svg" alt="Lead agent orchestration diagram" width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/diagrams/orchestration-dark.svg">
+  <img src="../../assets/diagrams/orchestration-light.svg" alt="Lead agent orchestration diagram" width="100%">
+</picture>
 </p>
 
 <p>

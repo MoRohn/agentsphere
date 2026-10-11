@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="../../assets/sections/03-skills.svg" alt="Prompting and skills" width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/03-skills-dark.svg">
+  <img src="../../assets/sections/03-skills-light.svg" alt="Prompting and skills" width="100%">
+</picture>
 </p>
 
 <p>

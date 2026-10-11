@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="../../assets/diagrams/gateway-routing.svg" alt="Clients call one local OpenAI-compatible gateway, which routes to many providers and can fall back." width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/diagrams/gateway-routing-dark.svg">
+  <img src="../../assets/diagrams/gateway-routing-light.svg" alt="Clients call one local OpenAI-compatible gateway, which routes to many providers and can fall back." width="100%">
+</picture>
 </p>
 
 <p>

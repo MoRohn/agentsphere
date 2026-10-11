@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="../../assets/diagrams/cloud-vs-local.svg" alt="Local agents share your machine. Cloud agents run the task in a remote environment." width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/diagrams/cloud-vs-local-dark.svg">
+  <img src="../../assets/diagrams/cloud-vs-local-light.svg" alt="Local agents share your machine. Cloud agents run the task in a remote environment." width="100%">
+</picture>
 </p>
 
 <p>
@@ -93,6 +96,7 @@ The [operate playbook](../09-playbooks/operate-agents.md) walks three concrete t
 ## Continue
 
 - Next: [Efficient inference](efficient-inference.md)
+- Products that already chose a computer: [Hosted agents](../10-hosted-agents/index.md)
 - Practice: [Operate agents](../09-playbooks/operate-agents.md)
 - Previous: [Orchestration](../04-multi-agent/orchestration.md)
 

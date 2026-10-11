@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="../assets/sections/08-case-studies.svg" alt="Social references and inspirations" width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/sections/08-case-studies-dark.svg">
+  <img src="../assets/sections/08-case-studies-light.svg" alt="Social references and inspirations" width="100%">
+</picture>
 </p>
 
 <p>
@@ -58,6 +61,18 @@ Posts, articles, and repositories that shaped this guide. Pages cite them inline
 | Context engineering | [Anthropic, 2025](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) | [How agents remember](01-agent-patterns/how-agents-remember.md) |
 | Agent system and harness design | [paper](https://arxiv.org/abs/2606.20683), [Awesome-Agent-Engineering](https://github.com/ggjy/Awesome-Agent-Engineering) | [Harness engineering](01-agent-patterns/harness-engineering.md) |
 
+## Hosted products
+
+Official pages opened 11 October 2026 for [Hosted agents](10-hosted-agents/index.md). A feature that was not on these pages is not in the guide.
+
+| Product | Pages |
+| --- | --- |
+| Grok Bot (xAI) | [Overview](https://docs.x.ai/grok-bot/overview), [FAQ](https://docs.x.ai/grok-bot/faq), [launch announcement](https://x.ai/news/introducing-grok-bot), [skills and routines](https://docs.x.ai/grok-bot/skills-routines-and-automations), [approvals](https://docs.x.ai/grok-bot/approvals-security-and-privacy) |
+| Muse (Meta) | [Announcement](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/), [connectors](https://www.meta.com/help/artificial-intelligence/1687253048996149/), [approvals](https://www.meta.com/help/artificial-intelligence/1385290430137537/), [privacy, safety, and security](https://www.meta.com/help/artificial-intelligence/1047255454427887/), [privacy policy](https://muse.ai/privacy) |
+| Dots (OpenAI) | [Announcement](https://openai.com/index/introducing-dots/), [product page](https://chatgpt.com/features/dots/), [Help Center](https://help.openai.com/en/articles/20001530-getting-started-with-your-dot), [Learn](https://learn.chatgpt.com/docs/dots) |
+| Claude Cowork (Anthropic) | [Get started](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork), [computer use](https://claude.com/resources/articles/dispatch-and-computer-use) |
+| Copilot Studio computer use (Microsoft) | [Computer use](https://learn.microsoft.com/en-us/microsoft-copilot-studio/computer-use) |
+
 ## By theme
 
 | Theme | References |
@@ -71,6 +86,7 @@ Posts, articles, and repositories that shaped this guide. Pages cite them inline
 | Efficient inference | [@oliviscusAI](https://x.com/oliviscusAI/status/2108786434991923251), [@thesupermannx](https://x.com/thesupermannx/status/2108098865073410484), and the papers above |
 | Security | [@antigenco](https://x.com/antigenco/status/2108334286978113634), and the gateway cautions in the OmniRoute post |
 | People | [@ai_explorer25](https://x.com/ai_explorer25/status/2108746842620014807) |
+| Hosted products | The official pages in the table above, cited from [Hosted agents](10-hosted-agents/index.md) |
 
 ## Also used across the guide
 

@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="../../assets/sections/05-runtime.svg" alt="Runtime and infra" width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/05-runtime-dark.svg">
+  <img src="../../assets/sections/05-runtime-light.svg" alt="Runtime and infra" width="100%">
+</picture>
 </p>
 
 <p>

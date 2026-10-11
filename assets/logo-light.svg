@@ -1,49 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
-  <title id="title">agentsphere</title>
-  <desc id="desc">App icon. A luminous orb, one orbital ring, and three agent nodes.</desc>
-  
-  <defs>
-    <radialGradient id="light-core" cx="36%" cy="30%" r="72%">
-      <stop offset="0" stop-color="#FFFFFF"/>
-      <stop offset="0.16" stop-color="#D7E4FF"/>
-      <stop offset="0.38" stop-color="#7C8CFF"/>
-      <stop offset="0.62" stop-color="#4C3FD4"/>
-      <stop offset="0.84" stop-color="#24145F"/>
-      <stop offset="1" stop-color="#100828"/>
-    </radialGradient>
-    <radialGradient id="light-glow" cx="50%" cy="48%" r="50%">
-      <stop offset="0" stop-color="#6C5CE7" stop-opacity="0.55"/>
-      <stop offset="0.45" stop-color="#00D1FF" stop-opacity="0.16"/>
-      <stop offset="1" stop-color="#00D1FF" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="light-ring" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#9AF7FF"/>
-      <stop offset="0.45" stop-color="#8B7CFF"/>
-      <stop offset="1" stop-color="#3DFFB0"/>
-    </linearGradient>
-    <linearGradient id="light-bar" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#6C5CE7"/>
-      <stop offset="0.5" stop-color="#00D1FF"/>
-      <stop offset="1" stop-color="#2EF2A6"/>
-    </linearGradient>
-    <clipPath id="light-disc">
-      <circle cx="128" cy="128" r="58"/>
-    </clipPath>
-  </defs>
-  <rect width="256" height="256" rx="56" fill="#F4F6FB"/>
-  <rect x="1.5" y="1.5" width="253" height="253" rx="54.5" fill="none" stroke="#E3E7F2" stroke-width="1.5"/>
-  
-  <g id="light-mark">
-    <circle cx="128" cy="128" r="118" fill="url(#light-glow)"/>
-    <path d="M 62.76 198.64 L 59.62 196.86 L 56.61 194.94 L 53.74 192.90 L 51.01 190.73 L 48.43 188.44 L 45.99 186.04 L 43.72 183.53 L 41.60 180.91 L 39.65 178.19 L 37.87 175.38 L 36.26 172.48 L 34.82 169.49 L 33.56 166.42 L 32.48 163.28 L 31.58 160.07 L 30.87 156.80 L 30.34 153.48 L 29.99 150.10 L 29.84 146.69 L 29.87 143.24 L 30.08 139.76 L 30.48 136.26 L 31.07 132.74 L 31.85 129.21 L 32.80 125.69 L 33.94 122.16 L 35.26 118.65 L 36.75 115.15 L 38.42 111.68 L 40.25 108.24 L 42.26 104.84 L 44.42 101.48 L 46.75 98.17 L 49.23 94.92 L 51.86 91.73 L 54.64 88.62 L 57.55 85.57 L 60.60 82.61 L 63.78 79.73 L 67.08 76.95 L 70.50 74.26 L 74.02 71.67 L 77.65 69.20 L 81.38 66.83 L 85.19 64.58 L 89.08 62.45 L 93.05 60.45 L 97.09 58.57 L 101.18 56.83 L 105.33 55.22 L 109.52 53.75 L 113.74 52.42 L 117.99 51.24 L 122.26 50.20 L 126.54 49.31 L 130.82 48.57 L 135.10 47.98 L 139.36 47.54 L 143.61 47.26 L 147.82 47.13 L 152.00 47.15 L 156.13 47.33 L 160.20 47.66 L 164.22 48.15 L 168.16 48.78 L 172.03 49.57 L 175.82 50.51 L 179.51 51.59 L 183.11 52.82 L 186.60 54.19 L 189.98 55.71 L 193.24 57.36" fill="none" stroke="url(#light-ring)" stroke-width="15" stroke-linecap="round" stroke-opacity="0.42"/>
-    <circle cx="128" cy="134" r="56" fill="#1A1038" fill-opacity="0.28"/>
-    <circle cx="128" cy="128" r="58" fill="url(#light-core)"/>
-    <g clip-path="url(#light-disc)">
-      <ellipse cx="108" cy="102" rx="30" ry="16" fill="#FFFFFF" fill-opacity="0.38" transform="rotate(-32 108 102)"/>
-      <ellipse cx="148" cy="156" rx="36" ry="14" fill="#12082A" fill-opacity="0.28"/>
-    </g>
-    <circle cx="128" cy="128" r="57" fill="none" stroke="#D8FBFF" stroke-opacity="0.4" stroke-width="1.5"/>
-    <path d="M 193.24 57.36 L 196.38 59.14 L 199.39 61.06 L 202.26 63.10 L 204.99 65.27 L 207.57 67.56 L 210.01 69.96 L 212.28 72.47 L 214.40 75.09 L 216.35 77.81 L 218.13 80.62 L 219.74 83.52 L 221.18 86.51 L 222.44 89.58 L 223.52 92.72 L 224.42 95.93 L 225.13 99.20 L 225.66 102.52 L 226.01 105.90 L 226.16 109.31 L 226.13 112.76 L 225.92 116.24 L 225.52 119.74 L 224.93 123.26 L 224.15 126.79 L 223.20 130.31 L 222.06 133.84 L 220.74 137.35 L 219.25 140.85 L 217.58 144.32 L 215.75 147.76 L 213.74 151.16 L 211.58 154.52 L 209.25 157.83 L 206.77 161.08 L 204.14 164.27 L 201.36 167.38 L 198.45 170.43 L 195.40 173.39 L 192.22 176.27 L 188.92 179.05 L 185.50 181.74 L 181.98 184.33 L 178.35 186.80 L 174.62 189.17 L 170.81 191.42 L 166.92 193.55 L 162.95 195.55 L 158.91 197.43 L 154.82 199.17 L 150.67 200.78 L 146.48 202.25 L 142.26 203.58 L 138.01 204.76 L 133.74 205.80 L 129.46 206.69 L 125.18 207.43 L 120.90 208.02 L 116.64 208.46 L 112.39 208.74 L 108.18 208.87 L 104.00 208.85 L 99.87 208.67 L 95.80 208.34 L 91.78 207.85 L 87.84 207.22 L 83.97 206.43 L 80.18 205.49 L 76.49 204.41 L 72.89 203.18 L 69.40 201.81 L 66.02 200.29 L 62.76 198.64" fill="none" stroke="url(#light-ring)" stroke-width="15" stroke-linecap="round"/>
-    <circle cx="176.56" cy="50.71" r="16" fill="#7AF6FF" fill-opacity="0.22"/><circle cx="176.56" cy="50.71" r="9.5" fill="#7AF6FF"/><circle cx="176.56" cy="50.71" r="3.6" fill="#EFFFFF"/><circle cx="29.83" cy="146.00" r="16" fill="#B7ACFF" fill-opacity="0.22"/><circle cx="29.83" cy="146.00" r="9.5" fill="#B7ACFF"/><circle cx="29.83" cy="146.00" r="3.6" fill="#F7F5FF"/><circle cx="217.93" cy="143.63" r="16" fill="#3DFFB0" fill-opacity="0.22"/><circle cx="217.93" cy="143.63" r="9.5" fill="#3DFFB0"/><circle cx="217.93" cy="143.63" r="3.6" fill="#F3FFF9"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="-20 -20 296 296" role="img" aria-labelledby="title desc">
+  <title id="title">Agentsphere</title>
+  <desc id="desc">Orange disc, navy crescent, and a white robot head with an orange antenna.</desc>
+  <circle cx="128" cy="128" r="100" fill="#F5A31A"/>
+<path d="M 76.1,44.9 A 98,98 0 0 0 76.1,211.1" fill="none" stroke="#10243F" stroke-width="28" stroke-linecap="round"/>
+<g transform="translate(128,138)"><rect x="-38" y="-34" width="76" height="70" rx="34" fill="#FFFFFF"/><line x1="0" y1="-32" x2="0" y2="-50" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/><line x1="0" y1="-32" x2="0" y2="-50" stroke="#F5A31A" stroke-width="4.4" stroke-linecap="round"/><circle cx="0" cy="-57" r="8.2" fill="#FFFFFF"/><circle cx="0" cy="-57" r="5.5" fill="#F5A31A"/><rect x="-26" y="-8" width="52" height="26" rx="13" fill="#10243F"/><circle cx="-12" cy="5" r="5.5" fill="#F5A31A"/><circle cx="12" cy="5" r="5.5" fill="#F5A31A"/><g fill="none" stroke="#10243F" stroke-width="2.6" stroke-linecap="round"><path d="M 34,-12 H 54"/><path d="M 36,0 H 62"/><path d="M 34,12 H 50"/></g><g fill="#10243F"><circle cx="56" cy="-12" r="2.5"/><circle cx="64" cy="0" r="2.5"/><circle cx="52" cy="12" r="2.5"/></g></g>
 </svg>

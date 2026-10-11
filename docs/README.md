@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="../assets/banner-dark.svg">
-    <img src="../assets/banner-light.svg" alt="agentsphere" width="100%">
+    <img src="../assets/banner-light.svg" alt="Agentsphere. AI agents repository." width="100%">
   </picture>
 </p>
 
@@ -20,8 +20,13 @@
 Start with the [harness](01-agent-patterns/harness-engineering.md), a [learning path](learning-paths.md), or the section that matches the job in front of you. The posts, articles, and repositories behind the pages are in [Social references & inspirations](references.md).
 
 <p align="center">
-  <img src="../assets/diagrams/landscape.svg" alt="The agent landscape, with the harness across the middle." width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/diagrams/landscape-dark.svg">
+  <img src="../assets/diagrams/landscape-light.svg" alt="The agent landscape, with the harness across the middle." width="100%">
+</picture>
 </p>
+
+The products people rent sit beside that map: [Hosted agents](10-hosted-agents/index.md).
 
 | | |
 | --- | --- |
@@ -99,6 +104,10 @@ Hands-on recipes. Start with [your first agent](09-playbooks/first-agent.md) if 
 - [Review a gateway](09-playbooks/review-a-gateway.md)
 - [Score a run](09-playbooks/score-a-run.md)
 - [Unstick a loop](09-playbooks/unstick-a-loop.md)
+
+### [10 · Hosted agents](10-hosted-agents/index.md)
+
+Closed products, read from official pages: Grok Bot, Muse, Dots, Claude Cowork, and computer use in Copilot Studio. Each one is placed on the six harness parts.
 
 ## Reference
 

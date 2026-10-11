@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="276" viewBox="0 0 830 276" role="img" aria-labelledby="title desc">
+  <title id="title">Wiki memory</title>
+  <desc id="desc">Raw sources, maintained pages, and the next run.</desc>
+  <defs>
+    <linearGradient id="wiki-memory-dark-bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F5A31A"/>
+      <stop offset="1" stop-color="#FFE0B0"/>
+    </linearGradient>
+  </defs>
+  <text x="40" y="56" fill="#E6EDF3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="36" font-weight="600" text-anchor="start">Wiki memory</text>
+  <g transform="translate(728.00,8.00) scale(0.3438)">
+<circle cx="128" cy="128" r="118" fill="none" stroke="#F5A31A" stroke-opacity="0.22" stroke-width="12"/>
+<circle cx="128" cy="128" r="110" fill="none" stroke="#F5A31A" stroke-opacity="0.45" stroke-width="7"/>
+<circle cx="128" cy="128" r="100" fill="#10243F"/>
+<circle cx="128" cy="128" r="96" fill="none" stroke="#F5A31A" stroke-width="6"/>
+<g transform="translate(128,138)"><rect x="-38" y="-34" width="76" height="70" rx="34" fill="#FFFFFF"/><line x1="0" y1="-32" x2="0" y2="-50" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/><line x1="0" y1="-32" x2="0" y2="-50" stroke="#F5A31A" stroke-width="4.4" stroke-linecap="round"/><circle cx="0" cy="-57" r="8.2" fill="#FFFFFF"/><circle cx="0" cy="-57" r="5.5" fill="#F5A31A"/><rect x="-26" y="-8" width="52" height="26" rx="13" fill="#10243F"/><circle cx="-12" cy="5" r="5.5" fill="#F5A31A"/><circle cx="12" cy="5" r="5.5" fill="#F5A31A"/><g fill="none" stroke="#F5A31A" stroke-width="2.6" stroke-linecap="round"><path d="M 34,-12 H 54"/><path d="M 36,0 H 62"/><path d="M 34,12 H 50"/></g><g fill="#F5A31A"><circle cx="56" cy="-12" r="2.5"/><circle cx="64" cy="0" r="2.5"/><circle cx="52" cy="12" r="2.5"/></g></g>
+  </g>
+  <text x="40" y="96" fill="#C9D1D9" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Raw stays raw. The page is the memory.</text>
+  <line x1="40" y1="128" x2="700" y2="128" stroke="#30363D" stroke-width="1.5"/>
+  <circle cx="50.0" cy="164" r="8" fill="#F5A31A"/>
+  <text x="40.0" y="208" fill="#E6EDF3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">Raw</text>
+  <text x="40.0" y="238" fill="#C9D1D9" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Sources, unedited.</text>
+  <line x1="68.0" y1="164" x2="291.33333333333337" y2="164" stroke="#30363D" stroke-width="2"/>
+  <circle cx="309.33333333333337" cy="164" r="8" fill="#FFE0B0"/>
+  <text x="299.33333333333337" y="208" fill="#E6EDF3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">Wiki</text>
+  <text x="299.33333333333337" y="238" fill="#C9D1D9" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">The page you keep.</text>
+  <line x1="327.33333333333337" y1="164" x2="550.6666666666667" y2="164" stroke="#30363D" stroke-width="2"/>
+  <circle cx="568.6666666666667" cy="164" r="8" fill="#FF9A2E"/>
+  <text x="558.6666666666667" y="208" fill="#E6EDF3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">Next run</text>
+  <text x="558.6666666666667" y="238" fill="#C9D1D9" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Search the page first.</text>
+</svg>

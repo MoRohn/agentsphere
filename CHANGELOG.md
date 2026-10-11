@@ -2,6 +2,13 @@
 
 The guide version tracks the pages. Dates are the day the change landed in this repository.
 
+## 0.4.0 — 2026-10-11
+
+- Added [Hosted agents](docs/10-hosted-agents/index.md): Grok Bot, Muse, Dots, Claude Cowork, and Copilot Studio computer use, each mapped onto the six harness parts. Facts come from official pages opened on this date. Where two official pages disagree, both are kept. Dollar prices are omitted.
+- Linked the section from the README, the guide map, the diagram atlas, the learning paths, harness engineering, and cloud and local.
+- Redrew the masthead, section openers, and every diagram at an 830-wide viewBox, with titles at 36px and labels at 16px or larger. Each figure is a transparent light file and a transparent dark file, chosen with `<picture>`.
+- Replaced the orb with the robot mark. Light art uses the orange disc and navy crescent. Dark art uses the navy disc and orange glow. The wordmark is outlined `Agentsphere`, with the tagline `AI AGENTS REPOSITORY` between orange rules. The guide palette is navy and orange.
+
 ## 0.3.0 — 2026-10-11
 
 - Added a start-here path and a "if you need to" index so a newcomer can move from a definition to a finished agent card.

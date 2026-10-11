@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="../../assets/sections/07-security.svg" alt="Security: a shield drawn around an orbit" width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/07-security-dark.svg">
+  <img src="../../assets/sections/07-security-light.svg" alt="Security: the gate before the side effect" width="100%">
+</picture>
 </p>
 
 <p>

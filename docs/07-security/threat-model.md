@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="../../assets/sections/07-security.svg" alt="Security" width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/07-security-dark.svg">
+  <img src="../../assets/sections/07-security-light.svg" alt="Security" width="100%">
+</picture>
 </p>
 
 <p>

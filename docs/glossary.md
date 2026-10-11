@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="../assets/sections/00-foundations.svg" alt="Foundations" width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/sections/00-foundations-dark.svg">
+  <img src="../assets/sections/00-foundations-light.svg" alt="Foundations" width="100%">
+</picture>
 </p>
 
 <p>
@@ -75,6 +78,10 @@ A local or remote service that exposes one API and forwards calls to many model 
 ### Harness engineering
 
 Designing the runtime as a first-class object, matched to the task, rather than treating agent quality as a property of the model alone. The four eras and the six parts are [harness engineering](01-agent-patterns/harness-engineering.md).
+
+### Hosted agent
+
+A closed product that runs the harness for you: the computer, the memory, and the approval gate. The current reading is [hosted agents](10-hosted-agents/index.md).
 
 ### Human review gate
 

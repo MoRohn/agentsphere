@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="448" viewBox="0 0 830 448" role="img" aria-labelledby="title desc">
+  <title id="title">What the next run can use</title>
+  <desc id="desc">Question, notes, sources, write back, reflect, next run.</desc>
+  <defs>
+    <linearGradient id="knowledge-flow-light-bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#10243F"/>
+      <stop offset="1" stop-color="#F5A31A"/>
+    </linearGradient>
+  </defs>
+  <text x="40" y="56" fill="#1F2328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="36" font-weight="600" text-anchor="start">What the next run can use</text>
+  <g transform="translate(728.00,8.00) scale(0.3438)">
+<circle cx="128" cy="128" r="100" fill="#F5A31A"/>
+<path d="M 76.1,44.9 A 98,98 0 0 0 76.1,211.1" fill="none" stroke="#10243F" stroke-width="28" stroke-linecap="round"/>
+<g transform="translate(128,138)"><rect x="-38" y="-34" width="76" height="70" rx="34" fill="#FFFFFF"/><line x1="0" y1="-32" x2="0" y2="-50" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/><line x1="0" y1="-32" x2="0" y2="-50" stroke="#F5A31A" stroke-width="4.4" stroke-linecap="round"/><circle cx="0" cy="-57" r="8.2" fill="#FFFFFF"/><circle cx="0" cy="-57" r="5.5" fill="#F5A31A"/><rect x="-26" y="-8" width="52" height="26" rx="13" fill="#10243F"/><circle cx="-12" cy="5" r="5.5" fill="#F5A31A"/><circle cx="12" cy="5" r="5.5" fill="#F5A31A"/><g fill="none" stroke="#10243F" stroke-width="2.6" stroke-linecap="round"><path d="M 34,-12 H 54"/><path d="M 36,0 H 62"/><path d="M 34,12 H 50"/></g><g fill="#10243F"><circle cx="56" cy="-12" r="2.5"/><circle cx="64" cy="0" r="2.5"/><circle cx="52" cy="12" r="2.5"/></g></g>
+  </g>
+  <text x="40" y="96" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">A fetched passage is not a memory yet.</text>
+  <line x1="40" y1="128" x2="700" y2="128" stroke="#D0D7DE" stroke-width="1.5"/>
+  <circle cx="48" cy="148" r="7" fill="#F5A31A"/>
+  <text x="68" y="156" fill="#1F2328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">Question</text>
+  <text x="68" y="186" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Name the decision and the done-when.</text>
+  <circle cx="438" cy="148" r="7" fill="#10243F"/>
+  <text x="458" y="156" fill="#1F2328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">Notes</text>
+  <text x="458" y="186" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Search what you already wrote.</text>
+  <circle cx="48" cy="240" r="7" fill="#C96E00"/>
+  <text x="68" y="248" fill="#1F2328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">Sources</text>
+  <text x="68" y="278" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Read them. Do not rewrite them.</text>
+  <circle cx="438" cy="240" r="7" fill="#F5A31A"/>
+  <text x="458" y="248" fill="#1F2328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">Write back</text>
+  <text x="458" y="278" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">One page: answer, source, gap.</text>
+  <circle cx="48" cy="332" r="7" fill="#10243F"/>
+  <text x="68" y="340" fill="#1F2328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">Reflect</text>
+  <text x="68" y="370" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">A rule the next run will see.</text>
+  <circle cx="438" cy="332" r="7" fill="#C96E00"/>
+  <text x="458" y="340" fill="#1F2328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">Next run</text>
+  <text x="458" y="370" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Start from the page, not the chat.</text>
+</svg>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="124" height="28" viewBox="0 0 124 28" role="img" aria-label="Power user">
   <title>Power user</title>
-  <rect x="0.5" y="0.5" width="123" height="27" rx="13.5" fill="#101628" stroke="#E6EAF2" stroke-opacity="0.7"/>
-  <circle cx="16" cy="14" r="4" fill="#E6EAF2"/>
+  <rect x="0.5" y="0.5" width="123" height="27" rx="13.5" fill="#10243F" stroke="#FFE0B0"/>
+  <circle cx="16" cy="14" r="4" fill="#FFE0B0"/>
   <text x="28" y="18" fill="#E6EAF2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">Power user</text>
 </svg>

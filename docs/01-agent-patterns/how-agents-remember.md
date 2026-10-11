@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="../../assets/diagrams/knowledge-flow.svg" alt="Six moves of a research agent: question, notes, sources, write back, reflect, next run." width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/diagrams/knowledge-flow-dark.svg">
+  <img src="../../assets/diagrams/knowledge-flow-light.svg" alt="Six moves of a research agent: question, notes, sources, write back, reflect, next run." width="100%">
+</picture>
 </p>
 
 <p>
@@ -30,7 +33,10 @@ The context window is the text the model can see on one call. It holds the instr
 [CoALA](https://arxiv.org/abs/2309.02427) maps the usual split for language agents. Working memory is the window. The other three live outside it, and something has to put them there.
 
 <p align="center">
-  <img src="../../assets/diagrams/memory-map.svg" alt="Working memory is the context window. Episodic, semantic, and procedural memories live outside it. Retrieval is loaded, then gone, unless written back." width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/diagrams/memory-map-dark.svg">
+  <img src="../../assets/diagrams/memory-map-light.svg" alt="Working memory is the context window. Episodic, semantic, and procedural memories live outside it. Retrieval is loaded, then gone, unless written back." width="100%">
+</picture>
 </p>
 
 | Memory | What it holds | Where it lives | A research agent uses it for |
@@ -48,13 +54,13 @@ config:
   theme: base
   themeVariables:
     darkMode: true
-    background: "#07090F"
-    primaryColor: "#12182B"
-    primaryTextColor: "#E6EAF2"
-    primaryBorderColor: "#00D1FF"
-    lineColor: "#2EF2A6"
-    secondaryColor: "#10241C"
-    tertiaryColor: "#101628"
+    background: "#0d1117"
+    primaryColor: "#13293D"
+    primaryTextColor: "#E6EDF3"
+    primaryBorderColor: "#F5A31A"
+    lineColor: "#FFE0B0"
+    secondaryColor: "#3A2A12"
+    tertiaryColor: "#10243F"
     fontFamily: "Segoe UI, Helvetica, Arial, sans-serif"
 ---
 flowchart TB
@@ -191,13 +197,13 @@ config:
   theme: base
   themeVariables:
     darkMode: true
-    background: "#07090F"
-    primaryColor: "#12182B"
-    primaryTextColor: "#E6EAF2"
-    primaryBorderColor: "#6C5CE7"
-    lineColor: "#2EF2A6"
-    secondaryColor: "#10241C"
-    tertiaryColor: "#101628"
+    background: "#0d1117"
+    primaryColor: "#13293D"
+    primaryTextColor: "#E6EDF3"
+    primaryBorderColor: "#F5A31A"
+    lineColor: "#F5A31A"
+    secondaryColor: "#3A2A12"
+    tertiaryColor: "#10243F"
     fontFamily: "Segoe UI, Helvetica, Arial, sans-serif"
 ---
 flowchart LR
