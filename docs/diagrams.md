@@ -6,13 +6,13 @@
 </p>
 
 <p>
-  <img src="../assets/badges/level-explorer.svg" alt="Explorer" height="28">
+  <a href="../paths/explorer/README.md"><img src="../assets/badges/level-explorer.svg" alt="Explorer" height="28"></a>
   &nbsp;
-  <img src="../assets/badges/level-builder.svg" alt="Builder" height="28">
+  <a href="../paths/builder/README.md"><img src="../assets/badges/level-builder.svg" alt="Builder" height="28"></a>
   &nbsp;
-  <img src="../assets/badges/level-operator.svg" alt="Operator" height="28">
+  <a href="../paths/operator/README.md"><img src="../assets/badges/level-operator.svg" alt="Operator" height="28"></a>
   &nbsp;
-  <img src="../assets/badges/level-power.svg" alt="Power user" height="28">
+  <a href="../paths/power-user/README.md"><img src="../assets/badges/level-power.svg" alt="Power user" height="28"></a>
 </p>
 
 # Diagram atlas
@@ -46,6 +46,10 @@ Three maps are SVG only. They are the front door, not a second copy of a lesson:
 | Agent landscape | [landscape-light.svg](../assets/diagrams/landscape-light.svg) | SVG only. Lesson: [Guide map](README.md) |
 | Four eras | [harness-eras-light.svg](../assets/diagrams/harness-eras-light.svg) | [Harness engineering](01-agent-patterns/harness-engineering.md) |
 | Hosted agents | [hosted-agents-light.svg](../assets/diagrams/hosted-agents-light.svg) | [Hosted agents](10-hosted-agents/index.md) |
+| Explorer route | [explorer-route-light.svg](../assets/diagrams/explorer-route-light.svg) | [Explorer](../paths/explorer/README.md) |
+| Builder route | [builder-route-light.svg](../assets/diagrams/builder-route-light.svg) | [Builder](../paths/builder/README.md) |
+| Operator route | [operator-route-light.svg](../assets/diagrams/operator-route-light.svg) | [Operator](../paths/operator/README.md) |
+| Power user route | [power-route-light.svg](../assets/diagrams/power-route-light.svg) | [Power user](../paths/power-user/README.md) |
 
 Section openers live in [assets/sections](../assets/sections/). The mark and the masthead live at [logo-light.png](../assets/logo-light.png), [logo-dark.png](../assets/logo-dark.png), [banner-light.png](../assets/banner-light.png), and [banner-dark.png](../assets/banner-dark.png).
 

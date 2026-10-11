@@ -6,9 +6,9 @@
 </p>
 
 <p>
-  <img src="../../assets/badges/level-explorer.svg" alt="Explorer" height="28">
+  <a href="../../paths/explorer/README.md"><img src="../../assets/badges/level-explorer.svg" alt="Explorer" height="28"></a>
   &nbsp;
-  <img src="../../assets/badges/level-builder.svg" alt="Builder" height="28">
+  <a href="../../paths/builder/README.md"><img src="../../assets/badges/level-builder.svg" alt="Builder" height="28"></a>
 </p>
 
 # Memory, tools, and planning

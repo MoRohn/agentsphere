@@ -6,7 +6,7 @@
 </p>
 
 <p>
-  <img src="../../assets/badges/level-explorer.svg" alt="Explorer" height="28">
+  <a href="../../paths/explorer/README.md"><img src="../../assets/badges/level-explorer.svg" alt="Explorer" height="28"></a>
 </p>
 
 # The agent loop

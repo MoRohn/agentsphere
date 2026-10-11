@@ -6,7 +6,7 @@
 </p>
 
 <p>
-  <img src="../../assets/badges/level-operator.svg" alt="Operator" height="28">
+  <a href="../../paths/operator/README.md"><img src="../../assets/badges/level-operator.svg" alt="Operator" height="28"></a>
 </p>
 
 # Threat model

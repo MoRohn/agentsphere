@@ -9,7 +9,7 @@
   <a href="CHANGELOG.md">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/badges/version-dark.svg">
-      <img alt="version 0.4.1" src="assets/badges/version-light.svg" height="28">
+      <img alt="version 0.4.2" src="assets/badges/version-light.svg" height="28">
     </picture>
   </a>
   &nbsp;
@@ -33,13 +33,13 @@
 **The living field guide to the agent era.** An agent is a model plus the harness around it. Start as a beginner. Leave able to design that harness: memory, tools, orchestration, runtime, and security, and able to tell a sourced claim from a rumor.
 
 <p>
-  <img src="assets/badges/level-explorer.svg" alt="Explorer" height="28">
+  <a href="paths/explorer/README.md"><img src="assets/badges/level-explorer.svg" alt="Explorer" height="28"></a>
   &nbsp;
-  <img src="assets/badges/level-builder.svg" alt="Builder" height="28">
+  <a href="paths/builder/README.md"><img src="assets/badges/level-builder.svg" alt="Builder" height="28"></a>
   &nbsp;
-  <img src="assets/badges/level-operator.svg" alt="Operator" height="28">
+  <a href="paths/operator/README.md"><img src="assets/badges/level-operator.svg" alt="Operator" height="28"></a>
   &nbsp;
-  <img src="assets/badges/level-power.svg" alt="Power user" height="28">
+  <a href="paths/power-user/README.md"><img src="assets/badges/level-power.svg" alt="Power user" height="28"></a>
 </p>
 
 The pages in [`docs/`](docs/README.md) are the guide. Posts, articles, and repositories that shaped them are collected in [Social references & inspirations](docs/references.md). A claim from a post stays linked and marked. A claim from a paper or a project page is marked separately.
@@ -50,7 +50,7 @@ The pages in [`docs/`](docs/README.md) are the guide. Posts, articles, and repos
 2. Name one harness part that is not the model: observation, context, control, action, state, or verification.
 3. Write one sentence a later run would need: the decision, the source, or the gap. That sentence is [wiki memory](docs/01-agent-patterns/wiki-memory.md) in miniature.
 
-Then pick a level and open it: [Explorer](docs/learning-paths.md#explorer), [Builder](docs/learning-paths.md#builder), [Operator](docs/learning-paths.md#operator), or [Power user](docs/learning-paths.md#power-user).
+Then pick a level and open its guide: [Explorer](paths/explorer/README.md), [Builder](paths/builder/README.md), [Operator](paths/operator/README.md), or [Power user](paths/power-user/README.md).
 
 When you have an hour, do the three that leave you holding a page:
 
@@ -101,14 +101,14 @@ The four eras still in use: prompt, context, harness, and training that leaves a
 </picture>
 </p>
 
-| Level | Start here if you | Open first | You will be able to |
+| Level | Start here if you | Open the guide | You will be able to |
 | --- | --- | --- | --- |
-| **Explorer** | are new to agents | [What is an agent](docs/00-foundations/what-is-an-agent.md), then the [harness picture](docs/01-agent-patterns/harness-engineering.md) | explain an agent and point at the model inside the harness |
-| **Builder** | want to make one | [Harness engineering](docs/01-agent-patterns/harness-engineering.md), [wiki memory](docs/01-agent-patterns/wiki-memory.md), [tools](docs/02-tools-mcp/tools-and-mcp.md) | design the six parts and leave a page behind |
-| **Operator** | run agents for a team | [Harness engineering](docs/01-agent-patterns/harness-engineering.md), [cloud and local](docs/05-runtime-infra/cloud-and-local.md), [evals](docs/06-evals/index.md) | place a run and score the harness, not only the model |
-| **Power user** | want the practice | [Playbooks](docs/09-playbooks/index.md) and [harness engineering](docs/01-agent-patterns/harness-engineering.md) | extend a page without inventing a number |
+| **[Explorer](paths/explorer/README.md)** | are new to agents, and you want to use one before you build one | [Explorer](paths/explorer/README.md) | explain an agent, and use Grok Bot or a dot with a stop rule. No code |
+| **[Builder](paths/builder/README.md)** | want to make one | [Builder](paths/builder/README.md) | design the harness, memory, tools, and a skill |
+| **[Operator](paths/operator/README.md)** | run agents for a team | [Operator](paths/operator/README.md) | place a run, score it, and gate the write |
+| **[Power user](paths/power-user/README.md)** | already run them, and a loop is stuck or a workflow is yours to design | [Power user](paths/power-user/README.md) | tune the harness, orchestrate, and change one thin part |
 
-Sequences and a readiness check: [Learning paths](docs/learning-paths.md).
+The short sequences and the readiness checks: [Learning paths](docs/learning-paths.md).
 
 | If you need to | Open |
 | --- | --- |

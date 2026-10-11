@@ -6,7 +6,7 @@
 </p>
 
 <p>
-  <img src="../assets/badges/level-power.svg" alt="Power user" height="28">
+  <a href="../paths/power-user/README.md"><img src="../assets/badges/level-power.svg" alt="Power user" height="28"></a>
 </p>
 
 # Style guide
@@ -65,7 +65,7 @@ Architecture figures are drawn twice: an SVG pair and a Mermaid block on the sam
 ## Page anatomy
 
 1. Section or diagram image, centered, `width="100%"`, with alt text, inside `<picture>` so the dark file loads when `prefers-color-scheme: dark`. The `img` fallback is the light file.
-2. Level badges for every path named in the meta table, from [assets/badges/](../assets/badges/).
+2. Level badges for every path named in the meta table, from [assets/badges/](../assets/badges/). Each badge links to its guide: [Explorer](../paths/explorer/README.md), [Builder](../paths/builder/README.md), [Operator](../paths/operator/README.md), or [Power user](../paths/power-user/README.md).
 3. One H1.
 4. A three-row meta table: path, time, prerequisites.
 5. "What you will be able to do."
