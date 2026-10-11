@@ -72,9 +72,9 @@ Watch the trajectory.
 
 The second run is the eval. It should search the wiki and get cheaper. If it re-reads everything, the page is in the wrong shape: the answer is buried, or the title would not match a search. Fix the page, not the model. The regression cases live in [evals](../06-evals/index.md).
 
-## 6. Add a bookmark the way this repo does
+## 6. Cite it the way this guide does
 
-When the source is someone else's post, follow [ADDING_BOOKMARKS](../../sources/ADDING_BOOKMARKS.md). Your personal wiki can be looser. The moment other people will read it, use the same claim labels.
+When the source is someone else's post, link the status, mark the claim **per post**, and add the post to [Social references & inspirations](../references.md) if it shaped a page. The rules are in [CONTRIBUTING](../../CONTRIBUTING.md). Your personal wiki can be looser. The moment other people will read it, use the same claim labels.
 
 ## Check yourself
 
@@ -94,4 +94,4 @@ When the source is someone else's post, follow [ADDING_BOOKMARKS](../../sources/
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

@@ -23,7 +23,7 @@ Agents act. Acting is the risk. This section names the threats, the human gate i
 ## A boundary
 
 > [!WARNING]
-> These pages stay at the level of assets, permissions, and review. They are not a guide to probing, exploiting, or bypassing controls. If a future bookmark is an exploit write-up, distill the defensive lesson and leave the procedure in the raw archive, or out of the repo entirely.
+> These pages stay at the level of assets, permissions, and review. They are not a guide to probing, exploiting, or bypassing controls. If a future source is an exploit write-up, distill the defensive lesson and leave the procedure out of the repo.
 
 ## Continue
 
@@ -31,4 +31,4 @@ Agents act. Acting is the risk. This section names the threats, the human gate i
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

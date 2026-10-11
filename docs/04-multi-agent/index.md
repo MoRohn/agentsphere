@@ -24,4 +24,4 @@ Several agents help when the work splits cleanly and someone, or some lead agent
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

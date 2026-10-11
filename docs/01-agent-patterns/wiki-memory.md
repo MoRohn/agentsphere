@@ -36,7 +36,7 @@ In that loop the work product is a chat. A hundred questions leave a hundred tra
 The post's architecture, in its own words, is three pieces: `raw/` as the source of truth, `wiki/` as maintained knowledge, and a schema for how updates happen. Search still matters. It stops being the whole product.
 
 > [!NOTE]
-> **Per post.** This page teaches the pattern as that bookmark describes it. The export does not include a repository URL, a paper, or a video transcript beyond the post and a related status link. This guide does not invent one. The attribution to Karpathy is the post's.
+> **Per post.** This page teaches the pattern as that post describes it. The post does not include a repository URL, a paper, or a video transcript beyond the status and a related link. This guide does not invent one. The attribution to Karpathy is the post's.
 
 ## Three pieces
 
@@ -89,11 +89,11 @@ Use retrieval to find the passage. Use the wiki so you do not have to rediscover
 
 | Karpathy-style piece, per the post | This repository |
 | --- | --- |
-| raw/ | [`sources/`](../../sources/bookmarks.md), including the JSON archive |
+| raw/ | The original post, linked from the page and listed in [references](../references.md) |
 | wiki/ | [`docs/`](../README.md) |
 | schema | [CONTRIBUTING](../../CONTRIBUTING.md) |
 
-The picture of that flow is [knowledge-flow.svg](../../assets/diagrams/knowledge-flow.svg). Adding a bookmark without updating a page is the forgetful loop, wearing a git commit.
+The picture of that flow is [knowledge-flow.svg](../../assets/diagrams/knowledge-flow.svg). Saving a source without updating a page is the forgetful loop, wearing a git commit.
 
 ## A page worth writing
 
@@ -115,7 +115,7 @@ If you cannot fill the claim table, you are still in the chat.
 
 ## Sources
 
-- [B2](https://x.com/fleyta88/status/2108619644399415565) — @fleyta88, 2026-10-09. The full pattern above, per post. Related link in the export: [a status by @gippp69](https://twitter.com/gippp69/status/2106744347836153989).
+- [B2](https://x.com/fleyta88/status/2108619644399415565) — @fleyta88, 2026-10-09. The full pattern above, per post. Related post: [a status by @gippp69](https://twitter.com/gippp69/status/2106744347836153989).
 - Established distinction between retrieving passages and maintaining a conclusion. The "bigger than better RAG" phrasing is the post's.
 
 ## Continue
@@ -126,4 +126,4 @@ If you cannot fill the claim table, you are still in the chat.
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

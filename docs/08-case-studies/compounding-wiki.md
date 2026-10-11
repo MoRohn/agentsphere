@@ -4,12 +4,12 @@
 
 # Case study · Compounding wiki
 
-A bookmarked retelling of a research agent that leaves pages behind, attributed by the poster to Andrej Karpathy.
+A retelling of a research agent that leaves pages behind, attributed by the poster to Andrej Karpathy.
 
 | | |
 | --- | --- |
 | Path | Power user |
-| Bookmark | [B2](https://x.com/fleyta88/status/2108619644399415565) |
+| Source | [B2](https://x.com/fleyta88/status/2108619644399415565) |
 | Posted | 2026-10-09, @fleyta88 |
 | Concept | [Wiki memory](../01-agent-patterns/wiki-memory.md) |
 
@@ -21,18 +21,18 @@ Research agents that only search and answer build a pile of chats. The post says
 
 | Claim | Status |
 | --- | --- |
-| The workflow is Karpathy's, as the poster understands a recent demonstration | Per post. The export has no separate primary URL for the demo |
+| The workflow is Karpathy's, as the poster understands a recent demonstration | Per post. The post has no separate primary URL for the demo |
 | raw/ is the source of truth, wiki/ is maintained knowledge, schema is the update rules | Per post |
 | The agent reads sources and writes linked pages | Per post |
 | The wiki is searched before new source work | Per post |
 | A hundred questions can leave a system, rather than a hundred chats | Per post, as the poster's contrast |
 | This is "bigger than just better RAG" | Per post, as a slogan. The [concept page](../01-agent-patterns/wiki-memory.md) states a narrower, established distinction |
 
-Related link stored in the export: [a status by @gippp69](https://twitter.com/gippp69/status/2106744347836153989). This guide has not distilled that second post as its own bookmark.
+Related post: [a status by @gippp69](https://twitter.com/gippp69/status/2106744347836153989). This guide has not given that second post its own page.
 
 ## What to steal
 
-The three nouns, and the rule that the run is unfinished until a page exists. agentsphere uses them as `sources/`, `docs/`, and [CONTRIBUTING](../../CONTRIBUTING.md).
+The three nouns, and the rule that the run is unfinished until a page exists. agentsphere uses them as the linked post, [`docs/`](../README.md), and [CONTRIBUTING](../../CONTRIBUTING.md).
 
 ## What to leave
 
@@ -49,4 +49,4 @@ The tone. The missing primary link. Any implication that a wiki replaces search.
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

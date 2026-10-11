@@ -4,14 +4,14 @@
 
 # 06 · Evals
 
-An agent got better when a repeatable check says so. This section is a primer. None of the ten seed bookmarks are evaluation posts, so the examples below are established practice, applied to the agents this guide has already described. When a bookmark about evals arrives, it should update this page rather than start a second one.
+An agent got better when a repeatable check says so. This section is a primer. The references do not yet include an evaluation write-up, so the examples below are established practice, applied to the agents this guide has already described. When an eval source arrives, it should update this page rather than start a second one.
 
 | | |
 | --- | --- |
 | Path | Operator |
 | Time | About 20 minutes |
 | You need | [The agent loop](../00-foundations/the-agent-loop.md) and [wiki memory](../01-agent-patterns/wiki-memory.md) |
-| Seed status | Waiting for bookmarks. The methods here are established, not per post. |
+| Status | Primer. The methods here are established, not per post. |
 
 ## What you will be able to do
 
@@ -67,7 +67,7 @@ A gateway that claims to cut context by 15–95%, or a runtime that claims a lar
 
 The inference page tells you to cite ranges and papers. This page tells you the only benchmark that matches your agent is the one you run on your tasks.
 
-## What the next bookmark should add
+## What the next source should add
 
 When you distill an eval post, add:
 
@@ -86,7 +86,7 @@ Leave vendor leaderboards in the case study unless you can say what was measured
 
 ## Sources
 
-- Established evaluation practice: outcome, process, and cost. No seed bookmark is an eval source.
+- Established evaluation practice: outcome, process, and cost. No current reference is an eval source.
 - [B2](https://x.com/fleyta88/status/2108619644399415565) supplies the compounding behavior these cases try to detect. The cases themselves are synthesis.
 
 ## Continue
@@ -96,4 +96,4 @@ Leave vendor leaderboards in the case study unless you can say what was measured
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

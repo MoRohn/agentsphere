@@ -9,13 +9,13 @@ Antigen, as announced: an agent that maps a surface, probes it, ships fixes for 
 | | |
 | --- | --- |
 | Path | Power user |
-| Bookmark | [B7](https://x.com/antigenco/status/2108334286978113634) |
+| Source | [B7](https://x.com/antigenco/status/2108334286978113634) |
 | Posted | 2026-10-08, @antigenco |
 | Concept | [Find, review, fix, retest](../07-security/find-fix-retest.md) |
 
 ## The situation
 
-The post is a product introduction. The verbs are map, exploit, secure, probe, ship fixes for the team's review, and test again. There is no resolved documentation URL in the export.
+The post is a product introduction. The verbs are map, exploit, secure, probe, ship fixes for the team's review, and test again. The post does not include a resolved documentation URL.
 
 ## Claims
 
@@ -33,7 +33,7 @@ The loop with a person on the merge, and a retest that does not trust the agent'
 
 ## What to leave
 
-Any request to expand "exploit" into steps. Any use against a system you are not allowed to test. The [security index](../07-security/index.md) states that boundary for later bookmarks too.
+Any request to expand "exploit" into steps. Any use against a system you are not allowed to test. The [security index](../07-security/index.md) states that boundary for later sources too.
 
 ## Sources
 
@@ -46,4 +46,4 @@ Any request to expand "exploit" into steps. Any use against a system you are not
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

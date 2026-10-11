@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="../assets/banner.svg" alt="agentsphere banner" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../assets/banner-dark.svg">
+    <img src="../assets/banner-light.svg" alt="agentsphere" width="100%">
+  </picture>
 </p>
 
 # Style guide
@@ -14,22 +17,24 @@ One visual system, so a page added in six months still looks like it belongs.
 
 ## Name and mark
 
-The name is lowercase `agentsphere`. The mark is a wireframe sphere with three nodes, linked by arcs: three agents on one orbit. Files:
+The name is lowercase `agentsphere`, one word. The mark is a luminous orb, one orbital ring, and three nodes: three agents on one orbit. It is drawn to read as an app icon, including at small sizes. Files:
 
 | File | Role |
 | --- | --- |
-| [assets/logo.svg](../assets/logo.svg) | App-icon mark, 256×256, own dark background |
-| [assets/banner.svg](../assets/banner.svg) | README hero, 1440×640 |
+| [logo-dark.svg](../assets/logo-dark.svg), [logo-light.svg](../assets/logo-light.svg) | App-icon mark, 256×256 |
+| [banner-dark.svg](../assets/banner-dark.svg), [banner-light.svg](../assets/banner-light.svg) | Masthead, 1440×520. Mark and wordmark together |
+| [badges/](../assets/badges/) | README pills, light and dark |
 | [assets/sections/](../assets/sections/) | Section openers, 1200×240 |
 | [assets/diagrams/](../assets/diagrams/) | Architecture figures |
 
-On the banner, the sphere glyph is set between the words `agent` and `sphere`. The accessible title of that image is the one-word name. `agentsphere` has no letter o; the orbit is the brand's circular form, drawn in the gap where the two roots meet.
+The README chooses the light or dark masthead with a `<picture>` element and `prefers-color-scheme`. The wordmark is outlined, so GitHub does not need the font. The accessible name of the image is `agentsphere`.
 
 ## Palette
 
 | Token | Hex | Role |
 | --- | --- | --- |
-| Space | `#0B0F1A` | Canvas |
+| Space | `#07090F` | Dark canvas |
+| Paper | `#F5F7FC` | Light canvas |
 | Night | `#101628` | Panels |
 | Card | `#12182B` | Cards |
 | Line | `#1C2740` | Quiet borders |
@@ -81,14 +86,14 @@ Callouts use GitHub alerts:
 
 ## Voice
 
-Plain sentences. Define a term the first time a page uses it, even if the glossary also defines it. Put numbers in tables with a status column. Leave the original post's jokes and profanity in `sources/`, and write the page as a field guide.
+Plain sentences. Define a term the first time a page uses it, even if the glossary also defines it. Put numbers in tables with a status column. Leave a post's jokes in the post. Write the page as a field guide.
 
 ## GitHub rendering
 
 - Mermaid fences are not indented.
 - Node labels with `/`, `:`, or `()` are quoted.
 - SVG uses presentation attributes, system sans-serif, and no scripts or external images.
-- Internal links are relative. From `docs/00-foundations/a-page.md`, assets are `../../assets/...` and sources are `../../sources/...`.
+- Internal links are relative. From `docs/00-foundations/a-page.md`, assets are `../../assets/...` and the references page is `../references.md`.
 
 ## Check yourself
 
@@ -103,4 +108,4 @@ Plain sentences. Define a term the first time a page uses it, even if the glossa
 
 ---
 
-[Map](README.md) | [Paths](learning-paths.md) | [Glossary](glossary.md) | [Sources](../sources/bookmarks.md)
+[Map](README.md) | [Paths](learning-paths.md) | [Glossary](glossary.md) | [References](references.md)

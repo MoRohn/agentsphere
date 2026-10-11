@@ -34,7 +34,7 @@ These are names and impacts. They are not instructions.
 
 ### Prompt injection
 
-The model treats text as instructions. A web page, a README, an issue, or a bookmark can contain a line aimed at the agent rather than at you. If that text is fetched by a tool and placed in the window, the model may follow it: send the notes somewhere, widen a search, overwrite a file.
+The model treats text as instructions. A web page, a README, an issue, or a saved note can contain a line aimed at the agent rather than at you. If that text is fetched by a tool and placed in the window, the model may follow it: send the notes somewhere, widen a search, overwrite a file.
 
 **Habit:** treat retrieved text as data. Keep the standing rules in a layer the page cannot edit. Prefer tools that cannot send or delete. Show writes to a person.
 
@@ -64,7 +64,7 @@ flowchart TD
 
 ## A one-page model you can copy
 
-Answer these for the agent in front of you. **Synthesis**, a worksheet, not a standard from a bookmark.
+Answer these for the agent in front of you. **Synthesis**, a worksheet, not a standard from a post.
 
 | Question | Your answer |
 | --- | --- |
@@ -75,7 +75,7 @@ Answer these for the agent in front of you. **Synthesis**, a worksheet, not a st
 | Who reviews a write before it lands? | |
 | Where would a leaked key show up first? | |
 
-If the write-review row is empty, you do not have a stop condition. You have a hope. The next page makes that gate the center of a loop a bookmark described.
+If the write-review row is empty, you do not have a stop condition. You have a hope. The next page makes that gate the center of a loop a post described.
 
 ## Check yourself
 
@@ -96,4 +96,4 @@ If the write-review row is empty, you do not have a stop condition. You have a h
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

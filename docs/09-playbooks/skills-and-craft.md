@@ -67,7 +67,7 @@ If the pack fails the review in step 3, the artifact for this playbook is the re
 ## Check yourself
 
 1. How many engines are you allowed to add before the first artifact exists?
-2. Which motion URL can you cite from the export without opening the post?
+2. Which motion URL is linked from this guide without opening the post?
 3. What is a successful outcome if the skill tells the agent to ignore its other rules?
 
 ## Sources
@@ -82,4 +82,4 @@ If the pack fails the review in step 3, the artifact for this playbook is the re
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

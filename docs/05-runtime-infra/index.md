@@ -4,7 +4,7 @@
 
 # 05 · Runtime and infra
 
-Where the loop runs, and how heavy the model is. Those are separate decisions. A cloud agent can call a huge model. A laptop agent can call an API. The seed posts argue both ends: buy cloud agents, and also run compressed models locally.
+Where the loop runs, and how heavy the model is. Those are separate decisions. A cloud agent can call a huge model. A laptop agent can call an API. The posts argue both ends: buy cloud agents, and also run compressed models locally.
 
 | | |
 | --- | --- |
@@ -25,4 +25,4 @@ Where the loop runs, and how heavy the model is. Those are separate decisions. A
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

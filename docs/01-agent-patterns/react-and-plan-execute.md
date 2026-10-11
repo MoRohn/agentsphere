@@ -16,7 +16,7 @@ Two established ways to shape the loop. One keeps the plan inside the next actio
 
 - Describe ReAct as a short cycle of reason, act, and observe.
 - Describe plan-and-execute as a plan artifact plus a worker loop.
-- Notice the failure mode a bookmark calls search, answer, forget, search again.
+- Notice the failure mode one post calls search, answer, forget, search again.
 
 ## ReAct
 
@@ -62,7 +62,7 @@ flowchart TD
   end
 ```
 
-## The failure the seed posts start from
+## The failure the posts start from
 
 [@fleyta88](https://x.com/fleyta88/status/2108619644399415565) describes a research loop as search, answer, forget, search again (per post). Both patterns above can fall into it. ReAct forgets because the transcript is the only store. Plan-and-execute forgets when the plan is thrown away with the chat.
 
@@ -97,4 +97,4 @@ A related report, from [@ClaudeDevs](https://x.com/ClaudeDevs/status/21085913287
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

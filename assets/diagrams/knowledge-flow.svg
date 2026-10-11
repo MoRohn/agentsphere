@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
-  <title id="title">How agentsphere learns</title>
-  <desc id="desc">A bookmark is stored raw, distilled into a cited page, then cross-linked so the next question searches the guide first.</desc>
+  <title id="title">How a page compounds</title>
+  <desc id="desc">A question searches the pages. A gap opens the source. The answer is written back so the next question starts ahead.</desc>
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#6C5CE7"/>
@@ -12,20 +12,20 @@
   <rect width="960" height="4" fill="url(#bar)"/>
   <circle cx="36" cy="36" r="8" fill="none" stroke="#00D1FF" stroke-width="1.4"/>
   <circle cx="36" cy="36" r="2.5" fill="#6C5CE7"/>
-  <text x="54" y="41" fill="#E6EAF2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="600">How this guide learns</text>
+  <text x="54" y="41" fill="#E6EAF2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="600">How a page compounds</text>
   <text x="928" y="41" text-anchor="end" fill="#8B97B3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">agentsphere</text>
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
     <rect x="28" y="92" width="168" height="150" rx="16" fill="#12182B" stroke="#00D1FF" stroke-opacity="0.75"/>
     <text x="48" y="128" fill="#00D1FF" font-size="12">1</text>
-    <text x="48" y="158" fill="#E6EAF2" font-size="16" font-weight="600">Bookmark</text>
-    <text x="48" y="184" fill="#A9B4CC" font-size="13">A post worth</text>
-    <text x="48" y="204" fill="#A9B4CC" font-size="13">keeping.</text>
+    <text x="48" y="158" fill="#E6EAF2" font-size="16" font-weight="600">A source</text>
+    <text x="48" y="184" fill="#A9B4CC" font-size="13">A post or</text>
+    <text x="48" y="204" fill="#A9B4CC" font-size="13">a paper.</text>
 
     <rect x="220" y="92" width="168" height="150" rx="16" fill="#12182B" stroke="#6C5CE7"/>
     <text x="240" y="128" fill="#6C5CE7" font-size="12">2</text>
-    <text x="240" y="158" fill="#E6EAF2" font-size="16" font-weight="600">sources/raw</text>
-    <text x="240" y="184" fill="#A9B4CC" font-size="13">Stored raw.</text>
-    <text x="240" y="204" fill="#A9B4CC" font-size="13">Not rewritten.</text>
+    <text x="240" y="158" fill="#E6EAF2" font-size="16" font-weight="600">The link</text>
+    <text x="240" y="184" fill="#A9B4CC" font-size="13">Keep the URL.</text>
+    <text x="240" y="204" fill="#A9B4CC" font-size="13">Leave it intact.</text>
 
     <rect x="412" y="92" width="168" height="150" rx="16" fill="#12182B" stroke="#E6EAF2" stroke-opacity="0.4"/>
     <text x="432" y="128" fill="#E6EAF2" font-size="12">3</text>
@@ -43,7 +43,7 @@
     <text x="812" y="128" fill="#00D1FF" font-size="12">5</text>
     <text x="812" y="158" fill="#E6EAF2" font-size="16" font-weight="600">Links</text>
     <text x="812" y="184" fill="#A9B4CC" font-size="13">Glossary,</text>
-    <text x="812" y="204" fill="#A9B4CC" font-size="13">paths, index.</text>
+    <text x="812" y="204" fill="#A9B4CC" font-size="13">paths, refs.</text>
 
     <polyline points="196,167 220,167" fill="none" stroke="#6C5CE7" stroke-width="1.5"/>
     <polygon points="212,161 224,167 212,173" fill="#6C5CE7"/>
@@ -63,5 +63,5 @@
     <polygon points="792,354 776,360 792,366" fill="#2EF2A6"/>
   </g>
   <text x="28" y="500" fill="#A9B4CC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">Do not invent numbers, repo URLs, or benchmarks the source did not give you.</text>
-  <text x="28" y="536" fill="#8B97B3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Operating model adapted from B2. Seed: 10 bookmarks, 8-10 Oct 2026.</text>
+  <text x="28" y="536" fill="#8B97B3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Operating model adapted from B2.</text>
 </svg>

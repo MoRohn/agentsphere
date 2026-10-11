@@ -4,7 +4,7 @@
 
 # Glossary
 
-Short definitions in the sense this guide uses them. A **per post** row is vocabulary that arrived in a bookmark.
+Short definitions in the sense this guide uses them. A **per post** row is vocabulary that arrived in a cited post.
 
 | | |
 | --- | --- |
@@ -74,7 +74,7 @@ An HTTP API that accepts the same kind of chat request a client already sends to
 
 ### Per post
 
-A claim that comes from a bookmarked post and is not independently verified in this guide. See [how to read](how-to-read.md).
+A claim that comes from a cited post and is not independently verified in this guide. See [how to read](how-to-read.md).
 
 ### Phase
 
@@ -94,7 +94,7 @@ Retrieval-augmented generation: fetch passages and put them in the context windo
 
 ### Raw source
 
-Material kept as it arrived. In this repo, `sources/`. In the bookmarked workflow, `raw/`.
+Material kept as it arrived. In a research wiki, the `raw/` folder. In this guide, the original post, linked from the page that uses it.
 
 ### ReAct
 
@@ -127,8 +127,8 @@ Maintained, linked pages. Searched before raw sources. Updated before the run en
 ## Continue
 
 - [What is an agent](00-foundations/what-is-an-agent.md)
-- [Bookmark index](../sources/bookmarks.md)
+- [Social references & inspirations](references.md)
 
 ---
 
-[Map](README.md) | [Paths](learning-paths.md) | [Glossary](glossary.md) | [Sources](../sources/bookmarks.md)
+[Map](README.md) | [Paths](learning-paths.md) | [Glossary](glossary.md) | [References](references.md)

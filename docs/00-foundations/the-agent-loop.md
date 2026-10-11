@@ -22,11 +22,11 @@ The model chooses the next step. The loop is everything around that choice: look
 
 | Step | The agent is | A research example |
 | --- | --- | --- |
-| 1. Perceive | Reading the goal and the latest context | "What does bookmark B2 claim about memory?" |
+| 1. Perceive | Reading the goal and the latest context | "What does B2 claim about memory?" |
 | 2. Plan | Choosing the next step, small enough to check | "Open the post before writing the page." |
 | 3. Act | Calling a tool or writing an artifact | Fetch the post. Append a paragraph. |
 | 4. Observe | Reading what came back, including errors | The post mentions a wiki and a schema. It does not link a repo. |
-| 5. Remember | Writing what the next step, or the next run, will need | A page that says "no repo URL in the export." |
+| 5. Remember | Writing what the next step, or the next run, will need | A page that says "no repo URL in the post." |
 | 6. Stop, or loop | Ending, or returning to plan | Stop when the page cites the post and marks the gap. |
 
 ```mermaid
@@ -53,7 +53,7 @@ flowchart TD
 | Planning forever | Outlines of outlines, no tool call | A rule that a plan step must end in an action |
 | One giant action | "Do the whole project" as a single tool call | Smaller acts, each with an observation |
 
-The memory failure is the one the seed posts care about most. A normal research chat can answer a hundred questions and leave a hundred dead transcripts. The alternative, attributed in a bookmark to Andrej Karpathy, is a wiki the next question searches first ([B2](https://x.com/fleyta88/status/2108619644399415565), per post). That design is [wiki memory](../01-agent-patterns/wiki-memory.md).
+The memory failure is the one these posts care about most. A normal research chat can answer a hundred questions and leave a hundred dead transcripts. The alternative, attributed in a post to Andrej Karpathy, is a wiki the next question searches first ([B2](https://x.com/fleyta88/status/2108619644399415565), per post). That design is [wiki memory](../01-agent-patterns/wiki-memory.md).
 
 ## Trajectory
 
@@ -79,4 +79,4 @@ A useful trace is short enough to read. Store the tool name, the arguments that 
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

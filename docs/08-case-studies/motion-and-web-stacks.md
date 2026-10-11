@@ -9,7 +9,7 @@ Two catalogs: a stack for agent-made motion, and a list of places to steal visua
 | | |
 | --- | --- |
 | Path | Power user |
-| Bookmarks | [B9](https://x.com/N01ennn/status/2108182955671580771), [B5](https://x.com/himanshubuildss/status/2108540618553356666) |
+| Sources | [B9](https://x.com/N01ennn/status/2108182955671580771), [B5](https://x.com/himanshubuildss/status/2108540618553356666) |
 | Posted | 2026-10-08 and 2026-10-09 |
 | Concept | [Creative toolkits](../03-prompting-skills/creative-toolkits.md) |
 
@@ -24,7 +24,7 @@ Two catalogs: a stack for agent-made motion, and a list of places to steal visua
 | The one-line stack: model, skill, engine | Per post, and a useful established split even if the credits are wrong |
 | Netflix engineers posted the twenty repos | Per post. Unverified here |
 | Built for, or demonstrated on, Opus 5.5 | Per post |
-| [claude-motion](https://github.com/whaleyxbt/claude-motion) is the first repo | The export resolved this URL. The other nineteen links were not resolved |
+| [claude-motion](https://github.com/whaleyxbt/claude-motion) is the first repo | This guide links this URL. The other nineteen links in the post were not expanded |
 | Check each repo before you install | Per post, and good advice regardless |
 | scrolltide.co is the first of the ten site resources, with the post's asset counts | The domain was resolved. The counts are per post |
 | The other nine site links | Only inside the post |
@@ -51,4 +51,4 @@ A blanket `npx` of every name in the thread. The GSAP line in the post mentions 
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

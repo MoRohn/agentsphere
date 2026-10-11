@@ -4,7 +4,7 @@
 
 # 08 · Case studies
 
-Each study is one cluster of seed bookmarks, told as a story with a claim table. The concept pages teach the pattern. These pages are for when you want the source in one place.
+Each study is one cluster of posts, told as a story with a claim table. The concept pages teach the pattern. These pages are for when you want the source in one place.
 
 | | |
 | --- | --- |
@@ -12,7 +12,7 @@ Each study is one cluster of seed bookmarks, told as a story with a claim table.
 | Time | About 10 minutes each |
 | You need | [How to read a claim](../how-to-read.md) |
 
-| Study | Bookmarks | Concept page |
+| Study | Sources | Concept page |
 | --- | --- | --- |
 | [Compounding wiki](compounding-wiki.md) | B2 | [Wiki memory](../01-agent-patterns/wiki-memory.md) |
 | [Managed workflows](managed-workflows.md) | B4 | [Orchestration](../04-multi-agent/orchestration.md) |
@@ -21,7 +21,7 @@ Each study is one cluster of seed bookmarks, told as a story with a claim table.
 | [Local inference](local-inference.md) | B1, B8 | [Efficient inference](../05-runtime-infra/efficient-inference.md) |
 | [Offensive security agent](offensive-security-agent.md) | B7 | [Find, review, fix, retest](../07-security/find-fix-retest.md) |
 
-Two seed posts are not case studies. [B3](../community.md) is a list of accounts. [B10](../05-runtime-infra/cloud-and-local.md) is an argument, handled on the cloud-and-local page rather than retold as a product story.
+Two posts are not case studies. [B3](../community.md) is a list of accounts. [B10](../05-runtime-infra/cloud-and-local.md) is an argument, handled on the cloud-and-local page rather than retold as a product story.
 
 ## Continue
 
@@ -29,4 +29,4 @@ Two seed posts are not case studies. [B3](../community.md) is a list of accounts
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

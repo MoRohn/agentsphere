@@ -9,7 +9,7 @@ Two posts about running models cheaper and closer: Microsoft's bitnet.cpp, and S
 | | |
 | --- | --- |
 | Path | Power user |
-| Bookmarks | [B1](https://x.com/oliviscusAI/status/2108786434991923251), [B8](https://x.com/thesupermannx/status/2108098865073410484) |
+| Sources | [B1](https://x.com/oliviscusAI/status/2108786434991923251), [B8](https://x.com/thesupermannx/status/2108098865073410484) |
 | Posted | 2026-10-10 and 2026-10-08 |
 | Concept | [Efficient inference](../05-runtime-infra/efficient-inference.md) |
 
@@ -24,7 +24,7 @@ Agents multiply forward passes, so inference efficiency is an agent topic. The p
 | Primary source | [microsoft/BitNet](https://github.com/microsoft/BitNet), [paper](https://arxiv.org/abs/2410.16144) | [paper](https://arxiv.org/abs/2506.13771), [code](https://github.com/SamsungLabs/LittleBit), [Samsung write-up](https://research.samsung.com/blog/LittleBit-Ultra-Low-Bit-Quantization-via-Latent-Factorization) |
 | What is solid | Official 1-bit inference stack. Paper reports 2.37x–6.17x on x86 CPUs | Sub-1-bit latent factorization. Abstract: ~0.1 bits/weight, Llama 2 13B under ~0.9 GB, potential 11.6x at kernel level versus FP16 |
 | What stays per post | 82.2% less energy. 100B on a CPU with no GPU. 6.17x as a single figure | XOR as the core operation. "Stop doing math." "Less than 1 GB" as the post's rounding |
-| Bookmark link resolved? | No. The repo above is the official project, found separately | No paper link in the export. The links above are the public project |
+| Project link in the post? | Shortened. The repo above is the official project | The links above are the public project |
 
 ## What to steal
 
@@ -46,4 +46,4 @@ The XOR story. A 100B CPU claim used as a planning number. Any speedup you have 
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

@@ -26,7 +26,7 @@ Three different jobs get blurred into "the context window." Separating them is t
 | **Files the agent maintains** | As long as you keep them | Conclusions, links, open questions, corrections | Raw evidence you must not rewrite |
 | **Retrieval** | As long as the index does | Finding a passage in a large corpus | Being the place a conclusion is maintained |
 
-Retrieval, including the pattern usually called RAG, fetches passages into the window. It does not, by itself, maintain a conclusion. A wiki page is a conclusion with links back to the passages. You will often want both: search to find, pages to remember. The bookmarked argument for taking pages seriously is [wiki memory](../01-agent-patterns/wiki-memory.md).
+Retrieval, including the pattern usually called RAG, fetches passages into the window. It does not, by itself, maintain a conclusion. A wiki page is a conclusion with links back to the passages. You will often want both: search to find, pages to remember. The argument for taking pages seriously is [wiki memory](../01-agent-patterns/wiki-memory.md).
 
 > [!TIP]
 > **Established.** The window is finite. Stuffing it with the entire history feels like memory until a later call drops the early turns. Durable memory is whatever the next run can open on purpose.
@@ -61,14 +61,14 @@ A beautiful plan with no tool still cannot open the file. A powerful tool with n
 
 ## Check yourself
 
-1. Where should a raw bookmark live, and where should the conclusion live?
+1. Where should a raw source live, and where should the conclusion live?
 2. Name the five clauses of a tool contract.
 3. What belongs on a plan that will run while you are away?
 
 ## Sources
 
 - Established practice for context windows, retrieval, and tool use.
-- [B2](https://x.com/fleyta88/status/2108619644399415565) and [B4](https://x.com/ClaudeDevs/status/2108591328732856655) are the seed posts that extend memory and planning. Their claims are detailed on the linked pages.
+- [B2](https://x.com/fleyta88/status/2108619644399415565) and [B4](https://x.com/ClaudeDevs/status/2108591328732856655) are the posts that extend memory and planning. Their claims are detailed on the linked pages.
 
 ## Continue
 
@@ -77,4 +77,4 @@ A beautiful plan with no tool still cannot open the file. A powerful tool with n
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

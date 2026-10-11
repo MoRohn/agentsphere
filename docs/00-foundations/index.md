@@ -20,7 +20,7 @@ An agent is a system you can sketch on a napkin. This section is that napkin, wi
 | [The agent loop](the-agent-loop.md) | Walk perceive, plan, act, observe, remember, stop |
 | [Memory, tools, and planning](memory-tools-planning.md) | Decide where a fact, a side effect, and a plan should live |
 
-The seed bookmarks assume this picture and then push on one part of it: memory that compounds, tools behind a protocol, many agents on one plan, a run that happens somewhere else, a model small enough to sit on the machine. Those arguments start in [agent patterns](../01-agent-patterns/index.md).
+The references assume this picture and then push on one part of it: memory that compounds, tools behind a protocol, many agents on one plan, a run that happens somewhere else, a model small enough to sit on the machine. Those arguments start in [agent patterns](../01-agent-patterns/index.md).
 
 ## Continue
 
@@ -28,4 +28,4 @@ The seed bookmarks assume this picture and then push on one part of it: memory t
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

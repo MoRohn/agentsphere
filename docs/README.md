@@ -1,10 +1,13 @@
 <p align="center">
-  <img src="../assets/banner.svg" alt="agentsphere" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../assets/banner-dark.svg">
+    <img src="../assets/banner-light.svg" alt="agentsphere" width="100%">
+  </picture>
 </p>
 
 # Guide map
 
-The distilled half of the repo. Raw posts live in [`sources/`](../sources/bookmarks.md). Start with a [learning path](learning-paths.md) or with the section that matches the job in front of you.
+Start with a [learning path](learning-paths.md) or with the section that matches the job in front of you. The posts, articles, and repositories behind the pages are in [Social references & inspirations](references.md).
 
 | | |
 | --- | --- |
@@ -38,7 +41,7 @@ How an agent touches the world, and how one API can front many models.
 
 ### [03 · Prompting and skills](03-prompting-skills/index.md)
 
-What belongs in a prompt, what belongs in a skill, and the creative stacks from the seed posts.
+What belongs in a prompt, what belongs in a skill, and two creative stacks.
 
 - [Prompts and skills](03-prompting-skills/prompts-and-skills.md)
 - [Creative toolkits](03-prompting-skills/creative-toolkits.md)
@@ -54,7 +57,7 @@ What belongs in a prompt, what belongs in a skill, and the creative stacks from 
 
 ### [06 · Evals](06-evals/index.md)
 
-A primer. The seed bookmarks do not yet include evaluation posts.
+A primer. The references do not yet include an evaluation write-up.
 
 ### [07 · Security](07-security/index.md)
 
@@ -64,7 +67,7 @@ A primer. The seed bookmarks do not yet include evaluation posts.
 
 ### [08 · Case studies](08-case-studies/index.md)
 
-One distillation for each cluster of bookmarks.
+One distillation for each cluster of posts.
 
 ### [09 · Playbooks](09-playbooks/index.md)
 
@@ -80,8 +83,8 @@ Recipes: a research agent, a craft stack, an operating decision, a gateway revie
 | [Community](community.md) | The account list from B3 |
 | [Diagram atlas](diagrams.md) | Every SVG and its Mermaid twin |
 | [Style guide](style-guide.md) | Palette, page anatomy, GitHub rendering |
-| [Bookmark index](../sources/bookmarks.md) | Which post supports which page |
+| [Social references & inspirations](references.md) | Which post, article, or repo shaped which page |
 
 ---
 
-[Paths](learning-paths.md) | [Glossary](glossary.md) | [Sources](../sources/bookmarks.md) | [Contributing](../CONTRIBUTING.md)
+[Paths](learning-paths.md) | [Glossary](glossary.md) | [References](references.md) | [Contributing](../CONTRIBUTING.md)

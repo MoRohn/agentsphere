@@ -23,7 +23,7 @@ Every architecture in the guide is drawn twice, so it still teaches if one rende
 | Find, review, fix, retest | [security-loop.svg](../assets/diagrams/security-loop.svg) | [Security loop](07-security/find-fix-retest.md) |
 | How the guide learns | [knowledge-flow.svg](../assets/diagrams/knowledge-flow.svg) | [README](../README.md) and [how to read](how-to-read.md) |
 
-Section openers live in [assets/sections](../assets/sections/). The mark and the hero live at [logo.svg](../assets/logo.svg) and [banner.svg](../assets/banner.svg).
+Section openers live in [assets/sections](../assets/sections/). The mark and the masthead live at [logo-light.svg](../assets/logo-light.svg), [logo-dark.svg](../assets/logo-dark.svg), [banner-light.svg](../assets/banner-light.svg), and [banner-dark.svg](../assets/banner-dark.svg).
 
 When a figure changes, update the SVG, the Mermaid block, and this table's description if the title changed. Rules: [style guide](style-guide.md).
 
@@ -34,4 +34,4 @@ When a figure changes, update the SVG, the Mermaid block, and this table's descr
 
 ---
 
-[Map](README.md) | [Paths](learning-paths.md) | [Glossary](glossary.md) | [Sources](../sources/bookmarks.md)
+[Map](README.md) | [Paths](learning-paths.md) | [Glossary](glossary.md) | [References](references.md)

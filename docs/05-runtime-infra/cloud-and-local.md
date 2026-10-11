@@ -4,7 +4,7 @@
 
 # Cloud and local
 
-A local agent shares your machine. A cloud agent takes a task and runs it somewhere else, then hands you an artifact. The seed post is a strong argument for the second, aimed at teams still buying a license per seat.
+A local agent shares your machine. A cloud agent takes a task and runs it somewhere else, then hands you an artifact. One post is a strong argument for the second, aimed at teams still buying a license per seat.
 
 | | |
 | --- | --- |
@@ -43,7 +43,7 @@ flowchart LR
 
 The SVG at the top names examples. Codex and Claude Code appear as the local licenses the post is arguing against. Devin, Amp, and Factory appear as the cloud products the post names.
 
-## The argument in the bookmark
+## The argument in the post
 
 [@ryancarson](https://x.com/ryancarson/status/2108286700468191266) writes that a company where everyone has their own Codex or Claude Code license will fall behind teams using cloud-based agents (per post). The post tells the reader to pay for something like Devin, Amp, or Factory, and not to build their own "code factory." It credits Dale Spoonemore and HelloUntangle as an example of a team doing this. The comparison in the post is vivid and insulting toward local development. This page keeps the claim and drops the insult.
 
@@ -57,7 +57,7 @@ What the post is asserting, stripped to propositions:
 | A named team is offered as a sighting | Per post |
 
 > [!NOTE]
-> **Per post.** There is no benchmark, cost table, or definition of "code factory" in the bookmark. Quote the post as a position. Do not quote it as an outcome study.
+> **Per post.** There is no benchmark, cost table, or definition of "code factory" in the post. Quote the post as a position. Do not quote it as an outcome study.
 
 ## A decision this guide will own
 
@@ -94,4 +94,4 @@ The [operate playbook](../09-playbooks/operate-agents.md) walks three concrete t
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

@@ -60,7 +60,7 @@ You can choose where an agent runs, how several agents share a plan, how you wou
 
 ## Power user
 
-You can do the work, retell a source without inflating it, and add the next bookmark so the guide compounds.
+You can do the work, retell a source without inflating it, and extend a page so the guide compounds.
 
 | Order | Page | Stay with it until |
 | --- | --- | --- |
@@ -68,7 +68,7 @@ You can do the work, retell a source without inflating it, and add the next book
 | 2 | [Case studies](08-case-studies/index.md) | You have opened at least three of the source posts |
 | 3 | [Diagram atlas](diagrams.md) | You know which SVG pairs with which Mermaid block |
 | 4 | [Style guide](style-guide.md) | A new page you draft matches the anatomy |
-| 5 | [Contributing](../CONTRIBUTING.md) and [the checklist](../sources/ADDING_BOOKMARKS.md) | You could file the next bookmark tonight |
+| 5 | [Contributing](../CONTRIBUTING.md) | You could update a page tonight, with the source linked |
 
 **You are practicing the system** when the last thing you do, after answering a question, is update a page.
 
@@ -77,7 +77,7 @@ You can do the work, retell a source without inflating it, and add the next book
 1. [What is an agent](00-foundations/what-is-an-agent.md)
 2. [The agent loop](00-foundations/the-agent-loop.md)
 3. [Wiki memory](01-agent-patterns/wiki-memory.md)
-4. Skim the [bookmark index](../sources/bookmarks.md) and open the post that matches your job
+4. Skim [Social references & inspirations](references.md) and open the post that matches your job
 
 ## Check yourself
 
@@ -92,4 +92,4 @@ You can do the work, retell a source without inflating it, and add the next book
 
 ---
 
-[Map](README.md) | [Paths](learning-paths.md) | [Glossary](glossary.md) | [Sources](../sources/bookmarks.md)
+[Map](README.md) | [Paths](learning-paths.md) | [Glossary](glossary.md) | [References](references.md)

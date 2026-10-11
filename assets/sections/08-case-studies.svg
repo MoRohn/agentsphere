@@ -14,7 +14,7 @@
   <rect width="1200" height="240" fill="#0B0F1A"/>
   <rect width="1200" height="240" fill="url(#glow)"/>
   <text x="64" y="78" fill="#00D1FF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" letter-spacing="2.4">08  ·  CASE STUDIES</text>
-  <text x="64" y="136" fill="#E6EAF2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="650">Ten bookmarks, distilled</text>
+  <text x="64" y="136" fill="#E6EAF2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="650">Stories from the posts</text>
   <text x="64" y="180" fill="#A9B4CC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">What each post claims, and what to do with it.</text>
   <g stroke="#E6EAF2" stroke-opacity="0.28" stroke-width="1.1">
     <line x1="900" y1="70" x2="980" y2="120"/>

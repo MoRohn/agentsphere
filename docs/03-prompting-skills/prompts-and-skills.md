@@ -23,8 +23,8 @@ Put stable procedure in a skill, facts in a file, and secrets in a store the pro
 | Layer | Changes | Holds | Example |
 | --- | --- | --- | --- |
 | **System prompt** | Rarely | Role, safety rules, definition of done | "You maintain a wiki. Cite sources. Mark per-post claims." |
-| **Skill** | When the job type changes | Steps, checks, formats for one kind of work | "To add a bookmark, follow this checklist." |
-| **Task** | Every run | The goal for this run | "Distill bookmark B11 into the gateway page." |
+| **Skill** | When the job type changes | Steps, checks, formats for one kind of work | "To cite a source, follow this checklist." |
+| **Task** | Every run | The goal for this run | "Update the gateway page from a new source." |
 | **Context** | Every step | Files, tool results, the plan | The raw post, the current page |
 
 A single prompt that tries to be all four becomes a novel. The model then attends to the novel's adjectives and misses the checklist. The layers also have different reviewers. A system prompt is a policy. A skill is a procedure. A task is a ticket. Context is evidence.
@@ -42,7 +42,7 @@ A useful skill is short enough to read in one sitting:
 - Checks it runs on its own output.
 - Tools it is allowed to call.
 
-The motion-design post in the seed is a catalog of skills aimed at one job: an agent writes the code, a skill sets timing and camera, an engine renders a video ([B9](https://x.com/N01ennn/status/2108182955671580771), per post). The catalog itself is the [creative toolkits](creative-toolkits.md) page. The pattern is the point, and it travels: code from the model, constraints from the skill, an artifact from a real renderer.
+The motion-design post is a catalog of skills aimed at one job: an agent writes the code, a skill sets timing and camera, an engine renders a video ([B9](https://x.com/N01ennn/status/2108182955671580771), per post). The catalog itself is the [creative toolkits](creative-toolkits.md) page. The pattern is the point, and it travels: code from the model, constraints from the skill, an artifact from a real renderer.
 
 ## Installing a skill is running code
 
@@ -56,7 +56,7 @@ A prompt is a poor vault. Anything the model can see, a tool result or a later p
 
 ## Check yourself
 
-1. Which layer should hold "cite the URL," and which should hold today's bookmark?
+1. Which layer should hold "cite the URL," and which should hold today's source?
 2. What five headings do you want on a skill before you trust it?
 3. Why is "check the repo before you install" a security step and not only a taste step?
 
@@ -73,4 +73,4 @@ A prompt is a poor vault. Anything the model can see, a tool result or a later p
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

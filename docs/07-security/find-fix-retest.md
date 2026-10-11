@@ -20,7 +20,7 @@ A security agent is still the agent loop, pointed at risk, with a person standin
 
 ## What the post says
 
-[@antigenco](https://x.com/antigenco/status/2108334286978113634) introduced Antigen as an offensive security agent that maps, exploits, and secures an attack surface (per post). The mechanism in the post is: it probes the system the way a hostile tester would, ships fixes for the team's review, and tests again to check that the issues were patched. The export contains the status and a video URL. It does not contain a resolved product or documentation link. This guide does not invent one.
+[@antigenco](https://x.com/antigenco/status/2108334286978113634) introduced Antigen as an offensive security agent that maps, exploits, and secures an attack surface (per post). The mechanism in the post is: it probes the system the way a hostile tester would, ships fixes for the team's review, and tests again to check that the issues were patched. The post contains the status and a video URL. It does not contain a resolved product or documentation link. This guide does not invent one.
 
 | The post's verb | How this guide draws it |
 | --- | --- |
@@ -86,4 +86,4 @@ That last bullet is [wiki memory](../01-agent-patterns/wiki-memory.md) applied t
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

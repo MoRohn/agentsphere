@@ -43,7 +43,7 @@ flowchart TD
   Client --> Other["Another agent"]
 ```
 
-The SVG at the top is the same picture, with the other-agent box marked as the piece a bookmark claims rather than the piece the protocol itself requires.
+The SVG at the top is the same picture, with the other-agent box marked as the piece a post claims rather than the piece the protocol itself requires.
 
 > [!TIP]
 > **Established.** MCP is the protocol. It is not a particular vendor's agent, and it is not a model. A host can speak MCP and still be a poor agent if the loop, the memory, or the stop rule is weak.
@@ -79,4 +79,4 @@ MCP attaches tools and data to the host. A **gateway** attaches the host's model
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

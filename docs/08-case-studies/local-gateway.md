@@ -9,7 +9,7 @@ OmniRoute, as one post describes it: a local OpenAI-compatible router in front o
 | | |
 | --- | --- |
 | Path | Power user |
-| Bookmark | [B6](https://x.com/Bober_smart/status/2108293657552117850) |
+| Source | [B6](https://x.com/Bober_smart/status/2108293657552117850) |
 | Posted | 2026-10-08, @Bober_smart |
 | Concept | [Gateways and routing](../02-tools-mcp/gateways-and-routing.md) |
 
@@ -28,7 +28,7 @@ Every product row is per post. The full table is on the [concept page](../02-too
 | AES-256-GCM and zero telemetry | The post. Not an audit |
 | 800 million free tokens, via a leak | The post's hook. Not a capacity plan |
 
-The project link in the post was not resolved. An earlier status by the same author is in the export: [twitter.com/bober_smart/status/2103462864870686848](https://twitter.com/bober_smart/status/2103462864870686848).
+The project link in the post was not resolved. An earlier status by the same author: [twitter.com/bober_smart/status/2103462864870686848](https://twitter.com/bober_smart/status/2103462864870686848).
 
 ## What to steal
 
@@ -49,4 +49,4 @@ The leak framing. Any plan to aggregate accounts you do not control. Any percent
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

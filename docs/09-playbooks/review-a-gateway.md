@@ -4,7 +4,7 @@
 
 # Playbook · Review a gateway
 
-Decide whether a local model gateway is allowed to see your prompts. The seed example is the OmniRoute post. The checklist fits the next gateway someone sends you.
+Decide whether a local model gateway is allowed to see your prompts. The worked example is the OmniRoute post. The checklist fits the next gateway someone sends you.
 
 | | |
 | --- | --- |
@@ -76,4 +76,4 @@ Keep the pre-compression prompt in a redacted trace for a day. Compare task succ
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

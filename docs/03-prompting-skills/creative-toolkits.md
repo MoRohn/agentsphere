@@ -4,7 +4,7 @@
 
 # Creative toolkits
 
-Two seed posts are catalogs: twenty motion repositories, and ten libraries for building websites with an agent. This page keeps their lists, marks what was actually linked, and turns the catalogs into a way of working.
+Two posts are catalogs: twenty motion repositories, and ten libraries for building websites with an agent. This page keeps their lists, marks what was actually linked, and turns the catalogs into a way of working.
 
 | | |
 | --- | --- |
@@ -25,11 +25,11 @@ Two seed posts are catalogs: twenty motion repositories, and ten libraries for b
 The established pattern underneath the slogan: generation, constraint, and a real renderer are three different jobs. A skill that only contains adjectives ("make it premium") does less than a skill that names duration, easing, and a check against the frames.
 
 > [!WARNING]
-> **Check each repository before you install.** That sentence is in the post. Installing a skill pack can execute its setup. Read [the supply-chain notes](../07-security/gateway-and-supply-chain.md) first. The only repository URL the bookmark export resolved is [github.com/whaleyxbt/claude-motion](https://github.com/whaleyxbt/claude-motion), listed first.
+> **Check each repository before you install.** That sentence is in the post. Installing a skill pack can execute its setup. Read [the supply-chain notes](../07-security/gateway-and-supply-chain.md) first. The repository this guide links is [github.com/whaleyxbt/claude-motion](https://github.com/whaleyxbt/claude-motion), listed first.
 
 ## Twenty names from the motion post
 
-Descriptions are condensed from the post. Where the export did not resolve a URL, open the [source post](https://x.com/N01ennn/status/2108182955671580771). Do not trust a search-result lookalike just because the name matches.
+Descriptions are condensed from the post. Where this page does not show a URL, open the [source post](https://x.com/N01ennn/status/2108182955671580771). Do not trust a search-result lookalike just because the name matches.
 
 | | Name in the post | What the post says it is |
 | --- | --- | --- |
@@ -58,7 +58,7 @@ The post groups 1–10 as skills "built for Opus 5.5," 11–14 as engines, and 1
 
 ## Ten libraries for sites
 
-[@himanshubuildss](https://x.com/himanshubuildss/status/2108540618553356666) posted ten "goldmines" for building websites with AI (per post). The export resolved the first link as [scrolltide.co](https://scrolltide.co). The other nine are shortened links inside the post. Open the post for them. This page keeps the post's own descriptions and does not guess the brands.
+[@himanshubuildss](https://x.com/himanshubuildss/status/2108540618553356666) posted ten "goldmines" for building websites with AI (per post). This guide links the first as [scrolltide.co](https://scrolltide.co). The other nine are shortened links inside the post. Open the post for them. This page keeps the post's own descriptions and does not guess the brands.
 
 | | What the post says | Resolved URL |
 | --- | --- | --- |
@@ -91,13 +91,13 @@ The [craft playbook](../09-playbooks/skills-and-craft.md) is this table with a r
 
 ## Check yourself
 
-1. Which of the twenty motion names has a resolved GitHub URL in the export?
+1. Which of the twenty motion names has a GitHub URL on this page?
 2. What is the post claiming when it says "Netflix engineers," and what is this guide claiming?
 3. Why stop at one engine and one skill?
 
 ## Sources
 
-- [B9](https://x.com/N01ennn/status/2108182955671580771) — @N01ennn, 2026-10-08. The twenty names, the one-line stack, and the install warning, per post. Resolved repo: [whaleyxbt/claude-motion](https://github.com/whaleyxbt/claude-motion). Related status in the export: [an earlier post](https://twitter.com/n01ennn/status/2107826459804840072).
+- [B9](https://x.com/N01ennn/status/2108182955671580771) — @N01ennn, 2026-10-08. The twenty names, the one-line stack, and the install warning, per post. Resolved repo: [whaleyxbt/claude-motion](https://github.com/whaleyxbt/claude-motion). Related post: [an earlier post](https://twitter.com/n01ennn/status/2107826459804840072).
 - [B5](https://x.com/himanshubuildss/status/2108540618553356666) — @himanshubuildss, 2026-10-09. The ten site resources, per post. Resolved link: [scrolltide.co](https://scrolltide.co).
 
 ## Continue
@@ -108,4 +108,4 @@ The [craft playbook](../09-playbooks/skills-and-craft.md) is this table with a r
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

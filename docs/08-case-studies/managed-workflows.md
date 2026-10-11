@@ -9,7 +9,7 @@ A public-beta announcement of a lead agent that plans in phases and combines the
 | | |
 | --- | --- |
 | Path | Power user |
-| Bookmark | [B4](https://x.com/ClaudeDevs/status/2108591328732856655) |
+| Source | [B4](https://x.com/ClaudeDevs/status/2108591328732856655) |
 | Posted | 2026-10-09, @ClaudeDevs |
 | Concept | [Orchestration](../04-multi-agent/orchestration.md) |
 
@@ -26,7 +26,7 @@ A public-beta announcement of a lead agent that plans in phases and combines the
 | A lead writes a phased plan and combines results | Per post |
 | Anything about pricing, limits, models, or phase types | Not in the post. Not invented here |
 
-The export includes a video URL on the status and a shortened link. The shortened link stays unresolved.
+The post includes a video URL on the status and a shortened link. The shortened link stays unresolved.
 
 ## What to steal
 
@@ -47,4 +47,4 @@ Any feature you saw in a different announcement and feel like adding. This case 
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

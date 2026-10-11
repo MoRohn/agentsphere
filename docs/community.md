@@ -4,7 +4,7 @@
 
 # Community
 
-A map of accounts, kept as one person's list. It is the low-signal seed bookmark: useful as a reading list, thin as a method.
+A map of accounts from one post. Useful as a reading list, thin as a method.
 
 | | |
 | --- | --- |
@@ -38,7 +38,7 @@ A map of accounts, kept as one person's list. It is the low-signal seed bookmark
 
 ## How to use a list like this
 
-Follow two or three people whose work matches the path you are on. Karpathy is the only name on this list that the other seed bookmarks also build on: [wiki memory](01-agent-patterns/wiki-memory.md) is a retelling of a workflow attributed to him. When a later bookmark is a method rather than a list, distill the method into `docs/` and leave the social graph here.
+Follow two or three people whose work matches the path you are on. Karpathy is the only name on this list that another reference also builds on: [wiki memory](01-agent-patterns/wiki-memory.md) is a retelling of a workflow attributed to him. When a later source is a method rather than a list, distill the method into `docs/` and leave the social graph here.
 
 ## Sources
 
@@ -47,8 +47,8 @@ Follow two or three people whose work matches the path you are on. Karpathy is t
 ## Continue
 
 - [Case studies](08-case-studies/index.md)
-- [Bookmark index](../sources/bookmarks.md)
+- [Social references & inspirations](references.md)
 
 ---
 
-[Map](README.md) | [Paths](learning-paths.md) | [Glossary](glossary.md) | [Sources](../sources/bookmarks.md)
+[Map](README.md) | [Paths](learning-paths.md) | [Glossary](glossary.md) | [References](references.md)

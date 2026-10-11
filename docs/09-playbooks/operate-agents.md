@@ -74,7 +74,7 @@ List the factory pieces you are buying or skipping: queue, sandbox, shared crede
 
 1. Which of your three tasks is local because of secrecy or length, and which because you are learning?
 2. What has to be on a cloud handoff that a chat message usually omits?
-3. What did the seed post not measure?
+3. What did the post not measure?
 
 ## Sources
 
@@ -88,4 +88,4 @@ List the factory pieces you are buying or skipping: queue, sandbox, shared crede
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

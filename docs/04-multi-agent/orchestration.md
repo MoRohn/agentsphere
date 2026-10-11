@@ -40,7 +40,7 @@ flowchart TD
 
 [@ClaudeDevs](https://x.com/ClaudeDevs/status/2108591328732856655) announced that Claude Managed Agents dynamic workflows were available in public beta (per post, 2026-10-09). The post's description of the mechanism is one sentence: a lead agent writes a plan that runs across many agents in phases, combining the results at the end.
 
-The export links a video on the status and a shortened URL. This guide does not reconstruct a docs page from that short link, and it does not invent phase types, pricing, limits, or a model name beyond the words above.
+The post links a video on the status and a shortened URL. This guide does not reconstruct a docs page from that short link, and it does not invent phase types, pricing, limits, or a model name beyond the words above.
 
 > [!NOTE]
 > **Per post.** "Public beta" is the post's maturity label. Treat the feature as something to read in current product docs before you depend on it. The pattern (lead, phases, merge) is what this page teaches. The product is one reported implementation.
@@ -74,7 +74,7 @@ A product that only shows the final answer has hidden the only part you can debu
 ## Check yourself
 
 1. What does the lead do, and what does it hand off?
-2. Which sentence in the seed post is the entire mechanism?
+2. Which sentence in the post is the entire mechanism?
 3. Why keep a trajectory per worker?
 
 ## Sources
@@ -90,4 +90,4 @@ A product that only shows the final answer has hidden the only part you can debu
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

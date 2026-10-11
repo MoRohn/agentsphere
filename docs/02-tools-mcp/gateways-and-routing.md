@@ -22,11 +22,11 @@ One client API in front. Many models behind it. A gateway is a routing layer, an
 
 Agent hosts already know how to call a chat API. Many of them let you set a base URL. A **gateway** listens on that URL and forwards the request to a provider you chose, or to the next provider in a chain. The host stays put. The model supply can move.
 
-That idea is established. Which software does it well, under which terms, is a separate question. The seed post is about one project.
+That idea is established. Which software does it well, under which terms, is a separate question. The post in this section is about one project.
 
 ## What the OmniRoute post claims
 
-[@Bober_smart](https://x.com/Bober_smart/status/2108293657552117850) describes OmniRoute as a local, high-performance AI gateway that pools free limits from many providers into one stream (per post). The export's only off-post links are a video on the status and [an earlier status by the same author](https://twitter.com/bober_smart/status/2103462864870686848). The project URL in the post is shortened and was not resolved. This guide does not guess the repository.
+[@Bober_smart](https://x.com/Bober_smart/status/2108293657552117850) describes OmniRoute as a local, high-performance AI gateway that pools free limits from many providers into one stream (per post). The post also points at a video on the status and [an earlier status by the same author](https://twitter.com/bober_smart/status/2103462864870686848). The project URL in the post is shortened. This guide does not guess the repository.
 
 | Claim in the post | Status in this guide |
 | --- | --- |
@@ -83,4 +83,4 @@ Shortening a prompt before it is sent is an established idea: drop repeated logs
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

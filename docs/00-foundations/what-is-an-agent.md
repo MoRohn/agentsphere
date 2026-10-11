@@ -16,7 +16,7 @@ An agent is a model in a loop, pointed at a goal, allowed to use tools, and requ
 
 - Point at the six parts of an agent in a product you already use.
 - Tell a long chat from an agent by looking at tools, memory, and the stop rule.
-- See which part each seed bookmark is actually about.
+- See which part each reference is actually about.
 
 ## The six parts
 
@@ -46,7 +46,7 @@ Both use a model. The agent adds a loop, tools, and a place for the outcome to l
 
 ## A miniature
 
-Goal: "Turn these three bookmarks into one page a teammate can trust."
+Goal: "Turn these three posts into one page a teammate can trust."
 
 | Part | In this miniature |
 | --- | --- |
@@ -59,11 +59,11 @@ Goal: "Turn these three bookmarks into one page a teammate can trust."
 
 That miniature is also how this repository is maintained. The long version is [wiki memory](../01-agent-patterns/wiki-memory.md).
 
-## Where the seed bookmarks push
+## Where the references push
 
 The ten posts from 8–10 October 2026 each lean on one part. The rest of the guide unpacks them. None of these one-liners are a verdict. They are a table of contents.
 
-| Bookmark | The part it presses on |
+| Source | The part it presses on |
 | --- | --- |
 | [B2](https://x.com/fleyta88/status/2108619644399415565) wiki memory | Memory as files, not as a longer transcript |
 | [B4](https://x.com/ClaudeDevs/status/2108591328732856655) managed workflows | One plan across many models |
@@ -79,11 +79,11 @@ The ten posts from 8–10 October 2026 each lean on one part. The rest of the gu
 
 1. Name the six parts without looking at the table.
 2. Take the last AI tool you opened. Which parts does it actually have?
-3. Which bookmark is about memory, and which is about where the run happens?
+3. Which reference is about memory, and which is about where the run happens?
 
 ## Sources
 
-Established practice, organized for this guide. The bookmark rows are signposts. Their claims are handled on the pages linked above.
+Established practice, organized for this guide. The rows above are signposts. Their claims are handled on the pages linked above.
 
 ## Continue
 
@@ -92,4 +92,4 @@ Established practice, organized for this guide. The bookmark rows are signposts.
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

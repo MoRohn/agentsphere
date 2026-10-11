@@ -4,7 +4,7 @@
 
 # 03 · Prompting and skills
 
-A prompt is what the model sees. A skill is a procedure you can review, version, and reuse. The seed bookmarks add two catalogs: motion-design skills, and libraries for building websites with an agent.
+A prompt is what the model sees. A skill is a procedure you can review, version, and reuse. Two of the references are catalogs: motion-design skills, and libraries for building websites with an agent.
 
 | | |
 | --- | --- |
@@ -17,7 +17,7 @@ A prompt is what the model sees. A skill is a procedure you can review, version,
 | Page | You leave able to |
 | --- | --- |
 | [Prompts and skills](prompts-and-skills.md) | Split a giant instruction into prompt, skill, file, and secret |
-| [Creative toolkits](creative-toolkits.md) | Use the two seed catalogs without installing a pile of unseen code |
+| [Creative toolkits](creative-toolkits.md) | Use the two catalogs without installing a pile of unseen code |
 
 ## Continue
 
@@ -25,4 +25,4 @@ A prompt is what the model sees. A skill is a procedure you can review, version,
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

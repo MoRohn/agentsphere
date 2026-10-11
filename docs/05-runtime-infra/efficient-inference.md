@@ -34,7 +34,7 @@ Compression and 1-bit designs are one route. A gateway in front of cheap hosted 
 
 **Established.** [bitnet.cpp](https://github.com/microsoft/BitNet) is Microsoft's open-source inference framework for 1-bit LLMs, including BitNet b1.58 models. The project documents CPU and GPU inference. Its README presents BitNet-b1.58-2B-4T, a 2.4B-parameter model, as the official model to try. The paper ["1-bit AI Infra"](https://arxiv.org/abs/2410.16144) reports CPU speedups ranging from 2.37x to 6.17x on x86, and 1.37x to 5.07x on ARM, across model sizes.
 
-**Per post.** [@oliviscusAI](https://x.com/oliviscusAI/status/2108786434991923251) says Microsoft open-sourced bitnet.cpp, that it runs 100B-parameter models on a local CPU without GPUs, that inference is 6.17x faster, and that it uses 82.2% less energy. The bookmark's project link is shortened and was not resolved. The GitHub link above is the official project, not a URL taken from the export.
+**Per post.** [@oliviscusAI](https://x.com/oliviscusAI/status/2108786434991923251) says Microsoft open-sourced bitnet.cpp, that it runs 100B-parameter models on a local CPU without GPUs, that inference is 6.17x faster, and that it uses 82.2% less energy. The post's project link is shortened. The GitHub link above is the official project.
 
 | Figure | Where it stands |
 | --- | --- |
@@ -89,4 +89,4 @@ The XOR sentence is the post's mechanism. It is the sentence to stop repeating. 
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)

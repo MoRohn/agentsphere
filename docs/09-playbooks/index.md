@@ -4,7 +4,7 @@
 
 # 09 · Playbooks
 
-Recipes. Each one assumes you have read the concept page it names. They are synthesis: a way to do the work, not a claim that a bookmark prescribed these exact steps.
+Recipes. Each one assumes you have read the concept page it names. They are synthesis: a way to do the work, not a claim that a source prescribed these exact steps.
 
 | | |
 | --- | --- |
@@ -25,4 +25,4 @@ Recipes. Each one assumes you have read the concept page it names. They are synt
 
 ---
 
-[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [Sources](../../sources/bookmarks.md)
+[Map](../README.md) | [Paths](../learning-paths.md) | [Glossary](../glossary.md) | [References](../references.md)
