@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="title desc">
+  <title id="title">Agent patterns</title>
+  <desc id="desc">Section art. Three overlapping loops.</desc>
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6C5CE7"/>
+      <stop offset="1" stop-color="#2EF2A6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="46%" r="28%">
+      <stop offset="0" stop-color="#00D1FF" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#0B0F1A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="240" fill="#0B0F1A"/>
+  <rect width="1200" height="240" fill="url(#glow)"/>
+  <text x="64" y="78" fill="#00D1FF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" letter-spacing="2.4">01  ·  AGENT PATTERNS</text>
+  <text x="64" y="136" fill="#E6EAF2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="650">Loops that compound</text>
+  <text x="64" y="180" fill="#A9B4CC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">ReAct, plan-and-execute, and wiki memory.</text>
+  <g fill="none" stroke-width="1.6">
+    <ellipse cx="900" cy="120" rx="70" ry="46" stroke="#6C5CE7"/>
+    <ellipse cx="970" cy="120" rx="70" ry="46" stroke="#00D1FF"/>
+    <ellipse cx="1040" cy="120" rx="70" ry="46" stroke="#2EF2A6"/>
+  </g>
+  <circle cx="900" cy="74" r="5" fill="#6C5CE7"/>
+  <circle cx="970" cy="166" r="5" fill="#00D1FF"/>
+  <circle cx="1040" cy="74" r="5" fill="#2EF2A6"/>
+  <rect y="236" width="1200" height="4" fill="url(#bar)"/>
+</svg>

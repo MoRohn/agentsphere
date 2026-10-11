@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="title desc">
+  <title id="title">Prompting and skills</title>
+  <desc id="desc">Section art. Stacked skill cards.</desc>
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2EF2A6"/>
+      <stop offset="1" stop-color="#00D1FF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="50%" r="28%">
+      <stop offset="0" stop-color="#2EF2A6" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#0B0F1A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="240" fill="#0B0F1A"/>
+  <rect width="1200" height="240" fill="url(#glow)"/>
+  <text x="64" y="78" fill="#00D1FF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" letter-spacing="2.4">03  ·  PROMPTING AND SKILLS</text>
+  <text x="64" y="136" fill="#E6EAF2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="650">Taste, packaged</text>
+  <text x="64" y="180" fill="#A9B4CC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">Prompts, skill packs, and creative stacks.</text>
+  <g>
+    <rect x="900" y="96" width="200" height="78" rx="12" fill="#12182B" stroke="#6C5CE7" transform="rotate(-8 1000 135)"/>
+    <rect x="916" y="78" width="200" height="78" rx="12" fill="#161C30" stroke="#00D1FF" stroke-opacity="0.8"/>
+    <rect x="932" y="60" width="200" height="78" rx="12" fill="#1A2036" stroke="#2EF2A6" stroke-opacity="0.9"/>
+    <text x="952" y="92" fill="#E6EAF2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">skill</text>
+    <text x="952" y="114" fill="#8B97B3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">timing · camera · checks</text>
+  </g>
+  <rect y="236" width="1200" height="4" fill="url(#bar)"/>
+</svg>
