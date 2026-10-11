@@ -15,7 +15,7 @@
 <strong>Next:</strong> <a href="harness-engineering.md">Harness engineering</a></p>
 
 
-The loop from foundations is the skeleton. [Harness engineering](harness-engineering.md) is the frame: a model, plus the runtime that decides what it sees, what it may do, and what gets checked. The other pages stress one part of that frame.
+This section is how an agent chooses its next step, and what it keeps. [Harness engineering](harness-engineering.md) names the system around the model: what it can see, what it may do, and what gets checked. The other pages each press on one part of that system.
 
 | | |
 | --- | --- |

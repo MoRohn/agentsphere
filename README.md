@@ -9,7 +9,7 @@
   <a href="CHANGELOG.md">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/badges/version-dark.svg">
-      <img alt="version 0.4.4" src="assets/badges/version-light.svg" height="28">
+      <img alt="version 0.4.5" src="assets/badges/version-light.svg" height="28">
     </picture>
   </a>
   &nbsp;

@@ -2,6 +2,10 @@
 
 The guide version tracks the pages. Dates are the day the change landed in this repository.
 
+## 0.4.5 — 2026-10-11
+
+- Opened each section in plain language, matching the map cards. The two lists of six parts now say how they differ. Evals, security, and hosted agents define their words in the first paragraph.
+
 ## 0.4.4 — 2026-10-11
 
 - Rewrote the README opening in plain language. The four level pills are the first choice. The harness is explained before it is used.

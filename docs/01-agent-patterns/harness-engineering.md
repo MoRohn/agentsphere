@@ -17,7 +17,7 @@
 <strong>Next:</strong> <a href="how-agents-remember.md">How agents remember</a></p>
 
 
-An agent is a foundation model plus the runtime around it. The model can reason and propose a next step. The runtime decides what the model sees, which actions are allowed, where state lives, and how a failure is caught. Agent quality, including whether the task finishes, what it costs, and whether it stays safe, comes from that pairing.
+An agent is a model plus the system around it. The model suggests the next step. The system decides what the model sees, which actions are allowed, where notes live, and how a failure is caught. This guide calls that system the **harness**. [What is an agent](../00-foundations/what-is-an-agent.md) uses a different list of six: the pieces you can point at in a product. The six on this page are what that system does.
 
 | | |
 | --- | --- |

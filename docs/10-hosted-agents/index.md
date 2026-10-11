@@ -17,7 +17,7 @@
 <strong>Next:</strong> <a href="../01-agent-patterns/harness-engineering.md">Harness engineering</a></p>
 
 
-A hosted agent is a closed product that runs the harness for you. The model still only proposes. The product decides what it can see, what it may change, what it keeps, and what must stop for you.
+A hosted agent is a product you can open, instead of a project you build. The AI still only suggests the next step. The product decides what it can see, what it may change, what it keeps, and when it must ask you. This guide calls that surrounding system the harness.
 
 | | |
 | --- | --- |

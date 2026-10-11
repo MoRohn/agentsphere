@@ -15,7 +15,7 @@
 <strong>Next:</strong> <a href="orchestration.md">Orchestration</a></p>
 
 
-Several agents help when the work splits cleanly and someone, or some lead agent, is responsible for the merge. They cost extra tokens, extra contradictions, and extra debugging.
+Use several agents when the job splits cleanly and one of them is in charge of combining the results. The cost is more calls, more disagreements, and more to debug. One agent is the right answer until the split is obvious.
 
 | | |
 | --- | --- |

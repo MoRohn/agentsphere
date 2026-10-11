@@ -15,7 +15,7 @@
 <strong>Next:</strong> <a href="../09-playbooks/score-a-run.md">Score a run</a></p>
 
 
-An agent got better when a repeatable check says so. This section is a primer: outcome, trajectory, and cost, applied to the agents this guide already describes. A survey-level reading of public SWE-bench Verified scores, as model–harness pairs, lives on [harness engineering](../01-agent-patterns/harness-engineering.md). Those numbers stay on that page, with the survey's caveats.
+An agent got better when you can check the same job twice and agree. This section is that check. **Outcome** is whether the result is done. **Trajectory** is whether the steps were the ones you wanted. **Cost** is what a success took in time, tokens, or money. Report all three. A survey of public SWE-bench scores, read as a model plus its setup, stays on [harness engineering](../01-agent-patterns/harness-engineering.md), with that paper's warnings.
 
 | | |
 | --- | --- |
