@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="../../assets/diagrams/explorer-route-dark.svg">
-    <img src="../../assets/diagrams/explorer-route-light.svg" alt="Use one. Write no code. Name the model, the computer, and the stop." width="100%">
+    <img src="../../assets/diagrams/explorer-route-light.svg" alt="A chatbot answers once and waits. An agent keeps working until the job is done, and you check the result." width="100%">
   </picture>
 </p>
 
@@ -11,126 +11,146 @@
 
 # Explorer
 
-You are new to agents, and you want to use one well before you build one. This path stays in language, products, and a page you can write by hand. No repository, no API key, no install.
+You have never used an AI agent, or you have only used a chatbot. This page starts there. No coding. No install. About fifteen minutes.
 
 | | |
 | --- | --- |
 | Path | Explorer |
-| Time | About 2 hours, or one sitting if you already use a chatbot |
-| You need | Nothing. A hosted agent you can open is useful, and optional |
-
-An agent is a model plus the harness around it. The model proposes the next step. The harness decides what the model sees, what it may change, what survives the call, and what must stop for you. Hosted products such as [Grok Bot](../../docs/10-hosted-agents/index.md) and [Dots](../../docs/10-hosted-agents/index.md) already run that harness. Your job here is to see it, and to give it a task with a finish line.
+| Time | About 15 minutes |
+| You need | Nothing |
 
 ```mermaid
 flowchart LR
-  A["What it is"] --> B["What you rent"]
-  B --> C["What you check"]
-  C --> D["What you keep"]
+  Chat["Chatbot: one reply, then it waits"]
+  Agent["Agent: keeps going until the job is done"]
 ```
 
-## Who this is for
+## What is an AI agent?
 
-Curious newcomers. You can explain a tool to a friend, and you have used a chat product. You have not written an agent, and this path does not ask you to. If you already keep a skill file or a tool server, start at [Builder](../builder/README.md).
+An AI agent is a helper that can do a job, not only answer a question. You say what finished looks like. It takes the steps. It can look things up, draft a file, and come back when it needs a decision from you.
 
-## What you will be able to do
+A chatbot is the person behind a counter. You ask. They answer. They wait for the next question. An agent is the assistant you send on an errand. You describe the errand and the limits. They go do the pieces. You look at the result before anything important happens, such as sending a message or spending money.
 
-- Explain an agent as a model inside a harness, and point at the model.
-- Name the computer a Grok Bot runs on, and the computer a dot runs on.
-- Give either product a task that says what it may see, what it may change, and where it must stop.
-- Leave `agent-card.md`: six parts, a stop rule, and one trace. Still no code.
-
-## The route
-
-Stay on a page until the "you can" line is true. The SWE-bench numbers on the harness page can wait.
-
-| Order | Open | You can leave when |
+| | A chatbot | An agent |
 | --- | --- | --- |
-| 1 | [How to read a claim](../../docs/how-to-read.md) | You can label a sentence established, per post, or synthesis |
-| 2 | [What is an agent](../../docs/00-foundations/what-is-an-agent.md) | You can list the six parts without looking |
-| 3 | [The agent loop](../../docs/00-foundations/the-agent-loop.md) | You can walk perceive, plan, act, observe, remember, stop |
-| 4 | [Harness engineering](../../docs/01-agent-patterns/harness-engineering.md) | You can point at the model and name one other part |
-| 5 | [Memory, tools, planning](../../docs/00-foundations/memory-tools-planning.md) | You can say where a fact should live tomorrow |
-| 6 | [Hosted agents](../../docs/10-hosted-agents/index.md) | You can fill the two rows below from that page |
-| 7 | [Your first agent](../../docs/09-playbooks/first-agent.md) | `agent-card.md` exists |
+| You say | A question | A job, and what finished looks like |
+| It does | Answers, then waits | Takes the steps, and can keep going |
+| You do | Ask the next question | Read the result, and stop it before it sends or pays |
 
-Look up a word in the [glossary](../../docs/glossary.md) the moment it snags. Do not save the glossary for the end.
+## What agents can do for you today
 
-### Grok Bot and Dots, from the page
+These are ordinary jobs people already hand to an agent:
 
-Read those two sections on [Hosted agents](../../docs/10-hosted-agents/index.md) before the others. The facts below are the ones that change how you talk to the product. The page, and the official links on it, stay the source. Opened 11 October 2026.
+- Turn a messy pile of notes into a page you can read in one minute.
+- Plan a Saturday, and leave the booking to you.
+- Draft an email, and wait while you press send yourself.
+- Pull the dates out of a long document into a list.
+- Tell you what changed in a project since last week.
 
-| | Grok Bot | A dot |
-| --- | --- | --- |
-| Maker | xAI | OpenAI |
-| The computer | One cloud computer, shared by every bot on the account | Its own cloud computer. Your computer is optional |
-| If you close the laptop | The work continues | Cloud work continues. Local work needs the ChatGPT app open |
-| What you check | Approval prompts, and Auto Review. A second bot is not a private room | Auto-review and your rules. A password change stays with you. Proactive research is read-only |
+A finished file, a draft, or a plan. That is the shape of the work. No product does every job on this list.
 
-Muse, Claude Cowork, and Copilot Studio computer use are on the same page. Read them after you can describe these two. Where two official pages disagree, the guide keeps both. Follow that habit: re-open the official page before you quote a plan, a region, or a price.
+## Popular agents you can try
 
-## Quick wins
+Four you can open in a browser or an app. One line each. The longer reading, including the limits, is [Hosted agents](../../docs/10-hosted-agents/index.md). The lines below follow the official pages linked here, opened 11 October 2026.
 
-Fifteen minutes, no install.
+- [Grok Bot](https://docs.x.ai/grok-bot/overview) (xAI). You message a bot. It works on a cloud computer, and it asks you when it needs a yes.
+- [Dots](https://openai.com/index/introducing-dots/) (OpenAI). An always-on helper inside ChatGPT, with its own cloud computer. Cloud work can continue when your computer is off.
+- [Muse](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/) (Meta). A personal agent you message in the Muse app or in WhatsApp. It asks before it sends or buys.
+- [Claude Cowork](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork) (Anthropic). An agent for work that takes more than one step, such as turning notes into a file. A cloud task can keep going after you close the laptop.
 
-1. Open the [harness picture](../../docs/01-agent-patterns/harness-engineering.md) and say which circle is the model.
-2. Name one harness part that is not the model: observation, context, control, action, state, or verification.
-3. On the hosted page, answer in one sentence: what does every Grok Bot on the account share?
-4. Write a done-when for a task you would actually hand off. "Look into this" is not a task. "A page that lists the decisions, with a gap where you are unsure" is a task.
+## Your first 10 minutes
 
-## Hands on
+Open any one of the four. If you do not have an account yet, still read the steps. They are the same idea everywhere. Paste each block as one message.
 
-Two exercises. Both are pages, not programs.
+1. Start a new task and paste this:
 
-### 1. Three lines before the task
-
-Copy this above any task you give Grok Bot or a dot. It is the first move on the hosted page's checklist, and it is synthesis from the limits on the official pages.
-
-```markdown
-May see:
-May change:
-Must stop for me:
+```
+Help me plan a quiet Saturday in a city I can reach by train.
+Ask me two questions before you look anything up.
+Do not book anything. Do not message anyone.
 ```
 
-For a dot, "must stop" includes a password change: that step stays with you. For Grok Bot, remember the shared computer: sign out of a service when the work is done, because the next bot can see the same files and logins.
+2. Answer the two questions in a short reply.
 
-### 2. The agent card
+3. Let it work. If it asks to send, pay, delete, or sign in, stop. Read [Staying safe](#staying-safe) before you say yes.
 
-Do [Your first agent](../../docs/09-playbooks/first-agent.md). The playbook says you do not need a model, an API key, or a repository. Fill the card for one real task, then add six trace lines for a single pass. If a row is "the chat window," write that. An empty memory row is a finding.
+4. Paste this:
 
-If you can open Grok Bot or a dot, fill the card from the product you used, using the six-part table on the hosted page. Still no code. You are describing the harness the product already runs.
+```
+Give me the plan as a short list I can read in one minute.
+If you are not sure about a time, a price, or a place, write "not sure" instead of guessing.
+Do not email anyone.
+```
 
-## Checklist
+5. Read the list. If a line sounds too sure, paste this:
 
-- [ ] I can say what an agent is without naming a vendor first.
-- [ ] I can point at the model inside the harness diagram.
-- [ ] I know which computer Grok Bot uses, and which computer a dot uses.
-- [ ] I know what still runs after the laptop lid closes, for each of those two.
-- [ ] A real task has three lines: may see, may change, must stop.
-- [ ] `agent-card.md` has six parts, a stop rule, and one trace a second person could grade.
-- [ ] I did not invent a price, a region, or a feature that the hosted page does not state.
+```
+Mark every line you did not actually check.
+Leave those lines in the list so I can see them.
+```
 
-## Check yourself
+6. You are done when you have a short plan, a few honest gaps, and nothing was sent or booked.
 
-1. What is shared by every Grok Bot on an account, and why does that matter for a second bot?
-2. Which of a dot's work continues when your computer is off, and which work needs the ChatGPT app?
-3. What belongs in the memory row of the card when the answer is "only this chat"?
+## How to give good instructions
 
-## Next level
+Say three things: the job, what finished looks like, and what it must not do.
 
-[Builder](../builder/README.md). Go there when the card names a real task, a file that counts as memory, and a stop rule. Builder is where you make those parts yourself: the harness, memory, tools, and a skill.
+| | Example |
+| --- | --- |
+| Too vague | Help me with my trip. |
+| Clear | Make a one-page Saturday plan for a city I can reach by train. Finished means a morning idea, a lunch idea, and a way home. Do not book anything. |
+| Too open | Write the email and send it. |
+| Clear | Draft the email here in the chat. Do not send it. I will send it myself. |
+| Too hopeful | Research this and be accurate. |
+| Clear | List five facts. Put the page you got each fact from next to it. If you cannot find a source, write "not sure". |
 
-## Sources
+## Staying safe
 
-This page is a route. Claims live on the pages it links.
+Let an agent read, search, and draft.
 
-- The model-plus-harness frame is Guo, Hao, Wang, and colleagues, [From Question Answering to Task Completion](https://arxiv.org/abs/2606.20683), as read on [Harness engineering](../../docs/01-agent-patterns/harness-engineering.md).
-- Product facts are the official pages collected on [Hosted agents](../../docs/10-hosted-agents/index.md), opened 11 October 2026. Dollar prices are omitted there, and they stay omitted here.
+Say no, or read it yourself first, when it wants to:
+
+- Send a message as you
+- Spend money
+- Delete a file
+- Change a password, or type a login code
+
+A few limits from the official pages, in everyday words:
+
+- On Grok Bot, the bots on your account share one computer. When you are finished, sign out of any account you opened there.
+- On Muse, sending and buying ask you first. You can let a connected app be read without letting it change anything.
+- On a dot, a draft is only a draft. It is not permission to send. Changing a password stays with you.
+- On Claude Cowork, a task that needs your screen needs the desktop app open. A cloud task that does not need your screen can continue after you close the laptop.
+
+Before you repeat a detail about price, country, or plan, open that product's own page again. Those details moved in 2026.
+
+## Common questions
+
+**Do I need to know how to code?**
+No.
+
+**Is an agent the same thing as ChatGPT?**
+ChatGPT can be a chatbot: you type, it answers, it waits. A dot is an agent inside ChatGPT. It can keep working on a job. The difference is the job, not the logo.
+
+**What if it invents something?**
+Ask it to mark every line it did not check. A confident sentence with nowhere to look it up is unfinished.
+
+**Which one should I try first?**
+The one you can open today. The four links above are enough to start. The fuller comparison is [Hosted agents](../../docs/10-hosted-agents/index.md).
+
+**Can it read my email?**
+Only if you connect that account. Skip any account you would not want a helper to open.
+
+## What's next
+
+You are ready for the next guide when you can say how a chatbot and an agent differ, and you have given one a job that includes a "do not send" line.
+
+[Builder](../builder/README.md) is that next guide. It is for making an agent yourself: what it remembers, which tools it may use, and how you save a repeated job.
 
 ## Continue
 
-- [What is an agent](../../docs/00-foundations/what-is-an-agent.md)
 - [Hosted agents](../../docs/10-hosted-agents/index.md)
-- [Your first agent](../../docs/09-playbooks/first-agent.md)
+- [Builder](../builder/README.md)
 
 ---
 

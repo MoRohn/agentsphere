@@ -2,6 +2,11 @@
 
 The guide version tracks the pages. Dates are the day the change landed in this repository.
 
+## 0.4.3 — 2026-10-11
+
+- Rewrote [Explorer](paths/explorer/README.md) in plain language: what an agent is, what one can do today, four products you can try, a ten-minute walkthrough, good instructions, and how to stay safe.
+- Replaced the README map with linked cards. Each card has an icon, a plain one-line description, and the section's level pill.
+
 ## 0.4.2 — 2026-10-11
 
 - The four README pills link to dedicated guides: [Explorer](paths/explorer/README.md), [Builder](paths/builder/README.md), [Operator](paths/operator/README.md), and [Power user](paths/power-user/README.md). Each guide has its own route, exercises, checklist, and diagram.

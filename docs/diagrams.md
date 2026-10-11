@@ -43,7 +43,7 @@ Three maps are SVG only. They are the front door, not a second copy of a lesson:
 | Harness hero | [harness-hero-light.svg](../assets/diagrams/harness-hero-light.svg) | SVG only. Lesson: [Harness engineering](01-agent-patterns/harness-engineering.md) |
 | Model plus harness | [harness-light.svg](../assets/diagrams/harness-light.svg) | [Harness engineering](01-agent-patterns/harness-engineering.md) |
 | Learning path | [journey-map-light.svg](../assets/diagrams/journey-map-light.svg) | SVG only. Lesson: [Learning paths](learning-paths.md) |
-| Agent landscape | [landscape-light.svg](../assets/diagrams/landscape-light.svg) | SVG only. Lesson: [Guide map](README.md) |
+| Agent landscape | [landscape-light.svg](../assets/diagrams/landscape-light.svg) | SVG only. The clickable cards are on the [README map](../README.md#map) and in [assets/map](../assets/map/). |
 | Four eras | [harness-eras-light.svg](../assets/diagrams/harness-eras-light.svg) | [Harness engineering](01-agent-patterns/harness-engineering.md) |
 | Hosted agents | [hosted-agents-light.svg](../assets/diagrams/hosted-agents-light.svg) | [Hosted agents](10-hosted-agents/index.md) |
 | Explorer route | [explorer-route-light.svg](../assets/diagrams/explorer-route-light.svg) | [Explorer](../paths/explorer/README.md) |

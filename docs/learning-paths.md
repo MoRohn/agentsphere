@@ -34,7 +34,7 @@ Four paths, one guide. Each pill opens a persona guide with its own route, exerc
 
 ## Explorer
 
-The full guide, with the no-code hosted-agent exercises: [Explorer](../paths/explorer/README.md).
+New to agents? Start with the plain-language guide: [Explorer](../paths/explorer/README.md). The table below is the same path, inside the rest of the docs.
 
 You can explain what an agent is, walk the loop, and name the difference between a chat log and a page. When you want the products people rent, open [Hosted agents](10-hosted-agents/index.md) and name the model inside one of them.
 

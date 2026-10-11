@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200" role="img">
+  <title>Agent patterns</title>
+  <rect x="1.5" y="1.5" width="397" height="197" rx="16" fill="none" stroke="#D0D7DE" stroke-width="1.5"/>
+  <g transform="translate(24,28)"><line x1="4" y1="16" x2="28" y2="16" stroke="#10243F" stroke-width="2"/><circle cx="4" cy="16" r="3.5" fill="#F5A31A"/><circle cx="16" cy="16" r="3.5" fill="#F5A31A"/><circle cx="28" cy="16" r="3.5" fill="#F5A31A"/></g>
+  <text x="72" y="52" fill="#1F2328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="600">Agent patterns</text>
+  <rect x="24" y="78" width="40" height="4" rx="2" fill="#F5A31A"/>
+  <text x="24" y="114" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">How an agent chooses</text>
+  <text x="24" y="140" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">its next step.</text>
+  <rect x="24" y="158" width="104" height="26" rx="13" fill="#10243F"/>
+  <circle cx="40" cy="171" r="4" fill="#C96E00"/>
+  <text x="52" y="176" fill="#E6EAF2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600">Builder</text>
+</svg>

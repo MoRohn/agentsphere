@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200" role="img">
+  <title>Security</title>
+  <rect x="1.5" y="1.5" width="397" height="197" rx="16" fill="none" stroke="#D0D7DE" stroke-width="1.5"/>
+  <g transform="translate(24,28)"><path d="M16 3 L28 8 V16 C28 23 16 29 16 29 C16 29 4 23 4 16 V8 Z" fill="none" stroke="#F5A31A" stroke-width="2.5" stroke-linejoin="round"/></g>
+  <text x="72" y="52" fill="#1F2328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="600">Security</text>
+  <rect x="24" y="78" width="40" height="4" rx="2" fill="#F5A31A"/>
+  <text x="24" y="114" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">What it may do,</text>
+  <text x="24" y="140" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">and what you should check.</text>
+  <rect x="24" y="158" width="112" height="26" rx="13" fill="#10243F"/>
+  <circle cx="40" cy="171" r="4" fill="#FF9A2E"/>
+  <text x="52" y="176" fill="#E6EAF2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600">Operator</text>
+</svg>

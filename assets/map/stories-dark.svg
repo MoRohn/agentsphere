@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200" role="img">
+  <title>Case studies</title>
+  <rect x="1.5" y="1.5" width="397" height="197" rx="16" fill="none" stroke="#6E7681" stroke-width="1.5"/>
+  <g transform="translate(24,28)"><rect x="3" y="6" width="16" height="20" rx="2" fill="none" stroke="#E6EDF3" stroke-width="2"/><rect x="11" y="10" width="16" height="20" rx="2" fill="none" stroke="#F5A31A" stroke-width="2.5"/></g>
+  <text x="72" y="52" fill="#E6EDF3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="600">Case studies</text>
+  <rect x="24" y="78" width="40" height="4" rx="2" fill="#F5A31A"/>
+  <text x="24" y="114" fill="#C9D1D9" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">Real projects,</text>
+  <text x="24" y="140" fill="#C9D1D9" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">told without the hype.</text>
+  <rect x="24" y="158" width="124" height="26" rx="13" fill="#10243F"/>
+  <circle cx="40" cy="171" r="4" fill="#FFE0B0"/>
+  <text x="52" y="176" fill="#E6EAF2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600">Power user</text>
+</svg>
