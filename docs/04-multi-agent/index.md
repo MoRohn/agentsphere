@@ -2,6 +2,10 @@
   <img src="../../assets/sections/04-multi-agent.svg" alt="Multi-agent: a lead node and phased satellites" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-operator.svg" alt="Operator" height="28">
+</p>
+
 # 04 · Multi-agent
 
 Several agents help when the work splits cleanly and someone, or some lead agent, is responsible for the merge. They cost extra tokens, extra contradictions, and extra debugging.
@@ -17,6 +21,10 @@ Several agents help when the work splits cleanly and someone, or some lead agent
 | Page | You leave able to |
 | --- | --- |
 | [Orchestration](orchestration.md) | Draw a lead, phases, workers, and a merge, and say what a product must show you |
+
+## Practice
+
+The handoff in [operate agents](../09-playbooks/operate-agents.md) is the drawing, filled in for a task you actually have. Name phases before you name extra agents.
 
 ## Continue
 

@@ -2,6 +2,10 @@
   <img src="../../assets/diagrams/gateway-routing.svg" alt="Gateway routing" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # Playbook · Review a gateway
 
 Decide whether a local model gateway is allowed to see your prompts. The worked example is the OmniRoute post. The checklist fits the next gateway someone sends you.
@@ -66,7 +70,7 @@ Keep the pre-compression prompt in a redacted trace for a day. Compare task succ
 
 ## Sources
 
-- [B6](https://x.com/Bober_smart/status/2108293657552117850) — the claims under review, per post.
+- [@Bober_smart](https://x.com/Bober_smart/status/2108293657552117850) — the claims under review, per post.
 - The eight questions and the decision table are synthesis.
 
 ## Continue

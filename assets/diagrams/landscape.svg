@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+  <title id="title">The agent landscape</title>
+  <desc id="desc">Foundations sit above a harness of six parts. Memory, tools, skills, and orchestration hang off that harness. Evals, security, and runtime judge it. Playbooks practice it.</desc>
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6C5CE7"/>
+      <stop offset="0.5" stop-color="#00D1FF"/>
+      <stop offset="1" stop-color="#2EF2A6"/>
+    </linearGradient>
+    <radialGradient id="core" cx="40%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#E8FBFF"/>
+      <stop offset="0.4" stop-color="#6C5CE7"/>
+      <stop offset="1" stop-color="#14102E"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="640" fill="#07090F"/>
+  <rect width="1200" height="4" fill="url(#bar)"/>
+  <circle cx="36" cy="40" r="8.5" fill="#3A2E9A"/>
+  <circle cx="33.4" cy="37.2" r="2.3" fill="#FFFFFF" fill-opacity="0.75"/>
+  <circle cx="36" cy="40" r="8.5" fill="none" stroke="#9AF7FF" stroke-width="1.3"/>
+  <circle cx="43.2" cy="34.2" r="1.7" fill="#7AF6FF"/>
+  <text x="56" y="46" fill="#E6EAF2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="600">The agent landscape</text>
+  <text x="1164" y="46" text-anchor="end" fill="#8B97B3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">agentsphere</text>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="360" y="78" width="480" height="64" rx="16" fill="#12182B" stroke="#00D1FF" stroke-opacity="0.7"/>
+    <text x="600" y="106" text-anchor="middle" fill="#7AF6FF" font-size="12" letter-spacing="1.2">FOUNDATIONS</text>
+    <text x="600" y="126" text-anchor="middle" fill="#E6EAF2" font-size="14">What an agent is, and the loop it runs</text>
+    <rect x="28" y="168" width="1144" height="196" rx="18" fill="#101628" stroke="#6C5CE7"/>
+    <circle cx="92" cy="266" r="36" fill="url(#core)"/>
+    <circle cx="92" cy="266" r="36" fill="none" stroke="#9AF7FF" stroke-width="1.2"/>
+    <text x="92" y="270" text-anchor="middle" fill="#F4F7FB" font-size="11" font-weight="700">MODEL</text>
+    <text x="150" y="198" fill="#C4B8FF" font-size="12" letter-spacing="1.3">HARNESS</text>
+    <text x="150" y="220" fill="#A9B4CC" font-size="13">The runtime around the model</text>
+    <rect x="150" y="242" width="150" height="44" rx="10" fill="#12182B" stroke="#00D1FF" stroke-opacity="0.8"/>
+    <text x="225" y="269" text-anchor="middle" fill="#E6EAF2" font-size="13">Observation</text>
+    <rect x="312" y="242" width="150" height="44" rx="10" fill="#12182B" stroke="#6C5CE7"/>
+    <text x="387" y="269" text-anchor="middle" fill="#E6EAF2" font-size="13">Context</text>
+    <rect x="474" y="242" width="150" height="44" rx="10" fill="#12182B" stroke="#6C5CE7" stroke-opacity="0.7"/>
+    <text x="549" y="269" text-anchor="middle" fill="#E6EAF2" font-size="13">Control</text>
+    <rect x="636" y="242" width="150" height="44" rx="10" fill="#12182B" stroke="#00D1FF" stroke-opacity="0.55"/>
+    <text x="711" y="269" text-anchor="middle" fill="#E6EAF2" font-size="13">Action</text>
+    <rect x="798" y="242" width="150" height="44" rx="10" fill="#10241C" stroke="#2EF2A6" stroke-opacity="0.8"/>
+    <text x="873" y="269" text-anchor="middle" fill="#E6EAF2" font-size="13">State</text>
+    <rect x="960" y="242" width="180" height="44" rx="10" fill="#10241C" stroke="#2EF2A6"/>
+    <text x="1050" y="269" text-anchor="middle" fill="#E6EAF2" font-size="13">Verification</text>
+    <text x="150" y="328" fill="#8B97B3" font-size="13">Memory lives in context and state. Tools live in action. A lead agent is a control choice. A gate is verification.</text>
+    <rect x="28" y="388" width="270" height="92" rx="14" fill="#12182B" stroke="#2EF2A6" stroke-opacity="0.75"/>
+    <text x="48" y="422" fill="#7DFFC8" font-size="12">MEMORY</text>
+    <text x="48" y="448" fill="#E6EAF2" font-size="15" font-weight="600">Wiki and write-back</text>
+    <rect x="314" y="388" width="270" height="92" rx="14" fill="#12182B" stroke="#00D1FF" stroke-opacity="0.7"/>
+    <text x="334" y="422" fill="#7AF6FF" font-size="12">TOOLS</text>
+    <text x="334" y="448" fill="#E6EAF2" font-size="15" font-weight="600">MCP and gateways</text>
+    <rect x="600" y="388" width="270" height="92" rx="14" fill="#12182B" stroke="#6C5CE7"/>
+    <text x="620" y="422" fill="#C4B8FF" font-size="12">SKILLS</text>
+    <text x="620" y="448" fill="#E6EAF2" font-size="15" font-weight="600">Procedures in files</text>
+    <rect x="886" y="388" width="286" height="92" rx="14" fill="#12182B" stroke="#6C5CE7" stroke-opacity="0.65"/>
+    <text x="906" y="422" fill="#C4B8FF" font-size="12">ORCHESTRATION</text>
+    <text x="906" y="448" fill="#E6EAF2" font-size="15" font-weight="600">Lead, phases, merge</text>
+    <rect x="28" y="498" width="360" height="72" rx="14" fill="#12182B" stroke="#E6EAF2" stroke-opacity="0.28"/>
+    <text x="48" y="528" fill="#E6EAF2" font-size="14" font-weight="600">Evals</text>
+    <text x="120" y="528" fill="#A9B4CC" font-size="13">outcome, trace, cost</text>
+    <rect x="404" y="498" width="380" height="72" rx="14" fill="#12182B" stroke="#2EF2A6" stroke-opacity="0.45"/>
+    <text x="424" y="528" fill="#E6EAF2" font-size="14" font-weight="600">Security</text>
+    <text x="520" y="528" fill="#A9B4CC" font-size="13">gates, permissions, review</text>
+    <rect x="800" y="498" width="372" height="72" rx="14" fill="#12182B" stroke="#00D1FF" stroke-opacity="0.4"/>
+    <text x="820" y="528" fill="#E6EAF2" font-size="14" font-weight="600">Runtime</text>
+    <text x="910" y="528" fill="#A9B4CC" font-size="13">cloud, local, inference</text>
+  </g>
+  <text x="36" y="610" fill="#8B97B3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Playbooks are how you practice a slice of this map. The harness is the slice that explains the rest.</text>
+</svg>

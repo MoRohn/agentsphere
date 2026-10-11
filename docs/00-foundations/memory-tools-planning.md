@@ -2,6 +2,12 @@
   <img src="../../assets/sections/00-foundations.svg" alt="Foundations" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-explorer.svg" alt="Explorer" height="28">
+  &nbsp;
+  <img src="../../assets/badges/level-builder.svg" alt="Builder" height="28">
+</p>
+
 # Memory, tools, and planning
 
 Three different jobs get blurred into "the context window." Separating them is the practical skill in this section.
@@ -26,7 +32,7 @@ Three different jobs get blurred into "the context window." Separating them is t
 | **Files the agent maintains** | As long as you keep them | Conclusions, links, open questions, corrections | Raw evidence you must not rewrite |
 | **Retrieval** | As long as the index does | Finding a passage in a large corpus | Being the place a conclusion is maintained |
 
-Retrieval, including the pattern usually called RAG, fetches passages into the window. It does not, by itself, maintain a conclusion. A wiki page is a conclusion with links back to the passages. You will often want both: search to find, pages to remember. The argument for taking pages seriously is [wiki memory](../01-agent-patterns/wiki-memory.md).
+Retrieval, including the pattern usually called RAG, fetches passages into the window. It does not, by itself, maintain a conclusion. A wiki page is a conclusion with links back to the passages. You will often want both: search to find, pages to remember. The file layout is [wiki memory](../01-agent-patterns/wiki-memory.md). Working, episodic, semantic, and procedural memory, and the habit of writing a conclusion back, are [how agents remember](../01-agent-patterns/how-agents-remember.md). The runtime that holds observation, context, action, state, and the check together is [harness engineering](../01-agent-patterns/harness-engineering.md).
 
 > [!TIP]
 > **Established.** The window is finite. Stuffing it with the entire history feels like memory until a later call drops the early turns. Durable memory is whatever the next run can open on purpose.
@@ -53,7 +59,7 @@ Planning is step 2 of the loop, made visible. For a two-step task, the plan can 
 - What the agent must not do.
 - Where the notes go.
 
-A lead agent that writes this kind of plan, then hands phases to other agents, is the pattern reported for Claude Managed Agents ([B4](https://x.com/ClaudeDevs/status/2108591328732856655), per post). The full treatment is [orchestration](../04-multi-agent/orchestration.md).
+A lead agent that writes this kind of plan, then hands phases to other agents, is the pattern reported for Claude Managed Agents ([@ClaudeDevs](https://x.com/ClaudeDevs/status/2108591328732856655), per post). The full treatment is [orchestration](../04-multi-agent/orchestration.md).
 
 ## How the three fail together
 
@@ -68,7 +74,7 @@ A beautiful plan with no tool still cannot open the file. A powerful tool with n
 ## Sources
 
 - Established practice for context windows, retrieval, and tool use.
-- [B2](https://x.com/fleyta88/status/2108619644399415565) and [B4](https://x.com/ClaudeDevs/status/2108591328732856655) are the posts that extend memory and planning. Their claims are detailed on the linked pages.
+- [@fleyta88](https://x.com/fleyta88/status/2108619644399415565) and [@ClaudeDevs](https://x.com/ClaudeDevs/status/2108591328732856655) are the posts that extend memory and planning. Their claims are detailed on the linked pages.
 
 ## Continue
 

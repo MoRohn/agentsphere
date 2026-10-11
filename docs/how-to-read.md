@@ -1,5 +1,15 @@
 <p align="center">
-  <img src="../assets/diagrams/knowledge-flow.svg" alt="How a question becomes a page the next question can search." width="100%">
+  <img src="../assets/diagrams/knowledge-flow.svg" alt="Six moves: question, notes, sources, write back, reflect, next run." width="100%">
+</p>
+
+<p>
+  <img src="../assets/badges/level-explorer.svg" alt="Explorer" height="28">
+  &nbsp;
+  <img src="../assets/badges/level-builder.svg" alt="Builder" height="28">
+  &nbsp;
+  <img src="../assets/badges/level-operator.svg" alt="Operator" height="28">
+  &nbsp;
+  <img src="../assets/badges/level-power.svg" alt="Power user" height="28">
 </p>
 
 # How to read agentsphere
@@ -31,9 +41,9 @@ Inline, name the author and link the status:
 
 [@fleyta88](https://x.com/fleyta88/status/2108619644399415565) describes a research agent that searches a wiki before it searches the web (per post).
 
-At the bottom of a page, the source list uses reference IDs:
+At the bottom of a page, the source list names the author and links the post:
 
-- [B2](https://x.com/fleyta88/status/2108619644399415565) — @fleyta88, 2026-10-09. Wiki-memory loop.
+- [@fleyta88](https://x.com/fleyta88/status/2108619644399415565) — 2026-10-09. Wiki-memory loop.
 
 The full list is [Social references & inspirations](references.md).
 

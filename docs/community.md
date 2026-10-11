@@ -2,6 +2,16 @@
   <img src="../assets/sections/08-case-studies.svg" alt="Case studies" width="100%">
 </p>
 
+<p>
+  <img src="../assets/badges/level-explorer.svg" alt="Explorer" height="28">
+  &nbsp;
+  <img src="../assets/badges/level-builder.svg" alt="Builder" height="28">
+  &nbsp;
+  <img src="../assets/badges/level-operator.svg" alt="Operator" height="28">
+  &nbsp;
+  <img src="../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # Community
 
 A map of accounts from one post. Useful as a reading list, thin as a method.
@@ -11,7 +21,7 @@ A map of accounts from one post. Useful as a reading list, thin as a method.
 | Path | Optional, any path |
 | Time | About 5 minutes |
 | You need | Nothing |
-| Source | [B3](https://x.com/ai_explorer25/status/2108746842620014807), @ai_explorer25, 2026-10-10 |
+| Source | [@ai_explorer25](https://x.com/ai_explorer25/status/2108746842620014807), 2026-10-10 |
 
 > [!NOTE]
 > **Per post.** The labels below ("LLMs king," "vibecode king," and the rest) are the poster's nicknames, not a ranking by this guide. Handles are linked to X profiles. This page does not verify bios, projects, or influence.
@@ -42,7 +52,7 @@ Follow two or three people whose work matches the path you are on. Karpathy is t
 
 ## Sources
 
-- [B3](https://x.com/ai_explorer25/status/2108746842620014807) — @ai_explorer25, 2026-10-10. Fifteen accounts and the poster's labels.
+- [@ai_explorer25](https://x.com/ai_explorer25/status/2108746842620014807) — 2026-10-10. Fifteen accounts and the poster's labels.
 
 ## Continue
 

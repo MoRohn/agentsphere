@@ -2,6 +2,10 @@
   <img src="../../assets/diagrams/wiki-memory.svg" alt="Wiki memory: raw sources on the left, maintained pages on the right, and a loop that writes answers back." width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-builder.svg" alt="Builder" height="28">
+</p>
+
 # Wiki memory
 
 Make the agent write something worth remembering. The next question searches that writing first.
@@ -93,7 +97,7 @@ Use retrieval to find the passage. Use the wiki so you do not have to rediscover
 | wiki/ | [`docs/`](../README.md) |
 | schema | [CONTRIBUTING](../../CONTRIBUTING.md) |
 
-The picture of that flow is [knowledge-flow.svg](../../assets/diagrams/knowledge-flow.svg). Saving a source without updating a page is the forgetful loop, wearing a git commit.
+The picture of that flow is [knowledge-flow.svg](../../assets/diagrams/knowledge-flow.svg). The four kinds of memory, retrieval, reflection, and compaction are [how agents remember](how-agents-remember.md). In the harness frame, this wiki is the state and artifact store, and the decision of what to load is the context manager: [harness engineering](harness-engineering.md). Saving a source without updating a page is the forgetful loop, wearing a git commit.
 
 ## A page worth writing
 
@@ -107,6 +111,31 @@ After a run, the wiki page should let a stranger answer the same question withou
 
 If you cannot fill the claim table, you are still in the chat.
 
+## A page that passes
+
+This is the shape, filled for a question the guide already answers. Copy the headings, not the conclusion, when the question is yours.
+
+```markdown
+# Does the OmniRoute post name a repository?
+
+## Answer
+Not on this page. The post's project link is shortened. This page does not guess the destination.
+
+## Claims
+| Claim | Status | Source |
+| --- | --- | --- |
+| OmniRoute is described as a local gateway that pools provider limits | per post | https://x.com/Bober_smart/status/2108293657552117850 |
+| A confirmed git URL was in the post | gap | the same post; the project link is shortened |
+
+## Gaps
+The repository URL. Do not replace this heading with a search result that merely shares the name.
+
+## See also
+Gateways and routing.
+```
+
+A stranger can answer the question from the page. The next run should search this page and stop. That is the whole pattern.
+
 ## Check yourself
 
 1. What are the three pieces, and which one is append-only?
@@ -115,12 +144,13 @@ If you cannot fill the claim table, you are still in the chat.
 
 ## Sources
 
-- [B2](https://x.com/fleyta88/status/2108619644399415565) — @fleyta88, 2026-10-09. The full pattern above, per post. Related post: [a status by @gippp69](https://twitter.com/gippp69/status/2106744347836153989).
+- [@fleyta88](https://x.com/fleyta88/status/2108619644399415565) — 2026-10-09. The full pattern above, per post. Related post: [a status by @gippp69](https://twitter.com/gippp69/status/2106744347836153989).
 - Established distinction between retrieving passages and maintaining a conclusion. The "bigger than better RAG" phrasing is the post's.
 
 ## Continue
 
-- Next: [Tools and MCP](../02-tools-mcp/tools-and-mcp.md)
+- Next: [How agents remember](how-agents-remember.md)
+- Then: [Tools and MCP](../02-tools-mcp/tools-and-mcp.md)
 - Practice: [Research-agent playbook](../09-playbooks/research-agent.md)
 - Case study: [Compounding wiki](../08-case-studies/compounding-wiki.md)
 

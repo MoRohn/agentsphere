@@ -2,6 +2,12 @@
   <img src="../../assets/diagrams/gateway-routing.svg" alt="Clients call one local OpenAI-compatible gateway, which routes to many providers and can fall back." width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-builder.svg" alt="Builder" height="28">
+  &nbsp;
+  <img src="../../assets/badges/level-operator.svg" alt="Operator" height="28">
+</p>
+
 # Gateways and routing
 
 One client API in front. Many models behind it. A gateway is a routing layer, and it is also a place keys, logs, and provider terms collect.
@@ -72,7 +78,7 @@ Shortening a prompt before it is sent is an established idea: drop repeated logs
 
 ## Sources
 
-- [B6](https://x.com/Bober_smart/status/2108293657552117850) — @Bober_smart, 2026-10-08. All product rows in the table, per post.
+- [@Bober_smart](https://x.com/Bober_smart/status/2108293657552117850) — 2026-10-08. All product rows in the table, per post.
 - Established background: HTTP 429, the idea of an OpenAI-compatible base URL, and AES-256-GCM as a cipher mode. None of that confirms the product.
 
 ## Continue

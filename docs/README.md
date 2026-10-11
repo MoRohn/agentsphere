@@ -5,15 +5,31 @@
   </picture>
 </p>
 
+<p>
+  <img src="../assets/badges/level-explorer.svg" alt="Explorer" height="28">
+  &nbsp;
+  <img src="../assets/badges/level-builder.svg" alt="Builder" height="28">
+  &nbsp;
+  <img src="../assets/badges/level-operator.svg" alt="Operator" height="28">
+  &nbsp;
+  <img src="../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # Guide map
 
-Start with a [learning path](learning-paths.md) or with the section that matches the job in front of you. The posts, articles, and repositories behind the pages are in [Social references & inspirations](references.md).
+Start with the [harness](01-agent-patterns/harness-engineering.md), a [learning path](learning-paths.md), or the section that matches the job in front of you. The posts, articles, and repositories behind the pages are in [Social references & inspirations](references.md).
+
+<p align="center">
+  <img src="../assets/diagrams/landscape.svg" alt="The agent landscape, with the harness across the middle." width="100%">
+</p>
 
 | | |
 | --- | --- |
-| New here | [How to read a claim](how-to-read.md), then [what is an agent](00-foundations/what-is-an-agent.md) |
-| Building | [Wiki memory](01-agent-patterns/wiki-memory.md) and the [research playbook](09-playbooks/research-agent.md) |
-| Operating | [Cloud and local](05-runtime-infra/cloud-and-local.md) and [security](07-security/index.md) |
+| Five minutes | The [harness picture](01-agent-patterns/harness-engineering.md): name the model, then one other part |
+| New here | [How to read a claim](how-to-read.md), [what is an agent](00-foundations/what-is-an-agent.md), then the harness |
+| Building | [Harness engineering](01-agent-patterns/harness-engineering.md), [wiki memory](01-agent-patterns/wiki-memory.md), and the [research playbook](09-playbooks/research-agent.md) |
+| Operating | [Harness engineering](01-agent-patterns/harness-engineering.md), [cloud and local](05-runtime-infra/cloud-and-local.md), and [security](07-security/index.md) |
+| Stuck | [Unstick a loop](09-playbooks/unstick-a-loop.md), then [score a run](09-playbooks/score-a-run.md) |
 
 ## Sections
 
@@ -27,10 +43,12 @@ What an agent is, the loop, and how memory, tools, and planning share the work.
 
 ### [01 · Agent patterns](01-agent-patterns/index.md)
 
-How the loop is shaped in practice.
+The harness is the frame. The other pages are ways of stressing one part of it.
 
+- [Harness engineering](01-agent-patterns/harness-engineering.md)
 - [ReAct and plan-and-execute](01-agent-patterns/react-and-plan-execute.md)
 - [Wiki memory](01-agent-patterns/wiki-memory.md)
+- [How agents remember](01-agent-patterns/how-agents-remember.md)
 
 ### [02 · Tools and MCP](02-tools-mcp/index.md)
 
@@ -57,7 +75,7 @@ What belongs in a prompt, what belongs in a skill, and two creative stacks.
 
 ### [06 · Evals](06-evals/index.md)
 
-A primer. The references do not yet include an evaluation write-up.
+A primer on outcome, trajectory, and cost. The survey reading of SWE-bench Verified is on [harness engineering](01-agent-patterns/harness-engineering.md).
 
 ### [07 · Security](07-security/index.md)
 
@@ -71,7 +89,16 @@ One distillation for each cluster of posts.
 
 ### [09 · Playbooks](09-playbooks/index.md)
 
-Recipes: a research agent, a craft stack, an operating decision, a gateway review.
+Hands-on recipes. Start with [your first agent](09-playbooks/first-agent.md) if the sections above are still vocabulary.
+
+- [Your first agent](09-playbooks/first-agent.md)
+- [Research agent](09-playbooks/research-agent.md)
+- [Write a skill](09-playbooks/write-a-skill.md)
+- [Skills and craft](09-playbooks/skills-and-craft.md)
+- [Operate agents](09-playbooks/operate-agents.md)
+- [Review a gateway](09-playbooks/review-a-gateway.md)
+- [Score a run](09-playbooks/score-a-run.md)
+- [Unstick a loop](09-playbooks/unstick-a-loop.md)
 
 ## Reference
 
@@ -80,7 +107,7 @@ Recipes: a research agent, a craft stack, an operating decision, a gateway revie
 | [Learning paths](learning-paths.md) | A sequence and a readiness check |
 | [Glossary](glossary.md) | A term in one or two sentences |
 | [How to read](how-to-read.md) | The three claim labels |
-| [Community](community.md) | The account list from B3 |
+| [Community](community.md) | The account list from [@ai_explorer25](https://x.com/ai_explorer25/status/2108746842620014807) |
 | [Diagram atlas](diagrams.md) | Every SVG and its Mermaid twin |
 | [Style guide](style-guide.md) | Palette, page anatomy, GitHub rendering |
 | [Social references & inspirations](references.md) | Which post, article, or repo shaped which page |

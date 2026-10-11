@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Where an agent's memory lives</title>
+  <desc id="desc">Working memory is the context window. Episodic, semantic, and procedural memories live outside it. Retrieval loads passages in. Write-back and deliberate forgetting decide what stays.</desc>
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6C5CE7"/>
+      <stop offset="0.5" stop-color="#00D1FF"/>
+      <stop offset="1" stop-color="#2EF2A6"/>
+    </linearGradient>
+    <radialGradient id="win" cx="30%" cy="20%" r="80%">
+      <stop offset="0" stop-color="#1A2A4A"/>
+      <stop offset="1" stop-color="#12182B"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="760" fill="#07090F"/>
+  <rect width="1200" height="4" fill="url(#bar)"/>
+  <circle cx="36" cy="40" r="8.5" fill="#3A2E9A"/>
+  <circle cx="33.4" cy="37.2" r="2.3" fill="#FFFFFF" fill-opacity="0.75"/>
+  <circle cx="36" cy="40" r="8.5" fill="none" stroke="#9AF7FF" stroke-width="1.3"/>
+  <circle cx="43.2" cy="34.2" r="1.7" fill="#7AF6FF"/>
+  <text x="56" y="46" fill="#E6EAF2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="600">Where an agent's memory lives</text>
+  <text x="1164" y="46" text-anchor="end" fill="#8B97B3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">agentsphere</text>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="28" y="84" width="360" height="520" rx="18" fill="url(#win)" stroke="#00D1FF" stroke-opacity="0.8"/>
+    <text x="52" y="124" fill="#7AF6FF" font-size="12" letter-spacing="1.5">WORKING MEMORY</text>
+    <text x="52" y="162" fill="#E6EAF2" font-size="26" font-weight="600">The window</text>
+    <text x="52" y="196" fill="#A9B4CC" font-size="14">Rebuilt on every call. Finite.</text>
+    <text x="52" y="248" fill="#E6EAF2" font-size="15">What fits inside</text>
+    <text x="52" y="284" fill="#A9B4CC" font-size="14">Instructions and the skill in play</text>
+    <text x="52" y="312" fill="#A9B4CC" font-size="14">The question and the done-when</text>
+    <text x="52" y="340" fill="#A9B4CC" font-size="14">Passages just retrieved</text>
+    <text x="52" y="368" fill="#A9B4CC" font-size="14">The last few steps, not the whole log</text>
+    <line x1="52" y1="408" x2="340" y2="408" stroke="#1C2740"/>
+    <text x="52" y="444" fill="#E6EAF2" font-size="15">Three moves</text>
+    <text x="52" y="478" fill="#00D1FF" font-size="14">Load</text>
+    <text x="108" y="478" fill="#A9B4CC" font-size="14">Bring a note or passage in</text>
+    <text x="52" y="510" fill="#2EF2A6" font-size="14">Write</text>
+    <text x="108" y="510" fill="#A9B4CC" font-size="14">Save a conclusion outside</text>
+    <text x="52" y="542" fill="#C4B8FF" font-size="14">Drop</text>
+    <text x="108" y="542" fill="#A9B4CC" font-size="14">Compact, or forget on purpose</text>
+    <text x="52" y="580" fill="#8B97B3" font-size="13">If it matters tomorrow, it cannot</text>
+    <text x="52" y="600" fill="#8B97B3" font-size="13">live only in this panel.</text>
+
+    <rect x="416" y="84" width="360" height="248" rx="16" fill="#12182B" stroke="#6C5CE7"/>
+    <text x="440" y="120" fill="#C4B8FF" font-size="12" letter-spacing="1.4">EPISODIC</text>
+    <text x="440" y="156" fill="#E6EAF2" font-size="22" font-weight="600">What happened</text>
+    <text x="440" y="196" fill="#A9B4CC" font-size="14">Traces, decisions, tool results,</text>
+    <text x="440" y="218" fill="#A9B4CC" font-size="14">and reflections on those runs.</text>
+    <text x="440" y="258" fill="#8B97B3" font-size="13">Search this before repeating a path</text>
+    <text x="440" y="278" fill="#8B97B3" font-size="13">that already failed.</text>
+    <text x="440" y="308" fill="#6C5CE7" font-size="12">OUTSIDE THE WINDOW</text>
+
+    <rect x="800" y="84" width="372" height="248" rx="16" fill="#12182B" stroke="#2EF2A6" stroke-opacity="0.85"/>
+    <text x="824" y="120" fill="#7DFFC8" font-size="12" letter-spacing="1.4">SEMANTIC</text>
+    <text x="824" y="156" fill="#E6EAF2" font-size="22" font-weight="600">What is true</text>
+    <text x="824" y="196" fill="#A9B4CC" font-size="14">Wiki pages, facts with sources,</text>
+    <text x="824" y="218" fill="#A9B4CC" font-size="14">and the gaps you refused to fill.</text>
+    <text x="824" y="258" fill="#8B97B3" font-size="13">Correct a page in place.</text>
+    <text x="824" y="278" fill="#8B97B3" font-size="13">Keep the old source linked.</text>
+    <text x="824" y="308" fill="#2EF2A6" font-size="12">OUTSIDE THE WINDOW</text>
+
+    <rect x="416" y="356" width="360" height="248" rx="16" fill="#12182B" stroke="#00D1FF" stroke-opacity="0.75"/>
+    <text x="440" y="392" fill="#7AF6FF" font-size="12" letter-spacing="1.4">PROCEDURAL</text>
+    <text x="440" y="428" fill="#E6EAF2" font-size="22" font-weight="600">How to work</text>
+    <text x="440" y="468" fill="#A9B4CC" font-size="14">Skills, schemas, checklists.</text>
+    <text x="440" y="490" fill="#A9B4CC" font-size="14">The steps, not the pep talk.</text>
+    <text x="440" y="530" fill="#8B97B3" font-size="13">Review a procedure the way</text>
+    <text x="440" y="550" fill="#8B97B3" font-size="13">you review code.</text>
+    <text x="440" y="580" fill="#00D1FF" font-size="12">OUTSIDE THE WINDOW</text>
+
+    <rect x="800" y="356" width="372" height="248" rx="16" fill="#12182B" stroke="#E6EAF2" stroke-opacity="0.28"/>
+    <text x="824" y="392" fill="#E6EAF2" font-size="12" letter-spacing="1.4">RETRIEVAL</text>
+    <text x="824" y="428" fill="#E6EAF2" font-size="22" font-weight="600">What was fetched</text>
+    <text x="824" y="468" fill="#A9B4CC" font-size="14">Passages for this call.</text>
+    <text x="824" y="490" fill="#A9B4CC" font-size="14">Useful, and not yet memory.</text>
+    <text x="824" y="530" fill="#8B97B3" font-size="13">A search result becomes memory</text>
+    <text x="824" y="550" fill="#8B97B3" font-size="13">only after write-back.</text>
+    <text x="824" y="580" fill="#A9B4CC" font-size="12">LOADED, THEN GONE</text>
+  </g>
+  <text x="36" y="680" fill="#A9B4CC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">Compaction shrinks the window. A note is what that summary is not allowed to lose.</text>
+  <text x="36" y="724" fill="#8B97B3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Working, episodic, semantic, and procedural memory, as used for language agents.</text>
+</svg>

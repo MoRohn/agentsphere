@@ -2,6 +2,10 @@
   <img src="../../assets/sections/00-foundations.svg" alt="Foundations: what an agent is" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-explorer.svg" alt="Explorer" height="28">
+</p>
+
 # What is an agent
 
 An agent is a model in a loop, pointed at a goal, allowed to use tools, and required to stop.
@@ -65,15 +69,15 @@ The ten posts from 8–10 October 2026 each lean on one part. The rest of the gu
 
 | Source | The part it presses on |
 | --- | --- |
-| [B2](https://x.com/fleyta88/status/2108619644399415565) wiki memory | Memory as files, not as a longer transcript |
-| [B4](https://x.com/ClaudeDevs/status/2108591328732856655) managed workflows | One plan across many models |
-| [B6](https://x.com/Bober_smart/status/2108293657552117850) OmniRoute | Tools and model access behind one local API |
-| [B9](https://x.com/N01ennn/status/2108182955671580771) motion skills | Instructions packaged as skills |
-| [B10](https://x.com/ryancarson/status/2108286700468191266) cloud agents | The environment: a seat on a laptop, or a remote run |
-| [B1](https://x.com/oliviscusAI/status/2108786434991923251), [B8](https://x.com/thesupermannx/status/2108098865073410484) | The model, made cheap enough to run nearby |
-| [B7](https://x.com/antigenco/status/2108334286978113634) Antigen | A loop whose side effects need a human gate |
-| [B5](https://x.com/himanshubuildss/status/2108540618553356666) | Libraries a builder's agent can copy from |
-| [B3](https://x.com/ai_explorer25/status/2108746842620014807) | People to read. Kept in the [community appendix](../community.md) |
+| [@fleyta88](https://x.com/fleyta88/status/2108619644399415565), wiki memory | Memory as files, not as a longer transcript |
+| [@ClaudeDevs](https://x.com/ClaudeDevs/status/2108591328732856655), managed workflows | One plan across many models |
+| [@Bober_smart](https://x.com/Bober_smart/status/2108293657552117850), OmniRoute | Tools and model access behind one local API |
+| [@N01ennn](https://x.com/N01ennn/status/2108182955671580771), motion skills | Instructions packaged as skills |
+| [@ryancarson](https://x.com/ryancarson/status/2108286700468191266), cloud agents | The environment: a seat on a laptop, or a remote run |
+| [@oliviscusAI](https://x.com/oliviscusAI/status/2108786434991923251), [@thesupermannx](https://x.com/thesupermannx/status/2108098865073410484) | The model, made cheap enough to run nearby |
+| [@antigenco](https://x.com/antigenco/status/2108334286978113634), Antigen | A loop whose side effects need a human gate |
+| [@himanshubuildss](https://x.com/himanshubuildss/status/2108540618553356666) | Libraries a builder's agent can copy from |
+| [@ai_explorer25](https://x.com/ai_explorer25/status/2108746842620014807) | People to read. Kept in the [community appendix](../community.md) |
 
 ## Check yourself
 
@@ -88,6 +92,8 @@ Established practice, organized for this guide. The rows above are signposts. Th
 ## Continue
 
 - Next: [The agent loop](the-agent-loop.md)
+- The runtime around those parts: [Harness engineering](../01-agent-patterns/harness-engineering.md)
+- Practice: [Your first agent](../09-playbooks/first-agent.md)
 - Map: [Foundations](index.md)
 
 ---

@@ -2,6 +2,10 @@
   <img src="../../assets/sections/01-patterns.svg" alt="Agent patterns" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-builder.svg" alt="Builder" height="28">
+</p>
+
 # ReAct and plan-and-execute
 
 Two established ways to shape the loop. One keeps the plan inside the next action. The other writes the plan down and then works through it.
@@ -87,8 +91,8 @@ A related report, from [@ClaudeDevs](https://x.com/ClaudeDevs/status/21085913287
 ## Sources
 
 - Established descriptions of ReAct-style interleaving and of plan-and-execute.
-- [B2](https://x.com/fleyta88/status/2108619644399415565) — @fleyta88, 2026-10-09. The forgetful research loop, per post.
-- [B4](https://x.com/ClaudeDevs/status/2108591328732856655) — @ClaudeDevs, 2026-10-09. Phased multi-agent plans, per post.
+- [@fleyta88](https://x.com/fleyta88/status/2108619644399415565) — 2026-10-09. The forgetful research loop, per post.
+- [@ClaudeDevs](https://x.com/ClaudeDevs/status/2108591328732856655) — 2026-10-09. Phased multi-agent plans, per post.
 
 ## Continue
 

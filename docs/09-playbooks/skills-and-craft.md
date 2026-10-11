@@ -2,6 +2,10 @@
   <img src="../../assets/sections/03-skills.svg" alt="Skills" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # Playbook · Skills and craft
 
 Choose one skill and one engine from the catalogs. Review them. Make one small artifact.
@@ -39,7 +43,7 @@ Answer on a note, from the files, not from the README's adjectives.
 | Does the environment you will use contain production keys? | It should not |
 | What is the renderer, and where does the output file go? | You can point at both |
 
-The motion post says to check each repo before you install ([B9](https://x.com/N01ennn/status/2108182955671580771), per post). This table is the check. More context: [supply chain](../07-security/gateway-and-supply-chain.md).
+The motion post says to check each repo before you install ([@N01ennn](https://x.com/N01ennn/status/2108182955671580771), per post). This table is the check. More context: [supply chain](../07-security/gateway-and-supply-chain.md).
 
 ## 4. Write a small brief
 
@@ -72,7 +76,7 @@ If the pack fails the review in step 3, the artifact for this playbook is the re
 
 ## Sources
 
-- [B9](https://x.com/N01ennn/status/2108182955671580771) and [B5](https://x.com/himanshubuildss/status/2108540618553356666), per post.
+- [@N01ennn](https://x.com/N01ennn/status/2108182955671580771) and [@himanshubuildss](https://x.com/himanshubuildss/status/2108540618553356666), per post.
 - The review table and the brief are synthesis.
 
 ## Continue

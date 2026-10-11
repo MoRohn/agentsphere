@@ -2,6 +2,10 @@
   <img src="../../assets/sections/07-security.svg" alt="Security: a shield drawn around an orbit" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-operator.svg" alt="Operator" height="28">
+</p>
+
 # 07 · Security
 
 Agents act. Acting is the risk. This section names the threats, the human gate in a find-and-fix loop, and the supply chain around gateways and skills. It does not include exploit procedures.
@@ -24,6 +28,10 @@ Agents act. Acting is the risk. This section names the threats, the human gate i
 
 > [!WARNING]
 > These pages stay at the level of assets, permissions, and review. They are not a guide to probing, exploiting, or bypassing controls. If a future source is an exploit write-up, distill the defensive lesson and leave the procedure out of the repo.
+
+## Practice
+
+[Review a gateway](../09-playbooks/review-a-gateway.md) for a proxy, and [unstick a loop](../09-playbooks/unstick-a-loop.md) when a run obeys text it fetched. Both stay at the level of checks and gates.
 
 ## Continue
 

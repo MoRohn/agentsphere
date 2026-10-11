@@ -2,6 +2,10 @@
   <img src="../../assets/sections/05-runtime.svg" alt="Runtime" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # Case study · Local inference
 
 Two posts about running models cheaper and closer: Microsoft's bitnet.cpp, and Samsung's LittleBit. Both point at real projects. Both also say things the primary sources do not.
@@ -9,7 +13,7 @@ Two posts about running models cheaper and closer: Microsoft's bitnet.cpp, and S
 | | |
 | --- | --- |
 | Path | Power user |
-| Sources | [B1](https://x.com/oliviscusAI/status/2108786434991923251), [B8](https://x.com/thesupermannx/status/2108098865073410484) |
+| Sources | [@oliviscusAI](https://x.com/oliviscusAI/status/2108786434991923251), [@thesupermannx](https://x.com/thesupermannx/status/2108098865073410484) |
 | Posted | 2026-10-10 and 2026-10-08 |
 | Concept | [Efficient inference](../05-runtime-infra/efficient-inference.md) |
 
@@ -36,8 +40,8 @@ The XOR story. A 100B CPU claim used as a planning number. Any speedup you have 
 
 ## Sources
 
-- [B1](https://x.com/oliviscusAI/status/2108786434991923251)
-- [B8](https://x.com/thesupermannx/status/2108098865073410484)
+- [@oliviscusAI](https://x.com/oliviscusAI/status/2108786434991923251)
+- [@thesupermannx](https://x.com/thesupermannx/status/2108098865073410484)
 - Primary links in the table.
 
 ## Continue

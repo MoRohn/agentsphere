@@ -5,6 +5,10 @@
   </picture>
 </p>
 
+<p>
+  <img src="../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # Style guide
 
 One visual system, so a page added in six months still looks like it belongs.
@@ -23,7 +27,7 @@ The name is lowercase `agentsphere`, one word. The mark is a luminous orb, one o
 | --- | --- |
 | [logo-dark.svg](../assets/logo-dark.svg), [logo-light.svg](../assets/logo-light.svg) | App-icon mark, 256×256 |
 | [banner-dark.svg](../assets/banner-dark.svg), [banner-light.svg](../assets/banner-light.svg) | Masthead, 1440×520. Mark and wordmark together |
-| [badges/](../assets/badges/) | README pills, light and dark |
+| [badges/](../assets/badges/) | README pills, and the four level marks: Explorer, Builder, Operator, Power user |
 | [assets/sections/](../assets/sections/) | Section openers, 1200×240 |
 | [assets/diagrams/](../assets/diagrams/) | Architecture figures |
 
@@ -58,18 +62,19 @@ Every architecture SVG shares:
 - Numbered steps when the figure is a sequence
 - A footer line that says whether the figure is established, per post, or both
 
-Pairs live in the [diagram atlas](diagrams.md). If you change the words in the SVG, change the Mermaid block on the same day.
+Architecture figures are drawn twice: an SVG and a Mermaid block on the same page. Three overview figures are SVG only, because they are maps rather than a second copy of a lesson: [harness-hero.svg](../assets/diagrams/harness-hero.svg), [journey-map.svg](../assets/diagrams/journey-map.svg), and [landscape.svg](../assets/diagrams/landscape.svg). Pairs live in the [diagram atlas](diagrams.md). If you change the words in a paired SVG, change the Mermaid block on the same day.
 
 ## Page anatomy
 
 1. Section or diagram image, centered, `width="100%"`, with alt text.
-2. One H1.
-3. A three-row meta table: path, time, prerequisites.
-4. "What you will be able to do."
-5. The teaching, with claim callouts.
-6. "Check yourself."
-7. "Sources."
-8. "Continue," then the footer links.
+2. Level badges for every path named in the meta table, from [assets/badges/](../assets/badges/).
+3. One H1.
+4. A three-row meta table: path, time, prerequisites.
+5. "What you will be able to do."
+6. The teaching, with claim callouts.
+7. "Check yourself."
+8. "Sources."
+9. "Continue," then the footer links.
 
 Callouts use GitHub alerts:
 

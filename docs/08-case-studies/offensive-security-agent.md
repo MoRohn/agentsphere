@@ -2,6 +2,10 @@
   <img src="../../assets/diagrams/security-loop.svg" alt="Security review loop" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # Case study · Offensive security agent
 
 Antigen, as announced: an agent that maps a surface, probes it, ships fixes for review, and tests again.
@@ -9,7 +13,7 @@ Antigen, as announced: an agent that maps a surface, probes it, ships fixes for 
 | | |
 | --- | --- |
 | Path | Power user |
-| Source | [B7](https://x.com/antigenco/status/2108334286978113634) |
+| Source | [@antigenco](https://x.com/antigenco/status/2108334286978113634) |
 | Posted | 2026-10-08, @antigenco |
 | Concept | [Find, review, fix, retest](../07-security/find-fix-retest.md) |
 
@@ -37,7 +41,7 @@ Any request to expand "exploit" into steps. Any use against a system you are not
 
 ## Sources
 
-- [B7](https://x.com/antigenco/status/2108334286978113634)
+- [@antigenco](https://x.com/antigenco/status/2108334286978113634)
 
 ## Continue
 

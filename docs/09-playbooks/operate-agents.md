@@ -2,6 +2,10 @@
   <img src="../../assets/diagrams/cloud-vs-local.svg" alt="Local and cloud topologies" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # Playbook · Operate agents
 
 Place three tasks. One local, one cloud, one you deliberately do not automate yet.
@@ -78,7 +82,7 @@ List the factory pieces you are buying or skipping: queue, sandbox, shared crede
 
 ## Sources
 
-- [B10](https://x.com/ryancarson/status/2108286700468191266) — the argument, per post.
+- [@ryancarson](https://x.com/ryancarson/status/2108286700468191266) — the argument, per post.
 - Placements and the handoff list are synthesis.
 
 ## Continue

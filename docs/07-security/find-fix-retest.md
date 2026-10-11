@@ -2,6 +2,10 @@
   <img src="../../assets/diagrams/security-loop.svg" alt="Map, probe, findings, a human review gate, a fix, and a retest." width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-operator.svg" alt="Operator" height="28">
+</p>
+
 # Find, review, fix, retest
 
 A security agent is still the agent loop, pointed at risk, with a person standing on the step that changes the system.
@@ -75,7 +79,7 @@ That last bullet is [wiki memory](../01-agent-patterns/wiki-memory.md) applied t
 
 ## Sources
 
-- [B7](https://x.com/antigenco/status/2108334286978113634) — @antigenco, 2026-10-08. Map, probe, fix for review, retest. Per post.
+- [@antigenco](https://x.com/antigenco/status/2108334286978113634) — 2026-10-08. Map, probe, fix for review, retest. Per post.
 - Synthesis: the six-step drawing and the buying list. The exploit itself is intentionally absent.
 
 ## Continue

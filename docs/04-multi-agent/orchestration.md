@@ -2,6 +2,10 @@
   <img src="../../assets/diagrams/orchestration.svg" alt="A lead agent writes a plan. Three phases each contain workers. Results combine at the end." width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-operator.svg" alt="Operator" height="28">
+</p>
+
 # Orchestration
 
 One agent writes the plan. Other agents do slices of it. Something combines the slices into one result. That is the whole pattern. The rest is discipline.
@@ -27,6 +31,8 @@ One agent writes the plan. Other agents do slices of it. Something combines the 
 | **Lead / worker** | A lead writes a phased plan. Workers run inside phases. The lead merges. | The plan itself is a decision, and later phases depend on earlier ones |
 
 Fan-out inside a phase, and a pipeline across phases, is the picture in the diagram. Worker names on that diagram are illustrative. They are not a product's roster.
+
+A lead, a phase, and a merge are a control-loop choice. The survey's name for that runtime, and for the five parts around it, is [harness engineering](../01-agent-patterns/harness-engineering.md).
 
 ```mermaid
 flowchart TD
@@ -79,11 +85,12 @@ A product that only shows the final answer has hidden the only part you can debu
 
 ## Sources
 
-- [B4](https://x.com/ClaudeDevs/status/2108591328732856655) — @ClaudeDevs, 2026-10-09. Public beta, lead agent, phases, combined results. Per post.
+- [@ClaudeDevs](https://x.com/ClaudeDevs/status/2108591328732856655) — 2026-10-09. Public beta, lead agent, phases, combined results. Per post.
 - Synthesis: the pipeline / fan-out / lead table, and the visibility questions. They are this guide's reading of the pattern, not extra product claims.
 
 ## Continue
 
+- The runtime this plan sits in: [Harness engineering](../01-agent-patterns/harness-engineering.md)
 - Case study: [Managed workflows](../08-case-studies/managed-workflows.md)
 - Next: [Cloud and local](../05-runtime-infra/cloud-and-local.md)
 - Previous: [Creative toolkits](../03-prompting-skills/creative-toolkits.md)

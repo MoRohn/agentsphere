@@ -2,6 +2,10 @@
   <img src="../../assets/diagrams/mcp.svg" alt="An agent host talks to a model API and, through an MCP client, to files, tools, and other agents." width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-builder.svg" alt="Builder" height="28">
+</p>
+
 # Tools and MCP
 
 The model decides. A tool does. A protocol is the agreement that lets many tools plug into many hosts without a custom integration each time.
@@ -33,6 +37,8 @@ From foundations, a tool has a name, a schema, a side effect, a permission, and 
 ## MCP
 
 **MCP** (Model Context Protocol) is an open protocol for connecting an agent host to external tools and data. The host embeds an MCP client. Each external capability is an MCP server: a file tree, a browser, a ticket system, a database. The model sees a list of tools with schemas. Calling one is an ordinary tool call. The protocol is what makes that list portable across hosts.
+
+In the harness survey, a tool schema is the action interface, and the description that lands in the window is also context. MCP is one way to draw that boundary. The six-part frame is [harness engineering](../01-agent-patterns/harness-engineering.md).
 
 ```mermaid
 flowchart TD
@@ -70,12 +76,13 @@ MCP attaches tools and data to the host. A **gateway** attaches the host's model
 ## Sources
 
 - Established account of tool contracts and of MCP as an open protocol for tools and data.
-- [B6](https://x.com/Bober_smart/status/2108293657552117850) — @Bober_smart, 2026-10-08. MCP and agent-to-agent claims, per post.
+- [@Bober_smart](https://x.com/Bober_smart/status/2108293657552117850) — 2026-10-08. MCP and agent-to-agent claims, per post.
 
 ## Continue
 
 - Next: [Gateways and routing](gateways-and-routing.md)
 - Previous: [Wiki memory](../01-agent-patterns/wiki-memory.md)
+- The runtime these tools sit in: [Harness engineering](../01-agent-patterns/harness-engineering.md)
 
 ---
 

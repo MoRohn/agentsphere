@@ -10,8 +10,10 @@
   </defs>
   <rect width="960" height="700" fill="#0B0F1A"/>
   <rect width="960" height="4" fill="url(#bar)"/>
-  <circle cx="36" cy="36" r="8" fill="none" stroke="#00D1FF" stroke-width="1.4"/>
-  <circle cx="36" cy="36" r="2.5" fill="#6C5CE7"/>
+  <circle cx="36" cy="36" r="8.5" fill="#3A2E9A"/>
+  <circle cx="33.4" cy="33.2" r="2.3" fill="#FFFFFF" fill-opacity="0.75"/>
+  <circle cx="36" cy="36" r="8.5" fill="none" stroke="#9AF7FF" stroke-width="1.3"/>
+  <circle cx="43.2" cy="30.2" r="1.7" fill="#7AF6FF"/>
   <text x="54" y="41" fill="#E6EAF2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="600">Wiki memory that compounds</text>
   <text x="928" y="41" text-anchor="end" fill="#8B97B3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">agentsphere</text>
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
@@ -31,7 +33,7 @@
     <text x="48" y="470" fill="#A9B4CC" font-size="13">The agent reads a source</text>
     <text x="48" y="490" fill="#A9B4CC" font-size="13">once, then works from</text>
     <text x="48" y="510" fill="#A9B4CC" font-size="13">the page it wrote.</text>
-    <text x="48" y="548" fill="#8B97B3" font-size="12">Per post, B2</text>
+    <text x="48" y="548" fill="#8B97B3" font-size="12">Per post</text>
 
     <rect x="682" y="76" width="250" height="500" rx="18" fill="#101628" stroke="#2EF2A6" stroke-opacity="0.6"/>
     <text x="702" y="112" fill="#2EF2A6" font-size="13" letter-spacing="1.6">WIKI /</text>
@@ -86,5 +88,5 @@
     <text x="300" y="610" fill="#A9B4CC" font-size="13">Pages outlive the chat. The agent can read them, link them, and correct them.</text>
     <text x="300" y="634" fill="#8B97B3" font-size="12">Per post: raw/ = source of truth, wiki/ = maintained knowledge, schema = update rules.</text>
   </g>
-  <text x="28" y="680" fill="#8B97B3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Source B2 · docs/01-agent-patterns/wiki-memory.md</text>
+  <text x="28" y="680" fill="#8B97B3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Wiki memory, per post. @fleyta88.</text>
 </svg>
