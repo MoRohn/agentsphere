@@ -23,6 +23,8 @@ Every architecture in the guide is drawn twice, so it still teaches if one rende
 | Find, review, fix, retest | [security-loop.svg](../assets/diagrams/security-loop.svg) | [Security loop](07-security/find-fix-retest.md) |
 | Research loop | [knowledge-flow.svg](../assets/diagrams/knowledge-flow.svg) | [How agents remember](01-agent-patterns/how-agents-remember.md) |
 | Where memory lives | [memory-map.svg](../assets/diagrams/memory-map.svg) | [How agents remember](01-agent-patterns/how-agents-remember.md) |
+| Model plus harness | [harness.svg](../assets/diagrams/harness.svg) | [Harness engineering](01-agent-patterns/harness-engineering.md) |
+| Four eras | [harness-eras.svg](../assets/diagrams/harness-eras.svg) | [Harness engineering](01-agent-patterns/harness-engineering.md) |
 
 Section openers live in [assets/sections](../assets/sections/). The mark and the masthead live at [logo-light.svg](../assets/logo-light.svg), [logo-dark.svg](../assets/logo-dark.svg), [banner-light.svg](../assets/banner-light.svg), and [banner-dark.svg](../assets/banner-dark.svg).
 

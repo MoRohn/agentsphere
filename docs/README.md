@@ -33,6 +33,7 @@ How the loop is shaped in practice.
 - [ReAct and plan-and-execute](01-agent-patterns/react-and-plan-execute.md)
 - [Wiki memory](01-agent-patterns/wiki-memory.md)
 - [How agents remember](01-agent-patterns/how-agents-remember.md)
+- [Harness engineering](01-agent-patterns/harness-engineering.md)
 
 ### [02 · Tools and MCP](02-tools-mcp/index.md)
 
@@ -59,7 +60,7 @@ What belongs in a prompt, what belongs in a skill, and two creative stacks.
 
 ### [06 · Evals](06-evals/index.md)
 
-A primer. The references do not yet include an evaluation write-up.
+A primer on outcome, trajectory, and cost. The survey reading of SWE-bench Verified is on [harness engineering](01-agent-patterns/harness-engineering.md).
 
 ### [07 · Security](07-security/index.md)
 

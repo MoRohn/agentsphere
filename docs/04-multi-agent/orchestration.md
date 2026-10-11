@@ -28,6 +28,8 @@ One agent writes the plan. Other agents do slices of it. Something combines the 
 
 Fan-out inside a phase, and a pipeline across phases, is the picture in the diagram. Worker names on that diagram are illustrative. They are not a product's roster.
 
+A lead, a phase, and a merge are a control-loop choice. The survey's name for that runtime, and for the five parts around it, is [harness engineering](../01-agent-patterns/harness-engineering.md).
+
 ```mermaid
 flowchart TD
   Lead["Lead agent writes the plan"] --> P1["Phase 1: map"]
@@ -84,6 +86,7 @@ A product that only shows the final answer has hidden the only part you can debu
 
 ## Continue
 
+- The runtime this plan sits in: [Harness engineering](../01-agent-patterns/harness-engineering.md)
 - Case study: [Managed workflows](../08-case-studies/managed-workflows.md)
 - Next: [Cloud and local](../05-runtime-infra/cloud-and-local.md)
 - Previous: [Creative toolkits](../03-prompting-skills/creative-toolkits.md)

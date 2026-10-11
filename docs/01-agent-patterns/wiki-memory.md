@@ -93,7 +93,7 @@ Use retrieval to find the passage. Use the wiki so you do not have to rediscover
 | wiki/ | [`docs/`](../README.md) |
 | schema | [CONTRIBUTING](../../CONTRIBUTING.md) |
 
-The picture of that flow is [knowledge-flow.svg](../../assets/diagrams/knowledge-flow.svg). The four kinds of memory, retrieval, reflection, and compaction are [how agents remember](how-agents-remember.md). Saving a source without updating a page is the forgetful loop, wearing a git commit.
+The picture of that flow is [knowledge-flow.svg](../../assets/diagrams/knowledge-flow.svg). The four kinds of memory, retrieval, reflection, and compaction are [how agents remember](how-agents-remember.md). In the harness frame, this wiki is the state and artifact store, and the decision of what to load is the context manager: [harness engineering](harness-engineering.md). Saving a source without updating a page is the forgetful loop, wearing a git commit.
 
 ## A page worth writing
 

@@ -9,6 +9,7 @@ The guide version tracks the pages. Dates are the day the change landed in this 
 - Pointed every section at the playbook that practices it. Learning paths now end with that artifact.
 - Added a filled wiki page on the memory pattern, and aligned diagram headers with the mark.
 - Rebuilt how a research agent keeps what it learns: a six-step loop, a map of working, episodic, semantic, and procedural memory, and a chapter on write-back, reflection, compaction, and when to forget.
+- Added harness engineering from Guo et al. 2026: the model-plus-harness thesis, six runtime parts, four eras, task-to-harness matching, and the survey's SWE-bench Verified reading.
 
 ## 0.2.0 — 2026-10-11
 

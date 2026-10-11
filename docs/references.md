@@ -28,6 +28,7 @@ Reference IDs (`B1`, `B2`, …) match the citations on the pages. **Per post** m
 | B8 | 2026-10-08 | [@thesupermannx](https://x.com/thesupermannx/status/2108098865073410484) | LittleBit, sub-1-bit compression | [Efficient inference](05-runtime-infra/efficient-inference.md), [case study](08-case-studies/local-inference.md) |
 | B9 | 2026-10-08 | [@N01ennn](https://x.com/N01ennn/status/2108182955671580771) | Motion-design skill repositories | [Creative toolkits](03-prompting-skills/creative-toolkits.md), [skills](03-prompting-skills/prompts-and-skills.md), [supply chain](07-security/gateway-and-supply-chain.md), [case study](08-case-studies/motion-and-web-stacks.md) |
 | B10 | 2026-10-08 | [@ryancarson](https://x.com/ryancarson/status/2108286700468191266) | Cloud agents and local licenses | [Cloud and local](05-runtime-infra/cloud-and-local.md), [operate playbook](09-playbooks/operate-agents.md) |
+| B11 | 2026-10-10 | [@undefinedKi](https://x.com/undefinedKi/status/2109020007103332636) | Points at a survey of agent harness design. Quotes [an earlier post the same day](https://x.com/undefinedKi/status/2108911763257254302) | [Harness engineering](01-agent-patterns/harness-engineering.md) |
 
 ## Papers and repositories
 
@@ -45,12 +46,14 @@ Reference IDs (`B1`, `B2`, …) match the citations on the pages. **Per post** m
 | Reflexion | [paper](https://arxiv.org/abs/2303.11366) | [How agents remember](01-agent-patterns/how-agents-remember.md) |
 | Generative Agents | [paper](https://arxiv.org/abs/2304.03442) | [How agents remember](01-agent-patterns/how-agents-remember.md) |
 | Context engineering | [Anthropic, 2025](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) | [How agents remember](01-agent-patterns/how-agents-remember.md) |
+| Agent system and harness design | [paper](https://arxiv.org/abs/2606.20683), [Awesome-Agent-Engineering](https://github.com/ggjy/Awesome-Agent-Engineering) | [Harness engineering](01-agent-patterns/harness-engineering.md) |
 
 ## By theme
 
 | Theme | References |
 | --- | --- |
 | Memory and knowledge | B2, and the papers above on memory, retrieval, and context |
+| Harness engineering | B11, and Guo et al. 2026 on agent system and harness design |
 | Orchestration | B4 |
 | Tools, MCP, routing | B6 |
 | Skills and creative stacks | B9, B5 |

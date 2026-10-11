@@ -56,6 +56,10 @@ A stored trace of what happened: steps, tool results, and reflections on those r
 
 A repeatable check that an agent still does the job. Task success, trajectory quality, and cost per success are the three this guide starts with. See [evals](06-evals/index.md).
 
+### Execution harness
+
+The runtime around a foundation model: observation, context, control, action, state, and verification. The model proposes. The harness decides what it sees, what it may do, and whether the run holds. See [harness engineering](01-agent-patterns/harness-engineering.md).
+
 ### Fallback
 
 Routing the same request to the next model or provider after an error or an empty quota. HTTP 429 (Too Many Requests) is the status the OmniRoute post names.
@@ -63,6 +67,10 @@ Routing the same request to the next model or provider after an error or an empt
 ### Gateway
 
 A local or remote service that exposes one API and forwards calls to many model providers. See [gateways](02-tools-mcp/gateways-and-routing.md).
+
+### Harness engineering
+
+Designing the runtime as a first-class object, matched to the task, rather than treating agent quality as a property of the model alone. The four eras and the six parts are [harness engineering](01-agent-patterns/harness-engineering.md).
 
 ### Human review gate
 
@@ -139,6 +147,10 @@ The rule that ends the loop: the goal is met, the budget is spent, a person take
 ### Tool
 
 A function the model may call: search, read a file, run a test, open a ticket. Tools have a name, a schema, a side effect, and a permission.
+
+### Verification and governance
+
+The harness part that checks and constrains a run: tests, approval gates, sandboxes, rollback, budgets, and an audit trail. A prompt that says "be careful" is not this part. See [harness engineering](01-agent-patterns/harness-engineering.md) and the [threat model](07-security/threat-model.md).
 
 ### Trajectory
 

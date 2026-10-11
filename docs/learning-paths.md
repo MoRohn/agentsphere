@@ -37,9 +37,10 @@ You can design an agent that uses tools and leaves a knowledge base behind.
 | 2 | [Wiki memory](01-agent-patterns/wiki-memory.md) | You can describe raw, wiki, and schema |
 | 3 | [How agents remember](01-agent-patterns/how-agents-remember.md) | You can place the four memories and say what write-back is |
 | 4 | [Tools and MCP](02-tools-mcp/tools-and-mcp.md) | You can sketch a host, a model API, and a tool server |
-| 5 | [Prompts and skills](03-prompting-skills/prompts-and-skills.md) | You can split a giant prompt into prompt, skill, and file |
-| 6 | [Write a skill](09-playbooks/write-a-skill.md) | One repeated job lives in `SKILL.md`, not in a longer prompt |
-| 7 | [Research-agent playbook](09-playbooks/research-agent.md) | You have folders, rules, and one page written from a real source |
+| 5 | [Harness engineering](01-agent-patterns/harness-engineering.md) | You can name the model and the six runtime parts, and match them to the task |
+| 6 | [Prompts and skills](03-prompting-skills/prompts-and-skills.md) | You can split a giant prompt into prompt, skill, and file |
+| 7 | [Write a skill](09-playbooks/write-a-skill.md) | One repeated job lives in `SKILL.md`, not in a longer prompt |
+| 8 | [Research-agent playbook](09-playbooks/research-agent.md) | You have folders, rules, and one page written from a real source |
 
 Optional depth: [creative toolkits](03-prompting-skills/creative-toolkits.md) and the [craft playbook](09-playbooks/skills-and-craft.md) if you build visual work with agents.
 
@@ -54,7 +55,7 @@ You can choose where an agent runs, how several agents share a plan, how you wou
 | 1 | [Cloud and local](05-runtime-infra/cloud-and-local.md) | You can place a task on one side and defend it |
 | 2 | [Orchestration](04-multi-agent/orchestration.md) | You can draw a lead, three phases, and a merge |
 | 3 | [Efficient inference](05-runtime-infra/efficient-inference.md) | You can separate a paper's claim from a post's retelling |
-| 4 | [Evals](06-evals/index.md) | You can name the score, the trajectory check, and the cost |
+| 4 | [Evals](06-evals/index.md) | You can name the score, the trajectory, the cost, and the harness. The frame is [harness engineering](01-agent-patterns/harness-engineering.md) |
 | 5 | [Threat model](07-security/threat-model.md) | You can name four threats in your own stack |
 | 6 | [Find, review, fix, retest](07-security/find-fix-retest.md) | You can point at the human gate |
 | 7 | [Gateways and supply chain](07-security/gateway-and-supply-chain.md) | You have a review list for a new proxy or skill |

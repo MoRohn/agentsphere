@@ -4,7 +4,7 @@
 
 # 06 · Evals
 
-An agent got better when a repeatable check says so. This section is a primer. The references do not yet include an evaluation write-up, so the examples below are established practice, applied to the agents this guide has already described. When an eval source arrives, it should update this page rather than start a second one.
+An agent got better when a repeatable check says so. This section is a primer: outcome, trajectory, and cost, applied to the agents this guide already describes. A survey-level reading of public SWE-bench Verified scores, as model–harness pairs, lives on [harness engineering](../01-agent-patterns/harness-engineering.md). Those numbers stay on that page, with the survey's caveats.
 
 | | |
 | --- | --- |
@@ -86,12 +86,14 @@ Leave vendor leaderboards in the case study unless you can say what was measured
 
 ## Sources
 
-- Established evaluation practice: outcome, process, and cost. No current reference is an eval source.
+- Established evaluation practice: outcome, process, and cost.
+- [Guo et al. 2026](https://arxiv.org/abs/2606.20683) is the eval synthesis for harness effects. The numbers and the caveats are on [harness engineering](../01-agent-patterns/harness-engineering.md).
 - [B2](https://x.com/fleyta88/status/2108619644399415565) supplies the compounding behavior these cases try to detect. The cases themselves are synthesis.
 
 ## Continue
 
 - Practice: [Score a run](../09-playbooks/score-a-run.md) grades a trace with the rubric above
+- A leaderboard is a model–harness pair: [Harness engineering](../01-agent-patterns/harness-engineering.md)
 - Next: [Threat model](../07-security/threat-model.md)
 - Previous: [Efficient inference](../05-runtime-infra/efficient-inference.md)
 

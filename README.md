@@ -51,6 +51,7 @@ If you are new, do these three and stop. You will have a definition, a loop, and
 | Decide whether a gateway can see your prompts | [Review a gateway](docs/09-playbooks/review-a-gateway.md) |
 | Tell whether a change helped | [Score a run](docs/09-playbooks/score-a-run.md) |
 | Stop a run that thrashes or invents facts | [Unstick a loop](docs/09-playbooks/unstick-a-loop.md) |
+| See why the same model scores differently | [Harness engineering](docs/01-agent-patterns/harness-engineering.md) |
 
 ## Choose a path
 
@@ -68,7 +69,7 @@ Sequences, timing, and a readiness check for each path: [Learning paths](docs/le
 | | Section | What it covers |
 | --- | --- | --- |
 | 00 | [Foundations](docs/00-foundations/index.md) | Definition, the loop, memory, tools, planning |
-| 01 | [Agent patterns](docs/01-agent-patterns/index.md) | ReAct, plan-and-execute, wiki memory, how agents remember |
+| 01 | [Agent patterns](docs/01-agent-patterns/index.md) | ReAct, plan-and-execute, wiki memory, how agents remember, harness engineering |
 | 02 | [Tools and MCP](docs/02-tools-mcp/index.md) | Tools, Model Context Protocol, gateways |
 | 03 | [Prompting and skills](docs/03-prompting-skills/index.md) | Prompts, skill packs, creative stacks |
 | 04 | [Multi-agent](docs/04-multi-agent/index.md) | Lead agents, phases, merging results |

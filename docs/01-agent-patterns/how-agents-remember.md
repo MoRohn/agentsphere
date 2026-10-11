@@ -112,6 +112,8 @@ Compaction is the first lever, and the dangerous one. Anthropic's note is that t
 
 Just-in-time loading is the other half. Keep a path, a query, or a URL, and read the body when the step needs it. Do not paste the corpus into the window at the start "so the agent has context."
 
+In the harness survey, this job is one of six runtime parts, the context manager. The frame that puts it next to observation, control, action, state, and verification is [harness engineering](harness-engineering.md).
+
 ## When to forget
 
 Forgetting is a feature. A window that keeps every tool result, and a wiki that never deletes a stale page, both rot.
@@ -228,6 +230,7 @@ The checklist, the failure table, and the worked example are this guide's organi
 
 ## Continue
 
+- The runtime around memory: [Harness engineering](harness-engineering.md)
 - Practice: [Research agent](../09-playbooks/research-agent.md) and [write a skill](../09-playbooks/write-a-skill.md)
 - Previous: [Wiki memory](wiki-memory.md)
 - When a run repeats a mistake: [Unstick a loop](../09-playbooks/unstick-a-loop.md)

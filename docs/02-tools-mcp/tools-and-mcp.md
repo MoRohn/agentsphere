@@ -34,6 +34,8 @@ From foundations, a tool has a name, a schema, a side effect, a permission, and 
 
 **MCP** (Model Context Protocol) is an open protocol for connecting an agent host to external tools and data. The host embeds an MCP client. Each external capability is an MCP server: a file tree, a browser, a ticket system, a database. The model sees a list of tools with schemas. Calling one is an ordinary tool call. The protocol is what makes that list portable across hosts.
 
+In the harness survey, a tool schema is the action interface, and the description that lands in the window is also context. MCP is one way to draw that boundary. The six-part frame is [harness engineering](../01-agent-patterns/harness-engineering.md).
+
 ```mermaid
 flowchart TD
   Host["Agent host"] --> Model["Model API"]
@@ -76,6 +78,7 @@ MCP attaches tools and data to the host. A **gateway** attaches the host's model
 
 - Next: [Gateways and routing](gateways-and-routing.md)
 - Previous: [Wiki memory](../01-agent-patterns/wiki-memory.md)
+- The runtime these tools sit in: [Harness engineering](../01-agent-patterns/harness-engineering.md)
 
 ---
 

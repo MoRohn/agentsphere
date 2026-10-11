@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Four eras of agent engineering</title>
+  <desc id="desc">Effort moves from how to ask, to what to show the model, to the runtime that keeps a run on track, to training some of that behavior into the model while the runtime keeps access, state, and safety.</desc>
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6C5CE7"/>
+      <stop offset="0.5" stop-color="#00D1FF"/>
+      <stop offset="1" stop-color="#2EF2A6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="560" fill="#07090F"/>
+  <rect width="1200" height="4" fill="url(#bar)"/>
+  <circle cx="36" cy="40" r="8.5" fill="#3A2E9A"/>
+  <circle cx="33.4" cy="37.2" r="2.3" fill="#FFFFFF" fill-opacity="0.75"/>
+  <circle cx="36" cy="40" r="8.5" fill="none" stroke="#9AF7FF" stroke-width="1.3"/>
+  <circle cx="43.2" cy="34.2" r="1.7" fill="#7AF6FF"/>
+  <text x="56" y="46" fill="#E6EAF2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="600">Four eras of agent engineering</text>
+  <text x="1164" y="46" text-anchor="end" fill="#8B97B3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">agentsphere</text>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="28" y="84" width="262" height="320" rx="16" fill="#12182B" stroke="#E6EAF2" stroke-opacity="0.35"/>
+    <circle cx="56" cy="118" r="14" fill="#E6EAF2"/>
+    <text x="56" y="123" text-anchor="middle" fill="#07090F" font-size="13" font-weight="700">1</text>
+    <text x="80" y="124" fill="#E6EAF2" font-size="16" font-weight="600">Prompt</text>
+    <text x="48" y="168" fill="#A9B4CC" font-size="14">How to ask, so the</text>
+    <text x="48" y="190" fill="#A9B4CC" font-size="14">model uses what it</text>
+    <text x="48" y="212" fill="#A9B4CC" font-size="14">already knows.</text>
+    <text x="48" y="258" fill="#E6EAF2" font-size="13">The limit</text>
+    <text x="48" y="284" fill="#8B97B3" font-size="13">A better question does</text>
+    <text x="48" y="306" fill="#8B97B3" font-size="13">not hold state, check</text>
+    <text x="48" y="328" fill="#8B97B3" font-size="13">an action, or recover.</text>
+    <text x="48" y="372" fill="#8B97B3" font-size="11">EXPRESSION</text>
+
+    <rect x="322" y="84" width="262" height="320" rx="16" fill="#12182B" stroke="#6C5CE7"/>
+    <circle cx="350" cy="118" r="14" fill="#6C5CE7"/>
+    <text x="350" y="123" text-anchor="middle" fill="#F4F7FB" font-size="13" font-weight="700">2</text>
+    <text x="374" y="124" fill="#E6EAF2" font-size="16" font-weight="600">Context</text>
+    <text x="342" y="168" fill="#A9B4CC" font-size="14">What this step is</text>
+    <text x="342" y="190" fill="#A9B4CC" font-size="14">allowed to see.</text>
+    <text x="342" y="212" fill="#A9B4CC" font-size="14">Retrieval, memory, tools.</text>
+    <text x="342" y="258" fill="#C4B8FF" font-size="13">The limit</text>
+    <text x="342" y="284" fill="#8B97B3" font-size="13">A good input still has</text>
+    <text x="342" y="306" fill="#8B97B3" font-size="13">no structural way to</text>
+    <text x="342" y="328" fill="#8B97B3" font-size="13">catch drift or recover.</text>
+    <text x="342" y="372" fill="#8B97B3" font-size="11">INFORMATION</text>
+
+    <rect x="616" y="84" width="262" height="320" rx="16" fill="#10241C" stroke="#2EF2A6"/>
+    <circle cx="644" cy="118" r="14" fill="#2EF2A6"/>
+    <text x="644" y="123" text-anchor="middle" fill="#07090F" font-size="13" font-weight="700">3</text>
+    <text x="668" y="124" fill="#E6EAF2" font-size="16" font-weight="600">Harness</text>
+    <text x="636" y="168" fill="#A9B4CC" font-size="14">How the run stays</text>
+    <text x="636" y="190" fill="#A9B4CC" font-size="14">on track: observe,</text>
+    <text x="636" y="212" fill="#A9B4CC" font-size="14">act, store, check.</text>
+    <text x="636" y="258" fill="#7DFFC8" font-size="13">The shift</text>
+    <text x="636" y="284" fill="#8B97B3" font-size="13">The runtime becomes</text>
+    <text x="636" y="306" fill="#8B97B3" font-size="13">the design object,</text>
+    <text x="636" y="328" fill="#8B97B3" font-size="13">around the model.</text>
+    <text x="636" y="372" fill="#8B97B3" font-size="11">EXECUTION</text>
+
+    <rect x="910" y="84" width="262" height="320" rx="16" fill="#12182B" stroke="#00D1FF" stroke-opacity="0.85"/>
+    <circle cx="938" cy="118" r="14" fill="#00D1FF"/>
+    <text x="938" y="123" text-anchor="middle" fill="#07090F" font-size="13" font-weight="700">4</text>
+    <text x="962" y="124" fill="#E6EAF2" font-size="16" font-weight="600">Co-evolve</text>
+    <text x="930" y="168" fill="#A9B4CC" font-size="14">Learn some of the</text>
+    <text x="930" y="190" fill="#A9B4CC" font-size="14">loop into the model.</text>
+    <text x="930" y="212" fill="#A9B4CC" font-size="14">Keep the rest outside.</text>
+    <text x="930" y="258" fill="#7AF6FF" font-size="13">What stays outside</text>
+    <text x="930" y="284" fill="#8B97B3" font-size="13">Access to the world,</text>
+    <text x="930" y="306" fill="#8B97B3" font-size="13">durable state, and</text>
+    <text x="930" y="328" fill="#8B97B3" font-size="13">the safety controls.</text>
+    <text x="930" y="372" fill="#8B97B3" font-size="11">TRAINING</text>
+
+    <polyline points="290,244 322,244" fill="none" stroke="#6C5CE7" stroke-width="1.6"/>
+    <polygon points="312,238 322,244 312,250" fill="#6C5CE7"/>
+    <polyline points="584,244 616,244" fill="none" stroke="#2EF2A6" stroke-width="1.6"/>
+    <polygon points="606,238 616,244 606,250" fill="#2EF2A6"/>
+    <polyline points="878,244 910,244" fill="none" stroke="#00D1FF" stroke-width="1.6"/>
+    <polygon points="900,238 910,244 900,250" fill="#00D1FF"/>
+  </g>
+  <text x="36" y="460" fill="#A9B4CC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">All four are in use now. A later era does not retire the earlier ones.</text>
+  <text x="36" y="500" fill="#8B97B3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">The bottleneck moves: from how you ask, to what you show, to how the run is controlled, to what is learned.</text>
+</svg>

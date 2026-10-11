@@ -77,6 +77,7 @@ A useful trace is short enough to read. Store the tool name, the arguments that 
 - Next: [Memory, tools, and planning](memory-tools-planning.md)
 - Practice: [Your first agent](../09-playbooks/first-agent.md) writes this loop down for a task you have
 - When a run misbehaves: [Unstick a loop](../09-playbooks/unstick-a-loop.md)
+- The runtime around this loop: [Harness engineering](../01-agent-patterns/harness-engineering.md)
 
 ---
 
