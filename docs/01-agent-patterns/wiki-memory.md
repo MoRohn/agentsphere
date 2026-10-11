@@ -17,6 +17,8 @@
 
 Make the agent write something worth remembering. The next question searches that writing first.
 
+A single notes file is enough to feel this. The [Builder guide](../../paths/builder/README.md) stops there on purpose. This page grows that file into raw sources, wiki pages, and rules, so a later run can search what you already decided.
+
 | | |
 | --- | --- |
 | Path | Builder |

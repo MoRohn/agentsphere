@@ -17,6 +17,8 @@
 
 Take one job your agent repeats and move the procedure out of the system prompt. You finish with a skill file short enough to review.
 
+**Why it matters.** The file is what you will edit when the steps change. A paragraph in a chat is not. The [Builder guide](../../paths/builder/README.md) loads one short `SKILL.md` into a working agent. This playbook is how you write that file for a job you actually repeat.
+
 | | |
 | --- | --- |
 | Path | Builder |

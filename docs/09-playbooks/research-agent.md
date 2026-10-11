@@ -17,6 +17,8 @@
 
 Stand up the smallest version of raw, wiki, and schema. Use it on a question you actually have.
 
+The notes file in the [Builder guide](../../paths/builder/README.md) is one page and nothing else. Start there if you do not have a folder layout yet. This playbook is that page grown into raw sources, a wiki, and rules.
+
 | | |
 | --- | --- |
 | Path | Power user |

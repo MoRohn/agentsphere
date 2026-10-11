@@ -149,7 +149,7 @@ Only if you connect that account. Skip any account you would not want a helper t
 
 You are ready for the next guide when you can say how a chatbot and an agent differ, and you have given one a job that includes a "do not send" line.
 
-[Builder](../builder/README.md) is that next guide. It is for making an agent yourself: what it remembers, which tools it may use, and how you save a repeated job.
+[Builder](../builder/README.md) is that next guide. It is for making a small agent yourself: a loop, one tool, a notes file, a saved procedure, and a check before the answer counts.
 
 ## Continue
 

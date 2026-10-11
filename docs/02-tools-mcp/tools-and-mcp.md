@@ -17,6 +17,8 @@
 
 The model decides. A tool does. A protocol is the agreement that lets many tools plug into many hosts without a custom integration each time.
 
+**Why it matters.** Without a tool, the agent can only talk. MCP matters when that tool should plug into more than one host. The smallest version is one function in the [Builder guide](../../paths/builder/README.md): the model asks, your code runs, the text comes back. This page is the contract around that function. One action per tool. A tool that both reads and sends hides the send.
+
 | | |
 | --- | --- |
 | Path | Builder |

@@ -17,6 +17,8 @@
 
 An agent that only chats does not remember. It fills a window, answers, and leaves the next run to start from zero. Memory is what you deliberately keep outside that window, and the habit of writing it back.
 
+**Why it matters.** If the next run cannot open a file, it will search again for a fact you already had. The notes file in the [Builder guide](../../paths/builder/README.md) is the smallest version: one file, read at the start, appended when something is worth keeping. This page is what you add when that file is not enough.
+
 | | |
 | --- | --- |
 | Path | Builder |

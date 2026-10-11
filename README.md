@@ -9,7 +9,7 @@
   <a href="CHANGELOG.md">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/badges/version-dark.svg">
-      <img alt="version 0.4.5" src="assets/badges/version-light.svg" height="28">
+      <img alt="version 0.4.6" src="assets/badges/version-light.svg" height="28">
     </picture>
   </a>
   &nbsp;
@@ -58,7 +58,7 @@ The rest of the pages live in [`docs/`](docs/README.md). Posts and papers that s
 | Level | Start here if you | Open the guide | You will be able to |
 | --- | --- | --- | --- |
 | **[Explorer](paths/explorer/README.md)** | have never used an agent, or you only know chatbots | [Explorer](paths/explorer/README.md) | explain an agent in everyday words, and try one safely |
-| **[Builder](paths/builder/README.md)** | want to make one | [Builder](paths/builder/README.md) | decide what it can see, remember, and do |
+| **[Builder](paths/builder/README.md)** | want to make one | [Builder](paths/builder/README.md) | build one small agent: a loop, a tool, notes, a skill, and a check |
 | **[Operator](paths/operator/README.md)** | run agents for a team | [Operator](paths/operator/README.md) | choose where a job runs, and score it |
 | **[Power user](paths/power-user/README.md)** | already run them, and one is stuck | [Power user](paths/power-user/README.md) | fix it by changing one thing |
 
