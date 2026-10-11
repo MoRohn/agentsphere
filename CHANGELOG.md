@@ -2,6 +2,10 @@
 
 The guide version tracks the pages. Dates are the day the change landed in this repository.
 
+## 0.4.6 — 2026-10-11
+
+- Rewrote [Builder](paths/builder/README.md) as a hands-on build: a loop, one tool, a notes file, a skill, and a check, with a no-code path and short samples from the current OpenAI Agents SDK. The route diagram is those five steps.
+
 ## 0.4.5 — 2026-10-11
 
 - Opened each section in plain language, matching the map cards. The two lists of six parts now say how they differ. Evals, security, and hosted agents define their words in the first paragraph.

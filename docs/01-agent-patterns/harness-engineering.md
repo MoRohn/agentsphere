@@ -19,6 +19,8 @@
 
 An agent is a model plus the system around it. The model suggests the next step. The system decides what the model sees, which actions are allowed, where notes live, and how a failure is caught. This guide calls that system the **harness**. [What is an agent](../00-foundations/what-is-an-agent.md) uses a different list of six: the pieces you can point at in a product. The six on this page are what that system does.
 
+**Why it matters.** Swapping the model does not add a missing file or a missing check. The [Builder guide](../../paths/builder/README.md) builds the smallest harness you can run: a loop, one tool, a notes file, a skill, and a check. This page names the six jobs that system is doing.
+
 | | |
 | --- | --- |
 | Path | Builder, then Operator |

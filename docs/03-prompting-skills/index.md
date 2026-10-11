@@ -17,6 +17,8 @@
 
 A prompt is what you tell the model for this job. A skill is the procedure you save, so the next job does not start from a giant paste. Two of the references are catalogs: skills for motion design, and libraries for building websites with an agent.
 
+**Why it matters.** The steps you repeat belong in a file you can edit. The [Builder guide](../../paths/builder/README.md) loads one `SKILL.md` into a working agent. These pages are how to split a long prompt, and how to review a skill someone else wrote.
+
 | | |
 | --- | --- |
 | Path | Builder |

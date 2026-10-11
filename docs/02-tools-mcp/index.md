@@ -17,6 +17,8 @@
 
 Tools are how an agent does more than talk: search, read a file, send a draft. **MCP** (Model Context Protocol) is a common plug so the same tool can work in more than one app. A gateway is a middleman in front of the model. This section covers all three.
 
+**Why it matters.** A tool is the difference between an answer and an action. The [Builder guide](../../paths/builder/README.md) adds one tool to a small agent. These pages are the contract, the plug, and the gateway in front of the model.
+
 | | |
 | --- | --- |
 | Path | Builder |

@@ -56,25 +56,26 @@ You can explain what an agent is, walk the loop, and name the difference between
 
 ## Builder
 
-The full guide, with the harness, memory, tools, and skill exercises: [Builder](../paths/builder/README.md).
+The full guide is a hands-on build of one small agent: [Builder](../paths/builder/README.md). Start there. You finish with a loop, one tool, a notes file, a skill file, and a check that can reject an answer.
 
-You can design an agent that uses tools and leaves a knowledge base behind.
+The pages below are the longer version of those same pieces. Open one when the small agent is too small for the job.
 
 | Order | Page | Stay with it until |
 | --- | --- | --- |
-| 1 | [ReAct and plan-and-execute](01-agent-patterns/react-and-plan-execute.md) | You can pick one pattern for a task and say why |
-| 2 | [Wiki memory](01-agent-patterns/wiki-memory.md) | You can describe raw, wiki, and schema |
-| 3 | [How agents remember](01-agent-patterns/how-agents-remember.md) | You can place the four memories and say what write-back is |
-| 4 | [Tools and MCP](02-tools-mcp/tools-and-mcp.md) | You can sketch a host, a model API, and a tool server |
-| 5 | [Harness engineering](01-agent-patterns/harness-engineering.md) | You can name the model and the six runtime parts, and match them to the task |
-| 6 | [Hosted agents](10-hosted-agents/index.md) | You can point at one product and name which harness part it stresses |
-| 7 | [Prompts and skills](03-prompting-skills/prompts-and-skills.md) | You can split a giant prompt into prompt, skill, and file |
-| 8 | [Write a skill](09-playbooks/write-a-skill.md) | One repeated job lives in `SKILL.md`, not in a longer prompt |
-| 9 | [Research-agent playbook](09-playbooks/research-agent.md) | You have folders, rules, and one page written from a real source |
+| 1 | [Builder](../paths/builder/README.md) | A notes file, a skill file, and a check exist, in code or with the no-code messages |
+| 2 | [ReAct and plan-and-execute](01-agent-patterns/react-and-plan-execute.md) | You can pick one pattern for a task and say why |
+| 3 | [Wiki memory](01-agent-patterns/wiki-memory.md) | You can describe raw, wiki, and schema |
+| 4 | [How agents remember](01-agent-patterns/how-agents-remember.md) | You can place the four memories and say what write-back is |
+| 5 | [Tools and MCP](02-tools-mcp/tools-and-mcp.md) | You can sketch a host, a model API, and a tool server |
+| 6 | [Harness engineering](01-agent-patterns/harness-engineering.md) | You can name the model and the six runtime parts, and match them to the task |
+| 7 | [Hosted agents](10-hosted-agents/index.md) | You can point at one product and name which harness part it stresses |
+| 8 | [Prompts and skills](03-prompting-skills/prompts-and-skills.md) | You can split a giant prompt into prompt, skill, and file |
+| 9 | [Write a skill](09-playbooks/write-a-skill.md) | One repeated job lives in `SKILL.md`, not in a longer prompt |
+| 10 | [Research-agent playbook](09-playbooks/research-agent.md) | You have folders, rules, and one page written from a real source |
 
 Optional depth: [creative toolkits](03-prompting-skills/creative-toolkits.md) and the [craft playbook](09-playbooks/skills-and-craft.md) if you build visual work with agents.
 
-**You are ready to operate** when a second person could run your research agent from the schema and the skill file alone.
+**You are ready to operate** when a second person can run your small agent from the skill file and the notes file, and the check can reject an answer that names nothing it opened.
 
 ## Operator
 
@@ -121,7 +122,7 @@ You can do the work, retell a source without inflating it, and extend a page so 
 | After | The artifact |
 | --- | --- |
 | Explorer | [Agent card](09-playbooks/first-agent.md) |
-| Builder | A wiki page plus a [skill file](09-playbooks/write-a-skill.md) |
+| Builder | A notes file, a [skill file](09-playbooks/write-a-skill.md), and a check |
 | Operator | A placement note and a [scored run](09-playbooks/score-a-run.md) |
 | Power user | A diagnosis written where the next person will find it |
 

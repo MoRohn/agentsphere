@@ -17,6 +17,8 @@
 
 Put stable procedure in a skill, facts in a file, and secrets in a store the prompt cannot casually reprint.
 
+**Why it matters.** A procedure that lives only in a long prompt is hard to review, and the model skims it. The [Builder guide](../../paths/builder/README.md) loads one `SKILL.md` into a working agent and leaves today's job in the message. This page is how to split the rest: system prompt, skill, task, and context.
+
 | | |
 | --- | --- |
 | Path | Builder |

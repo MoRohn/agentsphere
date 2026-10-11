@@ -65,6 +65,16 @@ Posts, articles, and repositories that shaped this guide. Pages cite them inline
 | Context engineering | [Anthropic, 2025](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) | [How agents remember](01-agent-patterns/how-agents-remember.md) |
 | Agent system and harness design | [paper](https://arxiv.org/abs/2606.20683), [Awesome-Agent-Engineering](https://github.com/ggjy/Awesome-Agent-Engineering) | [Harness engineering](01-agent-patterns/harness-engineering.md) |
 
+## Agent SDKs
+
+Opened 11 October 2026 for the code samples on [Builder](../paths/builder/README.md). The samples use only calls those pages show. `@tool` and `@function_tool` are one Python function under two names.
+
+| SDK | Pages |
+| --- | --- |
+| OpenAI Agents SDK for Python | [Quickstart](https://openai.github.io/openai-agents-python/quickstart/), [sessions](https://openai.github.io/openai-agents-python/sessions/), [guardrails](https://openai.github.io/openai-agents-python/guardrails/) |
+| OpenAI Agents SDK for JavaScript | [Quickstart](https://openai.github.io/openai-agents-js/guides/quickstart/), [tools](https://openai.github.io/openai-agents-js/guides/tools/) |
+| OpenAI Agents quickstart | [Python and JavaScript](https://developers.openai.com/api/docs/guides/agents/quickstart) |
+
 ## Hosted products
 
 Official pages opened 11 October 2026 for [Hosted agents](10-hosted-agents/index.md). A feature that was not on these pages is not in the guide.

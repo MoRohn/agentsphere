@@ -17,6 +17,8 @@
 
 Two established ways to shape the loop. One keeps the plan inside the next action. The other writes the plan down and then works through it.
 
+The loop in the [Builder guide](../../paths/builder/README.md) is the first shape, small enough to run: the model proposes, a tool may act, the result comes back, and a check decides whether the answer counts. `Runner.run` in the OpenAI Agents SDK is one implementation of that cycle. This page is how to choose when the plan should be written down instead.
+
 | | |
 | --- | --- |
 | Path | Builder |
