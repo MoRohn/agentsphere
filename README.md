@@ -68,7 +68,7 @@ Sequences, timing, and a readiness check for each path: [Learning paths](docs/le
 | | Section | What it covers |
 | --- | --- | --- |
 | 00 | [Foundations](docs/00-foundations/index.md) | Definition, the loop, memory, tools, planning |
-| 01 | [Agent patterns](docs/01-agent-patterns/index.md) | ReAct, plan-and-execute, wiki memory |
+| 01 | [Agent patterns](docs/01-agent-patterns/index.md) | ReAct, plan-and-execute, wiki memory, how agents remember |
 | 02 | [Tools and MCP](docs/02-tools-mcp/index.md) | Tools, Model Context Protocol, gateways |
 | 03 | [Prompting and skills](docs/03-prompting-skills/index.md) | Prompts, skill packs, creative stacks |
 | 04 | [Multi-agent](docs/04-multi-agent/index.md) | Lead agents, phases, merging results |
@@ -82,23 +82,57 @@ Also: [glossary](docs/glossary.md), [how to read a claim](docs/how-to-read.md), 
 
 ## How a research agent keeps what it learns
 
+An agent remembers only what it writes down outside the context window. The window is working memory: rebuilt every call, and worse at using a fact buried in the middle of a long input than a fact at either end. Episodic memory is the trace of what happened. Semantic memory is a page that says what is true, with a source. Procedural memory is a skill or a checklist. A search that pastes passages into the window is not a fifth kind. It is a load. It becomes memory when the conclusion is written back.
+
 <p align="center">
-  <img src="assets/diagrams/knowledge-flow.svg" alt="A question searches the pages first. A gap sends you to the source. The answer is written back." width="100%">
+  <img src="assets/diagrams/knowledge-flow.svg" alt="Six moves: name the question, search notes, read sources, write the page, reflect, and let the next run start from that page." width="100%">
 </p>
 
-```mermaid
-flowchart LR
-  Q["Question"] --> P["Search the pages"]
-  P --> A["Answer from the page"]
-  P --> G["Gap"]
-  G --> S["Open the source"]
-  S --> W["Write the page"]
-  W --> P
-```
+<p align="center">
+  <img src="assets/diagrams/memory-map.svg" alt="Working memory is the context window. Episodic, semantic, and procedural memory live outside it. Retrieval is loaded for one call unless it is written back." width="100%">
+</p>
 
-A question searches the pages first. A gap sends you back to the source. The answer is written down before the session ends.
+| Memory | Lives | Survives the call? |
+| --- | --- | --- |
+| Working | The window | No |
+| Episodic | Traces, logs, reflections | Yes, if you stored them |
+| Semantic | Wiki pages with sources | Yes, if you update them |
+| Procedural | Skills and checklists | Yes, if they are files |
 
-That pattern comes from an account of a research-agent workflow attributed to Andrej Karpathy: raw sources stay raw, useful parts become linked wiki pages, and the wiki is checked first. [Source, per post](https://x.com/fleyta88/status/2108619644399415565).
+The loop in the first figure is how a research agent uses those stores. Name the decision and the done-when. Search notes and past traces before the open web. Read sources without rewriting them. Write one page: answer, evidence, gap. Reflect as a rule the next run will see, and drop what that rule does not need. The next question starts on the page.
+
+Three methods sit on top of that loop.
+
+| Method | The move | Where to read it |
+| --- | --- | --- |
+| Plan, act, observe | Interleave a step with a check of what the tool returned | [ReAct](https://arxiv.org/abs/2210.03629) |
+| Reflection | Store a judgment that changes the next attempt | [Reflexion](https://arxiv.org/abs/2303.11366), [Generative Agents](https://arxiv.org/abs/2304.03442) |
+| Notes and compaction | Keep a file outside the window. Summarize the window without making the summary the only copy of the decision | [Context engineering](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) |
+
+Five patterns follow from those methods.
+
+| Pattern | Use it when |
+| --- | --- |
+| Notes first | The question might already have a page |
+| One page per question | A stranger should be able to answer tomorrow |
+| Claim, source, gap | A number or a product feature is in play |
+| Reflection as a rule | The same miss will happen again |
+| Compact the trace, keep the note | The window is mostly tool output |
+
+Forget on purpose. Raw logs can go once the conclusion is on the page. A stale page cannot stay beside a newer one. A reflection nobody will read is just more text in the window.
+
+| What you see | Change this |
+| --- | --- |
+| The same search every session | Write the page |
+| A fluent answer with no source | Stop treating retrieval as memory |
+| After a summary, it forgot the task | Put the decision in a note |
+| The same mistake, plus a long self-critique | Store a rule where the next run looks first |
+
+**Checklist.** Done-when is written first. Notes are searched before the web. The page has an answer, a source, and a gap. The raw source was not edited. Something was dropped on purpose. The next run can start without the transcript.
+
+**A worked pass.** The window is full of test logs and the agent has forgotten the file it was migrating. The note already names `billing/client.ts`. The run writes the failing assertion into the note, leaves the log on disk, and drops the log body from the window. The next run opens the note. It does not reread the morning's logs to recover a filename.
+
+The full argument, the paper list, and a longer example: [How agents remember](docs/01-agent-patterns/how-agents-remember.md).
 
 ## How claims are marked
 

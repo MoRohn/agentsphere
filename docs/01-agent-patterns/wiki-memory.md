@@ -93,7 +93,7 @@ Use retrieval to find the passage. Use the wiki so you do not have to rediscover
 | wiki/ | [`docs/`](../README.md) |
 | schema | [CONTRIBUTING](../../CONTRIBUTING.md) |
 
-The picture of that flow is [knowledge-flow.svg](../../assets/diagrams/knowledge-flow.svg). Saving a source without updating a page is the forgetful loop, wearing a git commit.
+The picture of that flow is [knowledge-flow.svg](../../assets/diagrams/knowledge-flow.svg). The four kinds of memory, retrieval, reflection, and compaction are [how agents remember](how-agents-remember.md). Saving a source without updating a page is the forgetful loop, wearing a git commit.
 
 ## A page worth writing
 
@@ -145,7 +145,8 @@ A stranger can answer the question from the page. The next run should search thi
 
 ## Continue
 
-- Next: [Tools and MCP](../02-tools-mcp/tools-and-mcp.md)
+- Next: [How agents remember](how-agents-remember.md)
+- Then: [Tools and MCP](../02-tools-mcp/tools-and-mcp.md)
 - Practice: [Research-agent playbook](../09-playbooks/research-agent.md)
 - Case study: [Compounding wiki](../08-case-studies/compounding-wiki.md)
 

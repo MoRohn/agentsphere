@@ -9,7 +9,7 @@ The loop from foundations is the skeleton. A pattern is a way of stressing one p
 | | |
 | --- | --- |
 | Path | Builder |
-| Time | About 40 minutes |
+| Time | About 70 minutes |
 | You need | [The agent loop](../00-foundations/the-agent-loop.md) |
 
 ## Pages
@@ -18,6 +18,7 @@ The loop from foundations is the skeleton. A pattern is a way of stressing one p
 | --- | --- |
 | [ReAct and plan-and-execute](react-and-plan-execute.md) | Choose a tight loop or a written plan |
 | [Wiki memory](wiki-memory.md) | Design raw, wiki, and schema so the next run is smarter |
+| [How agents remember](how-agents-remember.md) | Place working, episodic, semantic, and procedural memory, and write back |
 
 Wiki memory is the operating model of this repository. If you only read one page in the guide, read that one, then come back for the pattern that should wrap it.
 

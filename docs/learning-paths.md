@@ -35,10 +35,11 @@ You can design an agent that uses tools and leaves a knowledge base behind.
 | --- | --- | --- |
 | 1 | [ReAct and plan-and-execute](01-agent-patterns/react-and-plan-execute.md) | You can pick one pattern for a task and say why |
 | 2 | [Wiki memory](01-agent-patterns/wiki-memory.md) | You can describe raw, wiki, and schema |
-| 3 | [Tools and MCP](02-tools-mcp/tools-and-mcp.md) | You can sketch a host, a model API, and a tool server |
-| 4 | [Prompts and skills](03-prompting-skills/prompts-and-skills.md) | You can split a giant prompt into prompt, skill, and file |
-| 5 | [Write a skill](09-playbooks/write-a-skill.md) | One repeated job lives in `SKILL.md`, not in a longer prompt |
-| 6 | [Research-agent playbook](09-playbooks/research-agent.md) | You have folders, rules, and one page written from a real source |
+| 3 | [How agents remember](01-agent-patterns/how-agents-remember.md) | You can place the four memories and say what write-back is |
+| 4 | [Tools and MCP](02-tools-mcp/tools-and-mcp.md) | You can sketch a host, a model API, and a tool server |
+| 5 | [Prompts and skills](03-prompting-skills/prompts-and-skills.md) | You can split a giant prompt into prompt, skill, and file |
+| 6 | [Write a skill](09-playbooks/write-a-skill.md) | One repeated job lives in `SKILL.md`, not in a longer prompt |
+| 7 | [Research-agent playbook](09-playbooks/research-agent.md) | You have folders, rules, and one page written from a real source |
 
 Optional depth: [creative toolkits](03-prompting-skills/creative-toolkits.md) and the [craft playbook](09-playbooks/skills-and-craft.md) if you build visual work with agents.
 

@@ -19,7 +19,7 @@ Reference IDs (`B1`, `B2`, …) match the citations on the pages. **Per post** m
 | Ref | Date | Author | What it opened | Where it shows up |
 | --- | --- | --- | --- | --- |
 | B1 | 2026-10-10 | [@oliviscusAI](https://x.com/oliviscusAI/status/2108786434991923251) | bitnet.cpp and 1-bit inference | [Efficient inference](05-runtime-infra/efficient-inference.md), [case study](08-case-studies/local-inference.md) |
-| B2 | 2026-10-09 | [@fleyta88](https://x.com/fleyta88/status/2108619644399415565) | A research agent that writes a wiki | [Wiki memory](01-agent-patterns/wiki-memory.md), [patterns](01-agent-patterns/react-and-plan-execute.md), [research playbook](09-playbooks/research-agent.md), [case study](08-case-studies/compounding-wiki.md) |
+| B2 | 2026-10-09 | [@fleyta88](https://x.com/fleyta88/status/2108619644399415565) | A research agent that writes a wiki | [Wiki memory](01-agent-patterns/wiki-memory.md), [how agents remember](01-agent-patterns/how-agents-remember.md), [patterns](01-agent-patterns/react-and-plan-execute.md), [research playbook](09-playbooks/research-agent.md), [case study](08-case-studies/compounding-wiki.md) |
 | B3 | 2026-10-10 | [@ai_explorer25](https://x.com/ai_explorer25/status/2108746842620014807) | Accounts to follow | [Community](community.md) |
 | B4 | 2026-10-09 | [@ClaudeDevs](https://x.com/ClaudeDevs/status/2108591328732856655) | Managed multi-agent workflows | [Orchestration](04-multi-agent/orchestration.md), [case study](08-case-studies/managed-workflows.md) |
 | B5 | 2026-10-09 | [@himanshubuildss](https://x.com/himanshubuildss/status/2108540618553356666) | Libraries for building sites with an agent | [Creative toolkits](03-prompting-skills/creative-toolkits.md), [case study](08-case-studies/motion-and-web-stacks.md) |
@@ -37,12 +37,20 @@ Reference IDs (`B1`, `B2`, …) match the citations on the pages. **Per post** m
 | LittleBit | [paper](https://arxiv.org/abs/2506.13771), [SamsungLabs/LittleBit](https://github.com/SamsungLabs/LittleBit), [Samsung Research](https://research.samsung.com/blog/LittleBit-Ultra-Low-Bit-Quantization-via-Latent-Factorization) | [Efficient inference](05-runtime-infra/efficient-inference.md) |
 | claude-motion | [whaleyxbt/claude-motion](https://github.com/whaleyxbt/claude-motion) | [Creative toolkits](03-prompting-skills/creative-toolkits.md) |
 | Scrolltide | [scrolltide.co](https://scrolltide.co) | [Creative toolkits](03-prompting-skills/creative-toolkits.md) |
+| CoALA | [paper](https://arxiv.org/abs/2309.02427) | [How agents remember](01-agent-patterns/how-agents-remember.md) |
+| Lost in the Middle | [paper](https://arxiv.org/abs/2307.03172) | [How agents remember](01-agent-patterns/how-agents-remember.md) |
+| Retrieval-augmented generation | [paper](https://arxiv.org/abs/2005.11401) | [How agents remember](01-agent-patterns/how-agents-remember.md) |
+| MemGPT | [paper](https://arxiv.org/abs/2310.08560) | [How agents remember](01-agent-patterns/how-agents-remember.md) |
+| ReAct | [paper](https://arxiv.org/abs/2210.03629) | [How agents remember](01-agent-patterns/how-agents-remember.md), [patterns](01-agent-patterns/react-and-plan-execute.md) |
+| Reflexion | [paper](https://arxiv.org/abs/2303.11366) | [How agents remember](01-agent-patterns/how-agents-remember.md) |
+| Generative Agents | [paper](https://arxiv.org/abs/2304.03442) | [How agents remember](01-agent-patterns/how-agents-remember.md) |
+| Context engineering | [Anthropic, 2025](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) | [How agents remember](01-agent-patterns/how-agents-remember.md) |
 
 ## By theme
 
 | Theme | References |
 | --- | --- |
-| Memory and knowledge | B2 |
+| Memory and knowledge | B2, and the papers above on memory, retrieval, and context |
 | Orchestration | B4 |
 | Tools, MCP, routing | B6 |
 | Skills and creative stacks | B9, B5 |

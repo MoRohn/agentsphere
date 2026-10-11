@@ -32,6 +32,7 @@ How the loop is shaped in practice.
 
 - [ReAct and plan-and-execute](01-agent-patterns/react-and-plan-execute.md)
 - [Wiki memory](01-agent-patterns/wiki-memory.md)
+- [How agents remember](01-agent-patterns/how-agents-remember.md)
 
 ### [02 · Tools and MCP](02-tools-mcp/index.md)
 

@@ -26,7 +26,7 @@ Three different jobs get blurred into "the context window." Separating them is t
 | **Files the agent maintains** | As long as you keep them | Conclusions, links, open questions, corrections | Raw evidence you must not rewrite |
 | **Retrieval** | As long as the index does | Finding a passage in a large corpus | Being the place a conclusion is maintained |
 
-Retrieval, including the pattern usually called RAG, fetches passages into the window. It does not, by itself, maintain a conclusion. A wiki page is a conclusion with links back to the passages. You will often want both: search to find, pages to remember. The argument for taking pages seriously is [wiki memory](../01-agent-patterns/wiki-memory.md).
+Retrieval, including the pattern usually called RAG, fetches passages into the window. It does not, by itself, maintain a conclusion. A wiki page is a conclusion with links back to the passages. You will often want both: search to find, pages to remember. The file layout is [wiki memory](../01-agent-patterns/wiki-memory.md). Working, episodic, semantic, and procedural memory, and the habit of writing a conclusion back, are [how agents remember](../01-agent-patterns/how-agents-remember.md).
 
 > [!TIP]
 > **Established.** The window is finite. Stuffing it with the entire history feels like memory until a later call drops the early turns. Durable memory is whatever the next run can open on purpose.

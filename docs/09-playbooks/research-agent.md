@@ -89,6 +89,7 @@ When the source is someone else's post, link the status, mark the claim **per po
 
 ## Continue
 
+- [How agents remember](../01-agent-patterns/how-agents-remember.md)
 - [Skills and craft](skills-and-craft.md)
 - [Compounding wiki case study](../08-case-studies/compounding-wiki.md)
 

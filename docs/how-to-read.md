@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/diagrams/knowledge-flow.svg" alt="How a question becomes a page the next question can search." width="100%">
+  <img src="../assets/diagrams/knowledge-flow.svg" alt="Six moves: question, notes, sources, write back, reflect, next run." width="100%">
 </p>
 
 # How to read agentsphere
