@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-    <img src="assets/banner-light.svg" alt="agentsphere" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
+    <img src="assets/banner-light.png" alt="agentsphere" width="100%">
   </picture>
 </p>
 
@@ -53,8 +53,8 @@ Copy this shape. It is what makes the guide feel like one book.
 ```markdown
 <p align="center">
   <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/0N-name-dark.svg">
-  <img src="../../assets/sections/0N-name-light.svg" alt="Section title" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/0N-name-dark.png">
+  <img src="../../assets/sections/0N-name-light.png" alt="Section title" width="100%">
 </picture>
 </p>
 
@@ -132,4 +132,4 @@ State the claim you mean. "The post reports a 6.17x speedup" is a different sent
 | Paper text | `#E6EDF3` | Primary text on the dark figure |
 | Mist | `#C9D1D9` | Secondary text on the dark figure |
 
-The wordmark is `Agentsphere`, one word. `Agent` is navy on light and white on dark. `sphere` is orange. The mark is the robot in a circle: an orange disc with a navy crescent on light pages, a navy disc with an orange glow on dark pages. Full notes: [style guide](docs/style-guide.md).
+The wordmark is `Agentsphere`, one word. `Agent` is navy on light and white on dark. `sphere` is orange. The mark is the owner's robot on an orange disc: a navy crescent on light pages, a white crescent on dark pages, with the glow on `sphere` kept in the dark masthead. The masthead and the icon are those PNGs. Full notes: [style guide](docs/style-guide.md).

@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="../assets/banner-dark.svg">
-    <img src="../assets/banner-light.svg" alt="agentsphere" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="../assets/banner-dark.png">
+    <img src="../assets/banner-light.png" alt="agentsphere" width="100%">
   </picture>
 </p>
 
@@ -21,17 +21,17 @@ One visual system, so a page added in six months still looks like it belongs.
 
 ## Name and mark
 
-The name in prose is `agentsphere`, one word. The wordmark is `Agentsphere`: `Agent` in navy on a light page and white on a dark page, `sphere` in orange. The mark is a white robot head, dark visor, orange eyes, an orange antenna, and circuit traces, inside a circle. Two variants ship together. Light pages use the orange disc with a navy crescent. Dark pages use the navy disc with an orange ring and glow. Files:
+The name in prose is `agentsphere`, one word. The wordmark is `Agentsphere`: `Agent` in navy on a light page and white on a dark page, `sphere` in orange. The mark is the owner's artwork: a white robot head, dark visor, orange eyes, an orange antenna, and circuit traces, on an orange disc. Light pages use the navy crescent. Dark pages use the white crescent, and `sphere` keeps its orange glow. The files are that artwork, cropped, with the page color removed. Do not redraw them.
 
 | File | Role |
 | --- | --- |
-| [logo-dark.svg](../assets/logo-dark.svg), [logo-light.svg](../assets/logo-light.svg) | App-icon mark, 256×256. Crescent on light, glow on dark |
-| [banner-dark.svg](../assets/banner-dark.svg), [banner-light.svg](../assets/banner-light.svg) | Masthead, 830×300. Transparent. Wordmark outlined |
+| [logo-dark.png](../assets/logo-dark.png), [logo-light.png](../assets/logo-light.png) | App-icon mark, 640×640. Transparent outside the disc |
+| [banner-dark.png](../assets/banner-dark.png), [banner-light.png](../assets/banner-light.png) | Masthead. Light is 1600×542, dark is 1600×546. Transparent |
 | [badges/](../assets/badges/) | README pills, and the four level marks: Explorer, Builder, Operator, Power user |
-| [assets/sections/](../assets/sections/) | Section openers, 830×188. Light and dark pair |
+| [assets/sections/](../assets/sections/) | Section openers, 1660×376. The mark on the right is the same circle. Light and dark pair |
 | [assets/diagrams/](../assets/diagrams/) | Architecture figures, 830 wide. Light and dark pair |
 
-The README chooses the light or dark masthead with a `<picture>` element and `prefers-color-scheme`. The wordmark and the tagline `AI AGENTS REPOSITORY` are outlined paths, so GitHub does not need the font. The accessible name of the image is `Agentsphere`. The icon is transparent outside the disc. The tagline sits between two thin orange rules.
+The README chooses the light or dark masthead with a `<picture>` element and `prefers-color-scheme`. The accessible name of the image is `Agentsphere. AI agents repository.` The icon is transparent outside the disc. The tagline `AI AGENTS REPOSITORY` sits between two thin orange rules.
 
 ## Palette
 

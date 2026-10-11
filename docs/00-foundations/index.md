@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/00-foundations-dark.svg">
-  <img src="../../assets/sections/00-foundations-light.svg" alt="Foundations: what an agent is" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/00-foundations-dark.png">
+  <img src="../../assets/sections/00-foundations-light.png" alt="Foundations: what an agent is" width="100%">
 </picture>
 </p>
 

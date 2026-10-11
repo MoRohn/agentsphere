@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/02-tools-dark.svg">
-  <img src="../../assets/sections/02-tools-light.svg" alt="Tools and MCP: a hub with connected nodes" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/02-tools-dark.png">
+  <img src="../../assets/sections/02-tools-light.png" alt="Tools and MCP: a hub with connected nodes" width="100%">
 </picture>
 </p>
 

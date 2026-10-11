@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/04-multi-agent-dark.svg">
-  <img src="../../assets/sections/04-multi-agent-light.svg" alt="Multi-agent: a lead node and phased satellites" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/04-multi-agent-dark.png">
+  <img src="../../assets/sections/04-multi-agent-light.png" alt="Multi-agent: a lead node and phased satellites" width="100%">
 </picture>
 </p>
 

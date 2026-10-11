@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/01-patterns-dark.svg">
-  <img src="../../assets/sections/01-patterns-light.svg" alt="Agent patterns" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/01-patterns-dark.png">
+  <img src="../../assets/sections/01-patterns-light.png" alt="Agent patterns" width="100%">
 </picture>
 </p>
 

@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-    <img src="assets/banner-light.svg" alt="Agentsphere. AI agents repository." width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
+    <img src="assets/banner-light.png" alt="Agentsphere. AI agents repository." width="100%">
   </picture>
 </p>
 
@@ -9,7 +9,7 @@
   <a href="CHANGELOG.md">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/badges/version-dark.svg">
-      <img alt="version 0.4.0" src="assets/badges/version-light.svg" height="28">
+      <img alt="version 0.4.1" src="assets/badges/version-light.svg" height="28">
     </picture>
   </a>
   &nbsp;

@@ -47,7 +47,7 @@ Three maps are SVG only. They are the front door, not a second copy of a lesson:
 | Four eras | [harness-eras-light.svg](../assets/diagrams/harness-eras-light.svg) | [Harness engineering](01-agent-patterns/harness-engineering.md) |
 | Hosted agents | [hosted-agents-light.svg](../assets/diagrams/hosted-agents-light.svg) | [Hosted agents](10-hosted-agents/index.md) |
 
-Section openers live in [assets/sections](../assets/sections/). The mark and the masthead live at [logo-light.svg](../assets/logo-light.svg), [logo-dark.svg](../assets/logo-dark.svg), [banner-light.svg](../assets/banner-light.svg), and [banner-dark.svg](../assets/banner-dark.svg).
+Section openers live in [assets/sections](../assets/sections/). The mark and the masthead live at [logo-light.png](../assets/logo-light.png), [logo-dark.png](../assets/logo-dark.png), [banner-light.png](../assets/banner-light.png), and [banner-dark.png](../assets/banner-dark.png).
 
 When a figure changes, update the SVG, the Mermaid block, and this table's description if the title changed. Rules: [style guide](style-guide.md).
 
