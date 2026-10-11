@@ -6,9 +6,9 @@
 </p>
 
 <p>
-  <img src="../../assets/badges/level-builder.svg" alt="Builder" height="28">
+  <a href="../../paths/builder/README.md"><img src="../../assets/badges/level-builder.svg" alt="Builder" height="28"></a>
   &nbsp;
-  <img src="../../assets/badges/level-operator.svg" alt="Operator" height="28">
+  <a href="../../paths/operator/README.md"><img src="../../assets/badges/level-operator.svg" alt="Operator" height="28"></a>
 </p>
 
 # Harness engineering

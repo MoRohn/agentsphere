@@ -6,7 +6,7 @@ The masthead and the app-icon mark are the owner's artwork, cropped, with the ba
 | --- | --- |
 | [logo-dark.png](logo-dark.png), [logo-light.png](logo-light.png) | App-icon and favicon mark. Orange disc, white robot. Navy crescent on light, white crescent on dark. 640×640. Transparent. |
 | [banner-dark.png](banner-dark.png), [banner-light.png](banner-light.png) | README masthead. Mark, `Agentsphere`, tagline `AI AGENTS REPOSITORY`. Light is 1600×542. Dark is 1600×546 and keeps the white crescent and the glow on `sphere`. Transparent. |
-| [badges/](badges/) | Small pills for the README. Light and dark pair. |
+| [badges/](badges/) | Small pills for the README. The four level marks link to the persona guides under `paths/`. Version, paths, and references ship a light and dark pair. |
 | [sections/](sections/) | Openers for sections 00–10. 1660×376. Light and dark pair. |
 | [diagrams/](diagrams/) | Architecture figures, 830 wide. Light and dark pair. Each lesson figure has a Mermaid twin. See [the atlas](../docs/diagrams.md). |
 

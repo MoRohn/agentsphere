@@ -6,7 +6,7 @@
 </p>
 
 <p>
-  <img src="../../assets/badges/level-builder.svg" alt="Builder" height="28">
+  <a href="../../paths/builder/README.md"><img src="../../assets/badges/level-builder.svg" alt="Builder" height="28"></a>
 </p>
 
 # ReAct and plan-and-execute

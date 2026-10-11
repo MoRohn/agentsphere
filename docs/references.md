@@ -6,13 +6,13 @@
 </p>
 
 <p>
-  <img src="../assets/badges/level-explorer.svg" alt="Explorer" height="28">
+  <a href="../paths/explorer/README.md"><img src="../assets/badges/level-explorer.svg" alt="Explorer" height="28"></a>
   &nbsp;
-  <img src="../assets/badges/level-builder.svg" alt="Builder" height="28">
+  <a href="../paths/builder/README.md"><img src="../assets/badges/level-builder.svg" alt="Builder" height="28"></a>
   &nbsp;
-  <img src="../assets/badges/level-operator.svg" alt="Operator" height="28">
+  <a href="../paths/operator/README.md"><img src="../assets/badges/level-operator.svg" alt="Operator" height="28"></a>
   &nbsp;
-  <img src="../assets/badges/level-power.svg" alt="Power user" height="28">
+  <a href="../paths/power-user/README.md"><img src="../assets/badges/level-power.svg" alt="Power user" height="28"></a>
 </p>
 
 # Social references & inspirations

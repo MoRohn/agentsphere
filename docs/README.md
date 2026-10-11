@@ -6,18 +6,18 @@
 </p>
 
 <p>
-  <img src="../assets/badges/level-explorer.svg" alt="Explorer" height="28">
+  <a href="../paths/explorer/README.md"><img src="../assets/badges/level-explorer.svg" alt="Explorer" height="28"></a>
   &nbsp;
-  <img src="../assets/badges/level-builder.svg" alt="Builder" height="28">
+  <a href="../paths/builder/README.md"><img src="../assets/badges/level-builder.svg" alt="Builder" height="28"></a>
   &nbsp;
-  <img src="../assets/badges/level-operator.svg" alt="Operator" height="28">
+  <a href="../paths/operator/README.md"><img src="../assets/badges/level-operator.svg" alt="Operator" height="28"></a>
   &nbsp;
-  <img src="../assets/badges/level-power.svg" alt="Power user" height="28">
+  <a href="../paths/power-user/README.md"><img src="../assets/badges/level-power.svg" alt="Power user" height="28"></a>
 </p>
 
 # Guide map
 
-Start with the [harness](01-agent-patterns/harness-engineering.md), a [learning path](learning-paths.md), or the section that matches the job in front of you. The posts, articles, and repositories behind the pages are in [Social references & inspirations](references.md).
+Start with a persona guide — [Explorer](../paths/explorer/README.md), [Builder](../paths/builder/README.md), [Operator](../paths/operator/README.md), or [Power user](../paths/power-user/README.md) — or with the [harness](01-agent-patterns/harness-engineering.md), a [learning path](learning-paths.md), or the section that matches the job in front of you. The posts, articles, and repositories behind the pages are in [Social references & inspirations](references.md).
 
 <p align="center">
   <picture>

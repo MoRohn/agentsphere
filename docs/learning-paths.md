@@ -6,18 +6,18 @@
 </p>
 
 <p>
-  <img src="../assets/badges/level-explorer.svg" alt="Explorer" height="28">
+  <a href="../paths/explorer/README.md"><img src="../assets/badges/level-explorer.svg" alt="Explorer" height="28"></a>
   &nbsp;
-  <img src="../assets/badges/level-builder.svg" alt="Builder" height="28">
+  <a href="../paths/builder/README.md"><img src="../assets/badges/level-builder.svg" alt="Builder" height="28"></a>
   &nbsp;
-  <img src="../assets/badges/level-operator.svg" alt="Operator" height="28">
+  <a href="../paths/operator/README.md"><img src="../assets/badges/level-operator.svg" alt="Operator" height="28"></a>
   &nbsp;
-  <img src="../assets/badges/level-power.svg" alt="Power user" height="28">
+  <a href="../paths/power-user/README.md"><img src="../assets/badges/level-power.svg" alt="Power user" height="28"></a>
 </p>
 
 # Learning paths
 
-Four paths, one guide. You can stop at the end of a path and still have a complete skill. Later paths assume the earlier ones. Each path ends with an artifact you can show someone. Every path meets the harness.
+Four paths, one guide. Each pill opens a persona guide with its own route, exercises, and diagram: [Explorer](../paths/explorer/README.md), [Builder](../paths/builder/README.md), [Operator](../paths/operator/README.md), [Power user](../paths/power-user/README.md). You can stop at the end of a path and still have a complete skill. Later paths assume the earlier ones. Each path ends with an artifact you can show someone. Every path meets the harness.
 
 <p align="center">
   <picture>
@@ -34,6 +34,8 @@ Four paths, one guide. You can stop at the end of a path and still have a comple
 
 ## Explorer
 
+The full guide, with the no-code hosted-agent exercises: [Explorer](../paths/explorer/README.md).
+
 You can explain what an agent is, walk the loop, and name the difference between a chat log and a page. When you want the products people rent, open [Hosted agents](10-hosted-agents/index.md) and name the model inside one of them.
 
 | Order | Page | Stay with it until |
@@ -49,6 +51,8 @@ You can explain what an agent is, walk the loop, and name the difference between
 **You are ready to build** when that card names a real task, a file that counts as memory, and a stop rule a second person could grade.
 
 ## Builder
+
+The full guide, with the harness, memory, tools, and skill exercises: [Builder](../paths/builder/README.md).
 
 You can design an agent that uses tools and leaves a knowledge base behind.
 
@@ -70,6 +74,8 @@ Optional depth: [creative toolkits](03-prompting-skills/creative-toolkits.md) an
 
 ## Operator
 
+The full guide, with placement, evals, cost, and the security gate: [Operator](../paths/operator/README.md).
+
 You can choose where an agent runs, how several agents share a plan, how you would notice a regression, and what you refuse to let it do. Start from the harness, so a score is never only a model name.
 
 | Order | Page | Stay with it until |
@@ -89,6 +95,8 @@ You can choose where an agent runs, how several agents share a plan, how you wou
 **You are ready for power-user work** when the score sheet and the placement note would survive a teammate who was not in the room.
 
 ## Power user
+
+The full guide, with harness tuning, multi-agent workflows, and stuck loops: [Power user](../paths/power-user/README.md).
 
 You can do the work, retell a source without inflating it, and extend a page so the guide compounds.
 

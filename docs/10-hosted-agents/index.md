@@ -6,9 +6,9 @@
 </p>
 
 <p>
-  <img src="../../assets/badges/level-operator.svg" alt="Operator" height="28">
+  <a href="../../paths/operator/README.md"><img src="../../assets/badges/level-operator.svg" alt="Operator" height="28"></a>
   &nbsp;
-  <img src="../../assets/badges/level-power.svg" alt="Power user" height="28">
+  <a href="../../paths/power-user/README.md"><img src="../../assets/badges/level-power.svg" alt="Power user" height="28"></a>
 </p>
 
 # Hosted agents

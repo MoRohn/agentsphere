@@ -6,7 +6,7 @@
 </p>
 
 <p>
-  <img src="../../assets/badges/level-power.svg" alt="Power user" height="28">
+  <a href="../../paths/power-user/README.md"><img src="../../assets/badges/level-power.svg" alt="Power user" height="28"></a>
 </p>
 
 # Case study · Motion and web stacks
