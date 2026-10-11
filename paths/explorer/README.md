@@ -11,6 +11,10 @@
 
 # Explorer
 
+<p><strong>You are here:</strong> Explorer · <a href="README.md">Explorer</a><br>
+<strong>Next:</strong> <a href="../builder/README.md">Builder</a></p>
+
+
 You have never used an AI agent, or you have only used a chatbot. This page starts there. No coding. No install. About fifteen minutes.
 
 | | |

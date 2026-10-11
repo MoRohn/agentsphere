@@ -11,6 +11,10 @@
 
 # Case study · Managed workflows
 
+<p><strong>You are here:</strong> Case study · Managed workflows · <a href="../../paths/power-user/README.md">Power user</a><br>
+<strong>Next:</strong> <a href="local-gateway.md">Local gateway</a></p>
+
+
 A public-beta announcement of a lead agent that plans in phases and combines the results.
 
 | | |

@@ -11,6 +11,10 @@
 
 # 01 · Agent patterns
 
+<p><strong>You are here:</strong> Agent patterns · <a href="../../paths/builder/README.md">Builder</a><br>
+<strong>Next:</strong> <a href="harness-engineering.md">Harness engineering</a></p>
+
+
 The loop from foundations is the skeleton. [Harness engineering](harness-engineering.md) is the frame: a model, plus the runtime that decides what it sees, what it may do, and what gets checked. The other pages stress one part of that frame.
 
 | | |

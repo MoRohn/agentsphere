@@ -11,7 +11,11 @@
 
 # Operator
 
-You run agents for other people. This path is production: where a run lives, how several agents share a plan, how you notice a regression, what a passing run costs, and what you refuse to let the system do.
+<p><strong>You are here:</strong> Operator · <a href="README.md">Operator</a><br>
+<strong>Next:</strong> <a href="../../docs/05-runtime-infra/cloud-and-local.md">Cloud and local</a></p>
+
+
+You run agents for other people. This path is the practical side: where a job runs, how several agents share a plan, how you notice the work got worse, what a success costs, and what you will not let the agent do alone. A score here is a written pass or fail, not a feeling.
 
 | | |
 | --- | --- |

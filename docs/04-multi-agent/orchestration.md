@@ -11,6 +11,10 @@
 
 # Orchestration
 
+<p><strong>You are here:</strong> Orchestration · <a href="../../paths/operator/README.md">Operator</a><br>
+<strong>Next:</strong> <a href="../01-agent-patterns/harness-engineering.md">Harness engineering</a></p>
+
+
 One agent writes the plan. Other agents do slices of it. Something combines the slices into one result. That is the whole pattern. The rest is discipline.
 
 | | |

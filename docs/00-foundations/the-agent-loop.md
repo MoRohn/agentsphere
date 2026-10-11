@@ -11,6 +11,10 @@
 
 # The agent loop
 
+<p><strong>You are here:</strong> The agent loop · <a href="../../paths/explorer/README.md">Explorer</a><br>
+<strong>Next:</strong> <a href="memory-tools-planning.md">Memory, tools, and planning</a></p>
+
+
 The model chooses the next step. The loop is everything around that choice: looking, acting, reading the result, writing down what matters, and knowing when to end.
 
 | | |

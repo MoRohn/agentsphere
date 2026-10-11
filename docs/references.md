@@ -17,6 +17,10 @@
 
 # Social references & inspirations
 
+<p><strong>You are here:</strong> Social references & inspirations · <a href="learning-paths.md">Every level</a><br>
+<strong>Next:</strong> <a href="how-to-read.md">How to read a claim</a></p>
+
+
 Posts, articles, and repositories that shaped this guide. Pages cite them inline. This list is the shelf: open a source next to the page that uses it.
 
 | | |

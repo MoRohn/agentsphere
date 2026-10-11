@@ -11,6 +11,10 @@
 
 # Glossary
 
+<p><strong>You are here:</strong> Glossary · <a href="../paths/explorer/README.md">Explorer</a><br>
+<strong>Next:</strong> <a href="00-foundations/what-is-an-agent.md">What is an agent</a></p>
+
+
 Short definitions in the sense this guide uses them. A **per post** row is vocabulary that arrived in a cited post.
 
 | | |

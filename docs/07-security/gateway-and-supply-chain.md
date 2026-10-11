@@ -11,6 +11,10 @@
 
 # Gateways and supply chain
 
+<p><strong>You are here:</strong> Gateways and supply chain · <a href="../../paths/operator/README.md">Operator</a><br>
+<strong>Next:</strong> <a href="../09-playbooks/review-a-gateway.md">Review a gateway</a></p>
+
+
 A local proxy holds your keys and sees your prompts. A skill pack runs in your agent's name. Both are supply chain, even when the README says the words "local" and "open source."
 
 | | |

@@ -9,7 +9,7 @@
   <a href="CHANGELOG.md">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/badges/version-dark.svg">
-      <img alt="version 0.4.3" src="assets/badges/version-light.svg" height="28">
+      <img alt="version 0.4.4" src="assets/badges/version-light.svg" height="28">
     </picture>
   </a>
   &nbsp;
@@ -30,7 +30,7 @@
 
 # agentsphere
 
-**The living field guide to the agent era.** An agent is a model plus the harness around it. Start as a beginner. Leave able to design that harness: memory, tools, orchestration, runtime, and security, and able to tell a sourced claim from a rumor.
+**A field guide to AI agents.** A chatbot answers and waits. An agent takes the next steps for you. Start with the level that matches you. No coding required to begin.
 
 <p>
   <a href="paths/explorer/README.md"><img src="assets/badges/level-explorer.svg" alt="Explorer" height="28"></a>
@@ -42,25 +42,43 @@
   <a href="paths/power-user/README.md"><img src="assets/badges/level-power.svg" alt="Power user" height="28"></a>
 </p>
 
-The pages in [`docs/`](docs/README.md) are the guide. Posts, articles, and repositories that shaped them are collected in [Social references & inspirations](docs/references.md). A claim from a post stays linked and marked. A claim from a paper or a project page is marked separately.
+New here? Open [Explorer](paths/explorer/README.md). It takes about fifteen minutes. You will know what an agent is, and you will have a task you can paste into one.
 
-## Start here in 5 minutes
+The rest of the pages live in [`docs/`](docs/README.md). Posts and papers that shaped them are in [Social references & inspirations](docs/references.md). A claim from a post stays linked. A claim from a paper stays linked too.
 
-1. Look at the diagram below and say which circle is the model.
-2. Name one harness part that is not the model: observation, context, control, action, state, or verification.
-3. Write one sentence a later run would need: the decision, the source, or the gap. That sentence is [wiki memory](docs/01-agent-patterns/wiki-memory.md) in miniature.
+## Choose a level
 
-Then pick a level and open its guide: [Explorer](paths/explorer/README.md), [Builder](paths/builder/README.md), [Operator](paths/operator/README.md), or [Power user](paths/power-user/README.md).
+<p align="center">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/diagrams/journey-map-dark.svg">
+  <img src="assets/diagrams/journey-map-light.svg" alt="Four levels: Explorer tries one safely, Builder leaves a page, Operator leaves a score, Power user changes one thing." width="100%">
+</picture>
+</p>
 
-When you have an hour, do the three that leave you holding a page:
+| Level | Start here if you | Open the guide | You will be able to |
+| --- | --- | --- | --- |
+| **[Explorer](paths/explorer/README.md)** | have never used an agent, or you only know chatbots | [Explorer](paths/explorer/README.md) | explain an agent in everyday words, and try one safely |
+| **[Builder](paths/builder/README.md)** | want to make one | [Builder](paths/builder/README.md) | decide what it can see, remember, and do |
+| **[Operator](paths/operator/README.md)** | run agents for a team | [Operator](paths/operator/README.md) | choose where a job runs, and score it |
+| **[Power user](paths/power-user/README.md)** | already run them, and one is stuck | [Power user](paths/power-user/README.md) | fix it by changing one thing |
 
-1. [What is an agent](docs/00-foundations/what-is-an-agent.md)
-2. [The agent loop](docs/00-foundations/the-agent-loop.md)
-3. [Your first agent](docs/09-playbooks/first-agent.md)
+The short sequences and the readiness checks: [Learning paths](docs/learning-paths.md).
 
-## The harness is the agent
+| If you need to | Open |
+| --- | --- |
+| Explain an agent to someone else | [Foundations](docs/00-foundations/index.md) |
+| See why the same model scores differently | [Harness engineering](docs/01-agent-patterns/harness-engineering.md) |
+| Leave notes the next chat can find | [Wiki memory](docs/01-agent-patterns/wiki-memory.md), then the [research playbook](docs/09-playbooks/research-agent.md) |
+| Save a repeated job so you stop pasting it | [Write a skill](docs/09-playbooks/write-a-skill.md) |
+| Choose your laptop or a cloud computer | [Operate agents](docs/09-playbooks/operate-agents.md) |
+| Decide whether a middleman can read your prompts | [Review a gateway](docs/09-playbooks/review-a-gateway.md) |
+| Tell whether a change helped | [Score a run](docs/09-playbooks/score-a-run.md) |
+| Stop an agent that repeats itself or invents facts | [Unstick a loop](docs/09-playbooks/unstick-a-loop.md) |
+| Compare Grok Bot, Dots, Muse, and Claude | [Hosted agents](docs/10-hosted-agents/index.md) |
 
-Agent quality is the model and the runtime together. The model proposes the next step. The harness decides what it sees, what it may do, what survives the call, and what gets checked. Guo, Hao, Wang, and colleagues lay this out in [From Question Answering to Task Completion: A Survey on Agent System and Harness Design](https://arxiv.org/abs/2606.20683). The full page, with the task-matching rules and the SWE-bench reading, is [Harness engineering](docs/01-agent-patterns/harness-engineering.md).
+## The idea under the guide
+
+The AI model writes the next step. The system around it decides what the model can see, what it may do, what it remembers, and when it must stop. This guide calls that system the **harness**. Guo, Hao, Wang, and colleagues lay this out in [From Question Answering to Task Completion: A Survey on Agent System and Harness Design](https://arxiv.org/abs/2606.20683). The full page is [Harness engineering](docs/01-agent-patterns/harness-engineering.md).
 
 <p align="center">
   <picture>
@@ -69,58 +87,28 @@ Agent quality is the model and the runtime together. The model proposes the next
 </picture>
 </p>
 
-| | Model alone | Model plus harness |
+| | The model alone | The model plus the harness |
 | --- | --- | --- |
-| What it can do | Propose a next step in language | See, act, store, and check that step |
-| What survives the call | Nothing, unless the chat is still open | Pages, diffs, logs, skills |
-| What a score means | "The model got N%" | "This model, in this runtime, under this setting" |
-| Where to change it | A longer prompt | The thin part: observation, context, control, action, state, or verification |
+| What it can do | Suggest a next step in words | See, act, save, and check that step |
+| What is still there tomorrow | Only this chat, if you leave it open | Pages, files, and saved steps |
+| What a score means | "The model scored N" | "This model, in this setup" |
+| Where you change it | A longer prompt | The weak piece: what it sees, what it may do, what it remembers, or the check |
 
 <details>
 <summary>The six parts, in one screen</summary>
 
-| Part | Job | This guide |
+| Part | In everyday words | Read |
 | --- | --- | --- |
-| Observation | Render the state the next decision needs | [The loop](docs/00-foundations/the-agent-loop.md) |
-| Context | Choose what enters this call | [How agents remember](docs/01-agent-patterns/how-agents-remember.md) |
-| Control | Plan, act, retry, delegate, or stop | [ReAct](docs/01-agent-patterns/react-and-plan-execute.md), [orchestration](docs/04-multi-agent/orchestration.md) |
-| Action | Turn a proposal into a permitted operation | [Tools and MCP](docs/02-tools-mcp/tools-and-mcp.md) |
-| State | Keep what the window will forget | [Wiki memory](docs/01-agent-patterns/wiki-memory.md) |
-| Verification | Tests, gates, sandbox, rollback, budget | [Threat model](docs/07-security/threat-model.md) |
+| Observation | What it is allowed to look at | [The loop](docs/00-foundations/the-agent-loop.md) |
+| Context | What you put in front of it for this step | [How agents remember](docs/01-agent-patterns/how-agents-remember.md) |
+| Control | Whether it plans, acts, retries, or stops | [ReAct](docs/01-agent-patterns/react-and-plan-execute.md), [several agents](docs/04-multi-agent/orchestration.md) |
+| Action | The move it is allowed to make | [Tools](docs/02-tools-mcp/tools-and-mcp.md) |
+| State | What is still there tomorrow | [Wiki memory](docs/01-agent-patterns/wiki-memory.md) |
+| Verification | The check before the result counts | [Threat model](docs/07-security/threat-model.md) |
 
-The four eras still in use: prompt, context, harness, and training that leaves access, state, and safety outside the weights. They coexist. A later era does not retire an earlier one.
+People still mix four habits: a careful prompt, a careful packet of context, a harness around the model, and training that leaves access and safety outside the weights. A later habit does not retire an earlier one.
 
 </details>
-
-## Choose a level
-
-<p align="center">
-  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/diagrams/journey-map-dark.svg">
-  <img src="assets/diagrams/journey-map-light.svg" alt="Four levels: Explorer leaves with a card, Builder with a page, Operator with a score, Power user with a page edit." width="100%">
-</picture>
-</p>
-
-| Level | Start here if you | Open the guide | You will be able to |
-| --- | --- | --- | --- |
-| **[Explorer](paths/explorer/README.md)** | have never used an agent, or you only know chatbots | [Explorer](paths/explorer/README.md) | explain an agent in everyday words, and try one safely |
-| **[Builder](paths/builder/README.md)** | want to make one | [Builder](paths/builder/README.md) | design the harness, memory, tools, and a skill |
-| **[Operator](paths/operator/README.md)** | run agents for a team | [Operator](paths/operator/README.md) | place a run, score it, and gate the write |
-| **[Power user](paths/power-user/README.md)** | already run them, and a loop is stuck or a workflow is yours to design | [Power user](paths/power-user/README.md) | tune the harness, orchestrate, and change one thin part |
-
-The short sequences and the readiness checks: [Learning paths](docs/learning-paths.md).
-
-| If you need to | Open |
-| --- | --- |
-| Explain an agent to someone else | [Foundations](docs/00-foundations/index.md) |
-| See why the same model scores differently | [Harness engineering](docs/01-agent-patterns/harness-engineering.md) |
-| Leave notes the next run can search | [Wiki memory](docs/01-agent-patterns/wiki-memory.md), then the [research playbook](docs/09-playbooks/research-agent.md) |
-| Move a procedure out of a giant prompt | [Write a skill](docs/09-playbooks/write-a-skill.md) |
-| Choose laptop or cloud for a real task | [Operate agents](docs/09-playbooks/operate-agents.md) |
-| Decide whether a gateway can see your prompts | [Review a gateway](docs/09-playbooks/review-a-gateway.md) |
-| Tell whether a change helped | [Score a run](docs/09-playbooks/score-a-run.md) |
-| Stop a run that thrashes or invents facts | [Unstick a loop](docs/09-playbooks/unstick-a-loop.md) |
-| Compare a hosted product to the harness | [Hosted agents](docs/10-hosted-agents/index.md) |
 
 ## Map
 
@@ -140,7 +128,7 @@ Eleven sections. Each card is a link. The pill is who the section is written for
 <p>
 <a href="docs/02-tools-mcp/index.md"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/map/tools-dark.svg">
-  <img alt="Tools and MCP. How it connects to apps, files, and the web. Builder." src="assets/map/tools-light.svg" width="400">
+  <img alt="Tools. How it connects to apps, files, and the web. Builder." src="assets/map/tools-light.svg" width="400">
 </picture></a>
 <a href="docs/03-prompting-skills/index.md"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/map/skills-dark.svg">
@@ -192,7 +180,7 @@ Same links, as text:
 
 - [Foundations](docs/00-foundations/index.md) — what an agent is, in everyday words.
 - [Agent patterns](docs/01-agent-patterns/index.md) — how an agent chooses its next step.
-- [Tools and MCP](docs/02-tools-mcp/index.md) — how it connects to apps, files, and the web.
+- [Tools](docs/02-tools-mcp/index.md) — how it connects to apps, files, and the web.
 - [Prompting and skills](docs/03-prompting-skills/index.md) — instructions you write once and reuse.
 - [Multi-agent](docs/04-multi-agent/index.md) — several helpers sharing one job.
 - [Runtime and infra](docs/05-runtime-infra/index.md) — your laptop, or a cloud computer.

@@ -17,6 +17,10 @@
 
 # Playbook · Unstick a loop
 
+<p><strong>You are here:</strong> Unstick a loop · <a href="../learning-paths.md">Every level</a><br>
+<strong>Next:</strong> <a href="score-a-run.md">Score a run</a></p>
+
+
 When a run thrashes, stalls, or invents facts, change the step that is thin. Do not start by swapping the model.
 
 | | |

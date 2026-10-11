@@ -11,7 +11,11 @@
 
 # Builder
 
-You are ready to make an agent, not only to rent one. This path is the harness you design: what the model sees, the page that survives, the tools it may call, and the skill that holds a repeated job.
+<p><strong>You are here:</strong> Builder · <a href="README.md">Builder</a><br>
+<strong>Next:</strong> <a href="../../docs/01-agent-patterns/harness-engineering.md">Harness engineering</a></p>
+
+
+You are ready to make an agent, not only to use one. The **harness** is everything around the model: what it can see, what it may do, what it remembers, and when it must stop. You design that. You also leave a page the next run can open, and a saved procedure for a job you repeat.
 
 | | |
 | --- | --- |

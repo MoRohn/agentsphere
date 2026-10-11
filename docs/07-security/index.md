@@ -11,6 +11,10 @@
 
 # 07 · Security
 
+<p><strong>You are here:</strong> Security · <a href="../../paths/operator/README.md">Operator</a><br>
+<strong>Next:</strong> <a href="threat-model.md">Threat model</a></p>
+
+
 Agents act. Acting is the risk. This section names the threats, the human gate in a find-and-fix loop, and the supply chain around gateways and skills. It does not include exploit procedures.
 
 | | |

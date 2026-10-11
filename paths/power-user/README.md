@@ -11,7 +11,11 @@
 
 # Power user
 
-You already run agents. This path is the edit: tune the harness to the task, design a multi-agent workflow you can run again, and debug a stuck loop by changing one thin part.
+<p><strong>You are here:</strong> Power user · <a href="README.md">Power user</a><br>
+<strong>Next:</strong> <a href="../../docs/09-playbooks/unstick-a-loop.md">Unstick a loop</a></p>
+
+
+You already run agents. This path is the edit. A **thin part** is the one piece that is failing: what the agent remembers, the rule that should stop it, or the instructions. Change that piece only. Then run the same task again. You will also design a workflow several agents can repeat.
 
 | | |
 | --- | --- |

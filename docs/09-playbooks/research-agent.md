@@ -11,6 +11,10 @@
 
 # Playbook · Research agent
 
+<p><strong>You are here:</strong> Research agent · <a href="../../paths/power-user/README.md">Power user</a><br>
+<strong>Next:</strong> <a href="../01-agent-patterns/how-agents-remember.md">How agents remember</a></p>
+
+
 Stand up the smallest version of raw, wiki, and schema. Use it on a question you actually have.
 
 | | |

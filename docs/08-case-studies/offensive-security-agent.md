@@ -11,6 +11,10 @@
 
 # Case study · Offensive security agent
 
+<p><strong>You are here:</strong> Case study · Offensive security agent · <a href="../../paths/power-user/README.md">Power user</a><br>
+<strong>Next:</strong> <a href="../09-playbooks/index.md">Playbooks</a></p>
+
+
 Antigen, as announced: an agent that maps a surface, probes it, ships fixes for review, and tests again.
 
 | | |

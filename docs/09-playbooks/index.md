@@ -17,6 +17,10 @@
 
 # 09 · Playbooks
 
+<p><strong>You are here:</strong> Playbooks · <a href="../learning-paths.md">Every level</a><br>
+<strong>Next:</strong> <a href="first-agent.md">Your first agent</a></p>
+
+
 Recipes. Each one assumes you have read the concept page it names. They are synthesis: a way to do the work, not a claim that a source prescribed these exact steps.
 
 | | |

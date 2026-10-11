@@ -11,6 +11,10 @@
 
 # 05 · Runtime and infra
 
+<p><strong>You are here:</strong> Runtime and infra · <a href="../../paths/operator/README.md">Operator</a><br>
+<strong>Next:</strong> <a href="cloud-and-local.md">Cloud and local</a></p>
+
+
 Where the loop runs, and how heavy the model is. Those are separate decisions. A cloud agent can call a huge model. A laptop agent can call an API. The posts argue both ends: buy cloud agents, and also run compressed models locally.
 
 | | |

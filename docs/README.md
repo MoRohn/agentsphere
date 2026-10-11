@@ -35,7 +35,7 @@ Each card is a link. The pill is who that section is written for.
 <p>
 <a href="02-tools-mcp/index.md"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="../assets/map/tools-dark.svg">
-  <img alt="Tools and MCP. How it connects to apps, files, and the web. Builder." src="../assets/map/tools-light.svg" width="400">
+  <img alt="Tools. How it connects to apps, files, and the web. Builder." src="../assets/map/tools-light.svg" width="400">
 </picture></a>
 <a href="03-prompting-skills/index.md"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="../assets/map/skills-dark.svg">

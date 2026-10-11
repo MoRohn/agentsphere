@@ -11,6 +11,10 @@
 
 # Playbook · Review a gateway
 
+<p><strong>You are here:</strong> Review a gateway · <a href="../../paths/power-user/README.md">Power user</a><br>
+<strong>Next:</strong> <a href="research-agent.md">Research agent</a></p>
+
+
 Decide whether a local model gateway is allowed to see your prompts. The worked example is the OmniRoute post. The checklist fits the next gateway someone sends you.
 
 | | |

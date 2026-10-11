@@ -13,6 +13,10 @@
 
 # Gateways and routing
 
+<p><strong>You are here:</strong> Gateways and routing · <a href="../../paths/builder/README.md">Builder</a> · <a href="../../paths/operator/README.md">Operator</a><br>
+<strong>Next:</strong> <a href="../09-playbooks/review-a-gateway.md">Review a gateway</a></p>
+
+
 One client API in front. Many models behind it. A gateway is a routing layer, and it is also a place keys, logs, and provider terms collect.
 
 | | |

@@ -11,6 +11,10 @@
 
 # What is an agent
 
+<p><strong>You are here:</strong> What is an agent · <a href="../../paths/explorer/README.md">Explorer</a><br>
+<strong>Next:</strong> <a href="the-agent-loop.md">The agent loop</a></p>
+
+
 An agent is a model in a loop, pointed at a goal, allowed to use tools, and required to stop.
 
 | | |

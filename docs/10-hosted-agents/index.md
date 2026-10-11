@@ -13,6 +13,10 @@
 
 # Hosted agents
 
+<p><strong>You are here:</strong> Hosted agents · <a href="../../paths/operator/README.md">Operator</a> · <a href="../../paths/power-user/README.md">Power user</a><br>
+<strong>Next:</strong> <a href="../01-agent-patterns/harness-engineering.md">Harness engineering</a></p>
+
+
 A hosted agent is a closed product that runs the harness for you. The model still only proposes. The product decides what it can see, what it may change, what it keeps, and what must stop for you.
 
 | | |

@@ -11,6 +11,10 @@
 
 # Creative toolkits
 
+<p><strong>You are here:</strong> Creative toolkits · <a href="../../paths/builder/README.md">Builder</a><br>
+<strong>Next:</strong> <a href="../09-playbooks/skills-and-craft.md">Skills and craft</a></p>
+
+
 Two posts are catalogs: twenty motion repositories, and ten libraries for building websites with an agent. This page keeps their lists, marks what was actually linked, and turns the catalogs into a way of working.
 
 | | |

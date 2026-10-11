@@ -11,6 +11,10 @@
 
 # Cloud and local
 
+<p><strong>You are here:</strong> Cloud and local · <a href="../../paths/operator/README.md">Operator</a><br>
+<strong>Next:</strong> <a href="efficient-inference.md">Efficient inference</a></p>
+
+
 A local agent shares your machine. A cloud agent takes a task and runs it somewhere else, then hands you an artifact. One post is a strong argument for the second, aimed at teams still buying a license per seat.
 
 | | |
