@@ -22,6 +22,10 @@ An agent is a system you can sketch on a napkin. This section is that napkin, wi
 
 The references assume this picture and then push on one part of it: memory that compounds, tools behind a protocol, many agents on one plan, a run that happens somewhere else, a model small enough to sit on the machine. Those arguments start in [agent patterns](../01-agent-patterns/index.md).
 
+## Practice
+
+Fill [your first agent](../09-playbooks/first-agent.md) before you read the next section. The card is the test that the three pages stuck.
+
 ## Continue
 
 - [What is an agent](what-is-an-agent.md)

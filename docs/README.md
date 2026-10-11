@@ -14,6 +14,7 @@ Start with a [learning path](learning-paths.md) or with the section that matches
 | New here | [How to read a claim](how-to-read.md), then [what is an agent](00-foundations/what-is-an-agent.md) |
 | Building | [Wiki memory](01-agent-patterns/wiki-memory.md) and the [research playbook](09-playbooks/research-agent.md) |
 | Operating | [Cloud and local](05-runtime-infra/cloud-and-local.md) and [security](07-security/index.md) |
+| Stuck | [Unstick a loop](09-playbooks/unstick-a-loop.md), then [score a run](09-playbooks/score-a-run.md) |
 
 ## Sections
 
@@ -71,7 +72,16 @@ One distillation for each cluster of posts.
 
 ### [09 · Playbooks](09-playbooks/index.md)
 
-Recipes: a research agent, a craft stack, an operating decision, a gateway review.
+Hands-on recipes. Start with [your first agent](09-playbooks/first-agent.md) if the sections above are still vocabulary.
+
+- [Your first agent](09-playbooks/first-agent.md)
+- [Research agent](09-playbooks/research-agent.md)
+- [Write a skill](09-playbooks/write-a-skill.md)
+- [Skills and craft](09-playbooks/skills-and-craft.md)
+- [Operate agents](09-playbooks/operate-agents.md)
+- [Review a gateway](09-playbooks/review-a-gateway.md)
+- [Score a run](09-playbooks/score-a-run.md)
+- [Unstick a loop](09-playbooks/unstick-a-loop.md)
 
 ## Reference
 

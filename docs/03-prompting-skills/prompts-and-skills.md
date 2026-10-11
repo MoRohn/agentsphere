@@ -69,6 +69,7 @@ A prompt is a poor vault. Anything the model can see, a tool result or a later p
 ## Continue
 
 - Next: [Creative toolkits](creative-toolkits.md)
+- Practice: [Write a skill](../09-playbooks/write-a-skill.md)
 - Previous: [Gateways and routing](../02-tools-mcp/gateways-and-routing.md)
 
 ---

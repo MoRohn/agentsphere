@@ -18,6 +18,10 @@ Several agents help when the work splits cleanly and someone, or some lead agent
 | --- | --- |
 | [Orchestration](orchestration.md) | Draw a lead, phases, workers, and a merge, and say what a product must show you |
 
+## Practice
+
+The handoff in [operate agents](../09-playbooks/operate-agents.md) is the drawing, filled in for a task you actually have. Name phases before you name extra agents.
+
 ## Continue
 
 - [Orchestration](orchestration.md)

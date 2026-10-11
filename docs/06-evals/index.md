@@ -91,6 +91,7 @@ Leave vendor leaderboards in the case study unless you can say what was measured
 
 ## Continue
 
+- Practice: [Score a run](../09-playbooks/score-a-run.md) grades a trace with the rubric above
 - Next: [Threat model](../07-security/threat-model.md)
 - Previous: [Efficient inference](../05-runtime-infra/efficient-inference.md)
 

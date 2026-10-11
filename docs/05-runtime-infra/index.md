@@ -19,6 +19,10 @@ Where the loop runs, and how heavy the model is. Those are separate decisions. A
 | [Cloud and local](cloud-and-local.md) | Place a task, and hear one operator's argument without treating it as a law |
 | [Efficient inference](efficient-inference.md) | Read bitnet.cpp and LittleBit with the paper and the post in separate columns |
 
+## Practice
+
+Place three tasks with [operate agents](../09-playbooks/operate-agents.md). The inference page is how you read a speedup claim after you know where the loop runs.
+
 ## Continue
 
 - [Cloud and local](cloud-and-local.md)

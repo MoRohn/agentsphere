@@ -88,6 +88,7 @@ Established practice, organized for this guide. The rows above are signposts. Th
 ## Continue
 
 - Next: [The agent loop](the-agent-loop.md)
+- Practice: [Your first agent](../09-playbooks/first-agent.md)
 - Map: [Foundations](index.md)
 
 ---

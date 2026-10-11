@@ -23,6 +23,10 @@ Each study is one cluster of posts, told as a story with a claim table. The conc
 
 Two posts are not case studies. [B3](../community.md) is a list of accounts. [B10](../05-runtime-infra/cloud-and-local.md) is an argument, handled on the cloud-and-local page rather than retold as a product story.
 
+## Practice
+
+Open the post beside the study. If the page and the post disagree, the page is wrong until you edit it.
+
 ## Continue
 
 - [Compounding wiki](compounding-wiki.md)

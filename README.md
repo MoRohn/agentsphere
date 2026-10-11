@@ -9,7 +9,7 @@
   <a href="CHANGELOG.md">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/badges/version-dark.svg">
-      <img alt="version 0.2.0" src="assets/badges/version-light.svg" height="28">
+      <img alt="version 0.3.0" src="assets/badges/version-light.svg" height="28">
     </picture>
   </a>
   &nbsp;
@@ -34,6 +34,24 @@
 
 The pages in [`docs/`](docs/README.md) are the guide. Posts, articles, and repositories that shaped them are collected in [Social references & inspirations](docs/references.md). A claim from a post stays linked and marked. A claim from a paper or a project page is marked separately.
 
+## Start here
+
+If you are new, do these three and stop. You will have a definition, a loop, and one page you wrote yourself.
+
+1. [What is an agent](docs/00-foundations/what-is-an-agent.md)
+2. [The agent loop](docs/00-foundations/the-agent-loop.md)
+3. [Your first agent](docs/09-playbooks/first-agent.md) — forty minutes, no API key
+
+| If you need to | Open |
+| --- | --- |
+| Explain an agent to someone else | [Foundations](docs/00-foundations/index.md) |
+| Leave notes the next run can search | [Wiki memory](docs/01-agent-patterns/wiki-memory.md), then the [research playbook](docs/09-playbooks/research-agent.md) |
+| Move a procedure out of a giant prompt | [Write a skill](docs/09-playbooks/write-a-skill.md) |
+| Choose laptop or cloud for a real task | [Operate agents](docs/09-playbooks/operate-agents.md) |
+| Decide whether a gateway can see your prompts | [Review a gateway](docs/09-playbooks/review-a-gateway.md) |
+| Tell whether a change helped | [Score a run](docs/09-playbooks/score-a-run.md) |
+| Stop a run that thrashes or invents facts | [Unstick a loop](docs/09-playbooks/unstick-a-loop.md) |
+
 ## Choose a path
 
 | Path | Start here if you | Read | You will be able to |
@@ -41,7 +59,7 @@ The pages in [`docs/`](docs/README.md) are the guide. Posts, articles, and repos
 | **Explorer** | are new to agents | [Foundations](docs/00-foundations/index.md), the [glossary](docs/glossary.md), and [the loop](docs/00-foundations/the-agent-loop.md) | explain an agent, its loop, and its memory |
 | **Builder** | want to make one | [Tools and MCP](docs/02-tools-mcp/index.md), [skills](docs/03-prompting-skills/index.md), and [wiki memory](docs/01-agent-patterns/wiki-memory.md) | design a research agent that writes pages back |
 | **Operator** | run agents for a team | [Cloud and local](docs/05-runtime-infra/cloud-and-local.md), [orchestration](docs/04-multi-agent/orchestration.md), [evals](docs/06-evals/index.md), and [security](docs/07-security/index.md) | pick a runtime and name the risks |
-| **Power user** | want the practice | [Playbooks](docs/09-playbooks/index.md), [case studies](docs/08-case-studies/index.md), and [contributing](CONTRIBUTING.md) | extend a page without inventing facts |
+| **Power user** | want the practice | [Playbooks](docs/09-playbooks/index.md), [case studies](docs/08-case-studies/index.md), and [contributing](CONTRIBUTING.md) | run a playbook on real work and write the result down |
 
 Sequences, timing, and a readiness check for each path: [Learning paths](docs/learning-paths.md).
 
@@ -58,7 +76,7 @@ Sequences, timing, and a readiness check for each path: [Learning paths](docs/le
 | 06 | [Evals](docs/06-evals/index.md) | How to tell that an agent got better |
 | 07 | [Security](docs/07-security/index.md) | Threat model, review gates, supply chain |
 | 08 | [Case studies](docs/08-case-studies/index.md) | Posts and projects, with the claim kept separate from the pattern |
-| 09 | [Playbooks](docs/09-playbooks/index.md) | Recipes you can run this week |
+| 09 | [Playbooks](docs/09-playbooks/index.md) | Checklists and worked examples, from a first agent card to a scored run |
 
 Also: [glossary](docs/glossary.md), [how to read a claim](docs/how-to-read.md), [community list](docs/community.md), [diagram atlas](docs/diagrams.md), [social references & inspirations](docs/references.md).
 

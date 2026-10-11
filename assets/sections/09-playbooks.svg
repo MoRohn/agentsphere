@@ -15,7 +15,7 @@
   <rect width="1200" height="240" fill="url(#glow)"/>
   <text x="64" y="78" fill="#00D1FF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" letter-spacing="2.4">09  ·  PLAYBOOKS</text>
   <text x="64" y="136" fill="#E6EAF2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="650">Do the work</text>
-  <text x="64" y="180" fill="#A9B4CC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">Recipes for research, craft, operations, and review.</text>
+  <text x="64" y="180" fill="#A9B4CC" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18">From a first agent card to a scored run.</text>
   <polyline points="880,160 960,96 1048,150 1136,78" fill="none" stroke="#00D1FF" stroke-width="1.6"/>
   <circle cx="880" cy="160" r="8" fill="#0B0F1A" stroke="#6C5CE7" stroke-width="2"/>
   <circle cx="960" cy="96" r="8" fill="#0B0F1A" stroke="#00D1FF" stroke-width="2"/>

@@ -107,6 +107,31 @@ After a run, the wiki page should let a stranger answer the same question withou
 
 If you cannot fill the claim table, you are still in the chat.
 
+## A page that passes
+
+This is the shape, filled for a question the guide already answers. Copy the headings, not the conclusion, when the question is yours.
+
+```markdown
+# Does the OmniRoute post name a repository?
+
+## Answer
+Not on this page. The post's project link is shortened. This page does not guess the destination.
+
+## Claims
+| Claim | Status | Source |
+| --- | --- | --- |
+| OmniRoute is described as a local gateway that pools provider limits | per post | https://x.com/Bober_smart/status/2108293657552117850 |
+| A confirmed git URL was in the post | gap | the same post; the project link is shortened |
+
+## Gaps
+The repository URL. Do not replace this heading with a search result that merely shares the name.
+
+## See also
+Gateways and routing.
+```
+
+A stranger can answer the question from the page. The next run should search this page and stop. That is the whole pattern.
+
 ## Check yourself
 
 1. What are the three pieces, and which one is append-only?

@@ -4,7 +4,7 @@
 
 # Learning paths
 
-Four paths, one guide. You can stop at the end of a path and still have a complete skill. Later paths assume the earlier ones.
+Four paths, one guide. You can stop at the end of a path and still have a complete skill. Later paths assume the earlier ones. Each path ends with an artifact you can show someone.
 
 | | |
 | --- | --- |
@@ -23,8 +23,9 @@ You can explain what an agent is, walk the loop, and name the difference between
 | 3 | [The agent loop](00-foundations/the-agent-loop.md) | You can draw perceive, plan, act, observe, remember, stop |
 | 4 | [Memory, tools, planning](00-foundations/memory-tools-planning.md) | You can say where a fact should live |
 | 5 | [Glossary](glossary.md) | You have looked up every term that snagged |
+| 6 | [Your first agent](09-playbooks/first-agent.md) | `agent-card.md` exists, with six parts and one trace |
 
-**You are ready to build** when you can take a task you do at work and point at which steps are the model's, which are tools, and what should be written down for next time.
+**You are ready to build** when that card names a real task, a file that counts as memory, and a stop rule a second person could grade.
 
 ## Builder
 
@@ -36,11 +37,12 @@ You can design an agent that uses tools and leaves a knowledge base behind.
 | 2 | [Wiki memory](01-agent-patterns/wiki-memory.md) | You can describe raw, wiki, and schema |
 | 3 | [Tools and MCP](02-tools-mcp/tools-and-mcp.md) | You can sketch a host, a model API, and a tool server |
 | 4 | [Prompts and skills](03-prompting-skills/prompts-and-skills.md) | You can split a giant prompt into prompt, skill, and file |
-| 5 | [Research-agent playbook](09-playbooks/research-agent.md) | You have a folder layout and five update rules on paper |
+| 5 | [Write a skill](09-playbooks/write-a-skill.md) | One repeated job lives in `SKILL.md`, not in a longer prompt |
+| 6 | [Research-agent playbook](09-playbooks/research-agent.md) | You have folders, rules, and one page written from a real source |
 
-Optional depth: [creative toolkits](03-prompting-skills/creative-toolkits.md) if you build visual work with agents.
+Optional depth: [creative toolkits](03-prompting-skills/creative-toolkits.md) and the [craft playbook](09-playbooks/skills-and-craft.md) if you build visual work with agents.
 
-**You are ready to operate** when a second person could run your research agent from the schema page alone.
+**You are ready to operate** when a second person could run your research agent from the schema and the skill file alone.
 
 ## Operator
 
@@ -55,8 +57,10 @@ You can choose where an agent runs, how several agents share a plan, how you wou
 | 5 | [Threat model](07-security/threat-model.md) | You can name four threats in your own stack |
 | 6 | [Find, review, fix, retest](07-security/find-fix-retest.md) | You can point at the human gate |
 | 7 | [Gateways and supply chain](07-security/gateway-and-supply-chain.md) | You have a review list for a new proxy or skill |
+| 8 | [Operate agents](09-playbooks/operate-agents.md) | Three real tasks have a placement |
+| 9 | [Score a run](09-playbooks/score-a-run.md) | One trajectory has a written pass or fail |
 
-**You are ready for power-user work** when you can review someone else's agent setup and write the risks on one page.
+**You are ready for power-user work** when the score sheet and the placement note would survive a teammate who was not in the room.
 
 ## Power user
 
@@ -64,7 +68,7 @@ You can do the work, retell a source without inflating it, and extend a page so 
 
 | Order | Page | Stay with it until |
 | --- | --- | --- |
-| 1 | [Playbooks](09-playbooks/index.md) | You have run one playbook against a real task |
+| 1 | [Unstick a loop](09-playbooks/unstick-a-loop.md) | A real failure has one diagnosis and one change |
 | 2 | [Case studies](08-case-studies/index.md) | You have opened at least three of the source posts |
 | 3 | [Diagram atlas](diagrams.md) | You know which SVG pairs with which Mermaid block |
 | 4 | [Style guide](style-guide.md) | A new page you draft matches the anatomy |
@@ -72,12 +76,20 @@ You can do the work, retell a source without inflating it, and extend a page so 
 
 **You are practicing the system** when the last thing you do, after answering a question, is update a page.
 
+## What you should be holding
+
+| After | The artifact |
+| --- | --- |
+| Explorer | [Agent card](09-playbooks/first-agent.md) |
+| Builder | A wiki page plus a [skill file](09-playbooks/write-a-skill.md) |
+| Operator | A placement note and a [scored run](09-playbooks/score-a-run.md) |
+| Power user | A diagnosis written where the next person will find it |
+
 ## If you only have an hour
 
 1. [What is an agent](00-foundations/what-is-an-agent.md)
 2. [The agent loop](00-foundations/the-agent-loop.md)
-3. [Wiki memory](01-agent-patterns/wiki-memory.md)
-4. Skim [Social references & inspirations](references.md) and open the post that matches your job
+3. [Your first agent](09-playbooks/first-agent.md) — fill the card, even roughly
 
 ## Check yourself
 

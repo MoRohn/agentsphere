@@ -21,6 +21,10 @@ The loop from foundations is the skeleton. A pattern is a way of stressing one p
 
 Wiki memory is the operating model of this repository. If you only read one page in the guide, read that one, then come back for the pattern that should wrap it.
 
+## Practice
+
+Stand up the folders in the [research-agent playbook](../09-playbooks/research-agent.md). Reading the pattern without a page on disk is still a chat.
+
 ## Continue
 
 - [ReAct and plan-and-execute](react-and-plan-execute.md)

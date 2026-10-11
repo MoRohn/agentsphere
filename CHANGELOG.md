@@ -2,6 +2,13 @@
 
 The guide version tracks the pages. Dates are the day the change landed in this repository.
 
+## 0.3.0 — 2026-10-11
+
+- Added a start-here path and a "if you need to" index so a newcomer can move from a definition to a finished agent card.
+- Added four playbooks: your first agent, write a skill, score a run, and unstick a loop. Each one ends in a checklist and an artifact.
+- Pointed every section at the playbook that practices it. Learning paths now end with that artifact.
+- Added a filled wiki page on the memory pattern, and aligned diagram headers with the mark.
+
 ## 0.2.0 — 2026-10-11
 
 - Redrew the mark and the masthead. The name is one word. Light and dark variants ship together.

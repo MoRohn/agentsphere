@@ -20,6 +20,10 @@ Agents delegating work to other agents. The OmniRoute post claims support for an
 
 A model running in a loop toward a goal, with tools, memory, and a stop condition. See [what is an agent](00-foundations/what-is-an-agent.md).
 
+### Agent card
+
+A one-page sketch of an agent you might run: the six parts, a stop rule, and one traced task. The exercise is [your first agent](09-playbooks/first-agent.md).
+
 ### Agent host
 
 The application a person uses: an IDE, a terminal, a chat product, a script.
