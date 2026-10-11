@@ -9,7 +9,7 @@
   <a href="CHANGELOG.md">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/badges/version-dark.svg">
-      <img alt="version 0.4.2" src="assets/badges/version-light.svg" height="28">
+      <img alt="version 0.4.3" src="assets/badges/version-light.svg" height="28">
     </picture>
   </a>
   &nbsp;
@@ -103,7 +103,7 @@ The four eras still in use: prompt, context, harness, and training that leaves a
 
 | Level | Start here if you | Open the guide | You will be able to |
 | --- | --- | --- | --- |
-| **[Explorer](paths/explorer/README.md)** | are new to agents, and you want to use one before you build one | [Explorer](paths/explorer/README.md) | explain an agent, and use Grok Bot or a dot with a stop rule. No code |
+| **[Explorer](paths/explorer/README.md)** | have never used an agent, or you only know chatbots | [Explorer](paths/explorer/README.md) | explain an agent in everyday words, and try one safely |
 | **[Builder](paths/builder/README.md)** | want to make one | [Builder](paths/builder/README.md) | design the harness, memory, tools, and a skill |
 | **[Operator](paths/operator/README.md)** | run agents for a team | [Operator](paths/operator/README.md) | place a run, score it, and gate the write |
 | **[Power user](paths/power-user/README.md)** | already run them, and a loop is stuck or a workflow is yours to design | [Power user](paths/power-user/README.md) | tune the harness, orchestrate, and change one thin part |
@@ -124,26 +124,83 @@ The short sequences and the readiness checks: [Learning paths](docs/learning-pat
 
 ## Map
 
-<p align="center">
-  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/diagrams/landscape-dark.svg">
-  <img src="assets/diagrams/landscape-light.svg" alt="The agent landscape: foundations, a six-part harness around the model, then memory, tools, skills, orchestration, evals, security, and runtime." width="100%">
-</picture>
+Eleven sections. Each card is a link. The pill is who the section is written for.
+
+<p>
+<a href="docs/00-foundations/index.md"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/map/foundations-dark.svg">
+  <img alt="Foundations. What an agent is, in everyday words. Explorer." src="assets/map/foundations-light.svg" width="400">
+</picture></a>
+<a href="docs/01-agent-patterns/index.md"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/map/patterns-dark.svg">
+  <img alt="Agent patterns. How an agent chooses its next step. Builder." src="assets/map/patterns-light.svg" width="400">
+</picture></a>
 </p>
 
-| | Section | What it covers |
-| --- | --- | --- |
-| 00 | [Foundations](docs/00-foundations/index.md) | Definition, the loop, memory, tools, planning |
-| 01 | [Agent patterns](docs/01-agent-patterns/index.md) | The harness, then ReAct, wiki memory, and how agents remember |
-| 02 | [Tools and MCP](docs/02-tools-mcp/index.md) | The action interface: tools, Model Context Protocol, gateways |
-| 03 | [Prompting and skills](docs/03-prompting-skills/index.md) | Prompts, skill packs, creative stacks |
-| 04 | [Multi-agent](docs/04-multi-agent/index.md) | Control across a lead, phases, and a merge |
-| 05 | [Runtime and infra](docs/05-runtime-infra/index.md) | Cloud and local runs, efficient inference |
-| 06 | [Evals](docs/06-evals/index.md) | How to tell that an agent, and its harness, got better |
-| 07 | [Security](docs/07-security/index.md) | Verification: threat model, review gates, supply chain |
-| 08 | [Case studies](docs/08-case-studies/index.md) | Posts and projects, with the claim kept separate from the pattern |
-| 09 | [Playbooks](docs/09-playbooks/index.md) | Checklists and worked examples, from a first agent card to a scored run |
-| 10 | [Hosted agents](docs/10-hosted-agents/index.md) | Closed products people rent: Grok Bot, Muse, Dots, Claude Cowork, and Copilot Studio computer use |
+<p>
+<a href="docs/02-tools-mcp/index.md"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/map/tools-dark.svg">
+  <img alt="Tools and MCP. How it connects to apps, files, and the web. Builder." src="assets/map/tools-light.svg" width="400">
+</picture></a>
+<a href="docs/03-prompting-skills/index.md"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/map/skills-dark.svg">
+  <img alt="Prompting and skills. Instructions you write once and reuse. Builder." src="assets/map/skills-light.svg" width="400">
+</picture></a>
+</p>
+
+<p>
+<a href="docs/04-multi-agent/index.md"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/map/multi-dark.svg">
+  <img alt="Multi-agent. Several helpers sharing one job. Operator." src="assets/map/multi-light.svg" width="400">
+</picture></a>
+<a href="docs/05-runtime-infra/index.md"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/map/runtime-dark.svg">
+  <img alt="Runtime. On your laptop, or on a cloud computer. Operator." src="assets/map/runtime-light.svg" width="400">
+</picture></a>
+</p>
+
+<p>
+<a href="docs/06-evals/index.md"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/map/evals-dark.svg">
+  <img alt="Evals. How you tell the work is actually finished. Operator." src="assets/map/evals-light.svg" width="400">
+</picture></a>
+<a href="docs/07-security/index.md"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/map/security-dark.svg">
+  <img alt="Security. What it may do, and what you should check. Operator." src="assets/map/security-light.svg" width="400">
+</picture></a>
+</p>
+
+<p>
+<a href="docs/08-case-studies/index.md"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/map/stories-dark.svg">
+  <img alt="Case studies. Real projects, told without the hype. Power user." src="assets/map/stories-light.svg" width="400">
+</picture></a>
+<a href="docs/09-playbooks/index.md"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/map/playbooks-dark.svg">
+  <img alt="Playbooks. Exercises you can follow in one sitting. All levels." src="assets/map/playbooks-light.svg" width="400">
+</picture></a>
+</p>
+
+<p>
+<a href="docs/10-hosted-agents/index.md"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/map/hosted-dark.svg">
+  <img alt="Hosted agents. Products you can try without installing code. Operator." src="assets/map/hosted-light.svg" width="400">
+</picture></a>
+</p>
+
+Same links, as text:
+
+- [Foundations](docs/00-foundations/index.md) — what an agent is, in everyday words.
+- [Agent patterns](docs/01-agent-patterns/index.md) — how an agent chooses its next step.
+- [Tools and MCP](docs/02-tools-mcp/index.md) — how it connects to apps, files, and the web.
+- [Prompting and skills](docs/03-prompting-skills/index.md) — instructions you write once and reuse.
+- [Multi-agent](docs/04-multi-agent/index.md) — several helpers sharing one job.
+- [Runtime and infra](docs/05-runtime-infra/index.md) — your laptop, or a cloud computer.
+- [Evals](docs/06-evals/index.md) — how you tell the work is actually finished.
+- [Security](docs/07-security/index.md) — what it may do, and what you should check.
+- [Case studies](docs/08-case-studies/index.md) — real projects, told without the hype.
+- [Playbooks](docs/09-playbooks/index.md) — exercises you can follow in one sitting.
+- [Hosted agents](docs/10-hosted-agents/index.md) — products you can try without installing code.
 
 Also: [glossary](docs/glossary.md), [how to read a claim](docs/how-to-read.md), [community list](docs/community.md), [diagram atlas](docs/diagrams.md), [social references & inspirations](docs/references.md). The shelf behind the harness page is [Guo et al. 2026](https://arxiv.org/abs/2606.20683).
 

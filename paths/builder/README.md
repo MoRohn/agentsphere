@@ -17,7 +17,7 @@ You are ready to make an agent, not only to rent one. This path is the harness y
 | --- | --- |
 | Path | Builder |
 | Time | A few sittings. The two playbooks are the long part |
-| You need | The [Explorer card](../explorer/README.md), or the same comfort with the loop |
+| You need | The [Explorer guide](../explorer/README.md), or you already know what an agent is |
 
 The model still only proposes. You decide the six runtime parts. A longer prompt is the last place to put a rule you expect to reuse.
 

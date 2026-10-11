@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="830" height="660" viewBox="0 0 830 660" role="img" aria-labelledby="title desc">
   <title id="title">The agent landscape</title>
-  <desc id="desc">Foundations, harness, memory, tools, orchestration, evals, security, runtime.</desc>
+  <desc id="desc">Foundations, agent patterns, tools and skills, multi-agent, and how to check the work.</desc>
   <defs>
     <linearGradient id="landscape-light-bar" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#10243F"/>
@@ -8,18 +8,18 @@
     </linearGradient>
   </defs>
   <text x="40" y="56" fill="#1F2328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="36" font-weight="600" text-anchor="start">The agent landscape</text>
-  <text x="40" y="96" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">One harness. The rest of the guide hangs off it.</text>
+  <text x="40" y="96" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">The README links each section. This is the same list.</text>
   
   <line x1="40" y1="124" x2="700" y2="124" stroke="#D0D7DE" stroke-width="1.5"/>
   <text x="40" y="160" fill="#1F2328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">Foundations</text>
-  <text x="40" y="192" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">What an agent is, and the loop it runs.</text>
-  <text x="40" y="250" fill="#1F2328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">Harness</text>
-  <text x="40" y="282" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Observation, context, control, action, state, verification.</text>
-  <text x="40" y="340" fill="#1F2328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">Memory and tools</text>
-  <text x="40" y="372" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Wiki, write-back, MCP, and skills.</text>
-  <text x="40" y="430" fill="#1F2328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">Orchestration</text>
-  <text x="40" y="462" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">A lead, phases, and a merge.</text>
-  <text x="40" y="520" fill="#1F2328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">Judge the run</text>
-  <text x="40" y="552" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Evals, security, and where it runs.</text>
-  <text x="40" y="620" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" text-anchor="start">Playbooks practice a slice. The harness explains the rest.</text>
+  <text x="40" y="192" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">What an agent is, in everyday words.</text>
+  <text x="40" y="250" fill="#1F2328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">Agent patterns</text>
+  <text x="40" y="282" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">How an agent chooses its next step.</text>
+  <text x="40" y="340" fill="#1F2328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">Tools and skills</text>
+  <text x="40" y="372" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Apps, files, and instructions you reuse.</text>
+  <text x="40" y="430" fill="#1F2328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">Multi-agent</text>
+  <text x="40" y="462" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Several helpers sharing one job.</text>
+  <text x="40" y="520" fill="#1F2328" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="start">Check the work</text>
+  <text x="40" y="552" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Did it finish, is it safe, where it runs.</text>
+  <text x="40" y="620" fill="#424A53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Playbooks are exercises you can follow in one sitting.</text>
 </svg>
