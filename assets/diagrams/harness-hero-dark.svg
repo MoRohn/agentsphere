@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="560" viewBox="0 0 830 560" role="img" aria-labelledby="title desc">
+  <title id="title">The harness decides</title>
+  <desc id="desc">Six parts around the model.</desc>
+  <defs>
+    <linearGradient id="harness-hero-dark-bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F5A31A"/>
+      <stop offset="1" stop-color="#FFE0B0"/>
+    </linearGradient>
+  </defs>
+  <text x="40" y="56" fill="#E6EDF3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="36" font-weight="600" text-anchor="start">The harness decides</text>
+  <text x="40" y="92" fill="#C9D1D9" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">The model only proposes the next step.</text>
+  <g transform="translate(728.00,8.00) scale(0.3438)">
+<circle cx="128" cy="128" r="118" fill="none" stroke="#F5A31A" stroke-opacity="0.22" stroke-width="12"/>
+<circle cx="128" cy="128" r="110" fill="none" stroke="#F5A31A" stroke-opacity="0.45" stroke-width="7"/>
+<circle cx="128" cy="128" r="100" fill="#10243F"/>
+<circle cx="128" cy="128" r="96" fill="none" stroke="#F5A31A" stroke-width="6"/>
+<g transform="translate(128,138)"><rect x="-38" y="-34" width="76" height="70" rx="34" fill="#FFFFFF"/><line x1="0" y1="-32" x2="0" y2="-50" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/><line x1="0" y1="-32" x2="0" y2="-50" stroke="#F5A31A" stroke-width="4.4" stroke-linecap="round"/><circle cx="0" cy="-57" r="8.2" fill="#FFFFFF"/><circle cx="0" cy="-57" r="5.5" fill="#F5A31A"/><rect x="-26" y="-8" width="52" height="26" rx="13" fill="#10243F"/><circle cx="-12" cy="5" r="5.5" fill="#F5A31A"/><circle cx="12" cy="5" r="5.5" fill="#F5A31A"/><g fill="none" stroke="#F5A31A" stroke-width="2.6" stroke-linecap="round"><path d="M 34,-12 H 54"/><path d="M 36,0 H 62"/><path d="M 34,12 H 50"/></g><g fill="#F5A31A"><circle cx="56" cy="-12" r="2.5"/><circle cx="64" cy="0" r="2.5"/><circle cx="52" cy="12" r="2.5"/></g></g>
+  </g>
+  <ellipse cx="415" cy="300" rx="230" ry="96" fill="none" stroke="#F5A31A" stroke-width="2.5" stroke-dasharray="8 10"/>
+  <circle cx="415" cy="300" r="58" fill="#10243F"/>
+  <circle cx="415" cy="300" r="58" fill="none" stroke="#F5A31A" stroke-width="5"/>
+  <text x="415" y="308" fill="#FFFFFF" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" text-anchor="middle">Model</text>
+  <text x="415" y="168" fill="#E6EDF3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" text-anchor="middle">Observation</text>
+  <text x="700" y="250" fill="#E6EDF3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" text-anchor="start">Context</text>
+  <text x="700" y="360" fill="#E6EDF3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" text-anchor="start">Control</text>
+  <text x="415" y="448" fill="#E6EDF3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" text-anchor="middle">Action</text>
+  <text x="176" y="360" fill="#E6EDF3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" text-anchor="end">State</text>
+  <text x="176" y="250" fill="#E6EDF3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" text-anchor="end">Verification</text>
+  <text x="40" y="520" fill="#C9D1D9" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="start">Same model. Different harness. Different agent.</text>
+</svg>

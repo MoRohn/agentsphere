@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="../../assets/sections/06-evals.svg" alt="Evals: checkpoints on a rising line" width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/06-evals-dark.svg">
+  <img src="../../assets/sections/06-evals-light.svg" alt="Evals: checkpoints on a rising line" width="100%">
+</picture>
 </p>
 
 <p>

@@ -30,7 +30,7 @@ The shape of a good edit is the memory pattern in [wiki memory](docs/01-agent-pa
 4. **One idea, one home.** Prefer updating an existing page to opening a near-duplicate. A case study may retell a source, and it should link to the concept page rather than fork the explanation.
 5. **Search the guide first.** Before you add a page, look in [the map](docs/README.md), the [glossary](docs/glossary.md), and the [references](docs/references.md).
 6. **Security stays high level.** Name threats, review gates, and supply-chain checks. Do not add exploit procedures, payloads, or steps for abusing provider quotas.
-7. **Keep the visual system.** New figures use the palette and the header/footer pattern in [the style guide](docs/style-guide.md). Diagrams that explain an architecture exist twice: an SVG in `assets/diagrams/` and a Mermaid block on the page. The harness hero, the journey map, and the landscape are overview figures and stay SVG only. Both kinds must render on GitHub. Put a level badge on the page for every path it belongs to.
+7. **Keep the visual system.** New figures follow [the style guide](docs/style-guide.md): an 830-wide viewBox, transparent background, a light file and a dark file, titles at 36px and labels at 16px or larger. Pages choose the file with `<picture>` and `prefers-color-scheme`. Diagrams that explain an architecture also have a Mermaid block. The harness hero, the journey map, and the landscape stay SVG only. Both kinds must render on GitHub. Put a level badge on the page for every path it belongs to.
 8. **Leave the next reader smarter.** Update the references list if you cited something new, the learning path if the sequence changed, the glossary if you introduced a term, and the changelog.
 
 ## Add or update a page
@@ -52,7 +52,10 @@ Copy this shape. It is what makes the guide feel like one book.
 
 ```markdown
 <p align="center">
-  <img src="../../assets/sections/0N-name.svg" alt="Section title" width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/0N-name-dark.svg">
+  <img src="../../assets/sections/0N-name-light.svg" alt="Section title" width="100%">
+</picture>
 </p>
 
 <p>
@@ -110,9 +113,9 @@ State the claim you mean. "The post reports a 6.17x speedup" is a different sent
 
 ## Diagrams on GitHub
 
-- SVG files are images. Reference them with an `<img>` tag and a real `alt`. Give them their own background so they read on GitHub's light and dark themes. The mark and the masthead also ship light and dark files, chosen with a `<picture>` element.
-- Keep SVG self-contained: no scripts, no external fonts, no `foreignObject`. Use presentation attributes (`fill`, `stroke`, `font-family`) so a sanitizer that drops `<style>` still leaves a picture. The wordmark is outlined, so it does not depend on a font.
-- Use `Segoe UI, Helvetica, Arial, sans-serif` for diagram labels.
+- SVG files are images. Wrap them in `<picture>`: a `source` for `(prefers-color-scheme: dark)` pointing at the `-dark.svg`, and an `img` fallback pointing at the `-light.svg`, with a real `alt` and `width="100%"`. The canvas is transparent. Do not put a dark panel behind the type.
+- Keep SVG self-contained: no scripts, no external fonts, no `foreignObject`. Use presentation attributes (`fill`, `stroke`, `font-family`) so a sanitizer that drops `<style>` still leaves a picture.
+- Use `Segoe UI, Helvetica, Arial, sans-serif` for diagram labels. Author at viewBox width 830. Titles are about 36px. Body labels are at least 16px, and 18px when the line is a gloss.
 - Mermaid blocks sit in a ` ```mermaid ` fence at the root of the page, not indented under a list. Stick to `flowchart`, `sequenceDiagram`, and `stateDiagram-v2`. Quote labels that contain parentheses, slashes, or colons. Do not use `end` as a node id.
 - After a diagram change, open the file on GitHub and look at it. A diagram that only renders locally is unfinished.
 
@@ -120,12 +123,13 @@ State the claim you mean. "The post reports a 6.17x speedup" is a different sent
 
 | Name | Hex | Use |
 | --- | --- | --- |
-| Deep space | `#07090F` | Icon and masthead, dark |
-| Paper | `#F5F7FC` | Icon and masthead, light |
-| Electric indigo | `#6C5CE7` | Lead, planning, links |
-| Cyan | `#00D1FF` | Perception, tools, focus |
-| Signal mint | `#2EF2A6` | Memory written back, done, safe-to-proceed |
-| Soft white | `#F4F7FB` | Primary text on the dark art |
-| Slate | `#8B97B3` | Secondary text on the dark art |
+| Deep space | `#0d1117` | GitHub dark page, showing through transparent art |
+| Paper | `#ffffff` | GitHub light page, showing through transparent art |
+| Navy | `#10243F` | Crescent, visor, structure |
+| Orange | `#F5A31A` | Disc, antenna, eyes, the word sphere |
+| Ink | `#1F2328` | Primary text on the light figure |
+| Graphite | `#424A53` | Secondary text on the light figure |
+| Paper text | `#E6EDF3` | Primary text on the dark figure |
+| Mist | `#C9D1D9` | Secondary text on the dark figure |
 
-The wordmark is lowercase `agentsphere`, one word. The mark is a luminous orb, one ring, and three nodes. Full notes: [style guide](docs/style-guide.md).
+The wordmark is `Agentsphere`, one word. `Agent` is navy on light and white on dark. `sphere` is orange. The mark is the robot in a circle: an orange disc with a navy crescent on light pages, a navy disc with an orange glow on dark pages. Full notes: [style guide](docs/style-guide.md).

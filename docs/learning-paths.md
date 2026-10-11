@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="../assets/sections/00-foundations.svg" alt="Foundations" width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/sections/00-foundations-dark.svg">
+  <img src="../assets/sections/00-foundations-light.svg" alt="Foundations" width="100%">
+</picture>
 </p>
 
 <p>
@@ -17,7 +20,10 @@
 Four paths, one guide. You can stop at the end of a path and still have a complete skill. Later paths assume the earlier ones. Each path ends with an artifact you can show someone. Every path meets the harness.
 
 <p align="center">
-  <img src="../assets/diagrams/journey-map.svg" alt="Explorer, Builder, Operator, and Power user, in that order." width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/diagrams/journey-map-dark.svg">
+  <img src="../assets/diagrams/journey-map-light.svg" alt="Explorer, Builder, Operator, and Power user, in that order." width="100%">
+</picture>
 </p>
 
 | | |
@@ -28,7 +34,7 @@ Four paths, one guide. You can stop at the end of a path and still have a comple
 
 ## Explorer
 
-You can explain what an agent is, walk the loop, and name the difference between a chat log and a page.
+You can explain what an agent is, walk the loop, and name the difference between a chat log and a page. When you want the products people rent, open [Hosted agents](10-hosted-agents/index.md) and name the model inside one of them.
 
 | Order | Page | Stay with it until |
 | --- | --- | --- |
@@ -53,9 +59,10 @@ You can design an agent that uses tools and leaves a knowledge base behind.
 | 3 | [How agents remember](01-agent-patterns/how-agents-remember.md) | You can place the four memories and say what write-back is |
 | 4 | [Tools and MCP](02-tools-mcp/tools-and-mcp.md) | You can sketch a host, a model API, and a tool server |
 | 5 | [Harness engineering](01-agent-patterns/harness-engineering.md) | You can name the model and the six runtime parts, and match them to the task |
-| 6 | [Prompts and skills](03-prompting-skills/prompts-and-skills.md) | You can split a giant prompt into prompt, skill, and file |
-| 7 | [Write a skill](09-playbooks/write-a-skill.md) | One repeated job lives in `SKILL.md`, not in a longer prompt |
-| 8 | [Research-agent playbook](09-playbooks/research-agent.md) | You have folders, rules, and one page written from a real source |
+| 6 | [Hosted agents](10-hosted-agents/index.md) | You can point at one product and name which harness part it stresses |
+| 7 | [Prompts and skills](03-prompting-skills/prompts-and-skills.md) | You can split a giant prompt into prompt, skill, and file |
+| 8 | [Write a skill](09-playbooks/write-a-skill.md) | One repeated job lives in `SKILL.md`, not in a longer prompt |
+| 9 | [Research-agent playbook](09-playbooks/research-agent.md) | You have folders, rules, and one page written from a real source |
 
 Optional depth: [creative toolkits](03-prompting-skills/creative-toolkits.md) and the [craft playbook](09-playbooks/skills-and-craft.md) if you build visual work with agents.
 
@@ -69,14 +76,15 @@ You can choose where an agent runs, how several agents share a plan, how you wou
 | --- | --- | --- |
 | 1 | [Harness engineering](01-agent-patterns/harness-engineering.md) | You can say which harness part a task will stress, and read a SWE-bench line as a pair |
 | 2 | [Cloud and local](05-runtime-infra/cloud-and-local.md) | You can place a task on one side and defend it |
-| 3 | [Orchestration](04-multi-agent/orchestration.md) | You can draw a lead, three phases, and a merge |
-| 4 | [Efficient inference](05-runtime-infra/efficient-inference.md) | You can separate a paper's claim from a post's retelling |
-| 5 | [Evals](06-evals/index.md) | You can name the score, the trajectory, the cost, and the harness |
-| 6 | [Threat model](07-security/threat-model.md) | You can name four threats in your own stack |
-| 7 | [Find, review, fix, retest](07-security/find-fix-retest.md) | You can point at the human gate |
-| 8 | [Gateways and supply chain](07-security/gateway-and-supply-chain.md) | You have a review list for a new proxy or skill |
-| 9 | [Operate agents](09-playbooks/operate-agents.md) | Three real tasks have a placement |
-| 10 | [Score a run](09-playbooks/score-a-run.md) | One trajectory has a written pass or fail |
+| 3 | [Hosted agents](10-hosted-agents/index.md) | You can place one real task on a named product and say which part it will stress |
+| 4 | [Orchestration](04-multi-agent/orchestration.md) | You can draw a lead, three phases, and a merge |
+| 5 | [Efficient inference](05-runtime-infra/efficient-inference.md) | You can separate a paper's claim from a post's retelling |
+| 6 | [Evals](06-evals/index.md) | You can name the score, the trajectory, the cost, and the harness |
+| 7 | [Threat model](07-security/threat-model.md) | You can name four threats in your own stack |
+| 8 | [Find, review, fix, retest](07-security/find-fix-retest.md) | You can point at the human gate |
+| 9 | [Gateways and supply chain](07-security/gateway-and-supply-chain.md) | You have a review list for a new proxy or skill |
+| 10 | [Operate agents](09-playbooks/operate-agents.md) | Three real tasks have a placement |
+| 11 | [Score a run](09-playbooks/score-a-run.md) | One trajectory has a written pass or fail |
 
 **You are ready for power-user work** when the score sheet and the placement note would survive a teammate who was not in the room.
 
@@ -88,10 +96,11 @@ You can do the work, retell a source without inflating it, and extend a page so 
 | --- | --- | --- |
 | 1 | [Unstick a loop](09-playbooks/unstick-a-loop.md) | A real failure has one diagnosis and one change |
 | 2 | [Harness engineering](01-agent-patterns/harness-engineering.md) | You can add a note to that page without inventing a benchmark number |
-| 3 | [Case studies](08-case-studies/index.md) | You have opened at least three of the source posts |
-| 4 | [Diagram atlas](diagrams.md) | You know which SVG pairs with which Mermaid block |
-| 5 | [Style guide](style-guide.md) | A new page you draft matches the anatomy |
-| 6 | [Contributing](../CONTRIBUTING.md) | You could update a page tonight, with the source linked |
+| 3 | [Hosted agents](10-hosted-agents/index.md) | You can run the power-user checklist against one product you actually use |
+| 4 | [Case studies](08-case-studies/index.md) | You have opened at least three of the source posts |
+| 5 | [Diagram atlas](diagrams.md) | You know which SVG pairs with which Mermaid block |
+| 6 | [Style guide](style-guide.md) | A new page you draft matches the anatomy |
+| 7 | [Contributing](../CONTRIBUTING.md) | You could update a page tonight, with the source linked |
 
 **You are practicing the system** when the last thing you do, after answering a question, is update a page.
 

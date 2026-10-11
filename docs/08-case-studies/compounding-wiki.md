@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="../../assets/diagrams/wiki-memory.svg" alt="Wiki memory diagram" width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/diagrams/wiki-memory-dark.svg">
+  <img src="../../assets/diagrams/wiki-memory-light.svg" alt="Wiki memory diagram" width="100%">
+</picture>
 </p>
 
 <p>

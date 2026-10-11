@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="../../assets/sections/01-patterns.svg" alt="Agent patterns: loops that compound" width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/01-patterns-dark.svg">
+  <img src="../../assets/sections/01-patterns-light.svg" alt="Agent patterns: loops that compound" width="100%">
+</picture>
 </p>
 
 <p>

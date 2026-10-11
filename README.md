@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-    <img src="assets/banner-light.svg" alt="agentsphere. The living field guide to the agent era." width="100%">
+    <img src="assets/banner-light.svg" alt="Agentsphere. AI agents repository." width="100%">
   </picture>
 </p>
 
@@ -9,7 +9,7 @@
   <a href="CHANGELOG.md">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/badges/version-dark.svg">
-      <img alt="version 0.3.0" src="assets/badges/version-light.svg" height="28">
+      <img alt="version 0.4.0" src="assets/badges/version-light.svg" height="28">
     </picture>
   </a>
   &nbsp;
@@ -63,7 +63,10 @@ When you have an hour, do the three that leave you holding a page:
 Agent quality is the model and the runtime together. The model proposes the next step. The harness decides what it sees, what it may do, what survives the call, and what gets checked. Guo, Hao, Wang, and colleagues lay this out in [From Question Answering to Task Completion: A Survey on Agent System and Harness Design](https://arxiv.org/abs/2606.20683). The full page, with the task-matching rules and the SWE-bench reading, is [Harness engineering](docs/01-agent-patterns/harness-engineering.md).
 
 <p align="center">
-  <img src="assets/diagrams/harness-hero.svg" alt="A model inside a six-part harness: observation, context, control, action, state, and verification. A light travels the orbit." width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/diagrams/harness-hero-dark.svg">
+  <img src="assets/diagrams/harness-hero-light.svg" alt="A model inside a six-part harness: observation, context, control, action, state, and verification." width="100%">
+</picture>
 </p>
 
 | | Model alone | Model plus harness |
@@ -92,7 +95,10 @@ The four eras still in use: prompt, context, harness, and training that leaves a
 ## Choose a level
 
 <p align="center">
-  <img src="assets/diagrams/journey-map.svg" alt="Four levels: Explorer leaves with a card, Builder with a page, Operator with a score, Power user with a page edit." width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/diagrams/journey-map-dark.svg">
+  <img src="assets/diagrams/journey-map-light.svg" alt="Four levels: Explorer leaves with a card, Builder with a page, Operator with a score, Power user with a page edit." width="100%">
+</picture>
 </p>
 
 | Level | Start here if you | Open first | You will be able to |
@@ -114,11 +120,15 @@ Sequences and a readiness check: [Learning paths](docs/learning-paths.md).
 | Decide whether a gateway can see your prompts | [Review a gateway](docs/09-playbooks/review-a-gateway.md) |
 | Tell whether a change helped | [Score a run](docs/09-playbooks/score-a-run.md) |
 | Stop a run that thrashes or invents facts | [Unstick a loop](docs/09-playbooks/unstick-a-loop.md) |
+| Compare a hosted product to the harness | [Hosted agents](docs/10-hosted-agents/index.md) |
 
 ## Map
 
 <p align="center">
-  <img src="assets/diagrams/landscape.svg" alt="The agent landscape: foundations, a six-part harness around the model, then memory, tools, skills, orchestration, evals, security, and runtime." width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/diagrams/landscape-dark.svg">
+  <img src="assets/diagrams/landscape-light.svg" alt="The agent landscape: foundations, a six-part harness around the model, then memory, tools, skills, orchestration, evals, security, and runtime." width="100%">
+</picture>
 </p>
 
 | | Section | What it covers |
@@ -133,19 +143,39 @@ Sequences and a readiness check: [Learning paths](docs/learning-paths.md).
 | 07 | [Security](docs/07-security/index.md) | Verification: threat model, review gates, supply chain |
 | 08 | [Case studies](docs/08-case-studies/index.md) | Posts and projects, with the claim kept separate from the pattern |
 | 09 | [Playbooks](docs/09-playbooks/index.md) | Checklists and worked examples, from a first agent card to a scored run |
+| 10 | [Hosted agents](docs/10-hosted-agents/index.md) | Closed products people rent: Grok Bot, Muse, Dots, Claude Cowork, and Copilot Studio computer use |
 
 Also: [glossary](docs/glossary.md), [how to read a claim](docs/how-to-read.md), [community list](docs/community.md), [diagram atlas](docs/diagrams.md), [social references & inspirations](docs/references.md). The shelf behind the harness page is [Guo et al. 2026](https://arxiv.org/abs/2606.20683).
+
+## Products you can rent
+
+Some agents are not a repo you clone. They are a product that already chose the computer, the memory, and the gate. The page reads official docs opened on 11 October 2026 and maps each product onto the six harness parts. A feature that was not on those pages is not listed.
+
+<p align="center">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/diagrams/hosted-agents-dark.svg">
+  <img src="assets/diagrams/hosted-agents-light.svg" alt="Grok Bot, Muse, and Dots keep a cloud computer. Claude and Copilot Studio act on a machine you can point at." width="100%">
+</picture>
+</p>
+
+The comparison, the limits, and the power-user checklist are [Hosted agents](docs/10-hosted-agents/index.md).
 
 ## How a research agent keeps what it learns
 
 An agent remembers only what it writes down outside the context window. The window is working memory: rebuilt every call, and worse at using a fact buried in the middle of a long input than a fact at either end. Episodic memory is the trace of what happened. Semantic memory is a page that says what is true, with a source. Procedural memory is a skill or a checklist. A search that pastes passages into the window is not a fifth kind. It is a load. It becomes memory when the conclusion is written back.
 
 <p align="center">
-  <img src="assets/diagrams/knowledge-flow.svg" alt="Six moves: name the question, search notes, read sources, write the page, reflect, and let the next run start from that page." width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/diagrams/knowledge-flow-dark.svg">
+  <img src="assets/diagrams/knowledge-flow-light.svg" alt="Six moves: name the question, search notes, read sources, write the page, reflect, and let the next run start from that page." width="100%">
+</picture>
 </p>
 
 <p align="center">
-  <img src="assets/diagrams/memory-map.svg" alt="Working memory is the context window. Episodic, semantic, and procedural memory live outside it. Retrieval is loaded for one call unless it is written back." width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/diagrams/memory-map-dark.svg">
+  <img src="assets/diagrams/memory-map-light.svg" alt="Working memory is the context window. Episodic, semantic, and procedural memory live outside it. Retrieval is loaded for one call unless it is written back." width="100%">
+</picture>
 </p>
 
 | Memory | Lives | Survives the call? |

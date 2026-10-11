@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="../../assets/sections/00-foundations.svg" alt="Foundations" width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/00-foundations-dark.svg">
+  <img src="../../assets/sections/00-foundations-light.svg" alt="Foundations" width="100%">
+</picture>
 </p>
 
 <p>

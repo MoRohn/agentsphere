@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="../../assets/diagrams/harness-hero.svg" alt="The model proposes. The harness decides. Six parts orbit the model." width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/diagrams/harness-hero-dark.svg">
+  <img src="../../assets/diagrams/harness-hero-light.svg" alt="The model proposes. The harness decides. Six parts orbit the model." width="100%">
+</picture>
 </p>
 
 <p>
@@ -39,7 +42,10 @@ The model supplies language, planning, and action proposals. It does not, by its
 ## Six parts, one runtime
 
 <p align="center">
-  <img src="../../assets/diagrams/harness.svg" alt="Six harness cards: observation, context, control, action, state, and verification, around the model." width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/diagrams/harness-dark.svg">
+  <img src="../../assets/diagrams/harness-light.svg" alt="Six harness cards: observation, context, control, action, state, and verification, around the model." width="100%">
+</picture>
 </p>
 
 The figure is the implementation view. Read it as a coupled loop. Improving one part moves pressure onto another: a richer observation costs context, a wider action needs a stronger check, and a longer memory can feed the model a stale fact.
@@ -70,13 +76,13 @@ config:
   theme: base
   themeVariables:
     darkMode: true
-    background: "#07090F"
-    primaryColor: "#12182B"
-    primaryTextColor: "#E6EAF2"
-    primaryBorderColor: "#6C5CE7"
-    lineColor: "#2EF2A6"
-    secondaryColor: "#10241C"
-    tertiaryColor: "#101628"
+    background: "#0d1117"
+    primaryColor: "#13293D"
+    primaryTextColor: "#E6EDF3"
+    primaryBorderColor: "#F5A31A"
+    lineColor: "#F5A31A"
+    secondaryColor: "#3A2A12"
+    tertiaryColor: "#10243F"
     fontFamily: "Segoe UI, Helvetica, Arial, sans-serif"
 ---
 flowchart TB
@@ -96,7 +102,10 @@ The SVG is the designed figure. This block is the same cycle in a form you can e
 The survey organizes the literature as four paradigms. Each one answered a limit of the one before it. They are a lens, not a calendar. A prompt, a context policy, a harness, and a trained model can all be present in one system.
 
 <p align="center">
-  <img src="../../assets/diagrams/harness-eras.svg" alt="Four eras: prompt, context, harness, and co-evolution. Later eras do not retire earlier ones." width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/diagrams/harness-eras-dark.svg">
+  <img src="../../assets/diagrams/harness-eras-light.svg" alt="Four eras: prompt, context, harness, and co-evolution. Later eras do not retire earlier ones." width="100%">
+</picture>
 </p>
 
 | Era | The question it answers | Where it stops |
@@ -114,13 +123,13 @@ config:
   theme: base
   themeVariables:
     darkMode: true
-    background: "#07090F"
-    primaryColor: "#12182B"
-    primaryTextColor: "#E6EAF2"
-    primaryBorderColor: "#00D1FF"
-    lineColor: "#2EF2A6"
-    secondaryColor: "#10241C"
-    tertiaryColor: "#101628"
+    background: "#0d1117"
+    primaryColor: "#13293D"
+    primaryTextColor: "#E6EDF3"
+    primaryBorderColor: "#F5A31A"
+    lineColor: "#FFE0B0"
+    secondaryColor: "#3A2A12"
+    tertiaryColor: "#10243F"
     fontFamily: "Segoe UI, Helvetica, Arial, sans-serif"
 ---
 flowchart LR
@@ -242,6 +251,7 @@ The checklist, the pattern table, and the worked example are this guide's organi
 - Tools, as the action interface: [Tools and MCP](../02-tools-mcp/tools-and-mcp.md)
 - Several models in one control loop: [Orchestration](../04-multi-agent/orchestration.md)
 - Practice: [Research agent](../09-playbooks/research-agent.md)
+- The same six parts, rented: [Hosted agents](../10-hosted-agents/index.md)
 
 ---
 

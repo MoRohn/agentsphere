@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="112" height="28" viewBox="0 0 112 28" role="img" aria-label="Explorer">
   <title>Explorer</title>
-  <rect x="0.5" y="0.5" width="111" height="27" rx="13.5" fill="#101628" stroke="#00D1FF"/>
-  <circle cx="16" cy="14" r="4" fill="#00D1FF"/>
+  <rect x="0.5" y="0.5" width="111" height="27" rx="13.5" fill="#10243F" stroke="#F5A31A"/>
+  <circle cx="16" cy="14" r="4" fill="#F5A31A"/>
   <text x="28" y="18" fill="#E6EAF2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">Explorer</text>
 </svg>

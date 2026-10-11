@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="../../assets/sections/05-runtime.svg" alt="Runtime: a cloud beside a chip" width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/05-runtime-dark.svg">
+  <img src="../../assets/sections/05-runtime-light.svg" alt="Runtime: a cloud beside a chip" width="100%">
+</picture>
 </p>
 
 <p>
@@ -30,6 +33,7 @@ Place three tasks with [operate agents](../09-playbooks/operate-agents.md). The 
 ## Continue
 
 - [Cloud and local](cloud-and-local.md)
+- Products that already chose a computer: [Hosted agents](../10-hosted-agents/index.md)
 
 ---
 

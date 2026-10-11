@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="../../assets/sections/02-tools.svg" alt="Tools and MCP: a hub with connected nodes" width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/02-tools-dark.svg">
+  <img src="../../assets/sections/02-tools-light.svg" alt="Tools and MCP: a hub with connected nodes" width="100%">
+</picture>
 </p>
 
 <p>

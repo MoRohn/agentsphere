@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="../../assets/diagrams/cloud-vs-local.svg" alt="Local and cloud topologies" width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/diagrams/cloud-vs-local-dark.svg">
+  <img src="../../assets/diagrams/cloud-vs-local-light.svg" alt="Local and cloud topologies" width="100%">
+</picture>
 </p>
 
 <p>
