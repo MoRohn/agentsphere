@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/07-security-dark.svg">
-  <img src="../../assets/sections/07-security-light.svg" alt="Security: the gate before the side effect" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/07-security-dark.png">
+  <img src="../../assets/sections/07-security-light.png" alt="Security: the gate before the side effect" width="100%">
 </picture>
 </p>
 

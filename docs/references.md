@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../assets/sections/08-case-studies-dark.svg">
-  <img src="../assets/sections/08-case-studies-light.svg" alt="Social references and inspirations" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/sections/08-case-studies-dark.png">
+  <img src="../assets/sections/08-case-studies-light.png" alt="Social references and inspirations" width="100%">
 </picture>
 </p>
 

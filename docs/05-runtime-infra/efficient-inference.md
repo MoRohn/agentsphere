@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/05-runtime-dark.svg">
-  <img src="../../assets/sections/05-runtime-light.svg" alt="Runtime and infra" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/05-runtime-dark.png">
+  <img src="../../assets/sections/05-runtime-light.png" alt="Runtime and infra" width="100%">
 </picture>
 </p>
 

@@ -2,6 +2,10 @@
 
 The guide version tracks the pages. Dates are the day the change landed in this repository.
 
+## 0.4.1 — 2026-10-11
+
+- Replaced the hand-drawn logo with the owner's artwork. The masthead, the icon, and the marks on section headers are cropped from that art, with the background removed. Light pages use the navy crescent. Dark pages use the white crescent and the glow on `sphere`. The README chooses them with `<picture>`.
+
 ## 0.4.0 — 2026-10-11
 
 - Added [Hosted agents](docs/10-hosted-agents/index.md): Grok Bot, Muse, Dots, Claude Cowork, and Copilot Studio computer use, each mapped onto the six harness parts. Facts come from official pages opened on this date. Where two official pages disagree, both are kept. Dollar prices are omitted.

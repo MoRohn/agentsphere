@@ -1,17 +1,15 @@
 # Assets
 
-SVG for the guide. The masthead, section openers, and diagrams are transparent, and each ships a light file and a dark file. Pages choose with `<picture>` and `prefers-color-scheme`. The app-icon mark still paints its own canvas.
+The masthead and the app-icon mark are the owner's artwork, cropped, with the background removed. Section openers use that same circle. Diagrams stay SVG. Each piece ships a light file and a dark file. Pages choose with `<picture>` and `prefers-color-scheme`.
 
 | Path | What it is |
 | --- | --- |
-| [logo-dark.svg](logo-dark.svg), [logo-light.svg](logo-light.svg) | App-icon mark. White robot, orange antenna, two circle treatments. 256×256. |
-| [banner-dark.svg](banner-dark.svg), [banner-light.svg](banner-light.svg) | README masthead. Mark, outlined `Agentsphere`, tagline `AI AGENTS REPOSITORY`. 830×300. Transparent. |
+| [logo-dark.png](logo-dark.png), [logo-light.png](logo-light.png) | App-icon and favicon mark. Orange disc, white robot. Navy crescent on light, white crescent on dark. 640×640. Transparent. |
+| [banner-dark.png](banner-dark.png), [banner-light.png](banner-light.png) | README masthead. Mark, `Agentsphere`, tagline `AI AGENTS REPOSITORY`. Light is 1600×542. Dark is 1600×546 and keeps the white crescent and the glow on `sphere`. Transparent. |
 | [badges/](badges/) | Small pills for the README. Light and dark pair. |
-| [sections/](sections/) | Openers for sections 00–10. 830×188. Light and dark pair. |
+| [sections/](sections/) | Openers for sections 00–10. 1660×376. Light and dark pair. |
 | [diagrams/](diagrams/) | Architecture figures, 830 wide. Light and dark pair. Each lesson figure has a Mermaid twin. See [the atlas](../docs/diagrams.md). |
-
-`logo.svg` and `banner.svg` match the dark files, for older links.
 
 Palette and the rules that keep a new figure on-system: [style guide](../docs/style-guide.md).
 
-Do not add scripts, external images, or `foreignObject` to these files. GitHub renders them as images and will drop anything that looks like active content. Diagram labels are live, in `Segoe UI, Helvetica, Arial, sans-serif`, at 16px or larger inside the 830-wide viewBox. The masthead wordmark is outlined so it does not need a font.
+Do not add scripts or `foreignObject` to the SVG diagrams. GitHub renders them as images and will drop anything that looks like active content. Diagram labels are live, in `Segoe UI, Helvetica, Arial, sans-serif`, at 16px or larger inside the 830-wide viewBox. The masthead is the cropped artwork, so it does not depend on a font.

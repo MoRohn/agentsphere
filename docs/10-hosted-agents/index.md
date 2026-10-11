@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/10-hosted-agents-dark.svg">
-    <img src="../../assets/sections/10-hosted-agents-light.svg" alt="Hosted agents: products you can rent" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="../../assets/sections/10-hosted-agents-dark.png">
+    <img src="../../assets/sections/10-hosted-agents-light.png" alt="Hosted agents: products you can rent" width="100%">
   </picture>
 </p>
 
