@@ -14,7 +14,7 @@ Short definitions in the sense this guide uses them. A **per post** row is vocab
 
 ### A2A / agent-to-agent
 
-Agents delegating work to other agents. The OmniRoute post claims support for an agent-to-agent architecture (**per post**, [B6](https://x.com/Bober_smart/status/2108293657552117850)). Industry protocols exist for this; the post does not name a spec version.
+Agents delegating work to other agents. The OmniRoute post claims support for an agent-to-agent architecture (**per post**, [@Bober_smart](https://x.com/Bober_smart/status/2108293657552117850)). Industry protocols exist for this; the post does not name a spec version.
 
 ### Agent
 
@@ -78,7 +78,7 @@ A person accepts a change before it lands. Central to the [security loop](07-sec
 
 ### Lead agent
 
-The agent that writes the plan and later combines results. Worker agents do slices of that plan. **Per post** for Claude Managed Agents ([B4](https://x.com/ClaudeDevs/status/2108591328732856655)); the pattern itself is taught as synthesis on top of that report.
+The agent that writes the plan and later combines results. Worker agents do slices of that plan. **Per post** for Claude Managed Agents ([@ClaudeDevs](https://x.com/ClaudeDevs/status/2108591328732856655)); the pattern itself is taught as synthesis on top of that report.
 
 ### MCP (Model Context Protocol)
 

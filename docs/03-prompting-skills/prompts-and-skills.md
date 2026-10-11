@@ -42,7 +42,7 @@ A useful skill is short enough to read in one sitting:
 - Checks it runs on its own output.
 - Tools it is allowed to call.
 
-The motion-design post is a catalog of skills aimed at one job: an agent writes the code, a skill sets timing and camera, an engine renders a video ([B9](https://x.com/N01ennn/status/2108182955671580771), per post). The catalog itself is the [creative toolkits](creative-toolkits.md) page. The pattern is the point, and it travels: code from the model, constraints from the skill, an artifact from a real renderer.
+The motion-design post is a catalog of skills aimed at one job: an agent writes the code, a skill sets timing and camera, an engine renders a video ([@N01ennn](https://x.com/N01ennn/status/2108182955671580771), per post). The catalog itself is the [creative toolkits](creative-toolkits.md) page. The pattern is the point, and it travels: code from the model, constraints from the skill, an artifact from a real renderer.
 
 ## Installing a skill is running code
 
@@ -52,7 +52,7 @@ The motion post says to check each repository before you install (per post). Tak
 
 ## Secrets and standing orders
 
-A prompt is a poor vault. Anything the model can see, a tool result or a later page can echo. Put API keys in the environment or a local secret store, and let a tool use them without returning the secret in the observation. The OmniRoute post claims local encryption of keys ([B6](https://x.com/Bober_smart/status/2108293657552117850), per post). Whether a given gateway does that is something you verify, not something you paste into a system prompt as a wish.
+A prompt is a poor vault. Anything the model can see, a tool result or a later page can echo. Put API keys in the environment or a local secret store, and let a tool use them without returning the secret in the observation. The OmniRoute post claims local encryption of keys ([@Bober_smart](https://x.com/Bober_smart/status/2108293657552117850), per post). Whether a given gateway does that is something you verify, not something you paste into a system prompt as a wish.
 
 ## Check yourself
 
@@ -63,8 +63,8 @@ A prompt is a poor vault. Anything the model can see, a tool result or a later p
 ## Sources
 
 - Established practice for separating standing instructions, procedures, tasks, and evidence.
-- [B9](https://x.com/N01ennn/status/2108182955671580771) — @N01ennn, 2026-10-08. Skills plus an engine, and the advice to check repos, per post.
-- [B6](https://x.com/Bober_smart/status/2108293657552117850) — local key encryption, per post, unverified.
+- [@N01ennn](https://x.com/N01ennn/status/2108182955671580771) — 2026-10-08. Skills plus an engine, and the advice to check repos, per post.
+- [@Bober_smart](https://x.com/Bober_smart/status/2108293657552117850) — local key encryption, per post, unverified.
 
 ## Continue
 

@@ -9,7 +9,7 @@ OmniRoute, as one post describes it: a local OpenAI-compatible router in front o
 | | |
 | --- | --- |
 | Path | Power user |
-| Source | [B6](https://x.com/Bober_smart/status/2108293657552117850) |
+| Source | [@Bober_smart](https://x.com/Bober_smart/status/2108293657552117850) |
 | Posted | 2026-10-08, @Bober_smart |
 | Concept | [Gateways and routing](../02-tools-mcp/gateways-and-routing.md) |
 
@@ -40,7 +40,7 @@ The leak framing. Any plan to aggregate accounts you do not control. Any percent
 
 ## Sources
 
-- [B6](https://x.com/Bober_smart/status/2108293657552117850)
+- [@Bober_smart](https://x.com/Bober_smart/status/2108293657552117850)
 
 ## Continue
 

@@ -217,7 +217,7 @@ A fail is a confident paragraph whose repository name is in neither the notes no
 - [From Question Answering to Task Completion: A Survey on Agent System and Harness Design](https://arxiv.org/abs/2606.20683) — Guo et al., arXiv:2606.20683, 2026. The model-plus-harness thesis, the six components, the four paradigms, the task-to-harness mapping, and the SWE-bench Verified synthesis in Section 7.3.
 - [Awesome-Agent-Engineering](https://github.com/ggjy/Awesome-Agent-Engineering) — the survey's collection of related papers and systems.
 - [SWE-bench](https://arxiv.org/abs/2310.06770) — Jimenez et al., 2023. The benchmark the survey's Section 7.3 reads. The resolved rates on this page are the survey's synthesis of later public reports, not figures from the 2023 paper.
-- [B11](https://x.com/undefinedKi/status/2109020007103332636) — @undefinedKi, 2026-10-10. The post that pointed this guide at the survey. It quotes [an earlier post the same day](https://x.com/undefinedKi/status/2108911763257254302). The paper, not the post, is the source of the methodology and the numbers.
+- [@undefinedKi](https://x.com/undefinedKi/status/2109020007103332636) — 2026-10-10. The post that pointed this guide at the survey. It quotes [an earlier post the same day](https://x.com/undefinedKi/status/2108911763257254302). The paper, not the post, is the source of the methodology and the numbers.
 
 The checklist, the pattern table, and the worked example are this guide's organization of the survey.
 

@@ -13,7 +13,7 @@ Stand up the smallest version of raw, wiki, and schema. Use it on a question you
 | You need | [Wiki memory](../01-agent-patterns/wiki-memory.md) |
 | Produces | A folder layout, five rules, and one page written from a real source |
 
-This is synthesis on top of [B2](https://x.com/fleyta88/status/2108619644399415565). The post names the three pieces. The files below are a concrete way to keep them. They are not a recovered Karpathy repository.
+This is synthesis on top of [@fleyta88](https://x.com/fleyta88/status/2108619644399415565). The post names the three pieces. The files below are a concrete way to keep them. They are not a recovered Karpathy repository.
 
 ## 1. Make the folders
 
@@ -84,7 +84,7 @@ When the source is someone else's post, link the status, mark the claim **per po
 
 ## Sources
 
-- [B2](https://x.com/fleyta88/status/2108619644399415565) — the three-piece pattern, per post.
+- [@fleyta88](https://x.com/fleyta88/status/2108619644399415565) — the three-piece pattern, per post.
 - The folder names, the seven rules, and the prompt are synthesis.
 
 ## Continue

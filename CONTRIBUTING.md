@@ -13,7 +13,7 @@ The shape of a good edit is the memory pattern in [wiki memory](docs/01-agent-pa
 
 ## Principles
 
-1. **Cite the URL.** A claim that comes from a post, a paper, or a repository points at that source. Use the reference ID already on [Social references & inspirations](docs/references.md), or add the next ID (`B11`, `B12`, …) when the source is new.
+1. **Cite the URL.** A claim that comes from a post, a paper, or a repository names that source and links it. If the source is new, add a row to [Social references & inspirations](docs/references.md) and name every page that cites it.
 2. **Mark the claim.** Use **Established**, **Per post**, or **Synthesis**, as defined in [how to read](docs/how-to-read.md). A number, a repo count, a speedup, or a product feature from a post is **per post** until a primary source is opened and named.
 3. **Do not invent the missing link.** If a post only offers a shortened URL, send the reader to the post. Do not guess the destination.
 4. **One idea, one home.** Prefer updating an existing page to opening a near-duplicate. A case study may retell a source, and it should link to the concept page rather than fork the explanation.
@@ -73,7 +73,7 @@ Teach the idea. Use a table for claims.
 
 ## Sources
 
-- [B11](url) — author, date. One line on what was taken from it.
+- [@author](url) — date. One line on what was taken from it.
 
 ## Continue
 

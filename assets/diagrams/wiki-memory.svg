@@ -33,7 +33,7 @@
     <text x="48" y="470" fill="#A9B4CC" font-size="13">The agent reads a source</text>
     <text x="48" y="490" fill="#A9B4CC" font-size="13">once, then works from</text>
     <text x="48" y="510" fill="#A9B4CC" font-size="13">the page it wrote.</text>
-    <text x="48" y="548" fill="#8B97B3" font-size="12">Per post, B2</text>
+    <text x="48" y="548" fill="#8B97B3" font-size="12">Per post</text>
 
     <rect x="682" y="76" width="250" height="500" rx="18" fill="#101628" stroke="#2EF2A6" stroke-opacity="0.6"/>
     <text x="702" y="112" fill="#2EF2A6" font-size="13" letter-spacing="1.6">WIKI /</text>
@@ -88,5 +88,5 @@
     <text x="300" y="610" fill="#A9B4CC" font-size="13">Pages outlive the chat. The agent can read them, link them, and correct them.</text>
     <text x="300" y="634" fill="#8B97B3" font-size="12">Per post: raw/ = source of truth, wiki/ = maintained knowledge, schema = update rules.</text>
   </g>
-  <text x="28" y="680" fill="#8B97B3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Source B2 · docs/01-agent-patterns/wiki-memory.md</text>
+  <text x="28" y="680" fill="#8B97B3" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Wiki memory, per post. @fleyta88.</text>
 </svg>

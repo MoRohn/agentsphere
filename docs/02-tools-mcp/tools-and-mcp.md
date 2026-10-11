@@ -72,7 +72,7 @@ MCP attaches tools and data to the host. A **gateway** attaches the host's model
 ## Sources
 
 - Established account of tool contracts and of MCP as an open protocol for tools and data.
-- [B6](https://x.com/Bober_smart/status/2108293657552117850) — @Bober_smart, 2026-10-08. MCP and agent-to-agent claims, per post.
+- [@Bober_smart](https://x.com/Bober_smart/status/2108293657552117850) — 2026-10-08. MCP and agent-to-agent claims, per post.
 
 ## Continue
 

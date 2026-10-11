@@ -31,9 +31,9 @@ Inline, name the author and link the status:
 
 [@fleyta88](https://x.com/fleyta88/status/2108619644399415565) describes a research agent that searches a wiki before it searches the web (per post).
 
-At the bottom of a page, the source list uses reference IDs:
+At the bottom of a page, the source list names the author and links the post:
 
-- [B2](https://x.com/fleyta88/status/2108619644399415565) — @fleyta88, 2026-10-09. Wiki-memory loop.
+- [@fleyta88](https://x.com/fleyta88/status/2108619644399415565) — 2026-10-09. Wiki-memory loop.
 
 The full list is [Social references & inspirations](references.md).
 

@@ -92,7 +92,7 @@ Hands-on recipes. Start with [your first agent](09-playbooks/first-agent.md) if 
 | [Learning paths](learning-paths.md) | A sequence and a readiness check |
 | [Glossary](glossary.md) | A term in one or two sentences |
 | [How to read](how-to-read.md) | The three claim labels |
-| [Community](community.md) | The account list from B3 |
+| [Community](community.md) | The account list from [@ai_explorer25](https://x.com/ai_explorer25/status/2108746842620014807) |
 | [Diagram atlas](diagrams.md) | Every SVG and its Mermaid twin |
 | [Style guide](style-guide.md) | Palette, page anatomy, GitHub rendering |
 | [Social references & inspirations](references.md) | Which post, article, or repo shaped which page |

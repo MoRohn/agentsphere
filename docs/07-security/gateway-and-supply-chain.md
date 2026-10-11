@@ -20,7 +20,7 @@ A local proxy holds your keys and sees your prompts. A skill pack runs in your a
 
 ## Gateways
 
-The OmniRoute post claims a local-first design, AES-256-GCM for keys, zero telemetry, and requests that go to providers rather than through an extra cloud ([B6](https://x.com/Bober_smart/status/2108293657552117850), per post). Those are the right topics for a review. They are not the review.
+The OmniRoute post claims a local-first design, AES-256-GCM for keys, zero telemetry, and requests that go to providers rather than through an extra cloud ([@Bober_smart](https://x.com/Bober_smart/status/2108293657552117850), per post). Those are the right topics for a review. They are not the review.
 
 | Question | Why you ask it |
 | --- | --- |
@@ -40,7 +40,7 @@ The hands-on list is the [gateway playbook](../09-playbooks/review-a-gateway.md)
 
 ## Skills, MCP servers, and design packs
 
-The motion post's useful security line is to check each repository before you install ([B9](https://x.com/N01ennn/status/2108182955671580771), per post). The website-library post invites you to paste prompts and source into an agent ([B5](https://x.com/himanshubuildss/status/2108540618553356666), per post). Pasting is safer than executing, and it is still how untrusted text enters the window.
+The motion post's useful security line is to check each repository before you install ([@N01ennn](https://x.com/N01ennn/status/2108182955671580771), per post). The website-library post invites you to paste prompts and source into an agent ([@himanshubuildss](https://x.com/himanshubuildss/status/2108540618553356666), per post). Pasting is safer than executing, and it is still how untrusted text enters the window.
 
 | Question | A careful answer |
 | --- | --- |
@@ -63,9 +63,9 @@ A compressor that rewrites history before the provider sees it also rewrites you
 
 ## Sources
 
-- [B6](https://x.com/Bober_smart/status/2108293657552117850) — gateway security claims, per post.
-- [B9](https://x.com/N01ennn/status/2108182955671580771) — check repos before install, per post.
-- [B5](https://x.com/himanshubuildss/status/2108540618553356666) — paste prompts and source into an agent, per post.
+- [@Bober_smart](https://x.com/Bober_smart/status/2108293657552117850) — gateway security claims, per post.
+- [@N01ennn](https://x.com/N01ennn/status/2108182955671580771) — check repos before install, per post.
+- [@himanshubuildss](https://x.com/himanshubuildss/status/2108540618553356666) — paste prompts and source into an agent, per post.
 - The question lists are synthesis.
 
 ## Continue

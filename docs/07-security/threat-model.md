@@ -52,7 +52,7 @@ A general shell, a general browser with the user's cookies, or a repo role that 
 
 ### Untrusted skills and servers
 
-An MCP server or a skill pack is code plus instructions from someone else. The motion-catalog post tells readers to check each repo before installing ([B9](https://x.com/N01ennn/status/2108182955671580771), per post). That is the right instinct, whatever you think of the catalog.
+An MCP server or a skill pack is code plus instructions from someone else. The motion-catalog post tells readers to check each repo before installing ([@N01ennn](https://x.com/N01ennn/status/2108182955671580771), per post). That is the right instinct, whatever you think of the catalog.
 
 **Habit:** read the skill, pin a commit, run install in a place that does not hold production keys. Details: [supply chain](gateway-and-supply-chain.md).
 
@@ -86,8 +86,8 @@ If the write-review row is empty, you do not have a stop condition. You have a h
 ## Sources
 
 - Established threat classes for tool-using models: injection, secret leakage, excess permission, and untrusted extensions. Described here at name-and-impact level.
-- [B6](https://x.com/Bober_smart/status/2108293657552117850) — local key encryption, per post, not an audit.
-- [B9](https://x.com/N01ennn/status/2108182955671580771) — check repositories before install, per post.
+- [@Bober_smart](https://x.com/Bober_smart/status/2108293657552117850) — local key encryption, per post, not an audit.
+- [@N01ennn](https://x.com/N01ennn/status/2108182955671580771) — check repositories before install, per post.
 
 ## Continue
 

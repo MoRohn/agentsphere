@@ -87,7 +87,7 @@ Same task.
 | Remember | Log line: "answered from the wiki, no new fetch." |
 | Stop | No second search. |
 
-Every outcome check passes because the existing page already told the truth. Trajectory passes because it searched notes first and did not invent a URL. Cost should be lower than the failing run. That difference is the compounding claim, made countable. [B2](https://x.com/fleyta88/status/2108619644399415565) describes the feeling. This sheet is how you notice the day it stops.
+Every outcome check passes because the existing page already told the truth. Trajectory passes because it searched notes first and did not invent a URL. Cost should be lower than the failing run. That difference is the compounding claim, made countable. [@fleyta88](https://x.com/fleyta88/status/2108619644399415565) describes the feeling. This sheet is how you notice the day it stops.
 
 ## 4. Score one run of yours
 
@@ -114,7 +114,7 @@ Re-run that row before and after any change that claims to make the agent smarte
 ## Sources
 
 - Established evaluation practice: outcome, trajectory, and cost. The [evals primer](../06-evals/index.md) is the concept page.
-- [B2](https://x.com/fleyta88/status/2108619644399415565) — compounding across runs, per post. The sheet is synthesis.
+- [@fleyta88](https://x.com/fleyta88/status/2108619644399415565) — compounding across runs, per post. The sheet is synthesis.
 
 ## Continue
 

@@ -9,7 +9,7 @@ Two catalogs: a stack for agent-made motion, and a list of places to steal visua
 | | |
 | --- | --- |
 | Path | Power user |
-| Sources | [B9](https://x.com/N01ennn/status/2108182955671580771), [B5](https://x.com/himanshubuildss/status/2108540618553356666) |
+| Sources | [@N01ennn](https://x.com/N01ennn/status/2108182955671580771), [@himanshubuildss](https://x.com/himanshubuildss/status/2108540618553356666) |
 | Posted | 2026-10-08 and 2026-10-09 |
 | Concept | [Creative toolkits](../03-prompting-skills/creative-toolkits.md) |
 
@@ -41,8 +41,8 @@ A blanket `npx` of every name in the thread. The GSAP line in the post mentions 
 
 ## Sources
 
-- [B9](https://x.com/N01ennn/status/2108182955671580771)
-- [B5](https://x.com/himanshubuildss/status/2108540618553356666)
+- [@N01ennn](https://x.com/N01ennn/status/2108182955671580771)
+- [@himanshubuildss](https://x.com/himanshubuildss/status/2108540618553356666)
 - Resolved: [whaleyxbt/claude-motion](https://github.com/whaleyxbt/claude-motion), [scrolltide.co](https://scrolltide.co)
 
 ## Continue

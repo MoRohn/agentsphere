@@ -22,7 +22,7 @@ The model chooses the next step. The loop is everything around that choice: look
 
 | Step | The agent is | A research example |
 | --- | --- | --- |
-| 1. Perceive | Reading the goal and the latest context | "What does B2 claim about memory?" |
+| 1. Perceive | Reading the goal and the latest context | "What does the @fleyta88 post claim about memory?" |
 | 2. Plan | Choosing the next step, small enough to check | "Open the post before writing the page." |
 | 3. Act | Calling a tool or writing an artifact | Fetch the post. Append a paragraph. |
 | 4. Observe | Reading what came back, including errors | The post mentions a wiki and a schema. It does not link a repo. |
@@ -53,7 +53,7 @@ flowchart TD
 | Planning forever | Outlines of outlines, no tool call | A rule that a plan step must end in an action |
 | One giant action | "Do the whole project" as a single tool call | Smaller acts, each with an observation |
 
-The memory failure is the one these posts care about most. A normal research chat can answer a hundred questions and leave a hundred dead transcripts. The alternative, attributed in a post to Andrej Karpathy, is a wiki the next question searches first ([B2](https://x.com/fleyta88/status/2108619644399415565), per post). That design is [wiki memory](../01-agent-patterns/wiki-memory.md).
+The memory failure is the one these posts care about most. A normal research chat can answer a hundred questions and leave a hundred dead transcripts. The alternative, attributed in a post to Andrej Karpathy, is a wiki the next question searches first ([@fleyta88](https://x.com/fleyta88/status/2108619644399415565), per post). That design is [wiki memory](../01-agent-patterns/wiki-memory.md).
 
 ## Trajectory
 
@@ -70,7 +70,7 @@ A useful trace is short enough to read. Store the tool name, the arguments that 
 ## Sources
 
 - Established description of the agent loop, as used throughout this guide.
-- [B2](https://x.com/fleyta88/status/2108619644399415565) — @fleyta88, 2026-10-09. The search-answer-forget failure, per post.
+- [@fleyta88](https://x.com/fleyta88/status/2108619644399415565) — 2026-10-09. The search-answer-forget failure, per post.
 
 ## Continue
 

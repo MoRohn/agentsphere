@@ -76,9 +76,9 @@ The XOR sentence is the post's mechanism. It is the sentence to stop repeating. 
 
 ## Sources
 
-- [B1](https://x.com/oliviscusAI/status/2108786434991923251) — @oliviscusAI, 2026-10-10. bitnet.cpp claims, per post.
+- [@oliviscusAI](https://x.com/oliviscusAI/status/2108786434991923251) — 2026-10-10. bitnet.cpp claims, per post.
 - [microsoft/BitNet](https://github.com/microsoft/BitNet) and [arxiv 2410.16144](https://arxiv.org/abs/2410.16144) — official project and paper. Established.
-- [B8](https://x.com/thesupermannx/status/2108098865073410484) — @thesupermannx, 2026-10-08. LittleBit claims, per post.
+- [@thesupermannx](https://x.com/thesupermannx/status/2108098865073410484) — 2026-10-08. LittleBit claims, per post.
 - [arxiv 2506.13771](https://arxiv.org/abs/2506.13771), [SamsungLabs/LittleBit](https://github.com/SamsungLabs/LittleBit), and the [Samsung Research blog](https://research.samsung.com/blog/LittleBit-Ultra-Low-Bit-Quantization-via-Latent-Factorization) — paper and primary write-up. Established.
 
 ## Continue

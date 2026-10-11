@@ -53,7 +53,7 @@ Planning is step 2 of the loop, made visible. For a two-step task, the plan can 
 - What the agent must not do.
 - Where the notes go.
 
-A lead agent that writes this kind of plan, then hands phases to other agents, is the pattern reported for Claude Managed Agents ([B4](https://x.com/ClaudeDevs/status/2108591328732856655), per post). The full treatment is [orchestration](../04-multi-agent/orchestration.md).
+A lead agent that writes this kind of plan, then hands phases to other agents, is the pattern reported for Claude Managed Agents ([@ClaudeDevs](https://x.com/ClaudeDevs/status/2108591328732856655), per post). The full treatment is [orchestration](../04-multi-agent/orchestration.md).
 
 ## How the three fail together
 
@@ -68,7 +68,7 @@ A beautiful plan with no tool still cannot open the file. A powerful tool with n
 ## Sources
 
 - Established practice for context windows, retrieval, and tool use.
-- [B2](https://x.com/fleyta88/status/2108619644399415565) and [B4](https://x.com/ClaudeDevs/status/2108591328732856655) are the posts that extend memory and planning. Their claims are detailed on the linked pages.
+- [@fleyta88](https://x.com/fleyta88/status/2108619644399415565) and [@ClaudeDevs](https://x.com/ClaudeDevs/status/2108591328732856655) are the posts that extend memory and planning. Their claims are detailed on the linked pages.
 
 ## Continue
 

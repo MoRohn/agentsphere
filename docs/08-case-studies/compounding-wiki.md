@@ -9,7 +9,7 @@ A retelling of a research agent that leaves pages behind, attributed by the post
 | | |
 | --- | --- |
 | Path | Power user |
-| Source | [B2](https://x.com/fleyta88/status/2108619644399415565) |
+| Source | [@fleyta88](https://x.com/fleyta88/status/2108619644399415565) |
 | Posted | 2026-10-09, @fleyta88 |
 | Concept | [Wiki memory](../01-agent-patterns/wiki-memory.md) |
 
@@ -40,7 +40,7 @@ The tone. The missing primary link. Any implication that a wiki replaces search.
 
 ## Sources
 
-- [B2](https://x.com/fleyta88/status/2108619644399415565)
+- [@fleyta88](https://x.com/fleyta88/status/2108619644399415565)
 
 ## Continue
 

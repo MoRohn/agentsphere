@@ -9,7 +9,7 @@ A public-beta announcement of a lead agent that plans in phases and combines the
 | | |
 | --- | --- |
 | Path | Power user |
-| Source | [B4](https://x.com/ClaudeDevs/status/2108591328732856655) |
+| Source | [@ClaudeDevs](https://x.com/ClaudeDevs/status/2108591328732856655) |
 | Posted | 2026-10-09, @ClaudeDevs |
 | Concept | [Orchestration](../04-multi-agent/orchestration.md) |
 
@@ -38,7 +38,7 @@ Any feature you saw in a different announcement and feel like adding. This case 
 
 ## Sources
 
-- [B4](https://x.com/ClaudeDevs/status/2108591328732856655)
+- [@ClaudeDevs](https://x.com/ClaudeDevs/status/2108591328732856655)
 
 ## Continue
 

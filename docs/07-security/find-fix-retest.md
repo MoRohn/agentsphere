@@ -75,7 +75,7 @@ That last bullet is [wiki memory](../01-agent-patterns/wiki-memory.md) applied t
 
 ## Sources
 
-- [B7](https://x.com/antigenco/status/2108334286978113634) — @antigenco, 2026-10-08. Map, probe, fix for review, retest. Per post.
+- [@antigenco](https://x.com/antigenco/status/2108334286978113634) — 2026-10-08. Map, probe, fix for review, retest. Per post.
 - Synthesis: the six-step drawing and the buying list. The exploit itself is intentionally absent.
 
 ## Continue

@@ -140,7 +140,7 @@ A stranger can answer the question from the page. The next run should search thi
 
 ## Sources
 
-- [B2](https://x.com/fleyta88/status/2108619644399415565) — @fleyta88, 2026-10-09. The full pattern above, per post. Related post: [a status by @gippp69](https://twitter.com/gippp69/status/2106744347836153989).
+- [@fleyta88](https://x.com/fleyta88/status/2108619644399415565) — 2026-10-09. The full pattern above, per post. Related post: [a status by @gippp69](https://twitter.com/gippp69/status/2106744347836153989).
 - Established distinction between retrieving passages and maintaining a conclusion. The "bigger than better RAG" phrasing is the post's.
 
 ## Continue

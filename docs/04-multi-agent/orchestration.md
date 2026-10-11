@@ -81,7 +81,7 @@ A product that only shows the final answer has hidden the only part you can debu
 
 ## Sources
 
-- [B4](https://x.com/ClaudeDevs/status/2108591328732856655) — @ClaudeDevs, 2026-10-09. Public beta, lead agent, phases, combined results. Per post.
+- [@ClaudeDevs](https://x.com/ClaudeDevs/status/2108591328732856655) — 2026-10-09. Public beta, lead agent, phases, combined results. Per post.
 - Synthesis: the pipeline / fan-out / lead table, and the visibility questions. They are this guide's reading of the pattern, not extra product claims.
 
 ## Continue

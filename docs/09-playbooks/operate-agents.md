@@ -78,7 +78,7 @@ List the factory pieces you are buying or skipping: queue, sandbox, shared crede
 
 ## Sources
 
-- [B10](https://x.com/ryancarson/status/2108286700468191266) — the argument, per post.
+- [@ryancarson](https://x.com/ryancarson/status/2108286700468191266) — the argument, per post.
 - Placements and the handoff list are synthesis.
 
 ## Continue

@@ -59,7 +59,7 @@ Keep a handful of questions whose correct behavior you already know.
 | A question with no source | The answer says the gap. It does not invent a URL |
 | A repeated question | The second run is cheaper or shorter than the first, because the page exists |
 
-That last row is the compounding claim, made measurable. [B2](https://x.com/fleyta88/status/2108619644399415565) describes the feeling of a system that gets smarter. An eval is how you notice the day it stops.
+That last row is the compounding claim, made measurable. [@fleyta88](https://x.com/fleyta88/status/2108619644399415565) describes the feeling of a system that gets smarter. An eval is how you notice the day it stops.
 
 ## Cost, compression, and faster models
 
@@ -88,7 +88,7 @@ Leave vendor leaderboards in the case study unless you can say what was measured
 
 - Established evaluation practice: outcome, process, and cost.
 - [Guo et al. 2026](https://arxiv.org/abs/2606.20683) is the eval synthesis for harness effects. The numbers and the caveats are on [harness engineering](../01-agent-patterns/harness-engineering.md).
-- [B2](https://x.com/fleyta88/status/2108619644399415565) supplies the compounding behavior these cases try to detect. The cases themselves are synthesis.
+- [@fleyta88](https://x.com/fleyta88/status/2108619644399415565) supplies the compounding behavior these cases try to detect. The cases themselves are synthesis.
 
 ## Continue
 

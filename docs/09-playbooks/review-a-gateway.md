@@ -66,7 +66,7 @@ Keep the pre-compression prompt in a redacted trace for a day. Compare task succ
 
 ## Sources
 
-- [B6](https://x.com/Bober_smart/status/2108293657552117850) — the claims under review, per post.
+- [@Bober_smart](https://x.com/Bober_smart/status/2108293657552117850) — the claims under review, per post.
 - The eight questions and the decision table are synthesis.
 
 ## Continue

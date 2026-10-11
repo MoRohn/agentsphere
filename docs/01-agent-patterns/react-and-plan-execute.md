@@ -87,8 +87,8 @@ A related report, from [@ClaudeDevs](https://x.com/ClaudeDevs/status/21085913287
 ## Sources
 
 - Established descriptions of ReAct-style interleaving and of plan-and-execute.
-- [B2](https://x.com/fleyta88/status/2108619644399415565) — @fleyta88, 2026-10-09. The forgetful research loop, per post.
-- [B4](https://x.com/ClaudeDevs/status/2108591328732856655) — @ClaudeDevs, 2026-10-09. Phased multi-agent plans, per post.
+- [@fleyta88](https://x.com/fleyta88/status/2108619644399415565) — 2026-10-09. The forgetful research loop, per post.
+- [@ClaudeDevs](https://x.com/ClaudeDevs/status/2108591328732856655) — 2026-10-09. Phased multi-agent plans, per post.
 
 ## Continue
 

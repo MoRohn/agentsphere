@@ -83,7 +83,7 @@ The [operate playbook](../09-playbooks/operate-agents.md) walks three concrete t
 
 ## Sources
 
-- [B10](https://x.com/ryancarson/status/2108286700468191266) — @ryancarson, 2026-10-08. The argument and the product names, per post.
+- [@ryancarson](https://x.com/ryancarson/status/2108286700468191266) — 2026-10-08. The argument and the product names, per post.
 - Established distinction between an agent on the developer machine and an agent in a remote environment. The decision table is synthesis.
 
 ## Continue

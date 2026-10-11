@@ -97,8 +97,8 @@ The [craft playbook](../09-playbooks/skills-and-craft.md) is this table with a r
 
 ## Sources
 
-- [B9](https://x.com/N01ennn/status/2108182955671580771) — @N01ennn, 2026-10-08. The twenty names, the one-line stack, and the install warning, per post. Resolved repo: [whaleyxbt/claude-motion](https://github.com/whaleyxbt/claude-motion). Related post: [an earlier post](https://twitter.com/n01ennn/status/2107826459804840072).
-- [B5](https://x.com/himanshubuildss/status/2108540618553356666) — @himanshubuildss, 2026-10-09. The ten site resources, per post. Resolved link: [scrolltide.co](https://scrolltide.co).
+- [@N01ennn](https://x.com/N01ennn/status/2108182955671580771) — 2026-10-08. The twenty names, the one-line stack, and the install warning, per post. Resolved repo: [whaleyxbt/claude-motion](https://github.com/whaleyxbt/claude-motion). Related post: [an earlier post](https://twitter.com/n01ennn/status/2107826459804840072).
+- [@himanshubuildss](https://x.com/himanshubuildss/status/2108540618553356666) — 2026-10-09. The ten site resources, per post. Resolved link: [scrolltide.co](https://scrolltide.co).
 
 ## Continue
 

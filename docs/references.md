@@ -12,23 +12,23 @@ Posts, articles, and repositories that shaped this guide. Pages cite them inline
 | Time | Browse |
 | You need | Nothing |
 
-Reference IDs (`B1`, `B2`, …) match the citations on the pages. **Per post** means the page is reporting the source, not confirming it. **Established** means a paper or an official project page was opened.
+**Per post** means the page is reporting the source, not confirming it. **Established** means a paper or an official project page was opened. Pages cite these by name and link.
 
 ## Posts
 
-| Ref | Date | Author | What it opened | Where it shows up |
-| --- | --- | --- | --- | --- |
-| B1 | 2026-10-10 | [@oliviscusAI](https://x.com/oliviscusAI/status/2108786434991923251) | bitnet.cpp and 1-bit inference | [Efficient inference](05-runtime-infra/efficient-inference.md), [case study](08-case-studies/local-inference.md) |
-| B2 | 2026-10-09 | [@fleyta88](https://x.com/fleyta88/status/2108619644399415565) | A research agent that writes a wiki | [Wiki memory](01-agent-patterns/wiki-memory.md), [how agents remember](01-agent-patterns/how-agents-remember.md), [patterns](01-agent-patterns/react-and-plan-execute.md), [research playbook](09-playbooks/research-agent.md), [case study](08-case-studies/compounding-wiki.md) |
-| B3 | 2026-10-10 | [@ai_explorer25](https://x.com/ai_explorer25/status/2108746842620014807) | Accounts to follow | [Community](community.md) |
-| B4 | 2026-10-09 | [@ClaudeDevs](https://x.com/ClaudeDevs/status/2108591328732856655) | Managed multi-agent workflows | [Orchestration](04-multi-agent/orchestration.md), [case study](08-case-studies/managed-workflows.md) |
-| B5 | 2026-10-09 | [@himanshubuildss](https://x.com/himanshubuildss/status/2108540618553356666) | Libraries for building sites with an agent | [Creative toolkits](03-prompting-skills/creative-toolkits.md), [case study](08-case-studies/motion-and-web-stacks.md) |
-| B6 | 2026-10-08 | [@Bober_smart](https://x.com/Bober_smart/status/2108293657552117850) | OmniRoute, a local model gateway | [Gateways](02-tools-mcp/gateways-and-routing.md), [MCP](02-tools-mcp/tools-and-mcp.md), [supply chain](07-security/gateway-and-supply-chain.md), [review playbook](09-playbooks/review-a-gateway.md), [case study](08-case-studies/local-gateway.md) |
-| B7 | 2026-10-08 | [@antigenco](https://x.com/antigenco/status/2108334286978113634) | Antigen, a security agent | [Find, review, fix, retest](07-security/find-fix-retest.md), [case study](08-case-studies/offensive-security-agent.md) |
-| B8 | 2026-10-08 | [@thesupermannx](https://x.com/thesupermannx/status/2108098865073410484) | LittleBit, sub-1-bit compression | [Efficient inference](05-runtime-infra/efficient-inference.md), [case study](08-case-studies/local-inference.md) |
-| B9 | 2026-10-08 | [@N01ennn](https://x.com/N01ennn/status/2108182955671580771) | Motion-design skill repositories | [Creative toolkits](03-prompting-skills/creative-toolkits.md), [skills](03-prompting-skills/prompts-and-skills.md), [supply chain](07-security/gateway-and-supply-chain.md), [case study](08-case-studies/motion-and-web-stacks.md) |
-| B10 | 2026-10-08 | [@ryancarson](https://x.com/ryancarson/status/2108286700468191266) | Cloud agents and local licenses | [Cloud and local](05-runtime-infra/cloud-and-local.md), [operate playbook](09-playbooks/operate-agents.md) |
-| B11 | 2026-10-10 | [@undefinedKi](https://x.com/undefinedKi/status/2109020007103332636) | Points at a survey of agent harness design. Quotes [an earlier post the same day](https://x.com/undefinedKi/status/2108911763257254302) | [Harness engineering](01-agent-patterns/harness-engineering.md) |
+| Date | Author | What it opened | Where it shows up |
+| --- | --- | --- | --- |
+| 2026-10-10 | [@oliviscusAI](https://x.com/oliviscusAI/status/2108786434991923251) | bitnet.cpp and 1-bit inference | [Efficient inference](05-runtime-infra/efficient-inference.md), [case study](08-case-studies/local-inference.md) |
+| 2026-10-09 | [@fleyta88](https://x.com/fleyta88/status/2108619644399415565) | A research agent that writes a wiki | [Wiki memory](01-agent-patterns/wiki-memory.md), [how agents remember](01-agent-patterns/how-agents-remember.md), [patterns](01-agent-patterns/react-and-plan-execute.md), [research playbook](09-playbooks/research-agent.md), [case study](08-case-studies/compounding-wiki.md) |
+| 2026-10-10 | [@ai_explorer25](https://x.com/ai_explorer25/status/2108746842620014807) | Accounts to follow | [Community](community.md) |
+| 2026-10-09 | [@ClaudeDevs](https://x.com/ClaudeDevs/status/2108591328732856655) | Managed multi-agent workflows | [Orchestration](04-multi-agent/orchestration.md), [case study](08-case-studies/managed-workflows.md) |
+| 2026-10-09 | [@himanshubuildss](https://x.com/himanshubuildss/status/2108540618553356666) | Libraries for building sites with an agent | [Creative toolkits](03-prompting-skills/creative-toolkits.md), [case study](08-case-studies/motion-and-web-stacks.md) |
+| 2026-10-08 | [@Bober_smart](https://x.com/Bober_smart/status/2108293657552117850) | OmniRoute, a local model gateway | [Gateways](02-tools-mcp/gateways-and-routing.md), [MCP](02-tools-mcp/tools-and-mcp.md), [supply chain](07-security/gateway-and-supply-chain.md), [review playbook](09-playbooks/review-a-gateway.md), [case study](08-case-studies/local-gateway.md) |
+| 2026-10-08 | [@antigenco](https://x.com/antigenco/status/2108334286978113634) | Antigen, a security agent | [Find, review, fix, retest](07-security/find-fix-retest.md), [case study](08-case-studies/offensive-security-agent.md) |
+| 2026-10-08 | [@thesupermannx](https://x.com/thesupermannx/status/2108098865073410484) | LittleBit, sub-1-bit compression | [Efficient inference](05-runtime-infra/efficient-inference.md), [case study](08-case-studies/local-inference.md) |
+| 2026-10-08 | [@N01ennn](https://x.com/N01ennn/status/2108182955671580771) | Motion-design skill repositories | [Creative toolkits](03-prompting-skills/creative-toolkits.md), [skills](03-prompting-skills/prompts-and-skills.md), [supply chain](07-security/gateway-and-supply-chain.md), [case study](08-case-studies/motion-and-web-stacks.md) |
+| 2026-10-08 | [@ryancarson](https://x.com/ryancarson/status/2108286700468191266) | Cloud agents and local licenses | [Cloud and local](05-runtime-infra/cloud-and-local.md), [operate playbook](09-playbooks/operate-agents.md) |
+| 2026-10-10 | [@undefinedKi](https://x.com/undefinedKi/status/2109020007103332636) | Points at a survey of agent harness design. Quotes [an earlier post the same day](https://x.com/undefinedKi/status/2108911763257254302) | [Harness engineering](01-agent-patterns/harness-engineering.md) |
 
 ## Papers and repositories
 
@@ -52,15 +52,15 @@ Reference IDs (`B1`, `B2`, …) match the citations on the pages. **Per post** m
 
 | Theme | References |
 | --- | --- |
-| Memory and knowledge | B2, and the papers above on memory, retrieval, and context |
-| Harness engineering | B11, and Guo et al. 2026 on agent system and harness design |
-| Orchestration | B4 |
-| Tools, MCP, routing | B6 |
-| Skills and creative stacks | B9, B5 |
-| Runtime, cloud, local | B10 |
-| Efficient inference | B1, B8, and the papers above |
-| Security | B7, and the gateway cautions on B6 |
-| People | B3 |
+| Memory and knowledge | [@fleyta88](https://x.com/fleyta88/status/2108619644399415565), and the papers above on memory, retrieval, and context |
+| Harness engineering | [@undefinedKi](https://x.com/undefinedKi/status/2109020007103332636), and Guo et al. 2026 on agent system and harness design |
+| Orchestration | [@ClaudeDevs](https://x.com/ClaudeDevs/status/2108591328732856655) |
+| Tools, MCP, routing | [@Bober_smart](https://x.com/Bober_smart/status/2108293657552117850) |
+| Skills and creative stacks | [@N01ennn](https://x.com/N01ennn/status/2108182955671580771), [@himanshubuildss](https://x.com/himanshubuildss/status/2108540618553356666) |
+| Runtime, cloud, local | [@ryancarson](https://x.com/ryancarson/status/2108286700468191266) |
+| Efficient inference | [@oliviscusAI](https://x.com/oliviscusAI/status/2108786434991923251), [@thesupermannx](https://x.com/thesupermannx/status/2108098865073410484), and the papers above |
+| Security | [@antigenco](https://x.com/antigenco/status/2108334286978113634), and the gateway cautions in the OmniRoute post |
+| People | [@ai_explorer25](https://x.com/ai_explorer25/status/2108746842620014807) |
 
 ## Also used across the guide
 
