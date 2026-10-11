@@ -2,6 +2,10 @@
   <img src="../../assets/diagrams/wiki-memory.svg" alt="Wiki memory diagram" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # Case study · Compounding wiki
 
 A retelling of a research agent that leaves pages behind, attributed by the poster to Andrej Karpathy.

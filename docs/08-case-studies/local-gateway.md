@@ -2,6 +2,10 @@
   <img src="../../assets/diagrams/gateway-routing.svg" alt="Gateway routing diagram" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # Case study · Local gateway
 
 OmniRoute, as one post describes it: a local OpenAI-compatible router in front of a large pool of providers.

@@ -11,6 +11,7 @@ The guide version tracks the pages. Dates are the day the change landed in this 
 - Rebuilt how a research agent keeps what it learns: a six-step loop, a map of working, episodic, semantic, and procedural memory, and a chapter on write-back, reflection, compaction, and when to forget.
 - Added harness engineering from Guo et al. 2026: the model-plus-harness thesis, six runtime parts, four eras, task-to-harness matching, and the survey's SWE-bench Verified reading.
 - Citations name the author and link the source. Internal reference codes are gone.
+- Put harness engineering on the front door: a hero diagram, the landscape map, the four-level journey, and a five-minute start. Level badges mark every guide page.
 
 ## 0.2.0 — 2026-10-11
 

@@ -2,6 +2,10 @@
   <img src="../../assets/sections/01-patterns.svg" alt="Agent patterns" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-builder.svg" alt="Builder" height="28">
+</p>
+
 # ReAct and plan-and-execute
 
 Two established ways to shape the loop. One keeps the plan inside the next action. The other writes the plan down and then works through it.

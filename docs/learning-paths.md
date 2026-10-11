@@ -2,9 +2,23 @@
   <img src="../assets/sections/00-foundations.svg" alt="Foundations" width="100%">
 </p>
 
+<p>
+  <img src="../assets/badges/level-explorer.svg" alt="Explorer" height="28">
+  &nbsp;
+  <img src="../assets/badges/level-builder.svg" alt="Builder" height="28">
+  &nbsp;
+  <img src="../assets/badges/level-operator.svg" alt="Operator" height="28">
+  &nbsp;
+  <img src="../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # Learning paths
 
-Four paths, one guide. You can stop at the end of a path and still have a complete skill. Later paths assume the earlier ones. Each path ends with an artifact you can show someone.
+Four paths, one guide. You can stop at the end of a path and still have a complete skill. Later paths assume the earlier ones. Each path ends with an artifact you can show someone. Every path meets the harness.
+
+<p align="center">
+  <img src="../assets/diagrams/journey-map.svg" alt="Explorer, Builder, Operator, and Power user, in that order." width="100%">
+</p>
 
 | | |
 | --- | --- |
@@ -21,9 +35,10 @@ You can explain what an agent is, walk the loop, and name the difference between
 | 1 | [How to read a claim](how-to-read.md) | You can label a sentence established, per post, or synthesis |
 | 2 | [What is an agent](00-foundations/what-is-an-agent.md) | You can list the six parts without looking |
 | 3 | [The agent loop](00-foundations/the-agent-loop.md) | You can draw perceive, plan, act, observe, remember, stop |
-| 4 | [Memory, tools, planning](00-foundations/memory-tools-planning.md) | You can say where a fact should live |
-| 5 | [Glossary](glossary.md) | You have looked up every term that snagged |
-| 6 | [Your first agent](09-playbooks/first-agent.md) | `agent-card.md` exists, with six parts and one trace |
+| 4 | [Harness engineering](01-agent-patterns/harness-engineering.md) | You can point at the model and name the six parts. The SWE-bench section can wait |
+| 5 | [Memory, tools, planning](00-foundations/memory-tools-planning.md) | You can say where a fact should live |
+| 6 | [Glossary](glossary.md) | You have looked up every term that snagged |
+| 7 | [Your first agent](09-playbooks/first-agent.md) | `agent-card.md` exists, with six parts and one trace |
 
 **You are ready to build** when that card names a real task, a file that counts as memory, and a stop rule a second person could grade.
 
@@ -48,19 +63,20 @@ Optional depth: [creative toolkits](03-prompting-skills/creative-toolkits.md) an
 
 ## Operator
 
-You can choose where an agent runs, how several agents share a plan, how you would notice a regression, and what you refuse to let it do.
+You can choose where an agent runs, how several agents share a plan, how you would notice a regression, and what you refuse to let it do. Start from the harness, so a score is never only a model name.
 
 | Order | Page | Stay with it until |
 | --- | --- | --- |
-| 1 | [Cloud and local](05-runtime-infra/cloud-and-local.md) | You can place a task on one side and defend it |
-| 2 | [Orchestration](04-multi-agent/orchestration.md) | You can draw a lead, three phases, and a merge |
-| 3 | [Efficient inference](05-runtime-infra/efficient-inference.md) | You can separate a paper's claim from a post's retelling |
-| 4 | [Evals](06-evals/index.md) | You can name the score, the trajectory, the cost, and the harness. The frame is [harness engineering](01-agent-patterns/harness-engineering.md) |
-| 5 | [Threat model](07-security/threat-model.md) | You can name four threats in your own stack |
-| 6 | [Find, review, fix, retest](07-security/find-fix-retest.md) | You can point at the human gate |
-| 7 | [Gateways and supply chain](07-security/gateway-and-supply-chain.md) | You have a review list for a new proxy or skill |
-| 8 | [Operate agents](09-playbooks/operate-agents.md) | Three real tasks have a placement |
-| 9 | [Score a run](09-playbooks/score-a-run.md) | One trajectory has a written pass or fail |
+| 1 | [Harness engineering](01-agent-patterns/harness-engineering.md) | You can say which harness part a task will stress, and read a SWE-bench line as a pair |
+| 2 | [Cloud and local](05-runtime-infra/cloud-and-local.md) | You can place a task on one side and defend it |
+| 3 | [Orchestration](04-multi-agent/orchestration.md) | You can draw a lead, three phases, and a merge |
+| 4 | [Efficient inference](05-runtime-infra/efficient-inference.md) | You can separate a paper's claim from a post's retelling |
+| 5 | [Evals](06-evals/index.md) | You can name the score, the trajectory, the cost, and the harness |
+| 6 | [Threat model](07-security/threat-model.md) | You can name four threats in your own stack |
+| 7 | [Find, review, fix, retest](07-security/find-fix-retest.md) | You can point at the human gate |
+| 8 | [Gateways and supply chain](07-security/gateway-and-supply-chain.md) | You have a review list for a new proxy or skill |
+| 9 | [Operate agents](09-playbooks/operate-agents.md) | Three real tasks have a placement |
+| 10 | [Score a run](09-playbooks/score-a-run.md) | One trajectory has a written pass or fail |
 
 **You are ready for power-user work** when the score sheet and the placement note would survive a teammate who was not in the room.
 
@@ -71,10 +87,11 @@ You can do the work, retell a source without inflating it, and extend a page so 
 | Order | Page | Stay with it until |
 | --- | --- | --- |
 | 1 | [Unstick a loop](09-playbooks/unstick-a-loop.md) | A real failure has one diagnosis and one change |
-| 2 | [Case studies](08-case-studies/index.md) | You have opened at least three of the source posts |
-| 3 | [Diagram atlas](diagrams.md) | You know which SVG pairs with which Mermaid block |
-| 4 | [Style guide](style-guide.md) | A new page you draft matches the anatomy |
-| 5 | [Contributing](../CONTRIBUTING.md) | You could update a page tonight, with the source linked |
+| 2 | [Harness engineering](01-agent-patterns/harness-engineering.md) | You can add a note to that page without inventing a benchmark number |
+| 3 | [Case studies](08-case-studies/index.md) | You have opened at least three of the source posts |
+| 4 | [Diagram atlas](diagrams.md) | You know which SVG pairs with which Mermaid block |
+| 5 | [Style guide](style-guide.md) | A new page you draft matches the anatomy |
+| 6 | [Contributing](../CONTRIBUTING.md) | You could update a page tonight, with the source linked |
 
 **You are practicing the system** when the last thing you do, after answering a question, is update a page.
 
@@ -90,8 +107,9 @@ You can do the work, retell a source without inflating it, and extend a page so 
 ## If you only have an hour
 
 1. [What is an agent](00-foundations/what-is-an-agent.md)
-2. [The agent loop](00-foundations/the-agent-loop.md)
-3. [Your first agent](09-playbooks/first-agent.md) — fill the card, even roughly
+2. The [harness picture](01-agent-patterns/harness-engineering.md) — name the model and one other part
+3. [The agent loop](00-foundations/the-agent-loop.md)
+4. [Your first agent](09-playbooks/first-agent.md) — fill the card, even roughly
 
 ## Check yourself
 

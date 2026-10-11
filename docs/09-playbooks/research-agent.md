@@ -2,6 +2,10 @@
   <img src="../../assets/diagrams/wiki-memory.svg" alt="Wiki memory" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # Playbook · Research agent
 
 Stand up the smallest version of raw, wiki, and schema. Use it on a question you actually have.

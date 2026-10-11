@@ -2,6 +2,16 @@
   <img src="../../assets/diagrams/agent-loop.svg" alt="The agent loop" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-explorer.svg" alt="Explorer" height="28">
+  &nbsp;
+  <img src="../../assets/badges/level-builder.svg" alt="Builder" height="28">
+  &nbsp;
+  <img src="../../assets/badges/level-operator.svg" alt="Operator" height="28">
+  &nbsp;
+  <img src="../../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # Playbook · Unstick a loop
 
 When a run thrashes, stalls, or invents facts, change the step that is thin. Do not start by swapping the model.

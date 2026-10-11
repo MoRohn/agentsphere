@@ -2,6 +2,10 @@
   <img src="../../assets/diagrams/wiki-memory.svg" alt="Wiki memory: raw sources on the left, maintained pages on the right, and a loop that writes answers back." width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-builder.svg" alt="Builder" height="28">
+</p>
+
 # Wiki memory
 
 Make the agent write something worth remembering. The next question searches that writing first.

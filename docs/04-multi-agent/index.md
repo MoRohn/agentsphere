@@ -2,6 +2,10 @@
   <img src="../../assets/sections/04-multi-agent.svg" alt="Multi-agent: a lead node and phased satellites" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-operator.svg" alt="Operator" height="28">
+</p>
+
 # 04 · Multi-agent
 
 Several agents help when the work splits cleanly and someone, or some lead agent, is responsible for the merge. They cost extra tokens, extra contradictions, and extra debugging.

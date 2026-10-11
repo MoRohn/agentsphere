@@ -2,6 +2,10 @@
   <img src="../../assets/sections/07-security.svg" alt="Security: a shield drawn around an orbit" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-operator.svg" alt="Operator" height="28">
+</p>
+
 # 07 · Security
 
 Agents act. Acting is the risk. This section names the threats, the human gate in a find-and-fix loop, and the supply chain around gateways and skills. It does not include exploit procedures.

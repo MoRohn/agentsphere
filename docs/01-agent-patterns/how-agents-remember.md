@@ -2,6 +2,10 @@
   <img src="../../assets/diagrams/knowledge-flow.svg" alt="Six moves of a research agent: question, notes, sources, write back, reflect, next run." width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-builder.svg" alt="Builder" height="28">
+</p>
+
 # How agents remember
 
 An agent that only chats does not remember. It fills a window, answers, and leaves the next run to start from zero. Memory is what you deliberately keep outside that window, and the habit of writing it back.

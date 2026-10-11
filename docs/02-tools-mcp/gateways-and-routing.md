@@ -2,6 +2,12 @@
   <img src="../../assets/diagrams/gateway-routing.svg" alt="Clients call one local OpenAI-compatible gateway, which routes to many providers and can fall back." width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-builder.svg" alt="Builder" height="28">
+  &nbsp;
+  <img src="../../assets/badges/level-operator.svg" alt="Operator" height="28">
+</p>
+
 # Gateways and routing
 
 One client API in front. Many models behind it. A gateway is a routing layer, and it is also a place keys, logs, and provider terms collect.

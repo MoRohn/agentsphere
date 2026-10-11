@@ -2,6 +2,10 @@
   <img src="../../assets/diagrams/security-loop.svg" alt="Map, probe, findings, a human review gate, a fix, and a retest." width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-operator.svg" alt="Operator" height="28">
+</p>
+
 # Find, review, fix, retest
 
 A security agent is still the agent loop, pointed at risk, with a person standing on the step that changes the system.

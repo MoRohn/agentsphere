@@ -2,6 +2,10 @@
   <img src="../../assets/diagrams/cloud-vs-local.svg" alt="Local agents share your machine. Cloud agents run the task in a remote environment." width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-operator.svg" alt="Operator" height="28">
+</p>
+
 # Cloud and local
 
 A local agent shares your machine. A cloud agent takes a task and runs it somewhere else, then hands you an artifact. One post is a strong argument for the second, aimed at teams still buying a license per seat.

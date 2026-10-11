@@ -2,6 +2,10 @@
   <img src="../../assets/sections/03-skills.svg" alt="Prompting and skills: stacked cards" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-builder.svg" alt="Builder" height="28">
+</p>
+
 # 03 · Prompting and skills
 
 A prompt is what the model sees. A skill is a procedure you can review, version, and reuse. Two of the references are catalogs: motion-design skills, and libraries for building websites with an agent.

@@ -2,6 +2,10 @@
   <img src="../../assets/sections/03-skills.svg" alt="Prompting and skills" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-builder.svg" alt="Builder" height="28">
+</p>
+
 # Creative toolkits
 
 Two posts are catalogs: twenty motion repositories, and ten libraries for building websites with an agent. This page keeps their lists, marks what was actually linked, and turns the catalogs into a way of working.

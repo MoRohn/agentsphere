@@ -2,6 +2,10 @@
   <img src="../../assets/sections/05-runtime.svg" alt="Runtime" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # Case study · Local inference
 
 Two posts about running models cheaper and closer: Microsoft's bitnet.cpp, and Samsung's LittleBit. Both point at real projects. Both also say things the primary sources do not.

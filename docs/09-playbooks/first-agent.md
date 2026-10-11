@@ -2,6 +2,10 @@
   <img src="../../assets/diagrams/agent-loop.svg" alt="The agent loop" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-explorer.svg" alt="Explorer" height="28">
+</p>
+
 # Playbook · Your first agent
 
 Sketch one agent on a single page, then walk one task through the loop. You do not need a model, an API key, or a repository.
@@ -96,6 +100,7 @@ The six parts and the six steps are the guide's established frame. The card and 
 
 ## Continue
 
+- [Harness engineering](../01-agent-patterns/harness-engineering.md), to name the runtime around the card
 - [Research agent](research-agent.md), when you want the card to become folders
 - [Unstick a loop](unstick-a-loop.md), when a run misbehaves
 - [What is an agent](../00-foundations/what-is-an-agent.md)

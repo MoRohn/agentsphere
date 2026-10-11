@@ -2,6 +2,16 @@
   <img src="../assets/diagrams/knowledge-flow.svg" alt="Six moves: question, notes, sources, write back, reflect, next run." width="100%">
 </p>
 
+<p>
+  <img src="../assets/badges/level-explorer.svg" alt="Explorer" height="28">
+  &nbsp;
+  <img src="../assets/badges/level-builder.svg" alt="Builder" height="28">
+  &nbsp;
+  <img src="../assets/badges/level-operator.svg" alt="Operator" height="28">
+  &nbsp;
+  <img src="../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # How to read agentsphere
 
 The pages teach. The labels tell you how much weight a sentence can hold.

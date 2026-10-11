@@ -30,56 +30,111 @@
 
 # agentsphere
 
-**The living field guide to the agent era.** Start as a beginner. Leave able to design an agent's memory, tools, orchestration, runtime, and security, and able to tell a sourced claim from a rumor.
+**The living field guide to the agent era.** An agent is a model plus the harness around it. Start as a beginner. Leave able to design that harness: memory, tools, orchestration, runtime, and security, and able to tell a sourced claim from a rumor.
+
+<p>
+  <img src="assets/badges/level-explorer.svg" alt="Explorer" height="28">
+  &nbsp;
+  <img src="assets/badges/level-builder.svg" alt="Builder" height="28">
+  &nbsp;
+  <img src="assets/badges/level-operator.svg" alt="Operator" height="28">
+  &nbsp;
+  <img src="assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
 
 The pages in [`docs/`](docs/README.md) are the guide. Posts, articles, and repositories that shaped them are collected in [Social references & inspirations](docs/references.md). A claim from a post stays linked and marked. A claim from a paper or a project page is marked separately.
 
-## Start here
+## Start here in 5 minutes
 
-If you are new, do these three and stop. You will have a definition, a loop, and one page you wrote yourself.
+1. Look at the diagram below and say which circle is the model.
+2. Name one harness part that is not the model: observation, context, control, action, state, or verification.
+3. Write one sentence a later run would need: the decision, the source, or the gap. That sentence is [wiki memory](docs/01-agent-patterns/wiki-memory.md) in miniature.
+
+Then pick a level and open it: [Explorer](docs/learning-paths.md#explorer), [Builder](docs/learning-paths.md#builder), [Operator](docs/learning-paths.md#operator), or [Power user](docs/learning-paths.md#power-user).
+
+When you have an hour, do the three that leave you holding a page:
 
 1. [What is an agent](docs/00-foundations/what-is-an-agent.md)
 2. [The agent loop](docs/00-foundations/the-agent-loop.md)
-3. [Your first agent](docs/09-playbooks/first-agent.md) — forty minutes, no API key
+3. [Your first agent](docs/09-playbooks/first-agent.md)
+
+## The harness is the agent
+
+Agent quality is the model and the runtime together. The model proposes the next step. The harness decides what it sees, what it may do, what survives the call, and what gets checked. Guo, Hao, Wang, and colleagues lay this out in [From Question Answering to Task Completion: A Survey on Agent System and Harness Design](https://arxiv.org/abs/2606.20683). The full page, with the task-matching rules and the SWE-bench reading, is [Harness engineering](docs/01-agent-patterns/harness-engineering.md).
+
+<p align="center">
+  <img src="assets/diagrams/harness-hero.svg" alt="A model inside a six-part harness: observation, context, control, action, state, and verification. A light travels the orbit." width="100%">
+</p>
+
+| | Model alone | Model plus harness |
+| --- | --- | --- |
+| What it can do | Propose a next step in language | See, act, store, and check that step |
+| What survives the call | Nothing, unless the chat is still open | Pages, diffs, logs, skills |
+| What a score means | "The model got N%" | "This model, in this runtime, under this setting" |
+| Where to change it | A longer prompt | The thin part: observation, context, control, action, state, or verification |
+
+<details>
+<summary>The six parts, in one screen</summary>
+
+| Part | Job | This guide |
+| --- | --- | --- |
+| Observation | Render the state the next decision needs | [The loop](docs/00-foundations/the-agent-loop.md) |
+| Context | Choose what enters this call | [How agents remember](docs/01-agent-patterns/how-agents-remember.md) |
+| Control | Plan, act, retry, delegate, or stop | [ReAct](docs/01-agent-patterns/react-and-plan-execute.md), [orchestration](docs/04-multi-agent/orchestration.md) |
+| Action | Turn a proposal into a permitted operation | [Tools and MCP](docs/02-tools-mcp/tools-and-mcp.md) |
+| State | Keep what the window will forget | [Wiki memory](docs/01-agent-patterns/wiki-memory.md) |
+| Verification | Tests, gates, sandbox, rollback, budget | [Threat model](docs/07-security/threat-model.md) |
+
+The four eras still in use: prompt, context, harness, and training that leaves access, state, and safety outside the weights. They coexist. A later era does not retire an earlier one.
+
+</details>
+
+## Choose a level
+
+<p align="center">
+  <img src="assets/diagrams/journey-map.svg" alt="Four levels: Explorer leaves with a card, Builder with a page, Operator with a score, Power user with a page edit." width="100%">
+</p>
+
+| Level | Start here if you | Open first | You will be able to |
+| --- | --- | --- | --- |
+| **Explorer** | are new to agents | [What is an agent](docs/00-foundations/what-is-an-agent.md), then the [harness picture](docs/01-agent-patterns/harness-engineering.md) | explain an agent and point at the model inside the harness |
+| **Builder** | want to make one | [Harness engineering](docs/01-agent-patterns/harness-engineering.md), [wiki memory](docs/01-agent-patterns/wiki-memory.md), [tools](docs/02-tools-mcp/tools-and-mcp.md) | design the six parts and leave a page behind |
+| **Operator** | run agents for a team | [Harness engineering](docs/01-agent-patterns/harness-engineering.md), [cloud and local](docs/05-runtime-infra/cloud-and-local.md), [evals](docs/06-evals/index.md) | place a run and score the harness, not only the model |
+| **Power user** | want the practice | [Playbooks](docs/09-playbooks/index.md) and [harness engineering](docs/01-agent-patterns/harness-engineering.md) | extend a page without inventing a number |
+
+Sequences and a readiness check: [Learning paths](docs/learning-paths.md).
 
 | If you need to | Open |
 | --- | --- |
 | Explain an agent to someone else | [Foundations](docs/00-foundations/index.md) |
+| See why the same model scores differently | [Harness engineering](docs/01-agent-patterns/harness-engineering.md) |
 | Leave notes the next run can search | [Wiki memory](docs/01-agent-patterns/wiki-memory.md), then the [research playbook](docs/09-playbooks/research-agent.md) |
 | Move a procedure out of a giant prompt | [Write a skill](docs/09-playbooks/write-a-skill.md) |
 | Choose laptop or cloud for a real task | [Operate agents](docs/09-playbooks/operate-agents.md) |
 | Decide whether a gateway can see your prompts | [Review a gateway](docs/09-playbooks/review-a-gateway.md) |
 | Tell whether a change helped | [Score a run](docs/09-playbooks/score-a-run.md) |
 | Stop a run that thrashes or invents facts | [Unstick a loop](docs/09-playbooks/unstick-a-loop.md) |
-| See why the same model scores differently | [Harness engineering](docs/01-agent-patterns/harness-engineering.md) |
-
-## Choose a path
-
-| Path | Start here if you | Read | You will be able to |
-| --- | --- | --- | --- |
-| **Explorer** | are new to agents | [Foundations](docs/00-foundations/index.md), the [glossary](docs/glossary.md), and [the loop](docs/00-foundations/the-agent-loop.md) | explain an agent, its loop, and its memory |
-| **Builder** | want to make one | [Tools and MCP](docs/02-tools-mcp/index.md), [skills](docs/03-prompting-skills/index.md), and [wiki memory](docs/01-agent-patterns/wiki-memory.md) | design a research agent that writes pages back |
-| **Operator** | run agents for a team | [Cloud and local](docs/05-runtime-infra/cloud-and-local.md), [orchestration](docs/04-multi-agent/orchestration.md), [evals](docs/06-evals/index.md), and [security](docs/07-security/index.md) | pick a runtime and name the risks |
-| **Power user** | want the practice | [Playbooks](docs/09-playbooks/index.md), [case studies](docs/08-case-studies/index.md), and [contributing](CONTRIBUTING.md) | run a playbook on real work and write the result down |
-
-Sequences, timing, and a readiness check for each path: [Learning paths](docs/learning-paths.md).
 
 ## Map
+
+<p align="center">
+  <img src="assets/diagrams/landscape.svg" alt="The agent landscape: foundations, a six-part harness around the model, then memory, tools, skills, orchestration, evals, security, and runtime." width="100%">
+</p>
 
 | | Section | What it covers |
 | --- | --- | --- |
 | 00 | [Foundations](docs/00-foundations/index.md) | Definition, the loop, memory, tools, planning |
-| 01 | [Agent patterns](docs/01-agent-patterns/index.md) | ReAct, plan-and-execute, wiki memory, how agents remember, harness engineering |
-| 02 | [Tools and MCP](docs/02-tools-mcp/index.md) | Tools, Model Context Protocol, gateways |
+| 01 | [Agent patterns](docs/01-agent-patterns/index.md) | The harness, then ReAct, wiki memory, and how agents remember |
+| 02 | [Tools and MCP](docs/02-tools-mcp/index.md) | The action interface: tools, Model Context Protocol, gateways |
 | 03 | [Prompting and skills](docs/03-prompting-skills/index.md) | Prompts, skill packs, creative stacks |
-| 04 | [Multi-agent](docs/04-multi-agent/index.md) | Lead agents, phases, merging results |
+| 04 | [Multi-agent](docs/04-multi-agent/index.md) | Control across a lead, phases, and a merge |
 | 05 | [Runtime and infra](docs/05-runtime-infra/index.md) | Cloud and local runs, efficient inference |
-| 06 | [Evals](docs/06-evals/index.md) | How to tell that an agent got better |
-| 07 | [Security](docs/07-security/index.md) | Threat model, review gates, supply chain |
+| 06 | [Evals](docs/06-evals/index.md) | How to tell that an agent, and its harness, got better |
+| 07 | [Security](docs/07-security/index.md) | Verification: threat model, review gates, supply chain |
 | 08 | [Case studies](docs/08-case-studies/index.md) | Posts and projects, with the claim kept separate from the pattern |
 | 09 | [Playbooks](docs/09-playbooks/index.md) | Checklists and worked examples, from a first agent card to a scored run |
 
-Also: [glossary](docs/glossary.md), [how to read a claim](docs/how-to-read.md), [community list](docs/community.md), [diagram atlas](docs/diagrams.md), [social references & inspirations](docs/references.md).
+Also: [glossary](docs/glossary.md), [how to read a claim](docs/how-to-read.md), [community list](docs/community.md), [diagram atlas](docs/diagrams.md), [social references & inspirations](docs/references.md). The shelf behind the harness page is [Guo et al. 2026](https://arxiv.org/abs/2606.20683).
 
 ## How a research agent keeps what it learns
 
@@ -110,6 +165,9 @@ Three methods sit on top of that loop.
 | Reflection | Store a judgment that changes the next attempt | [Reflexion](https://arxiv.org/abs/2303.11366), [Generative Agents](https://arxiv.org/abs/2304.03442) |
 | Notes and compaction | Keep a file outside the window. Summarize the window without making the summary the only copy of the decision | [Context engineering](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) |
 
+<details>
+<summary>Patterns, and what to forget</summary>
+
 Five patterns follow from those methods.
 
 | Pattern | Use it when |
@@ -121,6 +179,8 @@ Five patterns follow from those methods.
 | Compact the trace, keep the note | The window is mostly tool output |
 
 Forget on purpose. Raw logs can go once the conclusion is on the page. A stale page cannot stay beside a newer one. A reflection nobody will read is just more text in the window.
+
+</details>
 
 | What you see | Change this |
 | --- | --- |

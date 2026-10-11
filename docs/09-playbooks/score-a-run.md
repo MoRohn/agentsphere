@@ -2,6 +2,10 @@
   <img src="../../assets/sections/06-evals.svg" alt="Evals" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-operator.svg" alt="Operator" height="28">
+</p>
+
 # Playbook · Score a run
 
 Grade one trajectory with a rubric you can apply twice and get the same answers. The point is a written pass or fail, not a feeling that the agent was impressive.

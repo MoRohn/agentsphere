@@ -2,6 +2,10 @@
   <img src="../../assets/sections/07-security.svg" alt="Security" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-operator.svg" alt="Operator" height="28">
+</p>
+
 # Threat model
 
 Write down what the agent can touch, who can put words in front of it, and which actions are allowed to stick. That is a threat model at the altitude this guide uses.

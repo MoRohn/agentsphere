@@ -2,6 +2,10 @@
   <img src="../../assets/diagrams/agent-loop.svg" alt="The agent loop: perceive, plan, act, observe, remember, then stop or continue." width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-explorer.svg" alt="Explorer" height="28">
+</p>
+
 # The agent loop
 
 The model chooses the next step. The loop is everything around that choice: looking, acting, reading the result, writing down what matters, and knowing when to end.

@@ -2,9 +2,21 @@
   <img src="../assets/diagrams/agent-loop.svg" alt="The agent loop" width="100%">
 </p>
 
+<p>
+  <img src="../assets/badges/level-explorer.svg" alt="Explorer" height="28">
+  &nbsp;
+  <img src="../assets/badges/level-builder.svg" alt="Builder" height="28">
+  &nbsp;
+  <img src="../assets/badges/level-operator.svg" alt="Operator" height="28">
+  &nbsp;
+  <img src="../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # Diagram atlas
 
-Every architecture in the guide is drawn twice, so it still teaches if one renderer fails. The SVG is the designed figure. The Mermaid block on the linked page is the editable twin. GitHub renders both.
+Architecture figures are drawn twice, so a lesson still teaches if one renderer fails. The SVG is the designed figure. The Mermaid block on the linked page is the editable twin. GitHub renders both.
+
+Three maps are SVG only. They are the front door, not a second copy of a lesson: the harness hero, the learning-path journey, and the agent landscape. The pages they open carry the editable detail.
 
 | | |
 | --- | --- |
@@ -23,7 +35,10 @@ Every architecture in the guide is drawn twice, so it still teaches if one rende
 | Find, review, fix, retest | [security-loop.svg](../assets/diagrams/security-loop.svg) | [Security loop](07-security/find-fix-retest.md) |
 | Research loop | [knowledge-flow.svg](../assets/diagrams/knowledge-flow.svg) | [How agents remember](01-agent-patterns/how-agents-remember.md) |
 | Where memory lives | [memory-map.svg](../assets/diagrams/memory-map.svg) | [How agents remember](01-agent-patterns/how-agents-remember.md) |
+| Harness hero | [harness-hero.svg](../assets/diagrams/harness-hero.svg) | SVG only. Lesson: [Harness engineering](01-agent-patterns/harness-engineering.md) |
 | Model plus harness | [harness.svg](../assets/diagrams/harness.svg) | [Harness engineering](01-agent-patterns/harness-engineering.md) |
+| Learning path | [journey-map.svg](../assets/diagrams/journey-map.svg) | SVG only. Lesson: [Learning paths](learning-paths.md) |
+| Agent landscape | [landscape.svg](../assets/diagrams/landscape.svg) | SVG only. Lesson: [Guide map](README.md) |
 | Four eras | [harness-eras.svg](../assets/diagrams/harness-eras.svg) | [Harness engineering](01-agent-patterns/harness-engineering.md) |
 
 Section openers live in [assets/sections](../assets/sections/). The mark and the masthead live at [logo-light.svg](../assets/logo-light.svg), [logo-dark.svg](../assets/logo-dark.svg), [banner-light.svg](../assets/banner-light.svg), and [banner-dark.svg](../assets/banner-dark.svg).

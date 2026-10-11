@@ -2,6 +2,10 @@
   <img src="../../assets/diagrams/gateway-routing.svg" alt="Gateway routing" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # Playbook · Review a gateway
 
 Decide whether a local model gateway is allowed to see your prompts. The worked example is the OmniRoute post. The checklist fits the next gateway someone sends you.

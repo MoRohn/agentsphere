@@ -2,6 +2,10 @@
   <img src="../../assets/diagrams/security-loop.svg" alt="Security review loop" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # Case study · Offensive security agent
 
 Antigen, as announced: an agent that maps a surface, probes it, ships fixes for review, and tests again.

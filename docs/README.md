@@ -5,15 +5,30 @@
   </picture>
 </p>
 
+<p>
+  <img src="../assets/badges/level-explorer.svg" alt="Explorer" height="28">
+  &nbsp;
+  <img src="../assets/badges/level-builder.svg" alt="Builder" height="28">
+  &nbsp;
+  <img src="../assets/badges/level-operator.svg" alt="Operator" height="28">
+  &nbsp;
+  <img src="../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # Guide map
 
-Start with a [learning path](learning-paths.md) or with the section that matches the job in front of you. The posts, articles, and repositories behind the pages are in [Social references & inspirations](references.md).
+Start with the [harness](01-agent-patterns/harness-engineering.md), a [learning path](learning-paths.md), or the section that matches the job in front of you. The posts, articles, and repositories behind the pages are in [Social references & inspirations](references.md).
+
+<p align="center">
+  <img src="../assets/diagrams/landscape.svg" alt="The agent landscape, with the harness across the middle." width="100%">
+</p>
 
 | | |
 | --- | --- |
-| New here | [How to read a claim](how-to-read.md), then [what is an agent](00-foundations/what-is-an-agent.md) |
-| Building | [Wiki memory](01-agent-patterns/wiki-memory.md) and the [research playbook](09-playbooks/research-agent.md) |
-| Operating | [Cloud and local](05-runtime-infra/cloud-and-local.md) and [security](07-security/index.md) |
+| Five minutes | The [harness picture](01-agent-patterns/harness-engineering.md): name the model, then one other part |
+| New here | [How to read a claim](how-to-read.md), [what is an agent](00-foundations/what-is-an-agent.md), then the harness |
+| Building | [Harness engineering](01-agent-patterns/harness-engineering.md), [wiki memory](01-agent-patterns/wiki-memory.md), and the [research playbook](09-playbooks/research-agent.md) |
+| Operating | [Harness engineering](01-agent-patterns/harness-engineering.md), [cloud and local](05-runtime-infra/cloud-and-local.md), and [security](07-security/index.md) |
 | Stuck | [Unstick a loop](09-playbooks/unstick-a-loop.md), then [score a run](09-playbooks/score-a-run.md) |
 
 ## Sections
@@ -28,12 +43,12 @@ What an agent is, the loop, and how memory, tools, and planning share the work.
 
 ### [01 · Agent patterns](01-agent-patterns/index.md)
 
-How the loop is shaped in practice.
+The harness is the frame. The other pages are ways of stressing one part of it.
 
+- [Harness engineering](01-agent-patterns/harness-engineering.md)
 - [ReAct and plan-and-execute](01-agent-patterns/react-and-plan-execute.md)
 - [Wiki memory](01-agent-patterns/wiki-memory.md)
 - [How agents remember](01-agent-patterns/how-agents-remember.md)
-- [Harness engineering](01-agent-patterns/harness-engineering.md)
 
 ### [02 · Tools and MCP](02-tools-mcp/index.md)
 

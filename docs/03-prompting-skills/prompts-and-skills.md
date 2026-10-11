@@ -2,6 +2,10 @@
   <img src="../../assets/sections/03-skills.svg" alt="Prompting and skills" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-builder.svg" alt="Builder" height="28">
+</p>
+
 # Prompts and skills
 
 Put stable procedure in a skill, facts in a file, and secrets in a store the prompt cannot casually reprint.

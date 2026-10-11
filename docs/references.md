@@ -2,6 +2,16 @@
   <img src="../assets/sections/08-case-studies.svg" alt="Social references and inspirations" width="100%">
 </p>
 
+<p>
+  <img src="../assets/badges/level-explorer.svg" alt="Explorer" height="28">
+  &nbsp;
+  <img src="../assets/badges/level-builder.svg" alt="Builder" height="28">
+  &nbsp;
+  <img src="../assets/badges/level-operator.svg" alt="Operator" height="28">
+  &nbsp;
+  <img src="../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # Social references & inspirations
 
 Posts, articles, and repositories that shaped this guide. Pages cite them inline. This list is the shelf: open a source next to the page that uses it.

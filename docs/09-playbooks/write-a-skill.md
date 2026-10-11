@@ -2,6 +2,10 @@
   <img src="../../assets/sections/03-skills.svg" alt="Prompting and skills" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-builder.svg" alt="Builder" height="28">
+</p>
+
 # Playbook · Write a skill
 
 Take one job your agent repeats and move the procedure out of the system prompt. You finish with a skill file short enough to review.

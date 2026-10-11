@@ -1,5 +1,11 @@
 <p align="center">
-  <img src="../../assets/diagrams/harness.svg" alt="An agent is a foundation model plus six runtime parts: observation, context, control, action, state, and verification." width="100%">
+  <img src="../../assets/diagrams/harness-hero.svg" alt="The model proposes. The harness decides. Six parts orbit the model." width="100%">
+</p>
+
+<p>
+  <img src="../../assets/badges/level-builder.svg" alt="Builder" height="28">
+  &nbsp;
+  <img src="../../assets/badges/level-operator.svg" alt="Operator" height="28">
 </p>
 
 # Harness engineering
@@ -32,7 +38,11 @@ The model supplies language, planning, and action proposals. It does not, by its
 
 ## Six parts, one runtime
 
-The figure above is the implementation view. Read it as a coupled loop. Improving one part moves pressure onto another: a richer observation costs context, a wider action needs a stronger check, and a longer memory can feed the model a stale fact.
+<p align="center">
+  <img src="../../assets/diagrams/harness.svg" alt="Six harness cards: observation, context, control, action, state, and verification, around the model." width="100%">
+</p>
+
+The figure is the implementation view. Read it as a coupled loop. Improving one part moves pressure onto another: a richer observation costs context, a wider action needs a stronger check, and a longer memory can feed the model a stale fact.
 
 | Part | The job | The tradeoff the survey names | Where this guide already teaches it |
 | --- | --- | --- | --- |
@@ -155,6 +165,9 @@ The survey is explicit that its table is a synthesis of public reports, not a co
 
 What it reports, in those within-family comparisons:
 
+<details>
+<summary>The comparisons, with the survey's own boundaries</summary>
+
 | Comparison | What the survey reports |
 | --- | --- |
 | Same harness, stronger model | SWE-agent with tools moves from 49.0% on Claude 3.5 Sonnet to 73.2% on Claude Opus 4. mini-SWE-agent moves from 52.8% on Claude 3.7 Sonnet to 76.8% on Claude Opus 4.5 |
@@ -163,6 +176,8 @@ What it reports, in those within-family comparisons:
 | Vendor envelope | OpenHands with Opus 4.5 at 77.6% sits about 3 points under a vendor-reported 80.9%. Gemini 3 Pro is 74.2% against a vendor-reported 76.2%. The survey attributes that 2–4 point gap, for those same-generation Claude and Gemini comparisons, to scaffold choices |
 
 Two cautions are in the same section, and they belong next to the numbers. Opus 4.5 with mini-SWE-agent is reported with extended thinking. The same source, the survey says, reports 74.4% under medium reasoning and 67.6% for Opus 4. A GPT-5 comparison of 72.8% against a vendor 80.0% is complicated by model version and inference settings, so this page does not treat that pair as a clean harness effect.
+
+</details>
 
 The practical reading is the survey's: model upgrades move the score, harness choice also moves it, and a short scaffold with a well-chosen interface can land near a much larger framework. Report the model, the harness, and the reasoning setting together. The way this guide scores a single run, without a leaderboard, is [evals](../06-evals/index.md) and [score a run](../09-playbooks/score-a-run.md).
 

@@ -2,6 +2,10 @@
   <img src="../assets/sections/00-foundations.svg" alt="Foundations" width="100%">
 </p>
 
+<p>
+  <img src="../assets/badges/level-explorer.svg" alt="Explorer" height="28">
+</p>
+
 # Glossary
 
 Short definitions in the sense this guide uses them. A **per post** row is vocabulary that arrived in a cited post.

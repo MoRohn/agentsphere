@@ -2,6 +2,10 @@
   <img src="../../assets/diagrams/orchestration.svg" alt="A lead agent writes a plan. Three phases each contain workers. Results combine at the end." width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-operator.svg" alt="Operator" height="28">
+</p>
+
 # Orchestration
 
 One agent writes the plan. Other agents do slices of it. Something combines the slices into one result. That is the whole pattern. The rest is discipline.

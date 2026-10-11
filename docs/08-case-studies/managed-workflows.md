@@ -2,6 +2,10 @@
   <img src="../../assets/diagrams/orchestration.svg" alt="Lead agent orchestration diagram" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # Case study · Managed workflows
 
 A public-beta announcement of a lead agent that plans in phases and combines the results.

@@ -2,6 +2,10 @@
   <img src="../../assets/sections/03-skills.svg" alt="Skills" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # Case study · Motion and web stacks
 
 Two catalogs: a stack for agent-made motion, and a list of places to steal visual craft for websites.

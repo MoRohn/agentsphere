@@ -2,6 +2,10 @@
   <img src="../../assets/sections/02-tools.svg" alt="Tools and MCP: a hub with connected nodes" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-builder.svg" alt="Builder" height="28">
+</p>
+
 # 02 · Tools and MCP
 
 Tools are how the loop touches anything besides its own reply. This section covers the contract for a tool, the protocol many hosts now use to attach them, and a local gateway that sits in front of model providers.

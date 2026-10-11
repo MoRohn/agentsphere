@@ -1,3 +1,14 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <img src="assets/banner-light.svg" alt="agentsphere" width="100%">
+  </picture>
+</p>
+
+<p>
+  <img src="assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # Contributing
 
 agentsphere grows when a page gets clearer, a citation gets tighter, or a missing idea gets a home. This file is how to add that work without inventing facts.
@@ -19,7 +30,7 @@ The shape of a good edit is the memory pattern in [wiki memory](docs/01-agent-pa
 4. **One idea, one home.** Prefer updating an existing page to opening a near-duplicate. A case study may retell a source, and it should link to the concept page rather than fork the explanation.
 5. **Search the guide first.** Before you add a page, look in [the map](docs/README.md), the [glossary](docs/glossary.md), and the [references](docs/references.md).
 6. **Security stays high level.** Name threats, review gates, and supply-chain checks. Do not add exploit procedures, payloads, or steps for abusing provider quotas.
-7. **Keep the visual system.** New figures use the palette and the header/footer pattern in [the style guide](docs/style-guide.md). Diagrams that explain an architecture exist twice: an SVG in `assets/diagrams/` and a Mermaid block on the page. Both must render on GitHub.
+7. **Keep the visual system.** New figures use the palette and the header/footer pattern in [the style guide](docs/style-guide.md). Diagrams that explain an architecture exist twice: an SVG in `assets/diagrams/` and a Mermaid block on the page. The harness hero, the journey map, and the landscape are overview figures and stay SVG only. Both kinds must render on GitHub. Put a level badge on the page for every path it belongs to.
 8. **Leave the next reader smarter.** Update the references list if you cited something new, the learning path if the sequence changed, the glossary if you introduced a term, and the changelog.
 
 ## Add or update a page
@@ -42,6 +53,10 @@ Copy this shape. It is what makes the guide feel like one book.
 ```markdown
 <p align="center">
   <img src="../../assets/sections/0N-name.svg" alt="Section title" width="100%">
+</p>
+
+<p>
+  <img src="../../assets/badges/level-explorer.svg" alt="Explorer" height="28">
 </p>
 
 # Page title

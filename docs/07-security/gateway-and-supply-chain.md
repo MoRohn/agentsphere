@@ -2,6 +2,10 @@
   <img src="../../assets/diagrams/gateway-routing.svg" alt="A local gateway between clients and providers" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-operator.svg" alt="Operator" height="28">
+</p>
+
 # Gateways and supply chain
 
 A local proxy holds your keys and sees your prompts. A skill pack runs in your agent's name. Both are supply chain, even when the README says the words "local" and "open source."

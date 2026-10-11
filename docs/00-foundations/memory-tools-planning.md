@@ -2,6 +2,12 @@
   <img src="../../assets/sections/00-foundations.svg" alt="Foundations" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-explorer.svg" alt="Explorer" height="28">
+  &nbsp;
+  <img src="../../assets/badges/level-builder.svg" alt="Builder" height="28">
+</p>
+
 # Memory, tools, and planning
 
 Three different jobs get blurred into "the context window." Separating them is the practical skill in this section.

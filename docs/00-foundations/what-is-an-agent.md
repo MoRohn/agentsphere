@@ -2,6 +2,10 @@
   <img src="../../assets/sections/00-foundations.svg" alt="Foundations: what an agent is" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-explorer.svg" alt="Explorer" height="28">
+</p>
+
 # What is an agent
 
 An agent is a model in a loop, pointed at a goal, allowed to use tools, and required to stop.
@@ -88,6 +92,7 @@ Established practice, organized for this guide. The rows above are signposts. Th
 ## Continue
 
 - Next: [The agent loop](the-agent-loop.md)
+- The runtime around those parts: [Harness engineering](../01-agent-patterns/harness-engineering.md)
 - Practice: [Your first agent](../09-playbooks/first-agent.md)
 - Map: [Foundations](index.md)
 

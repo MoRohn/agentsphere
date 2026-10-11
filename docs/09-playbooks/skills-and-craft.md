@@ -2,6 +2,10 @@
   <img src="../../assets/sections/03-skills.svg" alt="Skills" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # Playbook · Skills and craft
 
 Choose one skill and one engine from the catalogs. Review them. Make one small artifact.

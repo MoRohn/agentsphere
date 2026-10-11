@@ -2,6 +2,10 @@
   <img src="../../assets/sections/05-runtime.svg" alt="Runtime and infra" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-operator.svg" alt="Operator" height="28">
+</p>
+
 # Efficient inference
 
 Agents call models in a loop, so the cost of one forward pass is paid many times. Smaller, cheaper inference is why a local CPU, a laptop, or a fleet of agent runs can be in the conversation at all.

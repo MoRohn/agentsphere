@@ -2,6 +2,10 @@
   <img src="../../assets/diagrams/cloud-vs-local.svg" alt="Local and cloud topologies" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # Playbook · Operate agents
 
 Place three tasks. One local, one cloud, one you deliberately do not automate yet.

@@ -2,6 +2,10 @@
   <img src="../../assets/diagrams/mcp.svg" alt="An agent host talks to a model API and, through an MCP client, to files, tools, and other agents." width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-builder.svg" alt="Builder" height="28">
+</p>
+
 # Tools and MCP
 
 The model decides. A tool does. A protocol is the agreement that lets many tools plug into many hosts without a custom integration each time.

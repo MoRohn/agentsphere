@@ -2,6 +2,10 @@
   <img src="../../assets/sections/08-case-studies.svg" alt="Case studies: a constellation of sources" width="100%">
 </p>
 
+<p>
+  <img src="../../assets/badges/level-power.svg" alt="Power user" height="28">
+</p>
+
 # 08 · Case studies
 
 Each study is one cluster of posts, told as a story with a claim table. The concept pages teach the pattern. These pages are for when you want the source in one place.
