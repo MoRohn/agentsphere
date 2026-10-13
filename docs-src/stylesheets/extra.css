@@ -2,6 +2,11 @@
    (#ffffff) and deep space (#0d1117). The header stays navy in both schemes
    so the white-crescent mark stays readable. */
 
+:root {
+  --md-text-font: "Segoe UI", Helvetica, Arial, sans-serif;
+  --md-code-font: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace;
+}
+
 :root,
 [data-md-color-scheme="default"] {
   --md-primary-fg-color: #10243f;
@@ -49,4 +54,103 @@
 .md-nav__button.md-logo img {
   height: 1.6rem;
   width: 1.6rem;
+}
+
+/* Wide tables scroll inside the column instead of pushing the page sideways. */
+.as-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 1em 0;
+}
+
+.as-scroll > table {
+  margin: 0;
+}
+
+/* Home: the masthead is the hero, and the four levels are the way in. */
+html.as-home .md-typeset .as-hero {
+  margin: 0 0 0.4rem;
+}
+
+html.as-home .md-typeset .as-hero img {
+  width: 100%;
+  height: auto;
+}
+
+html.as-home .md-typeset .as-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0.2rem 0 0.8rem;
+}
+
+html.as-home .md-typeset .as-meta img {
+  height: 28px;
+  width: auto;
+}
+
+html.as-home .md-typeset h1 {
+  margin-top: 0.2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+html.as-home .md-typeset .as-levels {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 0.2rem 0 1.4rem;
+}
+
+html.as-home .md-typeset .as-levels a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 4.75rem;
+  padding: 0.85rem 0.4rem;
+  border: 1px solid #e2e6f0;
+  border-radius: 0.9rem;
+  background: #ffffff;
+  box-shadow: 0 8px 22px rgba(16, 36, 63, 0.06);
+}
+
+html.as-home .md-typeset .as-levels a:hover {
+  border-color: #f5a31a;
+}
+
+html.as-home .md-typeset .as-levels img {
+  height: 34px;
+  width: auto;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .as-levels a {
+  background: #161b22;
+  border-color: #2c3550;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 720px) {
+  html.as-home .md-typeset .as-levels {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Guide-map cards keep their art and sit in a wrapping row. */
+.md-typeset p:has(img[src*="assets/map/"]) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.md-typeset p:has(img[src*="assets/map/"]) > a {
+  flex: 1 1 16rem;
+  max-width: 26rem;
+}
+
+.md-typeset p:has(img[src*="assets/map/"]) img {
+  width: 100%;
+  height: auto;
 }

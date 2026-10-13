@@ -1,5 +1,5 @@
 site_name: Agentsphere
-site_description: A field guide to AI agents.
+site_description: "A field guide to AI agents, with four learning paths from first try to fixing a stuck agent. No coding required to start."
 site_url: https://morohn.github.io/agentsphere/
 site_author: agentsphere contributors
 repo_url: https://github.com/MoRohn/agentsphere
@@ -36,6 +36,7 @@ validation:
 
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/logo-dark.png
   favicon: assets/logo-light.png
   font: false
@@ -58,7 +59,6 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
-    - navigation.indexes
     - navigation.top
     - navigation.tracking
     - navigation.footer
@@ -101,47 +101,47 @@ markdown_extensions:
 nav:
   - Home: README.md
   - Learning paths:
-      - docs/learning-paths.md
+      - Overview: docs/learning-paths.md
       - Explorer: paths/explorer/README.md
       - Builder: paths/builder/README.md
       - Operator: paths/operator/README.md
       - Power user: paths/power-user/README.md
   - Guide:
-      - docs/README.md
+      - Guide map: docs/README.md
       - Foundations:
-          - docs/00-foundations/index.md
+          - Overview: docs/00-foundations/index.md
           - What is an agent: docs/00-foundations/what-is-an-agent.md
           - The agent loop: docs/00-foundations/the-agent-loop.md
           - Memory, tools, and planning: docs/00-foundations/memory-tools-planning.md
       - Agent patterns:
-          - docs/01-agent-patterns/index.md
+          - Overview: docs/01-agent-patterns/index.md
           - Harness engineering: docs/01-agent-patterns/harness-engineering.md
           - ReAct and plan-and-execute: docs/01-agent-patterns/react-and-plan-execute.md
           - Wiki memory: docs/01-agent-patterns/wiki-memory.md
           - How agents remember: docs/01-agent-patterns/how-agents-remember.md
       - Tools and MCP:
-          - docs/02-tools-mcp/index.md
+          - Overview: docs/02-tools-mcp/index.md
           - Tools and MCP: docs/02-tools-mcp/tools-and-mcp.md
           - Gateways and routing: docs/02-tools-mcp/gateways-and-routing.md
       - Prompting and skills:
-          - docs/03-prompting-skills/index.md
+          - Overview: docs/03-prompting-skills/index.md
           - Prompts and skills: docs/03-prompting-skills/prompts-and-skills.md
           - Creative toolkits: docs/03-prompting-skills/creative-toolkits.md
       - Multi-agent:
-          - docs/04-multi-agent/index.md
+          - Overview: docs/04-multi-agent/index.md
           - Orchestration: docs/04-multi-agent/orchestration.md
       - Runtime and infra:
-          - docs/05-runtime-infra/index.md
+          - Overview: docs/05-runtime-infra/index.md
           - Cloud and local: docs/05-runtime-infra/cloud-and-local.md
           - Efficient inference: docs/05-runtime-infra/efficient-inference.md
       - Evals: docs/06-evals/index.md
       - Security:
-          - docs/07-security/index.md
+          - Overview: docs/07-security/index.md
           - Threat model: docs/07-security/threat-model.md
           - Find, review, fix, retest: docs/07-security/find-fix-retest.md
           - Gateways and supply chain: docs/07-security/gateway-and-supply-chain.md
       - Case studies:
-          - docs/08-case-studies/index.md
+          - Overview: docs/08-case-studies/index.md
           - Compounding wiki: docs/08-case-studies/compounding-wiki.md
           - Local gateway: docs/08-case-studies/local-gateway.md
           - Local inference: docs/08-case-studies/local-inference.md
@@ -149,7 +149,7 @@ nav:
           - Motion and web stacks: docs/08-case-studies/motion-and-web-stacks.md
           - Offensive security agent: docs/08-case-studies/offensive-security-agent.md
       - Playbooks:
-          - docs/09-playbooks/index.md
+          - Overview: docs/09-playbooks/index.md
           - Your first agent: docs/09-playbooks/first-agent.md
           - Research agent: docs/09-playbooks/research-agent.md
           - Write a skill: docs/09-playbooks/write-a-skill.md
@@ -167,7 +167,7 @@ nav:
       - Community: docs/community.md
       - Style guide: docs/style-guide.md
       - Assets:
-          - assets/README.md
+          - Overview: assets/README.md
           - Badges: assets/badges/README.md
           - Section openers: assets/sections/README.md
           - Map cards: assets/map/README.md
