@@ -13,6 +13,9 @@ for Material at build time:
 - A ``data-agentsphere="github-only"`` block on the repository README is
   dropped. GitHub still shows it (the attribute is ignored). The site home
   page does not repeat a link to itself.
+- The home page's banner and level row get classes so the theme can present
+  them as a hero and as the four entry points. The guide map drops its copy
+  of that masthead. The GitHub files are unchanged.
 """
 
 from __future__ import annotations
@@ -47,6 +50,23 @@ _SRC_RE = re.compile(
     re.I | re.S,
 )
 _TOKEN = "\x00AGP{0}\x00"
+_BANNER_P_RE = re.compile(
+    r"<p\b[^>]*>\s*<img\b[^>]*banner-light\.png[^>]*>\s*<img\b[^>]*banner-dark\.png[^>]*>\s*</p>\s*",
+    re.I,
+)
+_META_P_RE = re.compile(
+    r"<p\b[^>]*>\s*<a\b[^>]*>\s*<img\b[^>]*version-light\.svg[^>]*>.*?</p>\s*",
+    re.I | re.S,
+)
+_LEVELS_P_RE = re.compile(
+    r"<p\b[^>]*>\s*"
+    r"<a\b[^>]*>\s*<img\b[^>]*level-explorer\.svg[^>]*>\s*</a>\s*(?:&nbsp;\s*)?"
+    r"<a\b[^>]*>\s*<img\b[^>]*level-builder\.svg[^>]*>\s*</a>\s*(?:&nbsp;\s*)?"
+    r"<a\b[^>]*>\s*<img\b[^>]*level-operator\.svg[^>]*>\s*</a>\s*(?:&nbsp;\s*)?"
+    r"<a\b[^>]*>\s*<img\b[^>]*level-power\.svg[^>]*>\s*</a>\s*</p>",
+    re.I | re.S,
+)
+_TABLE_RE = re.compile(r"<table\b[^>]*>.*?</table>", re.I | re.S)
 
 
 def on_page_markdown(markdown, *, page, config, files):
@@ -67,8 +87,36 @@ def on_page_content(html, *, page, config, files):
     protected, slots = _protect(html)
     protected = _PICTURE_RE.sub(lambda match: _picture_to_scheme_imgs(match, page), protected)
     protected = _HREF_RE.sub(lambda match: _rewrite_href(match, page, files), protected)
+    protected = _TABLE_RE.sub(lambda match: f'<div class="as-scroll">{match.group(0)}</div>', protected)
     _check_media(protected, page, config)
-    return _restore(protected, slots)
+    html = _restore(protected, slots)
+    if page.file.src_uri == "README.md":
+        html = _polish_home(html)
+    elif page.file.src_uri == "docs/README.md":
+        html = _strip_guide_masthead(html)
+    return html
+
+
+def _polish_home(html: str) -> str:
+    """Mark the masthead and the four level links for the landing layout."""
+    html = _BANNER_P_RE.sub(lambda match: _tag_p(match.group(0), "as-hero"), html, count=1)
+    html = _META_P_RE.sub(lambda match: _tag_p(match.group(0), "as-meta"), html, count=1)
+    html = _LEVELS_P_RE.sub(lambda match: _tag_p(match.group(0), "as-levels"), html, count=1)
+    return html
+
+
+def _strip_guide_masthead(html: str) -> str:
+    """The home page already shows this banner and these four links."""
+    html = _BANNER_P_RE.sub("", html, count=1)
+    html = _LEVELS_P_RE.sub("", html, count=1)
+    return html
+
+
+def _tag_p(html: str, class_name: str) -> str:
+    html = html.replace("<p", f'<p class="{class_name}"', 1)
+    if class_name == "as-levels":
+        html = html.replace("&nbsp;", "")
+    return html
 
 
 def _details_opt_in(match: re.Match) -> str:

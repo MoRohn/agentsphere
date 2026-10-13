@@ -68,3 +68,4 @@ First public version of agentsphere.
 - The guide is also a website. MkDocs Material builds these same pages for GitHub Pages. Preview with `mkdocs serve`. See [Contributing](CONTRIBUTING.md).
 - The README links to that website with a read-online badge. The site home page leaves the badge out.
 - Added a 1280×640 share image at `assets/social-preview.png`. The site puts it on every page as the Open Graph and Twitter card. The GitHub repository social preview is uploaded by hand.
+- The website home page leads with the banner and the four levels. The guide map no longer repeats that banner. Section overviews in the sidebar are labeled Overview, and Explorer stays in the learning-path list. Wide tables scroll inside the page.

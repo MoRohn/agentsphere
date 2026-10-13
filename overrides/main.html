@@ -2,6 +2,9 @@
 
 {# Share cards. One image for every page, at an absolute Pages URL. #}
 {% block extrahead %}
+  {% if page.is_homepage %}
+    <script>document.documentElement.classList.add("as-home")</script>
+  {% endif %}
   {% if page.meta and page.meta.description %}
     {% set description = page.meta.description %}
   {% else %}
