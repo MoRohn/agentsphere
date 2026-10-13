@@ -69,3 +69,4 @@ First public version of agentsphere.
 - The README links to that website with a read-online badge. The site home page leaves the badge out.
 - Added a 1280×640 share image at `assets/social-preview.png`. The site puts it on every page as the Open Graph and Twitter card. The GitHub repository social preview is uploaded by hand.
 - The website home page leads with the banner and the four levels. The guide map no longer repeats that banner. Section overviews in the sidebar are labeled Overview, and Explorer stays in the learning-path list. Wide tables scroll inside the page.
+- The website home page no longer repeats the title under the banner. The four levels are cards, with the level name and the "start here if you" and "you will be able to" lines from the table. The GitHub README still shows the title and the pills.
