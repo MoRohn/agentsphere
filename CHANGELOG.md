@@ -66,3 +66,4 @@ First public version of agentsphere.
 ## Unreleased
 
 - The guide is also a website. MkDocs Material builds these same pages for GitHub Pages. Preview with `mkdocs serve`. See [Contributing](CONTRIBUTING.md).
+- The README links to that website with a read-online badge. The site home page leaves the badge out.

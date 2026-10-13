@@ -10,6 +10,9 @@ for Material at build time:
   file. ``prefers-color-scheme`` would follow the operating system instead.
 - Relative ``.md`` links left in raw HTML are pointed at the page MkDocs
   actually writes (``README.md`` is served as ``index.html``).
+- A ``data-agentsphere="github-only"`` block on the repository README is
+  dropped. GitHub still shows it (the attribute is ignored). The site home
+  page does not repeat a link to itself.
 """
 
 from __future__ import annotations
@@ -25,6 +28,10 @@ from mkdocs.utils import get_relative_url
 log = logging.getLogger("mkdocs")
 
 _FENCE_RE = re.compile(r"(^[ \t]*```[^\n]*\n.*?^[ \t]*```[ \t]*$)", re.M | re.S)
+_GITHUB_ONLY_RE = re.compile(
+    r"[ \t]*<p\b[^>]*\bdata-agentsphere\s*=\s*([\"'])github-only\1[^>]*>.*?</p>[ \t]*\n?",
+    re.I | re.S,
+)
 _DETAILS_RE = re.compile(r"<details\b([^>]*)>", re.I)
 _PROTECT_RE = re.compile(r"<pre\b[^>]*>.*?</pre>|<code\b[^>]*>.*?</code>", re.I | re.S)
 _PICTURE_RE = re.compile(r"<picture\b[^>]*>.*?</picture>", re.I | re.S)
@@ -43,11 +50,14 @@ _TOKEN = "\x00AGP{0}\x00"
 
 
 def on_page_markdown(markdown, *, page, config, files):
-    """Let Markdown inside ``<details>`` render, without editing the source."""
+    """Adapt README-only HTML, and let Markdown inside ``<details>`` render."""
     parts = _FENCE_RE.split(markdown)
+    home = page.file.src_uri == "README.md"
     for index, part in enumerate(parts):
         if index % 2 == 1:
             continue
+        if home:
+            part = _GITHUB_ONLY_RE.sub("\n", part)
         parts[index] = _DETAILS_RE.sub(_details_opt_in, part)
     return "".join(parts)
 
