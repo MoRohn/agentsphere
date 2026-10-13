@@ -5,6 +5,15 @@
   </picture>
 </p>
 
+<p align="center" data-agentsphere="github-only">
+  <a href="https://morohn.github.io/agentsphere/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/badges/read-online-dark.svg">
+      <img alt="Read the guide online" src="assets/badges/read-online-light.svg" height="28">
+    </picture>
+  </a>
+</p>
+
 <p align="center">
   <a href="CHANGELOG.md">
     <picture>
