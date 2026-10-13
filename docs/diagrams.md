@@ -47,7 +47,7 @@ Three maps are SVG only. They are the front door, not a second copy of a lesson:
 | Harness hero | [harness-hero-light.svg](../assets/diagrams/harness-hero-light.svg) | SVG only. Lesson: [Harness engineering](01-agent-patterns/harness-engineering.md) |
 | Model plus harness | [harness-light.svg](../assets/diagrams/harness-light.svg) | [Harness engineering](01-agent-patterns/harness-engineering.md) |
 | Learning path | [journey-map-light.svg](../assets/diagrams/journey-map-light.svg) | SVG only. Lesson: [Learning paths](learning-paths.md) |
-| Agent landscape | [landscape-light.svg](../assets/diagrams/landscape-light.svg) | SVG only. The clickable cards are on the [README map](../README.md#map) and in [assets/map](../assets/map/). |
+| Agent landscape | [landscape-light.svg](../assets/diagrams/landscape-light.svg) | SVG only. The clickable cards are on the [README map](../README.md#map) and in [assets/map](../assets/map/README.md). |
 | Four eras | [harness-eras-light.svg](../assets/diagrams/harness-eras-light.svg) | [Harness engineering](01-agent-patterns/harness-engineering.md) |
 | Hosted agents | [hosted-agents-light.svg](../assets/diagrams/hosted-agents-light.svg) | [Hosted agents](10-hosted-agents/index.md) |
 | Explorer route | [explorer-route-light.svg](../assets/diagrams/explorer-route-light.svg) | [Explorer](../paths/explorer/README.md) |
@@ -55,7 +55,7 @@ Three maps are SVG only. They are the front door, not a second copy of a lesson:
 | Operator route | [operator-route-light.svg](../assets/diagrams/operator-route-light.svg) | [Operator](../paths/operator/README.md) |
 | Power user route | [power-route-light.svg](../assets/diagrams/power-route-light.svg) | [Power user](../paths/power-user/README.md) |
 
-Section openers live in [assets/sections](../assets/sections/). The mark and the masthead live at [logo-light.png](../assets/logo-light.png), [logo-dark.png](../assets/logo-dark.png), [banner-light.png](../assets/banner-light.png), and [banner-dark.png](../assets/banner-dark.png).
+Section openers live in [assets/sections](../assets/sections/README.md). The mark and the masthead live at [logo-light.png](../assets/logo-light.png), [logo-dark.png](../assets/logo-dark.png), [banner-light.png](../assets/banner-light.png), and [banner-dark.png](../assets/banner-dark.png).
 
 When a figure changes, update the SVG, the Mermaid block, and this table's description if the title changed. Rules: [style guide](style-guide.md).
 

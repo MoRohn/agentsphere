@@ -1,0 +1,176 @@
+site_name: Agentsphere
+site_description: A field guide to AI agents.
+site_url: https://morohn.github.io/agentsphere/
+site_author: agentsphere contributors
+repo_url: https://github.com/MoRohn/agentsphere
+repo_name: MoRohn/agentsphere
+edit_uri: edit/main/
+copyright: Copyright &copy; 2026 agentsphere contributors
+
+# MkDocs refuses a docs_dir that is the directory containing this file.
+# docs-src mirrors the repository with symlinks, so pages and assets stay
+# where GitHub already renders them.
+docs_dir: docs-src
+site_dir: site
+use_directory_urls: false
+
+watch:
+  - README.md
+  - CHANGELOG.md
+  - CONTRIBUTING.md
+  - docs
+  - paths
+  - assets
+
+hooks:
+  - hooks/pages.py
+
+validation:
+  nav:
+    omitted_files: warn
+  links:
+    not_found: warn
+    absolute_links: warn
+    unrecognized_links: warn
+    anchors: warn
+
+theme:
+  name: material
+  logo: assets/logo-dark.png
+  favicon: assets/logo-light.png
+  font: false
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.tracking
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid@11.12.0/dist/mermaid.min.js
+  - javascripts/mermaid.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/MoRohn/agentsphere
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.quotes:
+      callouts: true
+
+nav:
+  - Home: README.md
+  - Learning paths:
+      - docs/learning-paths.md
+      - Explorer: paths/explorer/README.md
+      - Builder: paths/builder/README.md
+      - Operator: paths/operator/README.md
+      - Power user: paths/power-user/README.md
+  - Guide:
+      - docs/README.md
+      - Foundations:
+          - docs/00-foundations/index.md
+          - What is an agent: docs/00-foundations/what-is-an-agent.md
+          - The agent loop: docs/00-foundations/the-agent-loop.md
+          - Memory, tools, and planning: docs/00-foundations/memory-tools-planning.md
+      - Agent patterns:
+          - docs/01-agent-patterns/index.md
+          - Harness engineering: docs/01-agent-patterns/harness-engineering.md
+          - ReAct and plan-and-execute: docs/01-agent-patterns/react-and-plan-execute.md
+          - Wiki memory: docs/01-agent-patterns/wiki-memory.md
+          - How agents remember: docs/01-agent-patterns/how-agents-remember.md
+      - Tools and MCP:
+          - docs/02-tools-mcp/index.md
+          - Tools and MCP: docs/02-tools-mcp/tools-and-mcp.md
+          - Gateways and routing: docs/02-tools-mcp/gateways-and-routing.md
+      - Prompting and skills:
+          - docs/03-prompting-skills/index.md
+          - Prompts and skills: docs/03-prompting-skills/prompts-and-skills.md
+          - Creative toolkits: docs/03-prompting-skills/creative-toolkits.md
+      - Multi-agent:
+          - docs/04-multi-agent/index.md
+          - Orchestration: docs/04-multi-agent/orchestration.md
+      - Runtime and infra:
+          - docs/05-runtime-infra/index.md
+          - Cloud and local: docs/05-runtime-infra/cloud-and-local.md
+          - Efficient inference: docs/05-runtime-infra/efficient-inference.md
+      - Evals: docs/06-evals/index.md
+      - Security:
+          - docs/07-security/index.md
+          - Threat model: docs/07-security/threat-model.md
+          - Find, review, fix, retest: docs/07-security/find-fix-retest.md
+          - Gateways and supply chain: docs/07-security/gateway-and-supply-chain.md
+      - Case studies:
+          - docs/08-case-studies/index.md
+          - Compounding wiki: docs/08-case-studies/compounding-wiki.md
+          - Local gateway: docs/08-case-studies/local-gateway.md
+          - Local inference: docs/08-case-studies/local-inference.md
+          - Managed workflows: docs/08-case-studies/managed-workflows.md
+          - Motion and web stacks: docs/08-case-studies/motion-and-web-stacks.md
+          - Offensive security agent: docs/08-case-studies/offensive-security-agent.md
+      - Playbooks:
+          - docs/09-playbooks/index.md
+          - Your first agent: docs/09-playbooks/first-agent.md
+          - Research agent: docs/09-playbooks/research-agent.md
+          - Write a skill: docs/09-playbooks/write-a-skill.md
+          - Skills and craft: docs/09-playbooks/skills-and-craft.md
+          - Operate agents: docs/09-playbooks/operate-agents.md
+          - Review a gateway: docs/09-playbooks/review-a-gateway.md
+          - Score a run: docs/09-playbooks/score-a-run.md
+          - Unstick a loop: docs/09-playbooks/unstick-a-loop.md
+      - Hosted agents: docs/10-hosted-agents/index.md
+  - Reference:
+      - Social references: docs/references.md
+      - Glossary: docs/glossary.md
+      - How to read: docs/how-to-read.md
+      - Diagram atlas: docs/diagrams.md
+      - Community: docs/community.md
+      - Style guide: docs/style-guide.md
+      - Assets:
+          - assets/README.md
+          - Badges: assets/badges/README.md
+          - Section openers: assets/sections/README.md
+          - Map cards: assets/map/README.md
+          - Diagrams: assets/diagrams/README.md
+  - Changelog: CHANGELOG.md
+  - Contributing: CONTRIBUTING.md
