@@ -31,6 +31,7 @@ The name in prose is `agentsphere`, one word. The wordmark is `Agentsphere`: `Ag
 | --- | --- |
 | [logo-dark.png](../assets/logo-dark.png), [logo-light.png](../assets/logo-light.png) | App-icon mark, 640×640. Transparent outside the disc |
 | [banner-dark.png](../assets/banner-dark.png), [banner-light.png](../assets/banner-light.png) | Masthead. Light is 1600×542, dark is 1600×546. Transparent |
+| [social-preview.png](../assets/social-preview.png) | Share image, 1280×640. Dark page color, the mark, and the four levels |
 | [badges/](../assets/badges/README.md) | README pills, and the four level marks: Explorer, Builder, Operator, Power user |
 | [assets/sections/](../assets/sections/README.md) | Section openers, 1660×376. The mark on the right is the same circle. Light and dark pair |
 | [assets/diagrams/](../assets/diagrams/README.md) | Architecture figures, 830 wide. Light and dark pair |

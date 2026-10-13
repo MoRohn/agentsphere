@@ -1,5 +1,5 @@
 site_name: Agentsphere
-site_description: A field guide to AI agents.
+site_description: "A field guide to AI agents, with four learning paths from first try to fixing a stuck agent. No coding required to start."
 site_url: https://morohn.github.io/agentsphere/
 site_author: agentsphere contributors
 repo_url: https://github.com/MoRohn/agentsphere
@@ -36,6 +36,7 @@ validation:
 
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/logo-dark.png
   favicon: assets/logo-light.png
   font: false
