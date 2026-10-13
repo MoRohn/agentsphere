@@ -13,9 +13,11 @@ for Material at build time:
 - A ``data-agentsphere="github-only"`` block on the repository README is
   dropped. GitHub still shows it (the attribute is ignored). The site home
   page does not repeat a link to itself.
-- The home page's banner and level row get classes so the theme can present
-  them as a hero and as the four entry points. The guide map drops its copy
-  of that masthead. The GitHub files are unchanged.
+- The home page's banner is the hero. The visible ``# agentsphere`` title is
+  left out, because the banner already carries it, and a screen-reader heading
+  keeps the outline. The four level pills become cards whose lines come from
+  the "Choose a level" table. The guide map drops its copy of that masthead.
+  The GitHub files are unchanged.
 """
 
 from __future__ import annotations
@@ -24,6 +26,7 @@ import logging
 import os
 import posixpath
 import re
+from html import escape
 from urllib.parse import unquote, urlsplit, urlunsplit
 
 from mkdocs.utils import get_relative_url
@@ -67,18 +70,34 @@ _LEVELS_P_RE = re.compile(
     re.I | re.S,
 )
 _TABLE_RE = re.compile(r"<table\b[^>]*>.*?</table>", re.I | re.S)
+_HOME_H1_RE = re.compile(r"^[ \t]*# agentsphere[ \t]*$", re.M)
+_ROW_RE = re.compile(r"<tr\b[^>]*>(.*?)</tr>", re.I | re.S)
+_CELL_RE = re.compile(r"<t[dh]\b[^>]*>(.*?)</t[dh]>", re.I | re.S)
+_ANCHOR_RE = re.compile(
+    r"<a\b[^>]*\bhref\s*=\s*([\"'])([^\"']+)\1[^>]*>(.*?)</a>",
+    re.I | re.S,
+)
+_TAG_RE = re.compile(r"<[^>]+>")
 
 
 def on_page_markdown(markdown, *, page, config, files):
     """Adapt README-only HTML, and let Markdown inside ``<details>`` render."""
     parts = _FENCE_RE.split(markdown)
     home = page.file.src_uri == "README.md"
+    removed_titles = 0
     for index, part in enumerate(parts):
         if index % 2 == 1:
             continue
         if home:
             part = _GITHUB_ONLY_RE.sub("\n", part)
+            part, removed = _HOME_H1_RE.subn("", part)
+            removed_titles += removed
         parts[index] = _DETAILS_RE.sub(_details_opt_in, part)
+    if home and removed_titles != 1:
+        log.warning(
+            "Home page should drop exactly one '# agentsphere' title (dropped %s).",
+            removed_titles,
+        )
     return "".join(parts)
 
 
@@ -98,11 +117,82 @@ def on_page_content(html, *, page, config, files):
 
 
 def _polish_home(html: str) -> str:
-    """Mark the masthead and the four level links for the landing layout."""
+    """Mark the masthead and replace the level pills with cards from the table."""
+    if not re.search(r"<h1\b", html, re.I):
+        html = '<h1 class="as-sr">Agentsphere</h1>\n' + html
     html = _BANNER_P_RE.sub(lambda match: _tag_p(match.group(0), "as-hero"), html, count=1)
     html = _META_P_RE.sub(lambda match: _tag_p(match.group(0), "as-meta"), html, count=1)
-    html = _LEVELS_P_RE.sub(lambda match: _tag_p(match.group(0), "as-levels"), html, count=1)
+    cards = _level_cards(html)
+    html, count = _LEVELS_P_RE.subn(cards or _keep_level_pills, html, count=1)
+    if count != 1:
+        log.warning("Home page is missing the four level links.")
+    elif cards is None:
+        log.warning("Home page level table did not yield four paths.")
     return html
+
+
+def _keep_level_pills(match: re.Match) -> str:
+    return _tag_p(match.group(0), "as-levels")
+
+
+def _level_cards(html: str) -> str | None:
+    """Build the four entry cards from the rendered "Choose a level" table."""
+    levels = _levels_from_table(html)
+    if levels is None or len(levels) != 4:
+        return None
+    cards = ["<div class=\"as-levels\">"]
+    for name, href, start, able in levels:
+        cards.append(
+            "<a class=\"as-level\" href=\"{href}\">"
+            "<span class=\"as-level__name\">{name}</span>"
+            "<span class=\"as-level__kicker\">Start here if you</span>"
+            "<span class=\"as-level__line\">{start}</span>"
+            "<span class=\"as-level__kicker\">You will be able to</span>"
+            "<span class=\"as-level__line\">{able}</span>"
+            "<span class=\"as-level__go\">Open the guide</span>"
+            "</a>".format(
+                href=escape(href, quote=True),
+                name=escape(name),
+                start=escape(start),
+                able=escape(able),
+            )
+        )
+    cards.append("</div>")
+    return "".join(cards)
+
+
+def _levels_from_table(html: str) -> list[tuple[str, str, str, str]] | None:
+    for table in _TABLE_RE.finditer(html):
+        rows = _ROW_RE.findall(table.group(0))
+        if not rows:
+            continue
+        headers = [_plain_text(cell) for cell in _CELL_RE.findall(rows[0])]
+        try:
+            level_at = headers.index("Level")
+            start_at = headers.index("Start here if you")
+            able_at = headers.index("You will be able to")
+        except ValueError:
+            continue
+        levels: list[tuple[str, str, str, str]] = []
+        for row in rows[1:]:
+            cells = _CELL_RE.findall(row)
+            if len(cells) <= max(level_at, start_at, able_at):
+                continue
+            link = _ANCHOR_RE.search(cells[level_at])
+            if link is None:
+                continue
+            name = _plain_text(link.group(3))
+            href = link.group(2).strip()
+            start = _plain_text(cells[start_at])
+            able = _plain_text(cells[able_at])
+            if name and href and start and able:
+                levels.append((name, href, start, able))
+        return levels
+    return None
+
+
+def _plain_text(fragment: str) -> str:
+    return re.sub(r"\s+", " ", _TAG_RE.sub("", fragment)).strip()
 
 
 def _strip_guide_masthead(html: str) -> str:
