@@ -31,9 +31,9 @@ The name in prose is `agentsphere`, one word. The wordmark is `Agentsphere`: `Ag
 | --- | --- |
 | [logo-dark.png](../assets/logo-dark.png), [logo-light.png](../assets/logo-light.png) | App-icon mark, 640×640. Transparent outside the disc |
 | [banner-dark.png](../assets/banner-dark.png), [banner-light.png](../assets/banner-light.png) | Masthead. Light is 1600×542, dark is 1600×546. Transparent |
-| [badges/](../assets/badges/) | README pills, and the four level marks: Explorer, Builder, Operator, Power user |
-| [assets/sections/](../assets/sections/) | Section openers, 1660×376. The mark on the right is the same circle. Light and dark pair |
-| [assets/diagrams/](../assets/diagrams/) | Architecture figures, 830 wide. Light and dark pair |
+| [badges/](../assets/badges/README.md) | README pills, and the four level marks: Explorer, Builder, Operator, Power user |
+| [assets/sections/](../assets/sections/README.md) | Section openers, 1660×376. The mark on the right is the same circle. Light and dark pair |
+| [assets/diagrams/](../assets/diagrams/README.md) | Architecture figures, 830 wide. Light and dark pair |
 
 The README chooses the light or dark masthead with a `<picture>` element and `prefers-color-scheme`. The accessible name of the image is `Agentsphere. AI agents repository.` The icon is transparent outside the disc. The tagline `AI AGENTS REPOSITORY` sits between two thin orange rules.
 
@@ -69,7 +69,7 @@ Architecture figures are drawn twice: an SVG pair and a Mermaid block on the sam
 ## Page anatomy
 
 1. Section or diagram image, centered, `width="100%"`, with alt text, inside `<picture>` so the dark file loads when `prefers-color-scheme: dark`. The `img` fallback is the light file.
-2. Level badges for every path named in the meta table, from [assets/badges/](../assets/badges/). Each badge links to its guide: [Explorer](../paths/explorer/README.md), [Builder](../paths/builder/README.md), [Operator](../paths/operator/README.md), or [Power user](../paths/power-user/README.md).
+2. Level badges for every path named in the meta table, from [assets/badges/](../assets/badges/README.md). Each badge links to its guide: [Explorer](../paths/explorer/README.md), [Builder](../paths/builder/README.md), [Operator](../paths/operator/README.md), or [Power user](../paths/power-user/README.md).
 3. One H1.
 4. A three-row meta table: path, time, prerequisites.
 5. "What you will be able to do."

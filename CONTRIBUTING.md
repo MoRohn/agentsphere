@@ -33,6 +33,27 @@ The shape of a good edit is the memory pattern in [wiki memory](docs/01-agent-pa
 7. **Keep the visual system.** New figures follow [the style guide](docs/style-guide.md): an 830-wide viewBox, transparent background, a light file and a dark file, titles at 36px and labels at 16px or larger. Pages choose the file with `<picture>` and `prefers-color-scheme`. Diagrams that explain an architecture also have a Mermaid block. The harness hero, the journey map, and the landscape stay SVG only. Both kinds must render on GitHub. Put a level badge on the page for every path it belongs to.
 8. **Leave the next reader smarter.** Update the references list if you cited something new, the learning path if the sequence changed, the glossary if you introduced a term, and the changelog.
 
+## Preview the website
+
+The same markdown is the GitHub Pages site. You do not keep a second copy of a page.
+
+From the repository root, with Python 3.11 or newer:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+mkdocs serve
+```
+
+On Windows, activate with `.venv\Scripts\activate`.
+
+Open the URL the command prints, usually http://127.0.0.1:8000. Use the light and dark toggle in the header, and open a page that has a diagram, not only the home page.
+
+Before you open a pull request, run `mkdocs build --strict`. The build stops if a relative link or an anchor does not resolve.
+
+`docs-src/` is how MkDocs sees this repository. It is symlinks to `README.md`, `CHANGELOG.md`, `CONTRIBUTING.md`, `docs/`, `paths/`, and `assets/`. A new page in those directories is picked up. A new markdown file beside this one needs a symlink there too.
+
 ## Add or update a page
 
 1. Decide where the knowledge goes:
@@ -44,7 +65,7 @@ The shape of a good edit is the memory pattern in [wiki memory](docs/01-agent-pa
 4. If the change affects an architecture the guide draws, update the SVG and the Mermaid block together. See the [diagram atlas](docs/diagrams.md).
 5. Add a case-study page only when the story is useful on its own. Otherwise a section in an existing case study is enough.
 6. Update [CHANGELOG.md](CHANGELOG.md) under `Unreleased`, then move that text into a version section when a batch ships.
-7. Read the page on GitHub's preview, or locally, and confirm the SVG and the Mermaid block both render. Confirm every new relative link resolves.
+7. Read the page on GitHub's preview, or with `mkdocs serve`, and confirm the SVG and the Mermaid block both render in light and in dark. Confirm every new relative link resolves. `mkdocs build --strict` is the check for the website.
 
 ## Page template
 

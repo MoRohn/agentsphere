@@ -65,4 +65,4 @@ First public version of agentsphere.
 
 ## Unreleased
 
-Nothing yet. The next entry should name the pages that changed and any new sources.
+- The guide is also a website. MkDocs Material builds these same pages for GitHub Pages. Preview with `mkdocs serve`. See [Contributing](CONTRIBUTING.md).

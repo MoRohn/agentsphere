@@ -1,0 +1,52 @@
+/* Agentsphere palette. Diagrams are transparent and were drawn for paper
+   (#ffffff) and deep space (#0d1117). The header stays navy in both schemes
+   so the white-crescent mark stays readable. */
+
+:root,
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #10243f;
+  --md-primary-fg-color--light: #1a3d66;
+  --md-primary-fg-color--dark: #0b192c;
+  --md-primary-bg-color: #ffffff;
+  --md-accent-fg-color: #c96e00;
+  --md-typeset-a-color: #9a5600;
+  --md-default-bg-color: #ffffff;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-hue: 215;
+  --md-primary-fg-color: #10243f;
+  --md-primary-fg-color--light: #1a3d66;
+  --md-primary-fg-color--dark: #0b192c;
+  --md-primary-bg-color: #e6edf3;
+  --md-accent-fg-color: #f5a31a;
+  --md-typeset-a-color: #f5a31a;
+  --md-default-bg-color: #0d1117;
+  --md-default-bg-color--light: #161b22;
+  --md-default-bg-color--lighter: #21262d;
+  --md-default-bg-color--lightest: #30363d;
+  --md-default-fg-color: #e6edf3;
+  --md-default-fg-color--light: #c9d1d9;
+  --md-default-fg-color--lighter: #8b949e;
+  --md-default-fg-color--lightest: #6e7681;
+  --md-code-bg-color: #161b22;
+  --md-code-fg-color: #e6edf3;
+  --md-footer-bg-color: #0d1117;
+  --md-footer-bg-color--dark: #010409;
+}
+
+.md-typeset p[align="center"] {
+  text-align: center;
+}
+
+/* Level pills and section cards are inline art. Don't stretch them to the
+   column, and don't let a hidden theme twin reserve a second line. */
+.md-typeset img {
+  height: auto;
+}
+
+.md-header__button.md-logo img,
+.md-nav__button.md-logo img {
+  height: 1.6rem;
+  width: 1.6rem;
+}
