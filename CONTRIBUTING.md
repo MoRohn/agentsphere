@@ -37,7 +37,7 @@ The shape of a good edit is the memory pattern in [wiki memory](docs/01-agent-pa
 
 The same markdown is the GitHub Pages site. You do not keep a second copy of a page.
 
-Pages has to use the Actions workflow in `.github/workflows/pages.yml`. A Jekyll build of the `docs/` folder drops the images and the learning paths. The workflow switches the source to GitHub Actions on publish. If the live site is still the plain theme, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**.
+Pages has to use the Actions workflow in `.github/workflows/pages.yml`. A Jekyll build of the `docs/` folder drops the images and the learning paths. Set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**. The workflow cannot change that setting.
 
 From the repository root, with Python 3.11 or newer:
 
